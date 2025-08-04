@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1d8e9a2b6ab2c800",
+        "id": "a947b1ffb436eec0",
         "type": "tabs",
         "children": [
           {
-            "id": "db12262abb17af6e",
+            "id": "d491ed682567931f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -175,12 +175,12 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "markdown-importer:마크다운 형식 불러오기 열기": false,
-      "random-note:무작위 노트 열기": false,
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "62be8f66f9db4bed",
+  "active": "d491ed682567931f",
   "lastOpenFiles": [
+    "leetangle.official@gmail.com.md",
     "marp/Backend 개발자가 보는 AI - 우리는 어떻게 적응하고 있는가?.md",
     "marp",
     "Backend 개발자가 보는 AI - 우리는 어떻게 적응하고 있는가?.md"
