@@ -2,7 +2,6 @@
 marp: true
 theme: gaia
 paginate: true
-# backgroundColor: #1e1e1e
 backgroundImage: url('https://source.unsplash.com/1600x900/?technology,abstract')
 backgroundSize: cover
 ---
