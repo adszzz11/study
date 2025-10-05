@@ -4,20 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "a947b1ffb436eec0",
-        "type": "tabs",
+        "id": "00d25944de2c2629",
+        "type": "split",
         "children": [
           {
-            "id": "d491ed682567931f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
-            }
+            "id": "30620f222a731772",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d4faf6b4bf7a5535",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "conventions/github convention/4. Issue 기반 Branch 채번.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "4. Issue 기반 Branch 채번"
+                }
+              }
+            ]
+          },
+          {
+            "id": "a04768cc9baf0e1d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a8aeb5d2af8719da",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/leetangle/code/Note",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/zsh",
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "터미널: ✳ Conference Document"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -158,16 +214,27 @@
               "icon": "lucide-archive",
               "title": "모든 속성"
             }
+          },
+          {
+            "id": "85a8a37dee17ef80",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -175,11 +242,39 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "markdown-importer:마크다운 형식 불러오기 열기": false,
-      "workspaces:작업 공간 레이아웃 관리": false
+      "workspaces:작업 공간 레이아웃 관리": false,
+      "terminal:Open terminal": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d491ed682567931f",
+  "active": "62be8f66f9db4bed",
   "lastOpenFiles": [
+    "conventions/github convention/OBJECT - 깃허브 Commit Message의 양식을 정의합니다..md",
+    "conventions/github convention/3. Git Branch 전략.md",
+    "conventions/github convention/1. gitmoji commit convention 사용.md",
+    "conventions/github convention/0. 결론.md",
+    "conference/AWS network Service.md",
+    "conference/프로그래머는 겸손한가.md",
+    "conference/일 200억 건 데이터 안전하게 처리하는 대용량시스템 구축하기.md",
+    "conference/인프런 퇴근길 밋업.md",
+    "conference/나도 오픈소스 하나쯤 내볼까.md",
+    "templates/컨퍼런스-노트-템플릿.md",
+    "conference/프로그래머는 겸손한가.md.tmp.16006.1759682466835",
+    "conference/나도 오픈소스 하나쯤 내볼까.md.tmp.16006.1759682425691",
+    "conference/Prometheus Operator.md.tmp.16006.1759682365831",
+    "conference/일 200억 건 데이터 안전하게 처리하는 대용량시스템 구축하기.md.tmp.16006.1759682302785",
+    "conference/AWS network Service.md.tmp.16006.1759682250904",
+    "templates/README.md",
+    "conference/Prometheus Operator.md",
+    "templates",
+    "Obsidian-Claude-Code-통합-가이드.md.tmp.16006.1759681569373",
+    "CLAUDE.md.tmp.16006.1759681569204",
+    "Obsidian-Claude-Code-통합-가이드.md",
+    "CLAUDE.md",
+    "github repository 병합하는 법.md",
+    "2025-10-05.md",
+    "README.md",
+    "auto-commit/autoCommit_shell.md",
     "leetangle.official@gmail.com.md",
     "marp/Backend 개발자가 보는 AI - 우리는 어떻게 적응하고 있는가?.md",
     "marp",
