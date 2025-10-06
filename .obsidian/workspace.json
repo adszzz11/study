@@ -82,7 +82,7 @@
               },
               "pinned": true,
               "icon": "terminal",
-              "title": "터미널: claude"
+              "title": "터미널: ✳ ELK 스터디"
             }
           },
           {
@@ -278,6 +278,7 @@
   },
   "active": "762aaf10f99b9bf9",
   "lastOpenFiles": [
+    "study/ELK",
     "marp/Backend 개발자가 보는 AI - 우리는 어떻게 적응하고 있는가?.md",
     "conference/AWS network Service.md",
     "marp/img.png",
