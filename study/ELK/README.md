@@ -1,253 +1,389 @@
+---
+tags:
+  - ELK
+  - Elasticsearch
+  - Logstash
+  - Kibana
+  - Beats
+  - 로그관리
+  - 모니터링
+created: 2025-10-06
+updated: 2025-10-06
+version: 2.0
+status: active
+---
+
 # ELK Stack 스터디 가이드
 
-> 최종 업데이트: 2025-10-06
->
-> 이 문서는 ELK Stack (Elasticsearch, Logstash, Kibana)의 최신 정보를 바탕으로 작성되었습니다.
+> [!info] 최신 업데이트
+> **날짜**: 2025-10-06
+> **버전**: Elasticsearch 9.1.4
+> **상태**: 2025년 최신 자료 기반
 
-## 📚 목차
+## 🎯 빠른 시작
 
-### [01. Client 관점](./01-Client/)
-클라이언트 애플리케이션에서 ELK로 로그를 전송하는 방법
+```mermaid
+graph LR
+    A[시작] --> B{역할은?}
+    B -->|Frontend| C[Client 관점]
+    B -->|Backend| D[Server 관점]
+    B -->|DevOps| E[Components 상세]
+    C --> F[웹 브라우저 로깅]
+    C --> G[모바일 로깅]
+    D --> H[Elasticsearch 설치]
+    D --> I[Beats 구성]
+    E --> J[아키텍처 학습]
+    E --> K[성능 튜닝]
+```
 
-- [웹 브라우저 로깅](./01-Client/01-웹-브라우저-로깅.md) - React, Vue, Angular
-- [모바일 애플리케이션 로깅](./01-Client/02-모바일-애플리케이션-로깅.md) - iOS, Android
-- [Client Best Practices](./01-Client/03-Client-Best-Practices.md) - 보안, 성능, 데이터 품질
+## 📚 학습 경로
 
-### [02. Server 관점](./02-Server/)
-서버 측에서 로그를 수집, 처리, 저장하는 방법
+### [[01-Client/README|🖥️ Client 관점]]
 
-- [Beats 설치 및 구성](./02-Server/01-Beats-설치-및-구성.md) - Filebeat, Metricbeat
-- [Logstash 파이프라인](./02-Server/02-Logstash-파이프라인.md) - Input, Filter, Output
-- [Elasticsearch 설치 및 구성](./02-Server/03-Elasticsearch-설치-및-구성.md) - 클러스터 구성
-- [Kibana 시각화](./02-Server/04-Kibana-시각화.md) - 대시보드, 시각화
+클라이언트 애플리케이션에서 ELK로 로그 전송
 
-### [03. Components 상세](./03-Components/)
-각 구성 요소의 동작 원리와 고급 기능
+- [[01-Client/01-웹-브라우저-로깅|웹 브라우저 로깅]] - React, Vue, Angular
+- [[01-Client/02-모바일-애플리케이션-로깅|모바일 앱 로깅]] - iOS, Android
+- [[01-Client/03-Client-Best-Practices|Client Best Practices]] - 보안, 성능
 
-- [Elasticsearch 아키텍처](./03-Components/01-Elasticsearch-아키텍처.md) - 클러스터, 노드, 샤드
-- [Logstash 상세](./03-Components/02-Logstash-상세.md) - 파이프라인 심화
-- [Kibana 고급 기능](./03-Components/03-Kibana-고급-기능.md) - KQL, 고급 시각화
-- [ILM 정책](./03-Components/04-ILM-정책.md) - 데이터 수명 주기 관리
-- [보안 및 인증](./03-Components/05-보안-및-인증.md) - TLS, RBAC, API Keys
-- [성능 튜닝](./03-Components/06-성능-튜닝.md) - 최적화 가이드
+### [[02-Server/README|⚙️ Server 관점]]
 
-## 🎯 개요
+서버에서 로그 수집, 처리, 저장
 
-### ELK Stack이란?
+- [[02-Server/01-Beats-설치-및-구성|Beats 설치]] - Filebeat, Metricbeat
+- [[02-Server/02-Logstash-파이프라인|Logstash 파이프라인]] - Input, Filter, Output
+- [[02-Server/03-Elasticsearch-설치-및-구성|Elasticsearch 설치]] - 클러스터 구성
+- [[02-Server/04-Kibana-시각화|Kibana 시각화]] - 대시보드, 알림
 
-ELK Stack은 **Elasticsearch**, **Logstash**, **Kibana**의 세 가지 오픈소스 프로젝트로 구성된 강력한 로그 관리 및 분석 플랫폼입니다. 현재는 **Beats**를 포함하여 **Elastic Stack**으로 불리고 있습니다.
+### [[03-Components/README|🔧 Components 상세]]
 
-#### 핵심 구성 요소
+각 구성 요소의 심화 학습
 
-- **Elasticsearch**: 분산형 검색 및 분석 엔진
-- **Logstash**: 서버 측 데이터 처리 파이프라인
-- **Kibana**: 데이터 시각화 및 탐색 도구
-- **Beats**: 경량 데이터 수집기 (Filebeat, Metricbeat 등)
+- [[03-Components/01-Elasticsearch-아키텍처|Elasticsearch 아키텍처]] - 클러스터, 노드, 샤드
+- [[03-Components/02-Logstash-상세|Logstash 상세]] - 파이프라인 튜닝
+- [[03-Components/03-Kibana-고급-기능|Kibana 고급 기능]] - KQL, 고급 시각화
+- [[03-Components/04-ILM-정책|ILM 정책]] - 데이터 수명 주기
+- [[03-Components/05-보안-및-인증|보안 및 인증]] - TLS, RBAC
+- [[03-Components/06-성능-튜닝|성능 튜닝]] - 최적화
 
-## 📊 최신 버전 정보 (2025-10-06 기준)
+---
 
-### 현재 버전
+## 💡 ELK Stack 개요
 
-- **최신 안정 버전**: 9.1.4 (2025년 9월 18일 릴리스)
-- **지원 버전**: 8.x, 9.x
+### 구성 요소
 
-### Elasticsearch 9.x 주요 신기능
+```mermaid
+graph TB
+    subgraph "Data Sources"
+        A[Web Apps]
+        B[Mobile Apps]
+        C[Servers]
+    end
 
-#### 1. Better Binary Quantization (BBQ)
-- OpenSearch 대비 **5배 빠른 성능**
-- 메모리 사용량 **95% 이상 감소**
-- 버전 9.1부터 기본 활성화
+    subgraph "Collection"
+        D[Filebeat]
+        E[Metricbeat]
+    end
 
-#### 2. AI 및 시맨틱 검색
-- `semantic_text` 필드 타입 GA (Generally Available)
-- ColPali, ColBERT 등 멀티스테이지 모델 지원
-- `rank_vectors` 새 필드 타입 (실험적 기능)
+    subgraph "Processing"
+        F[Logstash]
+    end
 
-#### 3. ES|QL 개선사항
-- LOOKUP JOIN 기술 프리뷰
-- 점수 매기기 및 시맨틱 검색 지원
-- KQL 함수 추가
+    subgraph "Storage & Search"
+        G[Elasticsearch]
+    end
 
-#### 4. ACORN 알고리즘
-- 필터링된 벡터 검색 최적화
-- 기존 대비 **최대 5배 빠른** 필터링 검색
+    subgraph "Visualization"
+        H[Kibana]
+    end
 
-#### 5. 보안 기능
-- 버전 8.0부터 **기본적으로 보안 활성화**
-- TLS, RBAC 필수 설정
+    A --> D
+    B --> D
+    C --> D
+    C --> E
+    D --> F
+    E --> F
+    F --> G
+    G --> H
+```
 
-**출처**:
-- [Elasticsearch 9.1 Release Notes](https://www.elastic.co/blog/whats-new-elastic-9-1-0)
-- [Elasticsearch 9.0 Release Notes](https://www.elastic.co/blog/whats-new-elastic-search-9-0-0)
+> [!abstract] 핵심 구성 요소
+> - **Elasticsearch**: 분산형 검색 및 분석 엔진
+> - **Logstash**: 데이터 수집 및 변환 파이프라인
+> - **Kibana**: 시각화 및 탐색 도구
+> - **Beats**: 경량 데이터 수집기
+
+---
+
+## 🚀 최신 버전 (2025-10-06)
+
+> [!tip] 현재 버전
+> **Elasticsearch 9.1.4** (2025년 9월 18일 릴리스)
+
+### 주요 신기능
+
+#### Better Binary Quantization (BBQ)
+
+> [!success] 성능 향상
+> - OpenSearch 대비 **5배 빠른** 검색
+> - 메모리 사용량 **95% 감소**
+> - 버전 9.1부터 기본 활성화
+
+#### AI & 시맨틱 검색
+
+- `semantic_text` 필드 타입 GA
+- ColPali, ColBERT 모델 지원
+- `rank_vectors` 필드 타입 (실험적)
+
+#### ES|QL 개선
+
+- LOOKUP JOIN 지원
+- 점수 매기기 및 시맨틱 검색
+- 새로운 KQL 함수
+
+#### ACORN 알고리즘
+
+> [!note] 필터링 최적화
+> 필터링된 벡터 검색이 기존 대비 **최대 5배 빠름**
+
+#### 보안 강화
+
+> [!warning] 필수 설정
+> 버전 8.0부터 **보안이 기본 활성화**됩니다.
+> - TLS/SSL 필수
+> - RBAC 권장
+
+**출처**: [Elasticsearch 9.1 Release](https://www.elastic.co/blog/whats-new-elastic-9-1-0)
+
+---
 
 ## 🗺️ 학습 로드맵
 
-```
-1단계: 기초 개념 이해 (README 읽기)
-   ↓
-2단계: Client 관점 학습
-   - 웹 브라우저 로깅
-   - 모바일 앱 로깅
-   - Best Practices
-   ↓
-3단계: Server 관점 학습
-   - Elasticsearch 설치
-   - Kibana 설정
-   - Beats 구성
-   - Logstash 파이프라인
-   ↓
-4단계: Components 심화 학습
-   - Elasticsearch 아키텍처
-   - ILM 정책
-   - 보안 및 인증
-   - 성능 튜닝
-   ↓
-5단계: 프로덕션 환경 구성
+```mermaid
+graph TD
+    A[1단계: 기초 개념] --> B[2단계: Client 관점]
+    B --> C[웹 브라우저]
+    B --> D[모바일 앱]
+    B --> E[Best Practices]
+
+    E --> F[3단계: Server 관점]
+    F --> G[Elasticsearch 설치]
+    F --> H[Kibana 설정]
+    F --> I[Beats 구성]
+
+    I --> J[4단계: Components 심화]
+    J --> K[아키텍처]
+    J --> L[ILM 정책]
+    J --> M[보안]
+    J --> N[성능 튜닝]
+
+    N --> O[5단계: 프로덕션]
 ```
 
-## 🚀 빠른 시작
+### 단계별 가이드
 
-### 초보자를 위한 추천 경로
+#### 1단계: 기초 개념 이해
 
-1. **Client 관점** 먼저 학습
-   - [웹 브라우저 로깅](./01-Client/01-웹-브라우저-로깅.md)에서 로그가 어떻게 생성되고 전송되는지 이해
+- [ ] 이 README 읽기
+- [ ] ELK Stack 구성 요소 이해
+- [ ] 데이터 흐름 파악
 
-2. **Server 관점** 구성
-   - [Elasticsearch 설치 및 구성](./02-Server/03-Elasticsearch-설치-및-구성.md)으로 시작
-   - [Kibana 시각화](./02-Server/04-Kibana-시각화.md)로 UI 설정
-   - [Beats 설치 및 구성](./02-Server/01-Beats-설치-및-구성.md)으로 로그 수집
+#### 2단계: Client 관점
 
-3. **심화 학습**
-   - [Components 상세](./03-Components/)에서 각 구성 요소 깊이 이해
+- [ ] [[01-Client/01-웹-브라우저-로깅|웹 브라우저 로깅]] 학습
+- [ ] [[01-Client/02-모바일-애플리케이션-로깅|모바일 로깅]] 학습 (선택)
+- [ ] [[01-Client/03-Client-Best-Practices|Best Practices]] 숙지
 
-### 개발자를 위한 추천 경로
+#### 3단계: Server 관점
+
+- [ ] [[02-Server/03-Elasticsearch-설치-및-구성|Elasticsearch 설치]]
+- [ ] [[02-Server/04-Kibana-시각화|Kibana 설정]]
+- [ ] [[02-Server/01-Beats-설치-및-구성|Beats 구성]]
+- [ ] [[02-Server/02-Logstash-파이프라인|Logstash]] (선택)
+
+#### 4단계: 심화 학습
+
+- [ ] [[03-Components/01-Elasticsearch-아키텍처|Elasticsearch 아키텍처]]
+- [ ] [[03-Components/04-ILM-정책|ILM 정책]]
+- [ ] [[03-Components/05-보안-및-인증|보안 설정]]
+- [ ] [[03-Components/06-성능-튜닝|성능 최적화]]
+
+---
+
+## 🎓 역할별 추천 경로
+
+### Frontend 개발자
 
 ```
-Client 개발자 → 01-Client → 02-Server (Elasticsearch, Kibana)
-Backend 개발자 → 02-Server → 03-Components
-DevOps 엔지니어 → 02-Server → 03-Components (전체)
+[[01-Client/01-웹-브라우저-로깅]]
+    ↓
+[[01-Client/03-Client-Best-Practices]]
+    ↓
+[[02-Server/04-Kibana-시각화]] (기본만)
 ```
+
+### Mobile 개발자
+
+```
+[[01-Client/02-모바일-애플리케이션-로깅]]
+    ↓
+[[01-Client/03-Client-Best-Practices]]
+```
+
+### Backend 개발자
+
+```
+[[02-Server/03-Elasticsearch-설치-및-구성]]
+    ↓
+[[02-Server/01-Beats-설치-및-구성]]
+    ↓
+[[03-Components/01-Elasticsearch-아키텍처]]
+```
+
+### DevOps 엔지니어
+
+```
+[[02-Server/README]] (전체)
+    ↓
+[[03-Components/README]] (전체)
+    ↓
+[[03-Components/05-보안-및-인증]]
+    ↓
+[[03-Components/06-성능-튜닝]]
+```
+
+---
+
+## 🔑 핵심 개념
+
+### Client vs Server
+
+| 구분 | Client | Server |
+|:-----|:-------|:-------|
+| **연결 방식** | 백엔드 API 경유 | 직접 연결 가능 |
+| **네트워크** | 불안정 | 안정적 |
+| **보안** | 민감 정보 필터링 필수 | 내부 네트워크 |
+| **오프라인** | 로컬 버퍼링 필요 | 불필요 |
+| **전송 빈도** | 배치 전송 | 실시간 가능 |
+
+> [!danger] 보안 주의
+> 클라이언트에서 **절대** Elasticsearch에 직접 연결하지 마세요!
+> - 자격 증명 노출 위험
+> - 악의적 데이터 주입 가능
+> - DDoS 공격 대상
+
+### 데이터 흐름
+
+```mermaid
+sequenceDiagram
+    participant C as Client App
+    participant B as Backend API
+    participant L as Logstash
+    participant E as Elasticsearch
+    participant K as Kibana
+
+    C->>B: 로그 전송 (HTTPS)
+    B->>B: 검증 & 변환
+    B->>L: 전달
+    L->>L: 파싱 & 필터링
+    L->>E: 인덱싱
+    K->>E: 쿼리
+    E->>K: 결과 반환
+    K->>K: 시각화
+```
+
+---
+
+## 📖 참고 자료
+
+### 공식 문서
+
+- [Elastic Stack 공식](https://www.elastic.co/elastic-stack)
+- [Elasticsearch Docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+- [Logstash Docs](https://www.elastic.co/guide/en/logstash/current/index.html)
+- [Kibana Docs](https://www.elastic.co/guide/en/kibana/current/index.html)
+- [Beats Docs](https://www.elastic.co/guide/en/beats/libbeat/current/index.html)
+
+### 커뮤니티
+
+- [Logz.io ELK Guide](https://logz.io/learn/complete-guide-elk-stack/)
+- [ELK Stack 2025 Guide](https://prepare.sh/articles/the-definitive-guide-to-the-elk-stack-in-2025-from-zero-to-production-ready-observability)
+- [AWS ELK Stack](https://aws.amazon.com/what-is/elk-stack/)
+- [Coralogix Architecture Guide](https://coralogix.com/guides/elasticsearch/elasticsearch-architecture-8-key-components-and-putting-them-to-work/)
+
+---
+
+## 🏷️ 태그별 분류
+
+#ELK #Elasticsearch #Logstash #Kibana #Beats
+#로그관리 #모니터링 #observability #DevOps
+#보안 #성능최적화 #분산시스템
+
+---
 
 ## 📁 디렉터리 구조
 
 ```
 study/ELK/
-├── README.md                          # 이 파일 (시작점)
+├── 📄 README.md                    ← 여기
 │
-├── 01-Client/                         # 클라이언트 관점
-│   ├── README.md
-│   ├── 01-웹-브라우저-로깅.md
-│   ├── 02-모바일-애플리케이션-로깅.md
-│   └── 03-Client-Best-Practices.md
+├── 📂 01-Client/                   클라이언트 관점
+│   ├── 📄 README.md
+│   ├── 📄 01-웹-브라우저-로깅.md
+│   ├── 📄 02-모바일-애플리케이션-로깅.md
+│   └── 📄 03-Client-Best-Practices.md
 │
-├── 02-Server/                         # 서버 관점
-│   ├── README.md
-│   ├── 01-Beats-설치-및-구성.md
-│   ├── 02-Logstash-파이프라인.md
-│   ├── 03-Elasticsearch-설치-및-구성.md
-│   └── 04-Kibana-시각화.md
+├── 📂 02-Server/                   서버 관점
+│   ├── 📄 README.md
+│   ├── 📄 01-Beats-설치-및-구성.md
+│   ├── 📄 02-Logstash-파이프라인.md
+│   ├── 📄 03-Elasticsearch-설치-및-구성.md
+│   └── 📄 04-Kibana-시각화.md
 │
-└── 03-Components/                     # 컴포넌트 상세
-    ├── README.md
-    ├── 01-Elasticsearch-아키텍처.md
-    ├── 02-Logstash-상세.md
-    ├── 03-Kibana-고급-기능.md
-    ├── 04-ILM-정책.md
-    ├── 05-보안-및-인증.md
-    └── 06-성능-튜닝.md
+└── 📂 03-Components/               컴포넌트 상세
+    ├── 📄 README.md
+    ├── 📄 01-Elasticsearch-아키텍처.md
+    ├── 📄 02-Logstash-상세.md
+    ├── 📄 03-Kibana-고급-기능.md
+    ├── 📄 04-ILM-정책.md
+    ├── 📄 05-보안-및-인증.md
+    └── 📄 06-성능-튜닝.md
 ```
-
-## 🔑 핵심 개념
-
-### Client vs Server 로깅
-
-| 구분 | Client | Server |
-|-----|--------|--------|
-| **연결** | 백엔드 API를 통해서만 | 직접 ELK 연결 가능 |
-| **네트워크** | 불안정 | 안정적 |
-| **보안** | 민감 정보 필터링 필수 | 내부 네트워크 |
-| **오프라인** | 로컬 버퍼링 필요 | 불필요 |
-
-### ELK Stack 데이터 흐름
-
-```
-[Client App] → [Backend API] → [Logstash] → [Elasticsearch] → [Kibana]
-                                    ↑
-                                [Filebeat]
-                                    ↑
-                            [서버 로그 파일]
-```
-
-## 📚 주요 참고 자료
-
-### 공식 문서
-- [Elastic Stack 공식 사이트](https://www.elastic.co/elastic-stack)
-- [Elasticsearch 공식 문서](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
-- [Logstash 공식 문서](https://www.elastic.co/guide/en/logstash/current/index.html)
-- [Kibana 공식 문서](https://www.elastic.co/guide/en/kibana/current/index.html)
-- [Beats 공식 문서](https://www.elastic.co/guide/en/beats/libbeat/current/index.html)
-
-### 릴리스 정보
-- [Elasticsearch 9.1 릴리스 노트](https://www.elastic.co/blog/whats-new-elastic-9-1-0)
-- [Elasticsearch 9.0 릴리스 노트](https://www.elastic.co/blog/whats-new-elastic-search-9-0-0)
-- [Past Releases](https://www.elastic.co/downloads/past-releases)
-
-### 커뮤니티 및 튜토리얼
-- [The Complete Guide to the ELK Stack | Logz.io](https://logz.io/learn/complete-guide-elk-stack/)
-- [The Definitive Guide to the ELK Stack in 2025](https://prepare.sh/articles/the-definitive-guide-to-the-elk-stack-in-2025-from-zero-to-production-ready-observability)
-- [AWS - What is the ELK stack?](https://aws.amazon.com/what-is/elk-stack/)
-- [Elasticsearch Architecture | Coralogix](https://coralogix.com/guides/elasticsearch/elasticsearch-architecture-8-key-components-and-putting-them-to-work/)
-
-## ✨ 이 가이드의 특징
-
-✅ **2025-10-06 기준 최신 정보**
-- Elasticsearch 9.1.4 버전 정보
-- 최신 기능 및 Best Practices
-- 2025년 블로그 및 공식 문서 참조
-
-✅ **모든 자료에 출처 명시**
-- 공식 Elastic 문서
-- Stack Overflow, Medium 등 커뮤니티
-- 최신 튜토리얼 및 가이드
-
-✅ **Client/Server 관점으로 체계적 분류**
-- Client: 로그 생성 및 전송
-- Server: 수집, 처리, 저장, 시각화
-
-✅ **실전 예시 코드 포함**
-- React, Vue, Angular 로깅 구현
-- iOS, Android 로깅 구현
-- Filebeat, Logstash 설정
-- Docker Compose 구성
-- Elasticsearch 쿼리
-
-✅ **가독성 중심의 구조**
-- 주제별로 파일 분리
-- 명확한 목차 구조
-- 단계별 학습 가이드
-
-## 💡 학습 팁
-
-1. **순서대로 학습**: README → Client → Server → Components
-2. **실습 중심**: 예제 코드를 직접 실행해보기
-3. **출처 확인**: 더 깊은 학습을 위해 참고 자료 링크 활용
-4. **프로덕션 준비**: Best Practices와 보안 섹션 필독
-
-## 🔗 바로가기
-
-### 처음 시작하는 분
-1. [웹 브라우저 로깅](./01-Client/01-웹-브라우저-로깅.md) - 클라이언트에서 로그 전송하기
-2. [Elasticsearch 설치](./02-Server/03-Elasticsearch-설치-및-구성.md) - ELK Stack 설치
-3. [Kibana 시각화](./02-Server/04-Kibana-시각화.md) - 대시보드 만들기
-
-### 특정 주제 찾기
-- **보안이 궁금하다면**: [Client Best Practices](./01-Client/03-Client-Best-Practices.md), [보안 및 인증](./03-Components/05-보안-및-인증.md)
-- **성능 최적화**: [성능 튜닝](./03-Components/06-성능-튜닝.md)
-- **데이터 관리**: [ILM 정책](./03-Components/04-ILM-정책.md)
-- **모바일 로깅**: [모바일 애플리케이션 로깅](./01-Client/02-모바일-애플리케이션-로깅.md)
 
 ---
 
-**작성 일자**: 2025-10-06
-**버전**: 2.0 (가독성 개선 - 파일 분리)
-**다음 업데이트 예정**: Elasticsearch 10.x 릴리스 시
+## 🔗 바로가기
+
+> [!tip] 처음 시작하는 분
+> 1. [[01-Client/01-웹-브라우저-로깅|웹 브라우저 로깅]] - 클라이언트 로그 전송
+> 2. [[02-Server/03-Elasticsearch-설치-및-구성|Elasticsearch 설치]] - 서버 설치
+> 3. [[02-Server/04-Kibana-시각화|Kibana 대시보드]] - 시각화
+
+> [!example] 특정 주제
+> - **보안**: [[01-Client/03-Client-Best-Practices#보안|Client 보안]], [[03-Components/05-보안-및-인증|Server 보안]]
+> - **성능**: [[03-Components/06-성능-튜닝|성능 튜닝 가이드]]
+> - **데이터 관리**: [[03-Components/04-ILM-정책|ILM 정책]]
+> - **모바일**: [[01-Client/02-모바일-애플리케이션-로깅|모바일 로깅]]
+
+---
+
+## ✨ 이 가이드의 특징
+
+- [x] 2025-10-06 기준 최신 정보
+- [x] 모든 출처 명시
+- [x] Client/Server 관점 분류
+- [x] 실전 예시 코드 포함
+- [x] Obsidian 최적화
+  - Wiki-style links
+  - Callouts
+  - Mermaid diagrams
+  - Tags
+  - YAML frontmatter
+
+---
+
+**작성**: 2025-10-06
+**버전**: 2.0 (Obsidian 최적화)
+**다음 업데이트**: Elasticsearch 10.x 릴리스 시
+
+#가이드 #스터디 #documentation
