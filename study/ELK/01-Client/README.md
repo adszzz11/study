@@ -1,117 +1,218 @@
 ---
 tags:
   - ELK/Client
+  - Kotlin
+  - SpringBoot
+  - Logback
   - 로깅
-  - Frontend
-  - Mobile
 created: 2025-10-06
 updated: 2025-10-06
 ---
 
-# Client 관점
+# Client 관점 (Kotlin + Spring Boot)
 
 > [!abstract] 개요
-> 클라이언트 애플리케이션에서 ELK Stack으로 로그를 전송하는 방법과 아키텍처
+> Kotlin + Spring Boot 애플리케이션에서 ELK Stack으로 로그를 전송하는 방법
 
 ## 📚 학습 자료
 
-### [[01-웹-브라우저-로깅|🌐 웹 브라우저 로깅]]
+### [[01-Kotlin-SpringBoot-로깅-설정|🔧 Kotlin + Spring Boot 로깅 설정]]
 
-JavaScript 프레임워크에서 로그 수집
+Logback 및 Logstash 연동
 
-- React, Vue, Angular 구현
-- 백엔드 API 방식
-- 서드파티 로깅 서비스
+- Logback 설정
+- Logstash Appender
+- 구조화된 로깅 (Structured Logging)
+- MDC (Mapped Diagnostic Context)
 
-### [[02-모바일-애플리케이션-로깅|📱 모바일 앱 로깅]]
+### [[02-Spring-Actuator-Metrics|📊 Spring Actuator & Metrics]]
 
-iOS, Android 앱에서 로그 수집
+메트릭 및 헬스체크
 
-- 네트워크 제약 대응
-- 오프라인 저장
-- 전송 최적화
+- Spring Boot Actuator
+- Micrometer + Elasticsearch
+- 커스텀 메트릭
 
-### [[03-Client-Best-Practices|⭐ Best Practices]]
+### [[03-Kotlin-로깅-Best-Practices|⭐ Kotlin 로깅 Best Practices]]
 
-보안, 성능, 데이터 품질
+코틀린 로깅 모범 사례
 
-- 보안 가이드라인
+- kotlin-logging 라이브러리
+- 로깅 레벨 관리
 - 성능 최적화
-- 오프라인 대응
+- 보안 고려사항
 
 ---
 
-## 🔑 핵심 원칙
+## 🏗️ 아키텍처
 
-### ❌ 절대 금지
-
-```mermaid
-graph LR
-    A[클라이언트] -.X.-> B[Elasticsearch]
-    style B fill:#f66,stroke:#c33
-```
-
-> [!danger] 직접 연결 금지
-> 클라이언트에서 Elasticsearch에 직접 연결하지 마세요!
->
-> **위험 요소:**
-> - 자격 증명 노출
-> - 악의적 데이터 주입
-> - DDoS 공격 대상
-> - 인증/권한 관리 불가
-
-### ✅ 권장 방식
+### 전체 구조
 
 ```mermaid
 graph LR
-    A[클라이언트] -->|HTTPS| B[백엔드 API]
-    B --> C[Logstash]
+    A[Spring Boot App] -->|Logback| B[Logstash Appender]
+    B -->|TCP/UDP| C[Logstash]
     C --> D[Elasticsearch]
-    style B fill:#6f6,stroke:#3c3
+    D --> E[Kibana]
+
+    A -->|Actuator| F[Metrics]
+    F -->|Micrometer| C
+
+    style A fill:#6db33f,stroke:#4a7c2f
+    style C fill:#f0f0f0,stroke:#333
+    style D fill:#005571,stroke:#003d4d
 ```
 
-> [!success] 백엔드 API 경유
-> **장점:**
-> - 보안 강화
-> - 데이터 검증
-> - 인증/권한 관리
-> - 로그 변환 및 보강
+### Logback → Logstash → Elasticsearch
 
----
+> [!success] 권장 방식
+> Spring Boot 애플리케이션에서 Logback의 Logstash Appender를 사용하여 직접 전송
 
-## 📊 Client vs Server 비교
-
-| 구분 | Client | Server |
-|:-----|:-------|:-------|
-| 네트워크 | 불안정적 | 안정적 |
-| 대역폭 | 제한적 | 풍부 |
-| 보안 | 공개 네트워크 | 내부 네트워크 |
-| 직접 연결 | **불가능/비권장** | 가능 |
-| 오프라인 대응 | 필수 | 불필요 |
+**장점:**
+- 실시간 로그 전송
+- 애플리케이션 재시작 없이 로그 레벨 변경 가능
+- 구조화된 JSON 로그
+- 자동 메타데이터 추가
 
 ---
 
 ## 🚀 빠른 시작
 
-### 웹 개발자라면
+### 의존성 추가
 
-```
-[[01-웹-브라우저-로깅]] → [[03-Client-Best-Practices#보안]]
+```kotlin
+// build.gradle.kts
+dependencies {
+    // Kotlin 로깅
+    implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
+
+    // Logstash Encoder
+    implementation("net.logstash.logback:logstash-logback-encoder:7.4")
+
+    // Spring Boot Actuator
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+
+    // Micrometer Elasticsearch (선택)
+    implementation("io.micrometer:micrometer-registry-elastic:1.12.0")
+}
 ```
 
-### 모바일 개발자라면
+### 기본 Logback 설정
 
+```xml
+<!-- src/main/resources/logback-spring.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <!-- 콘솔 출력 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Logstash TCP 전송 -->
+    <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        <destination>localhost:5000</destination>
+
+        <!-- JSON 인코더 -->
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+            <customFields>{"app":"my-spring-boot-app","env":"production"}</customFields>
+        </encoder>
+    </appender>
+
+    <!-- 비동기 Logstash -->
+    <appender name="ASYNC_LOGSTASH" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="LOGSTASH"/>
+        <queueSize>512</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+    </appender>
+
+    <!-- Root Logger -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ASYNC_LOGSTASH"/>
+    </root>
+</configuration>
 ```
-[[02-모바일-애플리케이션-로깅]] → [[03-Client-Best-Practices#성능-최적화]]
+
+---
+
+## 🔑 핵심 차이점
+
+### 기존 (브라우저/모바일) vs 현재 (Kotlin + Spring Boot)
+
+| 구분 | 브라우저/모바일 | Kotlin + Spring Boot |
+|:-----|:---------------|:---------------------|
+| **로그 생성** | JavaScript | Kotlin + Logback |
+| **전송 방식** | HTTP API → 백엔드 | Logstash Appender (TCP) |
+| **구조화** | 수동 JSON | Logback Encoder |
+| **메타데이터** | 수동 추가 | 자동 (MDC) |
+| **오프라인** | 로컬 버퍼 필요 | 네트워크 안정적 |
+| **보안** | 공개 네트워크 | 내부 네트워크 |
+
+---
+
+## 📖 데이터 흐름
+
+```mermaid
+sequenceDiagram
+    participant App as Spring Boot App
+    participant Logback as Logback
+    participant Appender as Logstash Appender
+    participant Logstash as Logstash
+    participant ES as Elasticsearch
+
+    App->>Logback: log.info("message")
+    Logback->>Logback: MDC 추가
+    Logback->>Appender: 로그 이벤트
+    Appender->>Appender: JSON 인코딩
+    Appender->>Logstash: TCP 전송
+    Logstash->>Logstash: 파싱 (선택)
+    Logstash->>ES: 인덱싱
 ```
+
+---
+
+## ✅ 체크리스트
+
+### 기본 설정
+
+- [ ] kotlin-logging 의존성 추가
+- [ ] logstash-logback-encoder 의존성 추가
+- [ ] logback-spring.xml 설정
+- [ ] Logstash appender 구성
+
+### 구조화된 로깅
+
+- [ ] JSON 로그 형식 적용
+- [ ] MDC 사용
+- [ ] 커스텀 필드 추가
+- [ ] Exception 스택 트레이스 포함
+
+### 성능 최적화
+
+- [ ] AsyncAppender 사용
+- [ ] 로그 레벨 적절히 설정
+- [ ] 불필요한 로그 제거
+- [ ] 배치 전송 설정
+
+### 모니터링
+
+- [ ] Spring Actuator 활성화
+- [ ] 헬스체크 엔드포인트
+- [ ] 메트릭 수집
+- [ ] Micrometer 연동 (선택)
 
 ---
 
 ## 🔗 관련 문서
 
 - [[../README|← 메인으로 돌아가기]]
+- [[01-Kotlin-SpringBoot-로깅-설정|Kotlin + Spring Boot 로깅 설정 →]]
 - [[../02-Server/README|Server 관점으로 →]]
 
 ---
 
-#ELK/Client #Frontend #Mobile #로깅
+#ELK/Client #Kotlin #SpringBoot #Logback #로깅
