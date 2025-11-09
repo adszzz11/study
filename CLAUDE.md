@@ -11,8 +11,9 @@ This is a personal knowledge management repository containing study notes, docum
 - **study/**: Technical study notes organized by topic
   - `Java/`: JVM, GC, and Java-related documentation
   - `HTTP/`: Network protocols, HTTP headers, caching, cookies
-  - `QA/`: Quality assurance and testing documentation
   - `Spring/`: Spring framework notes
+  - `ELK/`: Elasticsearch, Logstash, Kibana stack documentation
+  - `QA/`: Quality assurance and testing documentation
   - `jenkins/`: CI/CD pipeline documentation
 
 - **marp/**: Presentation files created with Marp (Markdown Presentation Ecosystem)
@@ -45,6 +46,7 @@ This is a personal knowledge management repository containing study notes, docum
 - **업무/**: Work-related documentation
 - **인터뷰/**: Interview preparation materials
 - **.obsidian/**: Obsidian vault configuration
+- **.claude/**: Claude Code configuration and context
 
 - **Daily Notes**: Files with `YYYY-MM-DD.md` format (e.g., `2025-10-05.md`) for daily journaling
 
