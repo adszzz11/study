@@ -133,12 +133,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/ELK/01-Client/01-Kotlin-SpringBoot-로깅-설정.md",
+                "file": "study/ELK/01-Client/03-Kotlin-로깅-Best-Practices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Kotlin-SpringBoot-로깅-설정"
+              "title": "03-Kotlin-로깅-Best-Practices"
             }
           }
         ],
@@ -320,16 +320,17 @@
   },
   "active": "e73efcad0a9a7df2",
   "lastOpenFiles": [
+    "study/ELK/01-Client/README.md",
+    "CLAUDE.md",
+    "marp/Backend 개발자가 보는 AI - 우리는 어떻게 적응하고 있는가?.md",
+    "study/ELK/01-Client/03-Kotlin-로깅-Best-Practices.md",
     "study/ELK/01-Client/02-Spring-Actuator-Metrics.md",
+    "study/ELK/01-Client/01-Kotlin-SpringBoot-로깅-설정.md",
     "study/ELK/02-Server/02-Logstash-파이프라인.md",
     "study/ELK/02-Server/02-Logstash-파이프라인.md.tmp.60639.1759911950603",
-    "study/ELK/01-Client/03-Kotlin-로깅-Best-Practices.md",
-    "study/ELK/01-Client/01-Kotlin-SpringBoot-로깅-설정.md",
     "study/ELK/01-Client/02-모바일-애플리케이션-로깅.md",
-    "study/ELK/01-Client/README.md",
     "study/ELK/01-Client/03-Client-Best-Practices.md",
     "study/ELK/01-Client/01-웹-브라우저-로깅.md",
-    "CLAUDE.md",
     "github repository 병합하는 법.md",
     "README.md",
     "Obsidian-Claude-Code-통합-가이드.md",
@@ -348,7 +349,6 @@
     "study/ELK/README.md",
     "study/ELK/README.md.tmp.60639.1759734644339",
     "study/ELK",
-    "marp/Backend 개발자가 보는 AI - 우리는 어떻게 적응하고 있는가?.md",
     "conference/AWS network Service.md",
     "marp/img.png",
     "marp/PG사 개발자가 말아주는 PG연동가이드.md",
