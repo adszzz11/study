@@ -1,4 +1,4 @@
-# Java 17의 Record와 Sealed Class를 사용해본 경험은?
+  # Java 17의 Record와 Sealed Class를 사용해본 경험은?
 
 ## 답변
 
