@@ -11,10 +11,12 @@
             "id": "a5dced94082325af",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.10.3"
             }
           }
         ]
@@ -195,6 +197,7 @@
   },
   "active": "a5dced94082325af",
   "lastOpenFiles": [
+    "test.md",
     "marp/다날 업무 소개.md",
     "marp/다날 업무 소개.md.tmp.63177.1762955765833",
     "인터뷰/지원자/커버레터/이상민_커버레터_놀유니버스_20251109.pdf",
@@ -224,7 +227,6 @@
     "인터뷰/지원자/답변/기술스택기반/02-Spring/27-BatchInsert성능최적화방법.md",
     "인터뷰/지원자/답변/기술스택기반/02-Spring/26-2차캐시를사용해본경험.md",
     "인터뷰/지원자/답변/기술스택기반/02-Spring/25-DirtyChecking과Merge의차이점.md",
-    "인터뷰/지원자/답변/기술스택기반/02-Spring/24-TransactionalreadOnlytrue의실제효과.md",
     "인터뷰/지원자/답변/경력기반/04-금융-결제-도메인/04-실시간-거래-이관-트랜잭션-일관성.md.tmp.29710.1762743165135",
     "인터뷰/지원자/답변/경력기반/03-DevOps-인프라/04-LGTM-Stack-점진적-적재.md.tmp.29710.1762743098128",
     "인터뷰/지원자/답변/경력기반/06-문제-해결-능력/04-LG메시지허브-토큰-Round-Robin.md.tmp.29710.1762743088280",
