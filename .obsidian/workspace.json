@@ -11,12 +11,12 @@
             "id": "a5dced94082325af",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "pdf",
               "state": {
-                "currentVersion": "1.10.3"
+                "file": "인터뷰/지원자/경력기술서/이상민_경력기술상세_20251109.pdf"
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.10.3"
+              "icon": "lucide-file-text",
+              "title": "이상민_경력기술상세_20251109"
             }
           }
         ]
@@ -195,7 +195,7 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "a5dced94082325af",
+  "active": "62be8f66f9db4bed",
   "lastOpenFiles": [
     "test.md",
     "marp/다날 업무 소개.md",
