@@ -31,12 +31,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "assignment/zonagent/과제-분석.md",
+                    "file": "assignment/zonagent/요구사항-분류.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "과제-분석"
+                  "title": "요구사항-분류"
                 }
               }
             ],
@@ -82,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ File Analysis Request"
+                  "title": "터미널: ✳ 분석자료 분류"
                 }
               }
             ]
@@ -266,6 +266,7 @@
   },
   "active": "9fbe6f76bcf634fb",
   "lastOpenFiles": [
+    "assignment/zonagent/요구사항-분류.md",
     "assignment/zonagent/과제-분석.md",
     "assignment/zonagent/Assignment-Description.md",
     "02-Logstash-상세.md",
@@ -297,7 +298,6 @@
     "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/13-by-lazy와-lateinit-사용-기준.md",
     "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/11-Sealed-Class와-Enum-Class-차이.md",
     "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/10-Null-Safety-효과.md",
-    "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/09-Extension-Function-남용-문제점.md",
     "인터뷰/지원자/답변/경력기반/04-금융-결제-도메인/04-실시간-거래-이관-트랜잭션-일관성.md.tmp.29710.1762743165135",
     "인터뷰/지원자/답변/경력기반/03-DevOps-인프라/04-LGTM-Stack-점진적-적재.md.tmp.29710.1762743098128",
     "인터뷰/지원자/답변/경력기반/06-문제-해결-능력/04-LG메시지허브-토큰-Round-Robin.md.tmp.29710.1762743088280",
