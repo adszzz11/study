@@ -87,8 +87,45 @@ This repository uses **Gitmoji** for commit messages to improve readability and 
 
 See `conventions/github convention/` for detailed guidelines.
 
+## Commit Message Format
+
+When creating commits, strictly follow the Gitmoji convention with Korean descriptions:
+
+**Commit format:**
+```
+<gitmoji> [type/#issue-number] <Korean description>
+```
+
+**For this documentation repository, most common commit types:**
+- 📝 `:memo:` - Adding or updating documentation/notes (most common)
+- ✨ `:sparkles:` - New notes or major content additions
+- 🐛 `:bug:` - Fixing typos or errors in content
+- ♻️ `:recycle:` - Reorganizing or refactoring note structure
+- 🔧 `:wrench:` - Obsidian configuration or template changes
+
+**Examples:**
+- `📝 [docs] HTTP 캐시 전략 노트 추가`
+- `✨ [feature] ELK 스택 학습 자료 작성`
+- `🐛 [fix] JVM GC 노트 오타 수정`
+
+See `conventions/github convention/` for complete guidelines.
+
+## Auto-commit System
+
+This repository uses an automated commit system documented in `auto-commit/autoCommit_shell.md`. The system performs periodic commits with timestamp-based messages. When making manual commits, use the Gitmoji convention above instead of the auto-commit format.
+
+## Templates Usage
+
+Obsidian templates are located in `templates/` directory:
+- `컨퍼런스-노트-템플릿.md`: For conference and meetup notes
+- Templates use Obsidian-style variables like `{{date}}`, `{{title}}`
+- See `templates/README.md` for detailed usage instructions
+
+When creating new conference notes or structured documents, reference these templates for consistency.
+
 ## Development Notes
 
-- No build/test/lint commands are required as this is a documentation repository
-- Content is primarily markdown files with supporting images
-- Git is used for version control with standard markdown file tracking
+- No build/test/lint commands required - this is a pure documentation repository
+- Content is primarily Korean markdown files with supporting images
+- Use Obsidian wiki-link syntax `[[link]]` for internal references
+- Daily notes follow `YYYY-MM-DD.md` naming convention
