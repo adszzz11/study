@@ -31,12 +31,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "assignment/zonagent/요구사항-분류.md",
+                    "file": "assignment/zonagent/specs/1-확실한-요구사항/대상-범위-명세.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "요구사항-분류"
+                  "title": "대상-범위-명세"
                 }
               }
             ],
@@ -82,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Directory Assignment"
+                  "title": "터미널: ✳ 프로세스 실행계획"
                 }
               }
             ]
@@ -266,19 +266,25 @@
   },
   "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
+    "assignment/zonagent/implementation-plan/phase-3-completion.md",
+    "assignment/zonagent/implementation-plan/phase-2-expansion.md",
+    "assignment/zonagent/implementation-plan/phase-1-mvp.md",
+    "assignment/zonagent/implementation-plan/phase-0-research.md",
+    "assignment/zonagent/implementation-plan/README.md",
+    "assignment/zonagent/implementation-plan",
+    "assignment/zonagent/specs/1-확실한-요구사항/대상-범위-명세.md",
     "assignment/zonagent/분류-요약.md",
+    "assignment/zonagent/과제-분석.md",
     "assignment/zonagent/specs/2-검토-필요-사항/클라이언트-질의-사항.md",
     "assignment/zonagent/specs/2-검토-필요-사항/기술적-검토-사항.md",
     "assignment/zonagent/specs/2-검토-필요-사항/README.md",
     "assignment/zonagent/specs/1-확실한-요구사항/제출물-명세.md",
     "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
-    "assignment/zonagent/specs/1-확실한-요구사항/대상-범위-명세.md",
     "assignment/zonagent/specs/1-확실한-요구사항/README.md",
     "assignment/zonagent/specs/2-검토-필요-사항",
     "assignment/zonagent/specs/1-확실한-요구사항",
     "assignment/zonagent/specs",
     "assignment/zonagent/요구사항-분류.md",
-    "assignment/zonagent/과제-분석.md",
     "assignment/zonagent/Assignment-Description.md",
     "02-Logstash-상세.md",
     "README.md",
@@ -295,13 +301,7 @@
     "인터뷰/이력서 수정할 것.md",
     "인터뷰/지원자/답변/경력기반/10-심화-질문/01-팟캐스트-핵심-메시지.md",
     "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/08-Coroutine과-CompletableFuture-선택-기준.md",
-    "인터뷰/지원자/답변/경력기반/01-아키텍처-설계/04-Context-Switching-방지-개발문화.md",
-    "인터뷰/지원자/답변/경력기반/02-데이터베이스-마이그레이션/02-PostgreSQL-Vacuum-문제-해결.md",
-    "인터뷰/지원자/답변/경력기반/10-심화-질문/04-금융-도메인-핵심-요소.md",
-    "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/05-Virtual-Thread-적용-계획.md",
     "인터뷰/지원자/이력서/이상민_이력서_20251109.pdf",
-    "인터뷰/지원자/답변/경력기반/02-데이터베이스-마이그레이션/04-마이그레이션-데이터-정합성-보장.md",
-    "인터뷰/지원자/답변/경력기반/04-금융-결제-도메인/04-실시간-거래-이관-트랜잭션-일관성.md.tmp.29710.1762743165135",
     "marp/img.png",
     "marp/KakaoTalk_Photo_2025-07-28-01-49-44.png",
     "marp/img_2.png",
