@@ -82,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 분석자료 분류"
+                  "title": "터미널: ✳ 디렉터리 분류 및 명세"
                 }
               }
             ]
@@ -264,8 +264,15 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "9fbe6f76bcf634fb",
+  "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
+    "assignment/zonagent/specs/1-확실한-요구사항/제출물-명세.md",
+    "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
+    "assignment/zonagent/specs/1-확실한-요구사항/대상-범위-명세.md",
+    "assignment/zonagent/specs/1-확실한-요구사항/README.md",
+    "assignment/zonagent/specs/2-검토-필요-사항",
+    "assignment/zonagent/specs/1-확실한-요구사항",
+    "assignment/zonagent/specs",
     "assignment/zonagent/요구사항-분류.md",
     "assignment/zonagent/과제-분석.md",
     "assignment/zonagent/Assignment-Description.md",
@@ -294,14 +301,7 @@
     "인터뷰/지원자/답변/경력기반/02-데이터베이스-마이그레이션/01-MSSQL-PostgreSQL-Oracle-마이그레이션-이유.md",
     "인터뷰/지원자/답변/기술스택기반/03-Database/37-Oracle-Execution-Plan-분석-방법.md",
     "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/14-Kotlin-DSL-경험.md",
-    "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/12-data-class-성능-차이.md",
-    "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/13-by-lazy와-lateinit-사용-기준.md",
-    "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/11-Sealed-Class와-Enum-Class-차이.md",
-    "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/10-Null-Safety-효과.md",
     "인터뷰/지원자/답변/경력기반/04-금융-결제-도메인/04-실시간-거래-이관-트랜잭션-일관성.md.tmp.29710.1762743165135",
-    "인터뷰/지원자/답변/경력기반/03-DevOps-인프라/04-LGTM-Stack-점진적-적재.md.tmp.29710.1762743098128",
-    "인터뷰/지원자/답변/경력기반/06-문제-해결-능력/04-LG메시지허브-토큰-Round-Robin.md.tmp.29710.1762743088280",
-    "인터뷰/지원자/답변/경력기반/01-아키텍처-설계/04-Context-Switching-방지-개발문화.md.tmp.29710.1762743080853",
     "marp/img.png",
     "marp/KakaoTalk_Photo_2025-07-28-01-49-44.png",
     "marp/img_2.png",
