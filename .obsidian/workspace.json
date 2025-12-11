@@ -31,12 +31,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "assignment/zonagent/specs/1-확실한-요구사항/대상-범위-명세.md",
+                    "file": "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "대상-범위-명세"
+                  "title": "운영-모드-명세"
                 }
               }
             ],
@@ -82,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 프로세스 실행계획"
+                  "title": "터미널: ✳ 명세 구현 계획"
                 }
               }
             ]
@@ -266,25 +266,28 @@
   },
   "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
+    "assignment/zonagent/IMPLEMENTATION-MASTER.md",
+    "assignment/zonagent/implementation-plan/implementation-roadmap.md",
+    "assignment/zonagent/implementation-plan/detailed-design.md",
+    "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
+    "assignment/zonagent/specs/1-확실한-요구사항/제출물-명세.md",
+    "assignment/zonagent/specs/2-검토-필요-사항/기술적-검토-사항.md",
+    "assignment/zonagent/specs/2-검토-필요-사항/클라이언트-질의-사항.md",
+    "assignment/zonagent/specs/1-확실한-요구사항/대상-범위-명세.md",
+    "assignment/zonagent/요구사항-분류.md",
+    "assignment/zonagent/분류-요약.md",
+    "assignment/zonagent/과제-분석.md",
+    "assignment/zonagent/specs/2-검토-필요-사항/README.md",
+    "assignment/zonagent/specs/1-확실한-요구사항/README.md",
     "assignment/zonagent/implementation-plan/phase-3-completion.md",
     "assignment/zonagent/implementation-plan/phase-2-expansion.md",
     "assignment/zonagent/implementation-plan/phase-1-mvp.md",
     "assignment/zonagent/implementation-plan/phase-0-research.md",
     "assignment/zonagent/implementation-plan/README.md",
     "assignment/zonagent/implementation-plan",
-    "assignment/zonagent/specs/1-확실한-요구사항/대상-범위-명세.md",
-    "assignment/zonagent/분류-요약.md",
-    "assignment/zonagent/과제-분석.md",
-    "assignment/zonagent/specs/2-검토-필요-사항/클라이언트-질의-사항.md",
-    "assignment/zonagent/specs/2-검토-필요-사항/기술적-검토-사항.md",
-    "assignment/zonagent/specs/2-검토-필요-사항/README.md",
-    "assignment/zonagent/specs/1-확실한-요구사항/제출물-명세.md",
-    "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
-    "assignment/zonagent/specs/1-확실한-요구사항/README.md",
     "assignment/zonagent/specs/2-검토-필요-사항",
     "assignment/zonagent/specs/1-확실한-요구사항",
     "assignment/zonagent/specs",
-    "assignment/zonagent/요구사항-분류.md",
     "assignment/zonagent/Assignment-Description.md",
     "02-Logstash-상세.md",
     "README.md",
@@ -298,9 +301,6 @@
     "marp/다날 업무 소개.md",
     "marp/다날 업무 소개.md.tmp.63177.1762955765833",
     "인터뷰/지원자/커버레터/이상민_커버레터_놀유니버스_20251109.pdf",
-    "인터뷰/이력서 수정할 것.md",
-    "인터뷰/지원자/답변/경력기반/10-심화-질문/01-팟캐스트-핵심-메시지.md",
-    "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/08-Coroutine과-CompletableFuture-선택-기준.md",
     "인터뷰/지원자/이력서/이상민_이력서_20251109.pdf",
     "marp/img.png",
     "marp/KakaoTalk_Photo_2025-07-28-01-49-44.png",
