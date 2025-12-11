@@ -82,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 디렉터리 분류 및 명세"
+                  "title": "터미널: ✳ Directory Assignment"
                 }
               }
             ]
@@ -266,6 +266,10 @@
   },
   "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
+    "assignment/zonagent/분류-요약.md",
+    "assignment/zonagent/specs/2-검토-필요-사항/클라이언트-질의-사항.md",
+    "assignment/zonagent/specs/2-검토-필요-사항/기술적-검토-사항.md",
+    "assignment/zonagent/specs/2-검토-필요-사항/README.md",
     "assignment/zonagent/specs/1-확실한-요구사항/제출물-명세.md",
     "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
     "assignment/zonagent/specs/1-확실한-요구사항/대상-범위-명세.md",
@@ -297,10 +301,6 @@
     "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/05-Virtual-Thread-적용-계획.md",
     "인터뷰/지원자/이력서/이상민_이력서_20251109.pdf",
     "인터뷰/지원자/답변/경력기반/02-데이터베이스-마이그레이션/04-마이그레이션-데이터-정합성-보장.md",
-    "인터뷰/지원자/답변/경력기반/02-데이터베이스-마이그레이션/03-ROW_NUMBER-Sequence-해결.md",
-    "인터뷰/지원자/답변/경력기반/02-데이터베이스-마이그레이션/01-MSSQL-PostgreSQL-Oracle-마이그레이션-이유.md",
-    "인터뷰/지원자/답변/기술스택기반/03-Database/37-Oracle-Execution-Plan-분석-방법.md",
-    "인터뷰/지원자/답변/기술스택기반/01-Java-Kotlin/14-Kotlin-DSL-경험.md",
     "인터뷰/지원자/답변/경력기반/04-금융-결제-도메인/04-실시간-거래-이관-트랜잭션-일관성.md.tmp.29710.1762743165135",
     "marp/img.png",
     "marp/KakaoTalk_Photo_2025-07-28-01-49-44.png",
