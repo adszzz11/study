@@ -34,6 +34,8 @@ def cmd_backfill(args):
     jurisdiction_names = {
         "cherokee": "Cherokee County",
         "marietta": "City of Marietta",
+        "alpharetta": "City of Alpharetta",
+        "holly_springs": "City of Holly Springs",
     }
 
     display_name = jurisdiction_names.get(args.jurisdiction, args.jurisdiction)
@@ -141,7 +143,7 @@ def cmd_list(args):
 def main():
     """메인 함수"""
     parser = argparse.ArgumentParser(
-        description="ZonAgent - Georgia Municipal Meeting Document Scraper (Cherokee & Marietta)",
+        description="ZonAgent - Georgia Municipal Meeting Document Scraper (4개 지자체)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -151,11 +153,17 @@ Examples:
   # Marietta 최근 10개만 수집
   python -m src.main backfill --jurisdiction marietta --limit 10
 
+  # Alpharetta 문서 수집
+  python -m src.main backfill --jurisdiction alpharetta --limit 10
+
+  # Holly Springs 문서 수집
+  python -m src.main backfill --jurisdiction holly_springs --limit 10
+
   # 통계 조회 (모든 지자체)
   python -m src.main stats
 
   # 특정 지자체 문서 목록 보기
-  python -m src.main list --jurisdiction marietta --limit 20
+  python -m src.main list --jurisdiction alpharetta --limit 20
         """
     )
 
@@ -182,7 +190,7 @@ Examples:
     parser_backfill.add_argument(
         "--jurisdiction", "-j",
         required=True,
-        choices=["cherokee", "marietta"],  # Phase 2: marietta 추가
+        choices=["cherokee", "marietta", "alpharetta", "holly_springs"],  # Phase 3: alpharetta, holly_springs 추가
         help="지자체 선택"
     )
     parser_backfill.add_argument(
@@ -207,7 +215,7 @@ Examples:
     )
     parser_list.add_argument(
         "--jurisdiction", "-j",
-        choices=["cherokee", "marietta"],  # Phase 2: marietta 추가
+        choices=["cherokee", "marietta", "alpharetta", "holly_springs"],  # Phase 3: alpharetta, holly_springs 추가
         help="지자체 필터"
     )
     parser_list.add_argument(
