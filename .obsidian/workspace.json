@@ -10,7 +10,7 @@
           {
             "id": "443d073fd6e64a1a",
             "type": "tabs",
-            "dimension": 71.04166666666667,
+            "dimension": 47.140221402214024,
             "children": [
               {
                 "id": "e3fbcfbccceee16e",
@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "프로그라피/디자이너.md",
+                    "file": "assignment/zonagent/implementation-plan/phase-0-research.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "디자이너"
+                  "title": "phase-0-research"
                 }
               }
             ]
@@ -31,7 +31,7 @@
           {
             "id": "7d423d695e082d03",
             "type": "tabs",
-            "dimension": 28.958333333333336,
+            "dimension": 52.859778597785976,
             "children": [
               {
                 "id": "1a1a829862bdb01e",
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 명세 구현 계획"
+                  "title": "터미널: ✳ 테스트 진행"
                 }
               }
             ]
@@ -251,11 +251,26 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e3fbcfbccceee16e",
+  "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
-    "프로그라피/AOS.md",
-    "프로그라피/프론트엔드.md",
+    "assignment/zonagent/research/PHASE0-SUMMARY.md",
+    "assignment/zonagent/research/NEXT-STEPS.md",
+    "assignment/zonagent/research/README.md",
+    "assignment/zonagent/research/requirements.txt",
+    "assignment/zonagent/research/requirements.txt.tmp.90823.1765501907601",
+    "assignment/zonagent/research/fetch_alpharetta_html.py",
+    "assignment/zonagent/research/fetch_alpharetta_html.py.tmp.90823.1765501899898",
+    "assignment/zonagent/research/websites-found.md",
+    "assignment/zonagent/research/phase0-progress.md",
+    "assignment/zonagent/research",
+    "assignment/zonagent/implementation-plan/phase-0-research.md",
+    "assignment/zonagent/implementation-plan/phase-1-mvp.md",
+    "assignment/zonagent/implementation-plan/implementation-roadmap.md",
+    "assignment/zonagent/implementation-plan/detailed-design.md",
+    "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
     "프로그라피/디자이너.md",
+    "프로그라피/프론트엔드.md",
+    "프로그라피/AOS.md",
     "프로그라피/iOS.md",
     "README.md",
     "무제.base",
@@ -264,9 +279,6 @@
     "assignment/zonagent/Assignment-Description.md",
     "assignment/zonagent/요구사항-분류.md",
     "assignment/zonagent/과제-분석.md",
-    "assignment/zonagent/implementation-plan/implementation-roadmap.md",
-    "assignment/zonagent/implementation-plan/detailed-design.md",
-    "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
     "assignment/zonagent/specs/1-확실한-요구사항/제출물-명세.md",
     "assignment/zonagent/specs/2-검토-필요-사항/기술적-검토-사항.md",
     "assignment/zonagent/specs/2-검토-필요-사항/클라이언트-질의-사항.md",
@@ -274,21 +286,9 @@
     "assignment/zonagent/분류-요약.md",
     "assignment/zonagent/specs/2-검토-필요-사항/README.md",
     "assignment/zonagent/specs/1-확실한-요구사항/README.md",
-    "assignment/zonagent/implementation-plan/phase-3-completion.md",
-    "assignment/zonagent/implementation-plan/phase-2-expansion.md",
-    "assignment/zonagent/implementation-plan/phase-1-mvp.md",
-    "assignment/zonagent/implementation-plan/phase-0-research.md",
-    "assignment/zonagent/implementation-plan/README.md",
     "assignment/zonagent/implementation-plan",
     "assignment/zonagent/specs/2-검토-필요-사항",
     "assignment/zonagent/specs/1-확실한-요구사항",
-    "assignment/zonagent/specs",
-    "02-Logstash-상세.md",
-    "CLAUDE.md",
-    "assignment/zonagent",
-    "assignment",
-    "인터뷰/지원자/경력기술서/이상민_경력기술상세_20251109.pdf",
-    "marp/다날 업무 소개.md.tmp.63177.1762955765833",
     "marp/img.png",
     "marp/KakaoTalk_Photo_2025-07-28-01-49-44.png",
     "marp/img_2.png",
