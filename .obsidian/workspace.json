@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "assignment/zonagent/implementation-plan/implementation-roadmap.md",
+                    "file": "assignment/zonagent/research/PHASE0-FINAL-REPORT.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "implementation-roadmap"
+                  "title": "PHASE0-FINAL-REPORT"
                 }
               }
             ]
@@ -253,6 +253,13 @@
   },
   "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
+    "assignment/zonagent/FINAL-CHECKLIST.md",
+    "assignment/zonagent/FINAL-CHECKLIST.md.tmp.90823.1765552095586",
+    "assignment/zonagent/mvp/PHASE4-PLAN.md",
+    "assignment/zonagent/research/PHASE0-FINAL-REPORT.md",
+    "assignment/zonagent/implementation-plan/phase-3-completion.md",
+    "assignment/zonagent/implementation-plan/phase-2-expansion.md",
+    "assignment/zonagent/mvp/PHASE1-COMPLETE.md",
     "assignment/zonagent/README.md",
     "assignment/zonagent/implementation-plan/implementation-roadmap.md",
     "assignment/zonagent/PROJECT-SUMMARY.md.tmp.90823.1765522922962",
@@ -266,29 +273,22 @@
     "assignment/zonagent/mvp/README.md.tmp.90823.1765521111765",
     "assignment/zonagent/mvp/README.md.tmp.90823.1765521102245",
     "assignment/zonagent/mvp/README.md.tmp.90823.1765521094310",
-    "assignment/zonagent/mvp/README.md.tmp.90823.1765521071397",
     "assignment/zonagent/mvp/PHASE3-PLAN.md",
     "assignment/zonagent/FINAL-SUMMARY.md",
     "assignment/zonagent/mvp/PHASE2-COMPLETE.md",
     "assignment/zonagent/mvp/PHASE2-PLAN.md",
     "assignment/zonagent/implementation-plan/phase-0-research.md",
     "assignment/zonagent/implementation-plan/phase-1-mvp.md",
-    "assignment/zonagent/implementation-plan/phase-2-expansion.md",
-    "assignment/zonagent/implementation-plan/phase-3-completion.md",
     "assignment/zonagent/implementation-plan/README.md",
     "assignment/zonagent/mvp/QUICKSTART.md",
     "assignment/zonagent/mvp/README.md",
-    "assignment/zonagent/mvp/PHASE1-COMPLETE.md",
     "assignment/zonagent/PROJECT-SUMMARY.md",
-    "assignment/zonagent/research/PHASE0-FINAL-REPORT.md",
     "assignment/zonagent/research/platform-analysis.md",
     "assignment/zonagent/research/PHASE0-SUMMARY.md",
     "assignment/zonagent/research/NEXT-STEPS.md",
     "assignment/zonagent/research/README.md",
     "assignment/zonagent/research/websites-found.md",
     "assignment/zonagent/research/phase0-progress.md",
-    "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
-    "프로그라피/디자이너.md",
     "marp/img.png",
     "marp/KakaoTalk_Photo_2025-07-28-01-49-44.png",
     "marp/img_2.png",
