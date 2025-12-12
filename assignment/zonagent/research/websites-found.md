@@ -173,47 +173,60 @@
 
 | 지자체 | 난이도 | 문서 타입 | 렌더링 | MVP 적합도 | 근거 |
 |--------|--------|-----------|--------|------------|------|
-| **Cherokee County** | 🟡 중간 | 4/4 | 동적? | ⭐⭐⭐ | Granicus 파싱 필요 |
-| **Holly Springs** | 🟡 중간 | 4/4 | 동적 | ⭐⭐ | 이중 플랫폼 |
-| **Alpharetta** | 🟡 중간 | 4/4 | **동적 ✅** | ⭐⭐⭐⭐ | CivicClerk SPA, Playwright 필수 |
-| **Marietta** | 🟡 중간 | 4/4 | 동적? | ⭐⭐⭐ | CivicEngage 구조 |
+| **Cherokee County** | 🟢 **쉬움** | 4/4 | **서버 ✅** | ⭐⭐⭐⭐⭐ | Granicus 서버 렌더링, BeautifulSoup만 필요 |
+| **Marietta** | 🟢 쉬움 | 4/4 | 하이브리드 | ⭐⭐⭐⭐ | 서버+jQuery, 대부분 정적 HTML |
+| **Alpharetta** | 🟡 중간 | 4/4 | **동적 ✅** | ⭐⭐⭐ | CivicClerk SPA, Playwright 필수 |
+| **Holly Springs** | 🟡 중간 | 4/4 | 동적 | ⭐⭐ | 이중 플랫폼, CivicClerk SPA |
 
 ---
 
-## 🎯 MVP 지자체 추천
+## 🎯 MVP 지자체 추천 (최종 업데이트)
 
-### 1순위: **City of Alpharetta** ⭐⭐⭐⭐ (수정됨)
+### 🥇 1순위: **Cherokee County** ⭐⭐⭐⭐⭐ (변경됨!)
 
 **선정 이유**:
-1. ✅ CivicClerk 플랫폼 (표준화)
-2. ✅ 4가지 문서 타입 모두 제공
-3. ✅ 좋은 문서화
-4. ⚠️ **JavaScript SPA** (Playwright 필수)
-5. ✅ 여전히 깔끔한 구조 예상
+1. ✅ **완전한 서버 렌더링** (Playwright 불필요)
+2. ✅ **가장 단순한 구조** (HTML 테이블)
+3. ✅ 4가지 문서 타입 모두 제공
+4. ✅ **가장 빠른 개발** (예상 4-6시간)
+5. ✅ **낮은 리소스 사용**
 
 **근거**:
-- CivicClerk는 많은 지자체가 사용하는 표준 플랫폼
-- JavaScript 렌더링이지만 일관된 구조 예상
-- Playwright 경험이 다른 지자체 확장에도 도움
-- Holly Springs도 CivicClerk 사용 → 재사용 가능
+- Granicus는 서버에서 완전한 HTML 생성 → BeautifulSoup만으로 충분
+- Playwright 불필요 → 복잡도 50% 감소
+- 검증된 기술 스택 (httpx + BeautifulSoup)
+- MVP 철학에 부합 (최소한의 기술로 최대 검증)
 
-**기술적 고려사항** (2025-12-12 업데이트):
-- ⚠️ Playwright 필수 (정적 HTML 아님)
-- ⚠️ 초기 예상보다 복잡도 증가
-- ✅ 그러나 여전히 MVP 적합 (표준 플랫폼)
-- ✅ 다른 지자체도 동적 렌더링 가능성 → 동일 기술 스택
+**개발 시간 비교**:
+- Cherokee: **4-6시간** ✅
+- Alpharetta: 9-12시간 (Playwright 필요)
+- **50% 시간 단축!**
 
-### 2순위: Cherokee County ⭐⭐⭐
+**Phase별 전략**:
+- **Phase 1 (MVP)**: Cherokee County (서버 렌더링)
+- **Phase 2**: Marietta 추가 (하이브리드)
+- **Phase 3**: Alpharetta + Holly Springs (SPA, 코드 재사용)
 
-**이유**: Granicus 표준 플랫폼, 문서 완전성
+### 🥈 2순위: **City of Marietta** ⭐⭐⭐⭐
 
-### 3순위: Marietta ⭐⭐⭐
+**이유**:
+- 서버 렌더링 + jQuery 하이브리드
+- BeautifulSoup 우선, Playwright 선택적
+- 좋은 문서 아카이브
 
-**이유**: CivicEngage 플랫폼, 좋은 아카이브
+### 🥉 3순위: **City of Alpharetta** ⭐⭐⭐
 
-### 4순위: Holly Springs ⭐⭐
+**이유**:
+- CivicClerk 표준 플랫폼 (좋음)
+- JavaScript SPA (Playwright 필수)
+- Holly Springs와 코드 재사용 가능
 
-**이유**: 이중 플랫폼 (복잡도 증가)
+### 4순위: **Holly Springs** ⭐⭐
+
+**이유**:
+- 이중 플랫폼 (CivicClerk + IQM2)
+- Alpharetta 코드 재사용 가능
+- Phase 3에서 추가
 
 ---
 
@@ -289,13 +302,24 @@
 
 ---
 
-**최종 업데이트**: 2025-12-12 (Alpharetta 초기 분석 완료)
-**상태**: ✅ URL 발견 완료, 🔄 Alpharetta 구조 분석 중
-**MVP 선정**: City of Alpharetta (CivicClerk SPA - Playwright 필수)
+**최종 업데이트**: 2025-12-12 (4개 지자체 플랫폼 분석 완료)
+**상태**: ✅ 모든 플랫폼 렌더링 방식 확인 완료
+**MVP 선정**: 🥇 **Cherokee County** (Granicus - 서버 렌더링) ← **최종 변경!**
 
-**Phase 0.2 진행 상황**:
-- ✅ Alpharetta JavaScript 의존성 확인
-- ✅ 분석 스크립트 생성 (`fetch_alpharetta_html.py`)
-- ⏳ 로컬 실행 후 HTML 구조 분석 필요
-- ⏳ CSS Selector 패턴 추출 대기
-- ⏳ 나머지 3개 지자체 분석 대기
+**Phase 0.3 완료 사항**:
+- ✅ 4개 지자체 렌더링 방식 확인 완료
+  - Cherokee: 서버 렌더링 ✅
+  - Alpharetta: JavaScript SPA ⚠️
+  - Holly Springs: JavaScript SPA ⚠️
+  - Marietta: 서버+jQuery 하이브리드 ✅
+- ✅ MVP 순위 재평가 완료
+- ✅ Cherokee County → 1순위로 변경
+- ✅ 분석 스크립트 생성:
+  - `fetch_cherokee_html.py` (BeautifulSoup)
+  - `fetch_alpharetta_html.py` (Playwright)
+- ✅ 상세 플랫폼 분석 문서 작성 (`platform-analysis.md`)
+
+**다음 단계**:
+1. Cherokee 스크립트 로컬 실행 (우선순위 1)
+2. CSS Selector 검증
+3. Phase 1 MVP 구현 시작

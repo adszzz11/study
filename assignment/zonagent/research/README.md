@@ -20,9 +20,9 @@ research/
 ## 🎯 Phase 0 목표
 
 1. ✅ 4개 지자체 웹사이트 URL 확인
-2. 🔄 각 웹사이트 구조 분석
-3. ⏳ 기술 스택 검증
-4. ⏳ MVP 지자체 최종 선정
+2. ✅ 각 웹사이트 렌더링 방식 분석
+3. ✅ 플랫폼별 특성 파악
+4. ✅ MVP 지자체 최종 선정 → **Cherokee County** 🥇
 
 ## 🚀 빠른 시작
 
@@ -44,10 +44,58 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-### 2. Alpharetta CivicClerk 분석 실행
+### 2A. Cherokee County 분석 실행 (우선순위 1 🥇)
 
 ```bash
-# 스크립트 실행
+# 스크립트 실행 (Playwright 불필요!)
+python fetch_cherokee_html.py
+```
+
+**특징**:
+- ✅ httpx + BeautifulSoup만 사용 (간단!)
+- ✅ Playwright 설치 불필요
+- ✅ 빠른 실행 (~5초)
+- ✅ 낮은 리소스 사용
+
+**출력 예시**:
+```
+============================================================
+Cherokee County Granicus HTML 구조 분석 도구
+============================================================
+📡 페이지 가져오기: https://cherokeega.granicus.com/...
+✅ HTML 수신 완료
+   상태 코드: 200
+   파일 크기: 123,456 bytes
+✅ HTML 저장: html_samples/cherokee_granicus_20251212_143025.html
+
+🔍 HTML 구조 분석:
+✅ 회의 테이블 발견: <table class='listingTable'>
+✅ 테이블 헤더: ['Name', 'Date', 'Agenda', 'Minutes', 'Video']
+✅ 회의 행 발견: 48개
+
+📋 첫 번째 회의 상세 분석:
+  이름: Planning Commission Meeting
+  날짜: December 12, 2025 - 3:00 PM
+  Agenda: AgendaViewer.php?view_id=1&event_id=12345
+  Minutes: .../minutes/reports/...
+  Video: javascript:void(0)
+
+🎯 CSS Selector 검증:
+  ✅ meeting_table      : table.listingTable                      → 1개
+  ✅ meeting_rows       : tr.listingRow                           → 48개
+  ✅ meeting_date       : td.listItem:nth-child(2)                → 48개
+
+📅 날짜 형식 분석:
+  ✅ 날짜 패턴 매칭: 5/5
+  예시: December 12, 2025 - 3:00 PM
+
+✅ 분석 완료!
+```
+
+### 2B. Alpharetta CivicClerk 분석 실행 (참고용)
+
+```bash
+# 스크립트 실행 (Playwright 필요)
 python fetch_alpharetta_html.py
 ```
 
@@ -87,31 +135,57 @@ head -n 100 html_samples/alpharetta_portal_*.html | less
 open html_samples/alpharetta_portal_*.png
 ```
 
-## 📊 주요 발견사항
+## 📊 주요 발견사항 및 MVP 선정
 
-### Alpharetta CivicClerk
+### 🥇 MVP: Cherokee County (Granicus)
+
+- **플랫폼**: Granicus (서버 렌더링)
+- **렌더링**: ✅ **정적 HTML** (Playwright 불필요!)
+- **평가**: ⭐⭐⭐⭐⭐ **최고 점수**
+
+**중요 장점**:
+- ✅ **완전한 서버 렌더링** → BeautifulSoup만으로 충분
+- ✅ **단순한 테이블 구조** → CSS Selector 명확
+- ✅ **빠른 개발 가능** → 예상 4-6시간 (50% 단축)
+- ✅ **낮은 리소스 사용** → 브라우저 자동화 불필요
+
+**기술 스택**:
+- httpx (HTTP 요청)
+- BeautifulSoup (HTML 파싱)
+- Python 3.11+
+
+### 🥈 2순위: Marietta (CivicEngage)
+
+- **플랫폼**: CivicEngage (서버 + jQuery 하이브리드)
+- **렌더링**: ✅ 대부분 서버, 일부 동적
+- **평가**: ⭐⭐⭐⭐
+
+### 🥉 3순위: Alpharetta (CivicClerk)
 
 - **플랫폼**: CivicClerk (JavaScript SPA)
 - **렌더링**: ⚠️ **동적 (Playwright 필수)**
-- **평가**: ⭐⭐⭐⭐ (여전히 MVP 후보)
+- **평가**: ⭐⭐⭐
 
-**중요**:
+**주의**:
 ```
 페이지 응답: "You need to enable JavaScript to run this app."
 ```
 
-CivicClerk 포털은 완전한 JavaScript 기반이므로:
+CivicClerk 포털은 JavaScript 기반이므로:
 - BeautifulSoup 단독 사용 불가
-- Playwright 또는 Selenium 필수
-- 실제 구현에서도 동일한 접근 필요
+- Playwright 필수
+- Phase 2 이후 추가 예정
 
-### 기술적 영향
+### 기술 스택 최종 결정
 
-**확정된 기술 스택**:
-- ✅ Playwright (동적 렌더링 필수)
+**MVP (Phase 1) - Cherokee County**:
+- ✅ httpx (HTTP 요청)
 - ✅ BeautifulSoup (HTML 파싱)
 - ✅ Python 3.11+
-- ✅ Anthropic Claude API
+- ✅ Anthropic Claude API (LLM 기능)
+
+**Phase 2 이후 - 동적 사이트**:
+- Playwright 추가 (Alpharetta, Holly Springs용)
 
 ## 📝 문서
 

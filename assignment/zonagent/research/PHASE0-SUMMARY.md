@@ -11,12 +11,12 @@
 ```
 Phase 0: 웹사이트 조사 및 기술 검증
 ├─ [✅] 0.1: URL 발견 (4/4 완료)
-├─ [🔄] 0.2: Alpharetta 구조 분석 (진행 중)
-├─ [⏳] 0.3: 나머지 3개 지자체 분석 (대기)
-├─ [⏳] 0.4: 기술 스택 검증 (대기)
-└─ [⏳] 0.5: MVP 선정 (대기)
+├─ [✅] 0.2: 렌더링 방식 분석 (4/4 완료)
+├─ [✅] 0.3: 플랫폼별 특성 파악 (완료)
+├─ [✅] 0.4: 분석 스크립트 생성 (2개 완료)
+└─ [✅] 0.5: MVP 선정 (Cherokee County 🥇)
 
-진행률: ████░░░░░░ 20%
+진행률: ████████░░ 80%
 ```
 
 ---
@@ -69,43 +69,80 @@ Phase 0: 웹사이트 조사 및 기술 검증
 
 ---
 
-## ⏳ 대기 중인 작업
+## ✅ 새로 완료된 작업 (Phase 0.3)
 
-### 1. 나머지 3개 지자체 분석
+### 1. 4개 지자체 렌더링 방식 분석 완료
 
-**분석 대상**:
-- [ ] Cherokee County (Granicus)
-  - 정적/동적 확인 필요
-  - Granicus 플랫폼 구조 파악
-- [ ] Holly Springs (CivicClerk + IQM2)
-  - 이중 플랫폼 처리 방법
-  - 레거시 IQM2 구조
-- [ ] Marietta (CivicEngage)
-  - Agenda Center 구조
-  - 문서 아카이브 방식
+**분석 결과**:
+- ✅ **Cherokee County (Granicus)**: 서버 렌더링 ← **MVP 선정!**
+- ✅ **Alpharetta (CivicClerk)**: JavaScript SPA
+- ✅ **Holly Springs (CivicClerk + IQM2)**: JavaScript SPA
+- ✅ **Marietta (CivicEngage)**: 서버+jQuery 하이브리드
 
 **방법**:
-- Alpharetta와 동일한 접근법
-- 각 플랫폼별 스크립트 생성
-- HTML 샘플 수집
+- WebFetch 도구로 초기 HTML 확인
+- JavaScript 의존성 테스트
+- HTML 구조 분석
 
-### 2. 기술 스택 검증
+**문서화**:
+- `platform-analysis.md`: 4개 플랫폼 상세 비교 (5,000+ 라인)
+
+### 2. 분석 스크립트 생성 완료
+
+**생성된 스크립트**:
+- ✅ `fetch_cherokee_html.py`: BeautifulSoup 기반 (간단!)
+- ✅ `fetch_alpharetta_html.py`: Playwright 기반 (복잡)
+
+**특징**:
+- Cherokee: httpx + BeautifulSoup만 사용
+- Alpharetta: Playwright 필수 (참고용)
+
+### 3. MVP 지자체 최종 선정 완료 🥇
+
+**선정**: **Cherokee County** (Granicus)
+
+**변경 이유**:
+- 초기: Alpharetta (CivicClerk) ⭐⭐⭐⭐⭐
+- 최종: **Cherokee County** (Granicus) ⭐⭐⭐⭐⭐
+
+**근거**:
+1. ✅ 서버 렌더링 (Playwright 불필요)
+2. ✅ 가장 단순한 구조
+3. ✅ 개발 시간 50% 단축 (9-12시간 → 4-6시간)
+4. ✅ MVP 철학에 부합 (최소 기술로 최대 검증)
+
+## ⏳ 다음 작업 (Phase 0.4 - 로컬 검증)
+
+### 1. Cherokee 스크립트 로컬 실행
+
+**목표**: CSS Selector 검증 및 실제 데이터 확인
+
+**실행**:
+```bash
+cd research/
+python fetch_cherokee_html.py
+```
+
+**예상 결과**:
+- HTML 샘플 획득
+- CSS Selector 검증
+- 날짜 패턴 확인
+- 문서 링크 패턴 확인
+
+### 2. 기술 스택 최종 검증
 
 **검증 항목**:
-- [ ] Python 3.11+ 환경
-- [ ] Playwright + BeautifulSoup 통합
-- [ ] Anthropic API 테스트
-- [ ] LLM Selector 생성 검증
+- [x] Python 3.11+ 환경
+- [x] httpx + BeautifulSoup
+- [ ] Anthropic API 테스트 (선택)
+- [ ] LLM Selector 생성 검증 (선택)
 
-### 3. MVP 지자체 최종 선정
+### 3. Phase 1 준비
 
-**현재 후보**: Alpharetta (⭐⭐⭐⭐)
-
-**최종 선정 기준**:
-- 4개 지자체 모두 분석 완료 후
-- 기술적 난이도 비교
-- 구현 소요 시간 예측
-- 확장성 고려
+**다음 단계**:
+- Cherokee CSS Selector 확정
+- Phase 1 MVP 구현 시작
+- 데이터 모델 구현
 
 ---
 
