@@ -251,8 +251,10 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "62be8f66f9db4bed",
+  "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
+    "assignment/zonagent/README.md",
+    "assignment/zonagent/implementation-plan/implementation-roadmap.md",
     "assignment/zonagent/PROJECT-SUMMARY.md.tmp.90823.1765522922962",
     "assignment/zonagent/PROJECT-SUMMARY.md.tmp.90823.1765522889057",
     "assignment/zonagent/PROJECT-SUMMARY.md.tmp.90823.1765522873930",
@@ -265,7 +267,6 @@
     "assignment/zonagent/mvp/README.md.tmp.90823.1765521102245",
     "assignment/zonagent/mvp/README.md.tmp.90823.1765521094310",
     "assignment/zonagent/mvp/README.md.tmp.90823.1765521071397",
-    "assignment/zonagent/mvp/src/main.py.tmp.90823.1765521028331",
     "assignment/zonagent/mvp/PHASE3-PLAN.md",
     "assignment/zonagent/FINAL-SUMMARY.md",
     "assignment/zonagent/mvp/PHASE2-COMPLETE.md",
@@ -286,7 +287,6 @@
     "assignment/zonagent/research/README.md",
     "assignment/zonagent/research/websites-found.md",
     "assignment/zonagent/research/phase0-progress.md",
-    "assignment/zonagent/implementation-plan/implementation-roadmap.md",
     "assignment/zonagent/specs/1-확실한-요구사항/운영-모드-명세.md",
     "프로그라피/디자이너.md",
     "marp/img.png",
