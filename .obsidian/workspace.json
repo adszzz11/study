@@ -253,6 +253,8 @@
   },
   "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
+    "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md",
+    "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md.tmp.90823.1765586350736",
     "assignment/zonagent/IMPLEMENTATION-MASTER.md",
     "assignment/zonagent/mvp/src/scrapers/cherokee.py.tmp.90823.1765585437825",
     "assignment/zonagent/mvp/data/documents.db",
@@ -263,7 +265,6 @@
     "assignment/zonagent/mvp/src/scrapers/__pycache__/cherokee.cpython-314.pyc",
     "assignment/zonagent/mvp/src/scrapers/__pycache__/base.cpython-314.pyc",
     "assignment/zonagent/mvp/src/scrapers/__pycache__/__init__.cpython-314.pyc",
-    "assignment/zonagent/mvp/src/scrapers/__pycache__",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
