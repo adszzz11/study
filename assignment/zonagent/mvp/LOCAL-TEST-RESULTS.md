@@ -11,10 +11,10 @@
 |--------------|--------|-----------|------|--------|
 | Cherokee County | ✅ PASS | 3 docs | ~2s | Fixed HTML structure (4 cells vs 5) |
 | City of Marietta | ✅ PASS | 5 docs | ~2s | Fixed CSS selector (#AgendaCenterContent) |
-| City of Alpharetta | ❌ FAIL | 0 docs | ~40s | Timeout - CSS selectors don't match current HTML |
-| City of Holly Springs | ⏸️ SKIPPED | - | - | Same platform as Alpharetta |
+| City of Alpharetta | ✅ PASS | 5 docs | ~7s | Rewrote scraper for CivicClerk SPA structure |
+| City of Holly Springs | ✅ PASS | 5 docs | ~7s | Inherits from Alpharetta (no changes needed) |
 
-**Overall**: 2/4 passing (50%)
+**Overall**: 4/4 passing (100%) 🎉
 
 ---
 
@@ -74,55 +74,80 @@
 
 ---
 
-### ❌ City of Alpharetta (CivicClerk SPA)
+### ✅ City of Alpharetta (CivicClerk SPA)
 
 **Platform**: CivicClerk (JavaScript SPA, Playwright required)
-**Result**: FAIL
-**Documents**: 0
-**Time**: 39.6 seconds (timeout)
+**Result**: PASS
+**Documents**: 5
+**Time**: 6.9 seconds
 
-**Issue Found**:
+**Initial Issue**:
 - **Error**: `TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded`
-- **Cause**: Expected CSS selectors don't exist in current HTML structure
-- **Expected Selector**: `.meeting-list, [data-meetings], .meetings, .agenda-list`
-- **Found in HTML**: `data-testid="eventList"`, `main` (but no meeting items)
-- **Root Cause**: CivicClerk is a modern React SPA with Material-UI components. The HTML structure is fundamentally different from what was designed in Phase 0.
+- **Cause**: Phase 0 selectors were incorrect for actual CivicClerk React SPA structure
+- **Analysis**: Manually inspected rendered HTML to find correct structure
 
-**Analysis**:
-- The scraper was designed based on Phase 0 research, but the site structure has changed or was misanalyzed
-- Current structure uses:
-  - `<div data-testid="eventList">` for the container
-  - Material-UI components (`MuiGrid2-root`, `MuiButton-root`, etc.)
-  - Dynamic React rendering with complex class names
-  - No obvious static selectors for meeting rows
+**Solution**:
+- **Discovered**: CivicClerk uses `<a data-id="{event_id}" href="/event/{id}/files">` for event links
+- **New Selector**: `a[data-id]` - waits for event links to load
+- **Date Extraction**: From `data-date` attribute in ISO 8601 format
+- **Title Extraction**: From `<h3 id="eventListRow-{id}-title">`
+- **URL Pattern**: `/event/{event_id}/files` contains all documents
 
-**Next Steps**:
-1. Investigate actual event rendering - may need to scroll or interact with the calendar
-2. Identify correct selectors for meeting/event items in the rendered HTML
-3. May need to wait for API calls or additional JavaScript execution
-4. Consider using `data-testid` attributes instead of class-based selectors
+**Rewrote Scraper**:
+```python
+# New wait selector (much simpler!)
+WAIT_FOR_SELECTOR = "a[data-id]"
+
+# Parse event links
+event_links = soup.select('a[data-id][href*="/event/"][href*="/files"]')
+
+# Extract data from attributes
+event_id = event_link.get("data-id")
+event_url = urljoin(BASE_URL, event_link.get("href"))
+meeting_date = datetime.fromisoformat(date_str.replace('Z', '+00:00')).date()
+```
+
+**File**: `/src/scrapers/alpharetta.py` - Completely rewritten (167 lines → 167 lines, but entirely new logic)
 
 **Output**:
 ```
 📊 City of Alpharetta 스크래핑 결과
-   발견: 0개
-   신규: 0개
+   발견: 5개
+   신규: 5개
    스킵: 0개
-   에러: 1개
-   소요 시간: 39.6초
-
-⚠️  에러 목록:
-   1. Scraping failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+   에러: 0개
+   소요 시간: 6.9초
 ```
 
 ---
 
-### ⏸️ City of Holly Springs (CivicClerk SPA)
+### ✅ City of Holly Springs (CivicClerk SPA)
 
 **Platform**: CivicClerk (Same as Alpharetta)
-**Result**: SKIPPED (same platform as Alpharetta)
+**Result**: PASS
+**Documents**: 5
+**Time**: 7.4 seconds
 
-Since Holly Springs uses the exact same CivicClerk platform and 100% shares code with Alpharetta, it will have the same selector issues.
+**Implementation**:
+Since Holly Springs uses the exact same CivicClerk platform and inherits from `AlpharettaScraper`, no code changes were needed. It automatically benefited from the Alpharetta fixes.
+
+**Key Code**:
+```python
+class HollySpringScraper(AlpharettaScraper):
+    JURISDICTION = Jurisdiction.HOLLY_SPRINGS
+    BASE_URL = "https://hollyspringsga.portal.civicclerk.com"
+    # Everything else inherited from Alpharetta!
+```
+
+**Output**:
+```
+📊 City of Holly Springs 스크래핑 결과
+   발견: 5개
+   신규: 5개
+   스킵: 0개
+   에러: 0개
+   소요 시간: 7.4초
+```
 
 ---
 
@@ -132,19 +157,21 @@ Since Holly Springs uses the exact same CivicClerk platform and 100% shares code
 📊 데이터베이스 통계
 
 전체:
-  총 문서: 8개
-  지자체: 2개
-  회의: 3개
-  기간: 2025-12-08 ~ 2025-12-16
+  총 문서: 18개
+  지자체: 4개
+  회의: 9개
+  기간: 2025-11-19 ~ 2025-12-16
 
 지자체별:
+  alpharetta          :    5개  (2025-12-02 ~ 2025-12-11)
   cherokee            :    3개  (2025-12-15 ~ 2025-12-16)
+  holly_springs       :    5개  (2025-11-19 ~ 2025-12-11)
   marietta            :    5개  (2025-12-08 ~ 2025-12-08)
 
 문서 타입별:
   agenda    :    5개
   minutes   :    1개
-  packet    :    2개
+  packet    :   12개
 ```
 
 ---
@@ -187,27 +214,50 @@ if len(cells) < 3:
 
 **Reason**: Container ID changed from `#agendaCenter` to `#AgendaCenterContent`
 
-### 3. Alpharetta/Holly Springs - Missing __init__ Methods
+### 3. Alpharetta - Complete Scraper Rewrite
 
-**Files**:
-- `/src/scrapers/alpharetta.py`
-- `/src/scrapers/holly_springs.py`
+**File**: `/src/scrapers/alpharetta.py`
+**Lines**: Entire file (167 lines)
 
-**Added**:
+**Problem**: Phase 0 research misidentified the HTML structure. CivicClerk uses a complex React SPA with Material-UI components, not the simple class-based selectors that were assumed.
+
+**Solution**: Completely rewrote the scraper based on actual rendered HTML analysis.
+
+**Key Changes**:
 ```python
-def __init__(self):
-    """Initialize Alpharetta scraper"""
-    super().__init__(Jurisdiction.ALPHARETTA)
+# OLD (Incorrect):
+WAIT_FOR_SELECTOR = ".meeting-list, [data-meetings], .meetings, .agenda-list"
+# Selector didn't exist - caused 30s timeout
+
+# NEW (Correct):
+WAIT_FOR_SELECTOR = "a[data-id]"
+# Waits for event links to load
+
+# NEW Parsing Logic:
+event_links = soup.select('a[data-id][href*="/event/"][href*="/files"]')
+event_id = event_link.get("data-id")
+event_url = urljoin(BASE_URL, event_link.get("href"))
+
+# Date from data-date attribute (ISO 8601)
+date_str = event_row.get("data-date")  # "2025-12-02T17:30:00Z"
+meeting_date = datetime.fromisoformat(date_str.replace('Z', '+00:00')).date()
+
+# Title from predictable ID
+title_elem = soup.find("h3", id=f"eventListRow-{event_id}-title")
 ```
 
-```python
-def __init__(self):
-    """Initialize Holly Springs scraper"""
-    from .base import BaseScraper
-    BaseScraper.__init__(self, Jurisdiction.HOLLY_SPRINGS)
-```
+**Reason**: The actual CivicClerk platform uses:
+- React-rendered dynamic class names
+- `data-testid` and `data-id` attributes for identification
+- `/event/{id}/files` URL pattern for document pages
+- ISO 8601 date format in `data-date` attributes
 
-**Reason**: PlaywrightScraper subclasses didn't have `__init__` methods to pass jurisdiction to BaseScraper
+### 4. Holly Springs - Automatic Fix
+
+**File**: `/src/scrapers/holly_springs.py`
+**Changes**: None needed
+
+**Reason**: Holly Springs inherits from `AlpharettaScraper`, so it automatically benefited from all Alpharetta fixes. This demonstrates excellent code reuse through inheritance.
 
 ---
 
@@ -215,15 +265,15 @@ def __init__(self):
 
 ### High Priority
 
-1. **Alpharetta & Holly Springs Selectors** (BLOCKER)
-   - Current selectors don't match the actual HTML structure
-   - Need to analyze the rendered React app to identify correct selectors
-   - May need different waiting strategy (API calls, scroll to load, etc.)
-   - Estimated effort: 2-4 hours
+~~1. **Alpharetta & Holly Springs Selectors** (BLOCKER)~~ ✅ **RESOLVED**
+   - ~~Current selectors don't match the actual HTML structure~~
+   - ~~Need to analyze the rendered React app to identify correct selectors~~
+   - ✅ Completely rewrote scraper with correct selectors
+   - ✅ Both scrapers now passing all tests
 
 ### Medium Priority
 
-2. **HTML Structure Fragility**
+2. **HTML Structure Fragility** (Ongoing)
    - Cherokee and Marietta both had selector changes
    - Suggests that scrapers are brittle to upstream HTML changes
    - Consider:
@@ -237,13 +287,14 @@ def __init__(self):
 
 ### Immediate Actions
 
-1. **Fix Alpharetta/Holly Springs**:
-   - Use browser DevTools to inspect the actual rendered HTML
-   - Identify the correct selectors for event/meeting items
-   - Test with actual date selection or scrolling
-   - Update selectors in `/src/scrapers/alpharetta.py`
+~~1. **Fix Alpharetta/Holly Springs**:~~ ✅ **COMPLETED**
+   - ~~Use browser DevTools to inspect the actual rendered HTML~~
+   - ~~Identify the correct selectors for event/meeting items~~
+   - ~~Test with actual date selection or scrolling~~
+   - ~~Update selectors in `/src/scrapers/alpharetta.py`~~
+   - ✅ Scraper completely rewritten and tested successfully
 
-2. **Add Selector Tests**:
+2. **Add Selector Tests** (Recommended):
    - Create simple validation scripts to check if selectors still exist
    - Run before production scraping
    - Alert if selectors change
@@ -281,28 +332,34 @@ def __init__(self):
 
 ## Conclusion
 
-**Success Rate**: 2/4 jurisdictions (50%)
+**Success Rate**: 4/4 jurisdictions (100%) 🎉
 
-**Working**:
-- ✅ Cherokee County (with fix)
-- ✅ City of Marietta (with fix)
-
-**Not Working**:
-- ❌ City of Alpharetta (selector mismatch)
-- ❌ City of Holly Springs (same issue as Alpharetta)
+**All Working**:
+- ✅ Cherokee County (fixed HTML structure validation)
+- ✅ City of Marietta (fixed CSS selector)
+- ✅ City of Alpharetta (completely rewrote scraper)
+- ✅ City of Holly Springs (inherited from Alpharetta)
 
 **Key Findings**:
-1. Server-rendered sites (Cherokee, Marietta) work well with minor fixes
-2. JavaScript SPAs (Alpharetta, Holly Springs) require different selectors than designed
-3. HTML structures change frequently - scrapers are fragile
-4. Phase 0 research may have been outdated or incomplete for CivicClerk
+1. **Server-rendered sites** (Cherokee, Marietta) work well with minor fixes (~2s each)
+2. **JavaScript SPAs** (Alpharetta, Holly Springs) require Playwright and careful HTML analysis (~7s each)
+3. **HTML structures DO change** - all 4 jurisdictions needed fixes from Phase 0 research
+4. **Phase 0 research limitations**: CivicClerk structure was misidentified, requiring full rewrite
+5. **Code reuse works**: Holly Springs got automatic fix through inheritance
 
-**Next Steps**:
-1. Fix Alpharetta/Holly Springs selectors (estimated 2-4 hours)
-2. Add selector validation tests
-3. Consider LLM-based selector extraction for Phase 4
+**Fixes Applied**:
+- **Cherokee**: Cell count validation (5→3 minimum cells)
+- **Marietta**: CSS selector update (#agendaCenter → #AgendaCenterContent)
+- **Alpharetta**: Complete scraper rewrite using correct React SPA structure
+- **Holly Springs**: Automatic through inheritance
 
-**Overall Assessment**: Core functionality works for 50% of jurisdictions. With selector fixes, expect 100% success rate.
+**Performance**:
+- **Total Documents**: 18 across 4 jurisdictions
+- **Total Time**: ~18 seconds for all 4 scrapers
+- **Average per Jurisdiction**: 4.5 documents, 4.5 seconds
+- **Error Rate**: 0%
+
+**Overall Assessment**: ✅ **All scrapers working perfectly**. The project successfully scrapes all 4 Georgia municipalities with 100% success rate. Ready for production use with continuous monitoring for HTML structure changes.
 
 ---
 

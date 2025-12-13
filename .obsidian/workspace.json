@@ -251,8 +251,10 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "1a1a829862bdb01e",
+  "active": "e3fbcfbccceee16e",
   "lastOpenFiles": [
+    "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md.tmp.90823.1765587142839",
+    "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md.tmp.90823.1765587110785",
     "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md",
     "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md.tmp.90823.1765586350736",
     "assignment/zonagent/IMPLEMENTATION-MASTER.md",
@@ -264,7 +266,6 @@
     "assignment/zonagent/mvp/src/scrapers/__pycache__/marietta.cpython-314.pyc",
     "assignment/zonagent/mvp/src/scrapers/__pycache__/cherokee.cpython-314.pyc",
     "assignment/zonagent/mvp/src/scrapers/__pycache__/base.cpython-314.pyc",
-    "assignment/zonagent/mvp/src/scrapers/__pycache__/__init__.cpython-314.pyc",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
@@ -291,7 +292,6 @@
     "assignment/zonagent/research/PHASE0-FINAL-REPORT.md",
     "assignment/zonagent/mvp/PHASE1-COMPLETE.md",
     "assignment/zonagent/mvp/PHASE3-COMPLETE.md",
-    "assignment/zonagent/mvp/PHASE3-PLAN.md",
     "marp/img.png",
     "marp/KakaoTalk_Photo_2025-07-28-01-49-44.png",
     "marp/img_2.png",
