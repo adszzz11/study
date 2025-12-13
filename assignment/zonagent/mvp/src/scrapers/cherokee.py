@@ -133,8 +133,8 @@ class CherokeeScraper(BaseScraper):
         """
         cells = row.select(self.SELECTORS["cells"])
 
-        if len(cells) < 5:
-            raise ValueError(f"Expected 5 cells, got {len(cells)}")
+        if len(cells) < 3:
+            raise ValueError(f"Expected at least 3 cells, got {len(cells)}")
 
         # 회의 정보 추출
         meeting_name = cells[0].get_text(strip=True)

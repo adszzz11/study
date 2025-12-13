@@ -27,7 +27,7 @@ class MariettaScraper(BaseScraper):
 
     # CSS Selectors (Phase 0에서 확인됨)
     SELECTORS = {
-        "agenda_center": "#agendaCenter",
+        "agenda_center": "#AgendaCenterContent",
         "meeting_rows": ".catAgendaRow",
         "meeting_date_strong": "strong",  # <strong>Dec 8, 2025</strong>
         "meeting_title_link": "a[href*='ViewFile/Agenda']",

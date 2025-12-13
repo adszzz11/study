@@ -25,6 +25,12 @@ class HollySpringScraper(AlpharettaScraper):
     JURISDICTION = Jurisdiction.HOLLY_SPRINGS
     BASE_URL = "https://hollyspringsga.portal.civicclerk.com"
 
+    def __init__(self):
+        """Initialize Holly Springs scraper"""
+        # Override parent's __init__ to use correct jurisdiction
+        from .base import BaseScraper
+        BaseScraper.__init__(self, Jurisdiction.HOLLY_SPRINGS)
+
     # 나머지는 모두 Alpharetta 상속
     # - WAIT_FOR_SELECTOR
     # - SELECTORS

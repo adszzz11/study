@@ -34,6 +34,10 @@ class AlpharettaScraper(PlaywrightScraper):
     WAIT_TIMEOUT = 30000  # 30초
     HEADLESS = True
 
+    def __init__(self):
+        """Initialize Alpharetta scraper"""
+        super().__init__(Jurisdiction.ALPHARETTA)
+
     # CSS Selectors (로컬 테스트 후 조정 필요)
     # CivicClerk의 일반적인 패턴 가정
     SELECTORS = {
