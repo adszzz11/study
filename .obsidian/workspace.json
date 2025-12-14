@@ -10,7 +10,7 @@
           {
             "id": "443d073fd6e64a1a",
             "type": "tabs",
-            "dimension": 49.236111111111114,
+            "dimension": 22.790697674418606,
             "children": [
               {
                 "id": "e3fbcfbccceee16e",
@@ -31,7 +31,7 @@
           {
             "id": "7d423d695e082d03",
             "type": "tabs",
-            "dimension": 50.763888888888886,
+            "dimension": 77.20930232558139,
             "children": [
               {
                 "id": "1a1a829862bdb01e",
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Requirements Review"
+                  "title": "터미널: ✳ D 선택"
                 }
               }
             ]
@@ -253,6 +253,8 @@
   },
   "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
+    "assignment/zonagent/요구사항-명세.md",
+    "assignment/zonagent/요구사항-명세.md.tmp.90823.1765727636208",
     "assignment/zonagent/요구사항-분석/요구사항-분류.md",
     "assignment/zonagent/요구사항-분석/Assignment-Description.md",
     "assignment/zonagent/요구사항-분석/README.md",
@@ -284,11 +286,9 @@
     "assignment/zonagent/삭제/research-불필요파일/PHASE0-SUMMARY.md",
     "assignment/zonagent/삭제/research-불필요파일/PHASE0-FINAL-REPORT.md",
     "assignment/zonagent/삭제/research-불필요파일",
-    "assignment/zonagent/삭제/프로젝트-문서/README.md",
     "assignment/zonagent/삭제/프로젝트-문서",
     "assignment/zonagent/삭제",
     "assignment/zonagent/README.md.tmp.90823.1765701861057",
-    "assignment/zonagent/프로젝트-문서/README.md.tmp.90823.1765701783604",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
