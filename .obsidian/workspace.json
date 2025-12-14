@@ -69,7 +69,46 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ POST 요청 방식"
+                  "title": "터미널: ✳ Repository Push Process"
+                }
+              },
+              {
+                "id": "192de2cbeebb4d57",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/leetangle/code/Note",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/zsh",
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "터미널: leetangle@leetangleui-MacBookPro:~/code/Note"
                 }
               }
             ]
@@ -253,6 +292,17 @@
   },
   "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
+    "assignment/zonagent/README.md.tmp.90823.1765732906681",
+    "assignment/zonagent/data/README.md",
+    "assignment/zonagent/data/README.md.tmp.90823.1765732829683",
+    "assignment/zonagent/data/files/rules",
+    "assignment/zonagent/data/files/pdfs",
+    "assignment/zonagent/data/files/markdowns",
+    "assignment/zonagent/data/files/extracted",
+    "assignment/zonagent/data/files",
+    "assignment/zonagent/data",
+    "assignment/zonagent/DEVELOPMENT-GUIDE.md",
+    "assignment/zonagent/PROGRESS.md",
     "assignment/zonagent/요구사항-명세.md",
     "assignment/zonagent/요구사항-명세.md.tmp.90823.1765727636208",
     "assignment/zonagent/요구사항-분석/요구사항-분류.md",
@@ -277,18 +327,7 @@
     "assignment/zonagent/계획/README.md",
     "assignment/zonagent/계획/implementation-plan/phase-0-research.md",
     "assignment/zonagent/계획/implementation-plan/phase-2-expansion.md",
-    "assignment/zonagent/삭제/research-불필요파일/requirements.txt",
-    "assignment/zonagent/삭제/research-불필요파일/fetch_cherokee_html.py",
-    "assignment/zonagent/삭제/research-불필요파일/fetch_alpharetta_html.py",
     "assignment/zonagent/삭제/research-불필요파일/README.md",
-    "assignment/zonagent/삭제/research-불필요파일/NEXT-STEPS.md",
-    "assignment/zonagent/삭제/research-불필요파일/phase0-progress.md",
-    "assignment/zonagent/삭제/research-불필요파일/PHASE0-SUMMARY.md",
-    "assignment/zonagent/삭제/research-불필요파일/PHASE0-FINAL-REPORT.md",
-    "assignment/zonagent/삭제/research-불필요파일",
-    "assignment/zonagent/삭제/프로젝트-문서",
-    "assignment/zonagent/삭제",
-    "assignment/zonagent/README.md.tmp.90823.1765701861057",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
