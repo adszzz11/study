@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "assignment/zonagent/계획/implementation-plan/detailed-design.md",
+                    "file": "assignment/zonagent/요구사항-분석/요구사항-분류.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "detailed-design"
+                  "title": "요구사항-분류"
                 }
               }
             ]
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 파일 정리 작업"
+                  "title": "터미널: ✳ 계획 재검토"
                 }
               }
             ]
@@ -253,6 +253,28 @@
   },
   "active": "e3fbcfbccceee16e",
   "lastOpenFiles": [
+    "assignment/zonagent/요구사항-분석/Assignment-Description.md",
+    "assignment/zonagent/요구사항-분석/요구사항-분류.md",
+    "assignment/zonagent/요구사항-분석/README.md",
+    "assignment/zonagent/삭제/계획/implementation-plan/phase-3-completion.md",
+    "assignment/zonagent/삭제/계획/implementation-plan/phase-2-expansion.md",
+    "assignment/zonagent/삭제/계획/implementation-plan/phase-1-mvp.md",
+    "assignment/zonagent/삭제/계획/implementation-plan/phase-0-research.md",
+    "assignment/zonagent/삭제/계획/implementation-plan/implementation-roadmap.md",
+    "assignment/zonagent/삭제/계획/implementation-plan/detailed-design.md",
+    "assignment/zonagent/삭제/계획/implementation-plan/README.md",
+    "assignment/zonagent/삭제/계획/implementation-plan",
+    "assignment/zonagent/삭제/계획/README.md",
+    "assignment/zonagent/삭제/계획/IMPLEMENTATION-MASTER.md",
+    "assignment/zonagent/삭제/계획",
+    "assignment/zonagent/계획/implementation-plan/README.md",
+    "assignment/zonagent/계획/implementation-plan/phase-1-mvp.md",
+    "assignment/zonagent/계획/implementation-plan/phase-3-completion.md",
+    "assignment/zonagent/계획/IMPLEMENTATION-MASTER.md",
+    "assignment/zonagent/계획/implementation-plan/detailed-design.md",
+    "assignment/zonagent/계획/README.md",
+    "assignment/zonagent/계획/implementation-plan/phase-0-research.md",
+    "assignment/zonagent/계획/implementation-plan/phase-2-expansion.md",
     "assignment/zonagent/삭제/research-불필요파일/requirements.txt",
     "assignment/zonagent/삭제/research-불필요파일/fetch_cherokee_html.py",
     "assignment/zonagent/삭제/research-불필요파일/fetch_alpharetta_html.py",
@@ -263,35 +285,13 @@
     "assignment/zonagent/삭제/research-불필요파일/PHASE0-FINAL-REPORT.md",
     "assignment/zonagent/삭제/research-불필요파일",
     "assignment/zonagent/삭제/프로젝트-문서/README.md",
-    "assignment/zonagent/삭제/프로젝트-문서/PROJECT-SUMMARY.md",
-    "assignment/zonagent/삭제/프로젝트-문서/FINAL-SUMMARY.md",
-    "assignment/zonagent/삭제/프로젝트-문서/FINAL-CHECKLIST.md",
     "assignment/zonagent/삭제/프로젝트-문서",
     "assignment/zonagent/삭제",
-    "assignment/zonagent/프로젝트-문서/FINAL-CHECKLIST.md",
-    "assignment/zonagent/프로젝트-문서/FINAL-SUMMARY.md",
-    "assignment/zonagent/구현체/mvp/PHASE3-PLAN.md",
     "assignment/zonagent/README.md.tmp.90823.1765701861057",
-    "assignment/zonagent/프로젝트-문서/README.md",
     "assignment/zonagent/프로젝트-문서/README.md.tmp.90823.1765701783604",
-    "assignment/zonagent/프로젝트-문서/PROJECT-SUMMARY.md",
-    "assignment/zonagent/프로젝트-문서",
-    "assignment/zonagent/구현체/README.md",
-    "assignment/zonagent/PROJECT-SUMMARY.md",
-    "assignment/zonagent/FINAL-CHECKLIST.md",
-    "assignment/zonagent/README.md.tmp.90823.1765701500473",
-    "assignment/zonagent/계획/README.md",
-    "assignment/zonagent/요구사항-분석/README.md",
-    "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/assets/xtermModule-CsJ4vdCR.js",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
-    "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-    "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/README.md",
-    "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
-    "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/soupsieve-2.8.dist-info/licenses/LICENSE.md",
-    "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/README.md",
-    "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
