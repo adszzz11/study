@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 계획 재검토"
+                  "title": "터미널: ✳ Requirements Review"
                 }
               }
             ]
@@ -251,10 +251,10 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e3fbcfbccceee16e",
+  "active": "1a1a829862bdb01e",
   "lastOpenFiles": [
-    "assignment/zonagent/요구사항-분석/Assignment-Description.md",
     "assignment/zonagent/요구사항-분석/요구사항-분류.md",
+    "assignment/zonagent/요구사항-분석/Assignment-Description.md",
     "assignment/zonagent/요구사항-분석/README.md",
     "assignment/zonagent/삭제/계획/implementation-plan/phase-3-completion.md",
     "assignment/zonagent/삭제/계획/implementation-plan/phase-2-expansion.md",
