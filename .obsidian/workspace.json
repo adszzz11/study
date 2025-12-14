@@ -10,7 +10,7 @@
           {
             "id": "443d073fd6e64a1a",
             "type": "tabs",
-            "dimension": 47.140221402214024,
+            "dimension": 49.236111111111114,
             "children": [
               {
                 "id": "e3fbcfbccceee16e",
@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "assignment/zonagent/IMPLEMENTATION-MASTER.md",
+                    "file": "assignment/zonagent/과제-분석.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "IMPLEMENTATION-MASTER"
+                  "title": "과제-분석"
                 }
               }
             ]
@@ -31,7 +31,7 @@
           {
             "id": "7d423d695e082d03",
             "type": "tabs",
-            "dimension": 52.859778597785976,
+            "dimension": 50.763888888888886,
             "children": [
               {
                 "id": "1a1a829862bdb01e",
@@ -253,11 +253,17 @@
   },
   "active": "e3fbcfbccceee16e",
   "lastOpenFiles": [
+    "assignment/zonagent/분류-요약.md",
+    "assignment/zonagent/specs/1-확실한-요구사항/제출물-명세.md",
+    "assignment/zonagent/FINAL-CHECKLIST.md",
+    "assignment/zonagent/Assignment-Description.md",
+    "assignment/zonagent/요구사항-분류.md",
+    "assignment/zonagent/과제-분석.md",
+    "assignment/zonagent/IMPLEMENTATION-MASTER.md",
     "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md.tmp.90823.1765587142839",
     "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md.tmp.90823.1765587110785",
     "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md",
     "assignment/zonagent/mvp/LOCAL-TEST-RESULTS.md.tmp.90823.1765586350736",
-    "assignment/zonagent/IMPLEMENTATION-MASTER.md",
     "assignment/zonagent/mvp/src/scrapers/cherokee.py.tmp.90823.1765585437825",
     "assignment/zonagent/mvp/data/documents.db",
     "assignment/zonagent/mvp/src/scrapers/__pycache__/holly_springs.cpython-314.pyc",
@@ -265,7 +271,6 @@
     "assignment/zonagent/mvp/src/scrapers/__pycache__/alpharetta.cpython-314.pyc",
     "assignment/zonagent/mvp/src/scrapers/__pycache__/marietta.cpython-314.pyc",
     "assignment/zonagent/mvp/src/scrapers/__pycache__/cherokee.cpython-314.pyc",
-    "assignment/zonagent/mvp/src/scrapers/__pycache__/base.cpython-314.pyc",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
@@ -279,7 +284,6 @@
     "assignment/zonagent/mvp/venv/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
     "assignment/zonagent/PROJECT-SUMMARY.md",
     "assignment/zonagent/README.md",
-    "assignment/zonagent/Assignment-Description.md",
     "assignment/zonagent/implementation-plan/README.md",
     "assignment/zonagent/implementation-plan/phase-3-completion.md",
     "assignment/zonagent/implementation-plan/phase-2-expansion.md",
@@ -287,11 +291,7 @@
     "assignment/zonagent/implementation-plan/phase-0-research.md",
     "assignment/zonagent/implementation-plan/implementation-roadmap.md",
     "assignment/zonagent/implementation-plan/detailed-design.md",
-    "assignment/zonagent/FINAL-CHECKLIST.md",
     "assignment/zonagent/mvp/PHASE4-PLAN.md",
-    "assignment/zonagent/research/PHASE0-FINAL-REPORT.md",
-    "assignment/zonagent/mvp/PHASE1-COMPLETE.md",
-    "assignment/zonagent/mvp/PHASE3-COMPLETE.md",
     "marp/img.png",
     "marp/KakaoTalk_Photo_2025-07-28-01-49-44.png",
     "marp/img_2.png",
