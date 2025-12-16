@@ -10,7 +10,7 @@
           {
             "id": "443d073fd6e64a1a",
             "type": "tabs",
-            "dimension": 54.513888888888886,
+            "dimension": 78.19444444444444,
             "children": [
               {
                 "id": "e3fbcfbccceee16e",
@@ -25,13 +25,28 @@
                   "icon": "lucide-file",
                   "title": "요구사항-기획"
                 }
+              },
+              {
+                "id": "7526330dbc680d21",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ㅁㄴㅇㄹ.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ㅁㄴㅇㄹ"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "7d423d695e082d03",
             "type": "tabs",
-            "dimension": 45.48611111111111,
+            "dimension": 21.805555555555557,
             "children": [
               {
                 "id": "1a1a829862bdb01e",
@@ -291,8 +306,9 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "192de2cbeebb4d57",
+  "active": "7526330dbc680d21",
   "lastOpenFiles": [
+    "ㅁㄴㅇㄹ.md",
     "프로그라피/요구사항-기획.md",
     "프로그라피/요구사항-QA.md.tmp.32430.1765847867613",
     "프로그라피/요구사항-백엔드.md.tmp.32430.1765847839415",
