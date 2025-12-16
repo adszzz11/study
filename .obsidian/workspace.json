@@ -108,7 +108,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 언어 필터링 요청"
+                  "title": "터미널: ✳ 문구 수정 요청"
                 }
               }
             ],
@@ -291,10 +291,12 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e3fbcfbccceee16e",
+  "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
-    "프로그라피/요구사항-기획.md.tmp.32430.1765815131856",
     "프로그라피/요구사항-기획.md",
+    "프로그라피/요구사항-QA.md.tmp.32430.1765847867613",
+    "프로그라피/요구사항-백엔드.md.tmp.32430.1765847839415",
+    "프로그라피/요구사항-기획.md.tmp.32430.1765815131856",
     "프로그라피/요구사항-디자인.md",
     "프로그라피/요구사항-백엔드.md",
     "프로그라피/요구사항-QA.md",
@@ -314,9 +316,6 @@
     "assignment/zonagent/data/README.md.tmp.90823.1765732829683",
     "assignment/zonagent/data/files/rules",
     "assignment/zonagent/data/files/pdfs",
-    "assignment/zonagent/data/files/markdowns",
-    "assignment/zonagent/data/files/extracted",
-    "assignment/zonagent/data/files",
     "assignment/zonagent/DEVELOPMENT-GUIDE.md",
     "assignment/zonagent/PROGRESS.md",
     "assignment/zonagent/요구사항-명세.md",
