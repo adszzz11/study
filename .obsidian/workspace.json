@@ -34,45 +34,6 @@
             "dimension": 29.5,
             "children": [
               {
-                "id": "1a1a829862bdb01e",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/leetangle/code/Note",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/zsh",
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "터미널: leetangle@leetangleui-MacBookPro:~/code/Note"
-                }
-              },
-              {
                 "id": "192de2cbeebb4d57",
                 "type": "leaf",
                 "pinned": true,
@@ -108,11 +69,10 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: zsh"
+                  "title": "터미널: ✳ PO 파트 검토"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -291,13 +251,15 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e3fbcfbccceee16e",
+  "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
+    "프로그라피/산출물 인터뷰 - PM.md",
+    "프로그라피/산출물 인터뷰 - PO.md",
+    "프로그라피/raw/PM.md",
     "프로그라피/산출물 인터뷰 - 프론트엔드.md",
     "프로그라피/산출물 인터뷰 - iOS.md",
     "프로그라피/산출물 인터뷰 - QA.md",
     "프로그라피/산출물 인터뷰 - 디자이너.md",
-    "프로그라피/raw/PM.md",
     "프로그라피/산출물 인터뷰 - 디자인.md",
     "프로그라피/산출물 인터뷰 - 백엔드.md",
     "프로그라피/산출물 인터뷰 - AOS.md",
@@ -327,8 +289,6 @@
     "assignment/zonagent/data/files/rules",
     "assignment/zonagent/data/files/pdfs",
     "assignment/zonagent/DEVELOPMENT-GUIDE.md",
-    "assignment/zonagent/PROGRESS.md",
-    "assignment/zonagent/요구사항-명세.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
