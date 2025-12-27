@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "프로그라피/raw/PM.md",
+                    "file": "인터뷰/지원자/global interview/Zonagent 면접 준비 가이드.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "PM"
+                  "title": "Zonagent 면접 준비 가이드"
                 }
               }
             ]
@@ -253,6 +253,9 @@
   },
   "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview/Zonagent 면접 준비 가이드.md",
+    "인터뷰/지원자/면접 질문 리스트 - 경력 기반.md",
+    "인터뷰/지원자/면접 질문 리스트 - 기술스택 기반.md",
     "인터뷰/지원자/global interview",
     "프로그라피/산출물 인터뷰 - PM.md",
     "프로그라피/산출물 인터뷰 - PO.md",
@@ -282,13 +285,10 @@
     "프로그라피/요구사항-QA.md.tmp.32430.1765809579391",
     "프로그라피/요구사항-기획.md.tmp.32430.1765809465525",
     "프로그라피/raw/AOS.md",
-    "프로그라피/raw/iOS.md",
     "프로그라피/raw",
     "assignment/zonagent/README.md.tmp.90823.1765732906681",
-    "assignment/zonagent/data/README.md",
     "assignment/zonagent/data/README.md.tmp.90823.1765732829683",
     "assignment/zonagent/data/files/rules",
-    "assignment/zonagent/data/files/pdfs",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
