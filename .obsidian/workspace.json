@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "인터뷰/지원자/global interview/Zonagent/03-기술경험/Most-challenging-technical-problem.md",
+                    "file": "인터뷰/지원자/global interview/CEO-Interview-Questions/02-왜-현재-회사를-떠나려-하나요.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Most-challenging-technical-problem"
+                  "title": "02-왜-현재-회사를-떠나려-하나요"
                 }
               }
             ]
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Interview Questions"
+                  "title": "터미널: ✳ Zonagent 면접 준비"
                 }
               }
             ]
@@ -132,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 490.5
+    "width": 343.5
   },
   "right": {
     "id": "984a139b6e2a9e85",
@@ -253,42 +253,42 @@
   },
   "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/27-여기-말고-다른-곳에서-오퍼-받은-곳이-있나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/26-처우-협상-급여-주식-복리후생.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/25-이전-직장에서-무엇을-했나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/24-왜-이직하려고-하시나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/23-어떻게-성장하고-싶으신가요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/100-마지막으로-하고-싶은-말.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/100-마지막으로-하고-싶은-말.md.tmp.50369.1766853660565",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/99-동료들이-나를-어떻게-묘사할까요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/98-5년-후-목표.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/97-급변하는-우선순위-처리.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/96-Zonagent에-어떤-가치를-가져오나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/95-가장-자랑스러운-프로젝트.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/94-성능-최적화-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/93-여러-시스템-통합-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/92-프로덕션-문제-디버깅-방법.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/92-프로덕션-문제-디버깅-방법.md.tmp.50369.1766853448169",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/91-기술-부채-관리-방법.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/90-레거시-시스템-현대화-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/89-최악의-기술-결정-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/88-저희에게-질문-있으신가요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/87-첫-30일-계획.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/86-원격-근무-생산성-유지.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/85-시간대-차이-극복-전략.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/84-모호한-요구사항-처리.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/84-모호한-요구사항-처리.md.tmp.50369.1766853211890",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/83-여러-이해관계자-요구사항-균형.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/82-코드-리뷰-접근-방식.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/81-기술-트렌드를-어떻게-따라가나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/81-기술-트렌드를-어떻게-따라가나요.md.tmp.50369.1766853123759",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/80-ML을-위한-데이터-준비-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/80-ML을-위한-데이터-준비-경험.md.tmp.50369.1766853099411",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/79-기술-문서화를-어떻게-하나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/78-검색-시스템-구축-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/77-실시간-데이터-처리-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/76-AI-추론-파이프라인-설계.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/75-벡터-데이터베이스-경험이-있나요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/23-어떻게-성장하고-싶으신가요.md.tmp.50369.1766843945755",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/22-여기-와서-무엇을-하고-싶나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/21-우리-회사를-어떻게-알게-되었나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/20-마지막으로-하고-싶은-말이-있나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/19-가장-자랑스러운-성과는-무엇인가요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/18-우리에게-질문이-있나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/17-다른-회사도-면접-보고-있나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/16-언제부터-시작할-수-있나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/15-급여-기대치가-어떻게-되나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/14-영어-커뮤니케이션에-얼마나-자신있나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/13-실패-경험에-대해-말해주세요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/12-우리-회사에-어떤-기여를-할-수-있나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/11-리더십-경험에-대해-말해주세요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/11-리더십-경험에-대해-말해주세요.md.tmp.50369.1766843610957",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/10-스트레스-상황에서-어떻게-일하시나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/09-동료와-의견-충돌이-있었던-경험을-말해주세요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/08-어려운-기술적-결정을-내려야-했던-경험을-말해주세요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/07-왜-스타트업에서-일하고-싶으신가요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/06-시차가-있는-원격-근무를-어떻게-처리하시겠습니까.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/05-당신의-가장-큰-약점은-무엇인가요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/04-5년-후-어디에-있고-싶나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/03-우리-회사에-왜-관심을-갖게-됐나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/02-왜-현재-회사를-떠나려-하나요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/02-왜-현재-회사를-떠나려-하나요.md.tmp.50369.1766843432378",
     "인터뷰/지원자/global interview/CEO-Interview-Questions",
     "인터뷰/지원자/global interview/Zonagent/10-질문하기",
-    "인터뷰/지원자/global interview/Zonagent/09-리더십",
-    "인터뷰/지원자/global interview/Zonagent/08-기술역량",
-    "인터뷰/지원자/global interview/Zonagent/07-자기PR",
-    "인터뷰/지원자/global interview/Zonagent/06-커리어목표",
-    "인터뷰/지원자/global interview/Zonagent/05-실패경험",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
