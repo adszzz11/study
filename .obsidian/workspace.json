@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: zsh"
+                  "title": "터미널: ✳ Interview content setup"
                 }
               }
             ]
@@ -253,6 +253,7 @@
   },
   "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview",
     "프로그라피/산출물 인터뷰 - PM.md",
     "프로그라피/산출물 인터뷰 - PO.md",
     "프로그라피/raw/PM.md",
@@ -288,7 +289,6 @@
     "assignment/zonagent/data/README.md.tmp.90823.1765732829683",
     "assignment/zonagent/data/files/rules",
     "assignment/zonagent/data/files/pdfs",
-    "assignment/zonagent/DEVELOPMENT-GUIDE.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
