@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "인터뷰/지원자/global interview/Zonagent 면접 준비 가이드.md",
+                    "file": "인터뷰/지원자/global interview/Zonagent/03-기술경험/Most-challenging-technical-problem.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Zonagent 면접 준비 가이드"
+                  "title": "Most-challenging-technical-problem"
                 }
               }
             ]
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Interview content setup"
+                  "title": "터미널: ✳ 면접 준비 가이드"
                 }
               }
             ]
@@ -253,10 +253,31 @@
   },
   "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview/Zonagent/03-기술경험/Most-challenging-technical-problem.md",
+    "인터뷰/지원자/global interview/Zonagent/02-지원동기/Why-do-you-want-to-join-Zonagent.md",
+    "인터뷰/지원자/global interview/Zonagent/01-자기소개/Tell-me-about-yourself.md",
+    "인터뷰/지원자/global interview/Zonagent/00-회사개요/회사-개요.md",
+    "인터뷰/지원자/global interview/Zonagent/00-회사개요/면접-체크리스트.md",
+    "인터뷰/지원자/global interview/Zonagent/10-질문하기/Questions-for-interviewer.md",
+    "인터뷰/지원자/global interview/Zonagent/09-리더십/Leadership-experience.md",
+    "인터뷰/지원자/global interview/Zonagent/08-기술역량/System-scalability-approach.md",
+    "인터뷰/지원자/global interview/Zonagent/07-자기PR/Why-should-we-hire-you.md",
+    "인터뷰/지원자/global interview/Zonagent/06-커리어목표/What-are-you-looking-for.md",
+    "인터뷰/지원자/global interview/Zonagent/05-실패경험/Tell-me-about-a-time-you-failed.md",
+    "인터뷰/지원자/global interview/Zonagent/04-업무스타일/Fast-paced-ambiguous-environment.md",
+    "인터뷰/지원자/global interview/Zonagent/10-질문하기",
+    "인터뷰/지원자/global interview/Zonagent/09-리더십",
+    "인터뷰/지원자/global interview/Zonagent/08-기술역량",
+    "인터뷰/지원자/global interview/Zonagent/07-자기PR",
+    "인터뷰/지원자/global interview/Zonagent/06-커리어목표",
+    "인터뷰/지원자/global interview/Zonagent/05-실패경험",
+    "인터뷰/지원자/global interview/Zonagent/04-업무스타일",
+    "인터뷰/지원자/global interview/Zonagent/03-기술경험",
+    "인터뷰/지원자/global interview/Zonagent/02-지원동기",
+    "인터뷰/지원자/global interview/Zonagent/01-자기소개",
     "인터뷰/지원자/global interview/Zonagent 면접 준비 가이드.md",
     "인터뷰/지원자/면접 질문 리스트 - 경력 기반.md",
     "인터뷰/지원자/면접 질문 리스트 - 기술스택 기반.md",
-    "인터뷰/지원자/global interview",
     "프로그라피/산출물 인터뷰 - PM.md",
     "프로그라피/산출물 인터뷰 - PO.md",
     "프로그라피/raw/PM.md",
@@ -268,27 +289,6 @@
     "프로그라피/산출물 인터뷰 - 백엔드.md",
     "프로그라피/산출물 인터뷰 - AOS.md",
     "프로그라피/산출물 인터뷰 - 기획.md",
-    "프로그라피/raw/디자이너.md",
-    "프로그라피/raw/프론트엔드.md",
-    "프로그라피/요구사항-백엔드.md",
-    "프로그라피/요구사항-QA.md",
-    "프로그라피/프론트엔드-인터뷰-가이드.md",
-    "프로그라피/AOS-인터뷰-가이드.md",
-    "프로그라피/iOS-인터뷰-가이드.md",
-    "프로그라피/요구사항-디자인.md",
-    "프로그라피/요구사항-기획.md",
-    "프로그라피/디자이너-인터뷰-가이드.md",
-    "ㅁㄴㅇㄹ.md",
-    "프로그라피/요구사항-QA.md.tmp.32430.1765847867613",
-    "프로그라피/요구사항-백엔드.md.tmp.32430.1765847839415",
-    "프로그라피/요구사항-기획.md.tmp.32430.1765815131856",
-    "프로그라피/요구사항-QA.md.tmp.32430.1765809579391",
-    "프로그라피/요구사항-기획.md.tmp.32430.1765809465525",
-    "프로그라피/raw/AOS.md",
-    "프로그라피/raw",
-    "assignment/zonagent/README.md.tmp.90823.1765732906681",
-    "assignment/zonagent/data/README.md.tmp.90823.1765732829683",
-    "assignment/zonagent/data/files/rules",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
