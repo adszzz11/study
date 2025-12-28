@@ -10,7 +10,19 @@
 
 ---
 
+## 한글 답변
+
+대학교 시절에는 APP 개발을 비롯한 UI 개발을 했었지만, 이 근간을 이룰 수 있도록 해주는 Backend와 운영 편의성을 위한 DevOps가 제게는 더 매력적이라고 생각했습니다.
+
+---
+
 ## English Answer
+
+During university, I did UI development including app development, but I found Backend—which forms the foundation for all of that—and DevOps for operational convenience to be more attractive to me.
+
+---
+
+## 이전 예시 답변
 
 It wasn't a planned choice—it was a discovery.
 
@@ -39,22 +51,21 @@ This combination is exactly what early-stage startups need: someone who can buil
 | **답안 품질** | ⭐⭐⭐⭐ (4/5) |
 
 **강점:**
-- "discovery not planned choice" - 자연스러운 스토리
-- Backend + DevOps 조합 설명
-- "end-to-end ownership" 강조
-- "build AND ship" - 스타트업에 필요한 역량
+- 간결하고 명확함
+- "근간"이라는 표현 → 본질을 보는 시각
+- 기술 용어 없이 비개발자도 이해 가능
+- UI → Backend 전환 스토리
 
 **Aaron이 좋아할 부분:**
-- 실용적 접근 (frustration → automation)
-- 전체 소유권 마인드셋
+- 단순하고 이해하기 쉬움
+- "매력적"이라는 개인적 동기
 
-**주의:**
-- Aaron은 비기술자이므로 race conditions, concurrent requests 세부사항은 간략히
-- 비즈니스 임팩트로 번역
+**보완 가능:**
+- 왜 "근간"이 매력적인지 한 문장 추가:
+  > "사용자가 보는 화면 뒤에서 모든 것이 작동하게 만드는 것이 더 흥미로웠습니다."
 
-**팁:**
-- 질문할 확률 낮음 - 준비하되 우선순위 하
-- 기술적 세부사항보다 "problem-solving mindset" 강조
+**핵심 문구:**
+> "근간을 이룰 수 있도록 해주는 Backend가 더 매력적이라고 생각했습니다."
 
 ---
 
