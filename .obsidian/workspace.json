@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "인터뷰/지원자/global interview/CEO-Interview-Questions/03-우리-회사에-왜-관심을-갖게-됐나요.md",
+                    "file": "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "03-우리-회사에-왜-관심을-갖게-됐나요"
+                  "title": "2025년 회고 - 시련과 재정비, 그리고 발견"
                 }
               }
             ]
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Work Schedule Proposal"
+                  "title": "터미널: ✳ XXX Similar Questions"
                 }
               },
               {
@@ -150,7 +150,8 @@
                   "title": "터미널: ✳ Performance Evaluation Plan"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -329,8 +330,9 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "192de2cbeebb4d57",
+  "active": "e3fbcfbccceee16e",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/18-우리에게-질문이-있나요.md.tmp.50369.1766921175131",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/85-시간대-차이-극복-전략.md.tmp.50369.1766920840846",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/85-시간대-차이-극복-전략.md.tmp.50369.1766920765621",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/19-가장-자랑스러운-성과는-무엇인가요.md.tmp.50369.1766919664402",
@@ -358,7 +360,6 @@
     "writing/회고/2025/성과.md",
     "writing/회고/2025/목표.md",
     "writing/회고/2025/회고록.md.tmp.72681.1766889754652",
-    "writing/회고/2025/목표.md.tmp.72681.1766889736406",
     "writing/회고/2026/회고록.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/14-영어-커뮤니케이션에-얼마나-자신있나요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요.md",
