@@ -108,11 +108,10 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 2025 리팩토링"
+                  "title": "터미널: ✳ 연간 회고록 작성"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -291,8 +290,9 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e3fbcfbccceee16e",
+  "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
+    "writing/회고/2026/회고록.md",
     "writing/회고/2025/회고록.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/14-영어-커뮤니케이션에-얼마나-자신있나요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요.md.tmp.50369.1766888163450",
@@ -306,7 +306,6 @@
     "writing/회고/2026/분기회고/2026-Q2.md",
     "writing/회고/2026/분기회고/2026-Q1.md",
     "writing/회고/2026/분기회고",
-    "writing/회고/2026/회고록.md",
     "writing/회고/2026",
     "writing/회고/2025",
     "writing/회고",
