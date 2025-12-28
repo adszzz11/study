@@ -108,7 +108,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 2025 Goals Review"
+                  "title": "터미널: ✳ 블로그 회고록 작성"
                 }
               },
               {
@@ -150,7 +150,8 @@
                   "title": "터미널: ✳ 프로젝트 산출물 분배"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -329,13 +330,27 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "192de2cbeebb4d57",
+  "active": "7244774f7540ab38",
   "lastOpenFiles": [
+    "프로그라피/파트별 가이드/[QA] 요구 산출물 가이드.md",
+    "프로그라피/파트별 가이드/[백엔드] 요구 산출물 가이드.md",
+    "프로그라피/파트별 가이드/[AOS] 요구 산출물 가이드.md",
+    "프로그라피/파트별 가이드/[AOS] 요구 산출물 가이드.md.tmp.79787.1766891239121",
+    "프로그라피/파트별 가이드/[iOS] 요구 산출물 가이드.md",
+    "프로그라피/파트별 가이드/[프론트엔드] 요구 산출물 가이드.md",
+    "프로그라피/파트별 가이드/[디자인] 요구 산출물 가이드.md",
+    "프로그라피/파트별 가이드/[PM] 요구 산출물 가이드.md",
+    "프로그라피/파트별 가이드/[기획-PO] 요구 산출물 가이드.md",
+    "프로그라피/파트별 가이드",
+    "writing/회고/2025/회고록.md.tmp.72681.1766890995125",
+    "프로그라피/통합 협업 가이드.md",
+    "프로그라피/통합 협업 가이드.md.tmp.79787.1766890921940",
     "writing/회고/2025/회고록.md",
+    "writing/회고/2026/목표.md",
+    "writing/회고/2025/2026 목표.md",
     "writing/회고/2025/성과.md",
     "writing/회고/2025/목표.md",
     "writing/회고/2025/회고록.md.tmp.72681.1766889754652",
-    "writing/회고/2025/2026 목표.md",
     "writing/회고/2025/목표.md.tmp.72681.1766889736406",
     "writing/회고/2026/회고록.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/14-영어-커뮤니케이션에-얼마나-자신있나요.md",
@@ -349,23 +364,10 @@
     "writing/회고/2026/분기회고/2026-Q3.md",
     "writing/회고/2026/분기회고/2026-Q2.md",
     "writing/회고/2026/분기회고/2026-Q1.md",
-    "writing/회고/2026/분기회고",
-    "writing/회고/2026",
-    "writing/회고/2025",
-    "writing/회고",
     "writing/회고록 - 2025년 (정량화).md",
     "writing/회고록 - 2025년.md",
     "writing/회고록 - 2026년.md",
     "writing/분기회고/2026-Q4.md",
-    "writing/분기회고/2026-Q3.md",
-    "writing/분기회고/2026-Q2.md",
-    "writing/분기회고/2026-Q1.md",
-    "writing/본부장님 미팅.md",
-    "writing/나는 왜 Technical Writing을 시작하게 되었는가.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/50-기술-개념을-비기술-이해관계자에게-어떻게-설명하나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/29-커리어-여정을-설명해주세요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/23-어떻게-성장하고-싶으신가요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/100-마지막으로-하고-싶은-말.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
