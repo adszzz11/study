@@ -10,7 +10,7 @@
           {
             "id": "443d073fd6e64a1a",
             "type": "tabs",
-            "dimension": 42.435424354243544,
+            "dimension": 57.7490774907749,
             "children": [
               {
                 "id": "e3fbcfbccceee16e",
@@ -31,7 +31,7 @@
           {
             "id": "7d423d695e082d03",
             "type": "tabs",
-            "dimension": 57.564575645756456,
+            "dimension": 42.25092250922509,
             "children": [
               {
                 "id": "192de2cbeebb4d57",
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Add ultrathink"
+                  "title": "터미널: ✳ 한국어 인터뷰"
                 }
               },
               {
@@ -108,7 +108,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 운동 계획"
+                  "title": "터미널: ✳ 2025년 회고 작성"
                 }
               }
             ],
@@ -291,25 +291,25 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "7244774f7540ab38",
+  "active": "e3fbcfbccceee16e",
   "lastOpenFiles": [
+    "writing/회고록 - 2025년.md",
+    "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766886066808",
+    "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766886019708",
+    "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766886014658",
+    "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766885958633",
     "writing/회고록 - 2025년 (정량화).md",
+    "writing/회고록 - 2026년.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/86-원격-근무-생산성-유지.md.tmp.50369.1766885287121",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/78-검색-시스템-구축-경험.md.tmp.50369.1766885214770",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/61-가장-어려웠던-기술적-문제를-해결한-경험.md.tmp.50369.1766885024932",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/33-PropTech-부동산-산업의-어떤-점이-매력적인가요.md.tmp.50369.1766884649773",
-    "writing/회고록 - 2025년.md",
-    "writing/회고록 - 2026년.md",
     "writing/분기회고/2026-Q4.md",
     "writing/분기회고/2026-Q3.md",
     "writing/분기회고/2026-Q2.md",
     "writing/분기회고/2026-Q2.md.tmp.72681.1766884069346",
     "writing/분기회고/2026-Q1.md",
     "writing/회고록 - 2026년.md.tmp.72681.1766884043300",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/66-Zonagent가-실패하면-어떻게-하시겠습니까.md.tmp.50369.1766884033352",
-    "writing/분기회고",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/88-저희에게-질문-있으신가요.md.tmp.50369.1766884019042",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/20-마지막으로-하고-싶은-말이-있나요.md.tmp.50369.1766883939503",
     "writing/본부장님 미팅.md",
     "writing/나는 왜 Technical Writing을 시작하게 되었는가.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/50-기술-개념을-비기술-이해관계자에게-어떻게-설명하나요.md",
