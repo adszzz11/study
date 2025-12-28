@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "writing/회고/2025/회고록.md",
+                    "file": "writing/회고/2025/성과.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "회고록"
+                  "title": "성과"
                 }
               }
             ]
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Job Interview Introduction"
+                  "title": "터미널: ✳ 커리어 전환 결정"
                 }
               },
               {
@@ -147,11 +147,11 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 산출물 인터뷰 평가"
+                  "title": "터미널: ✳ 프로젝트 산출물 분배"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -330,8 +330,13 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "3e1f1177bf5e2594",
+  "active": "e3fbcfbccceee16e",
   "lastOpenFiles": [
+    "writing/회고/2025/목표.md",
+    "writing/회고/2025/회고록.md.tmp.72681.1766889754652",
+    "writing/회고/2025/2026 목표.md",
+    "writing/회고/2025/성과.md",
+    "writing/회고/2025/목표.md.tmp.72681.1766889736406",
     "writing/회고/2025/회고록.md",
     "writing/회고/2026/회고록.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/14-영어-커뮤니케이션에-얼마나-자신있나요.md",
@@ -351,8 +356,6 @@
     "writing/회고",
     "writing/회고록 - 2025년 (정량화).md",
     "writing/회고록 - 2025년.md",
-    "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766886066808",
-    "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766886019708",
     "writing/회고록 - 2026년.md",
     "writing/분기회고/2026-Q4.md",
     "writing/분기회고/2026-Q3.md",
@@ -364,10 +367,6 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/29-커리어-여정을-설명해주세요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/23-어떻게-성장하고-싶으신가요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/100-마지막으로-하고-싶은-말.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/99-동료들이-나를-어떻게-묘사할까요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/98-5년-후-목표.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/97-급변하는-우선순위-처리.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/96-Zonagent에-어떤-가치를-가져오나요.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
