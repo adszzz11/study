@@ -10,7 +10,7 @@
           {
             "id": "443d073fd6e64a1a",
             "type": "tabs",
-            "dimension": 57.70833333333333,
+            "dimension": 39.02777777777778,
             "children": [
               {
                 "id": "e3fbcfbccceee16e",
@@ -31,7 +31,7 @@
           {
             "id": "7d423d695e082d03",
             "type": "tabs",
-            "dimension": 42.291666666666664,
+            "dimension": 60.97222222222223,
             "children": [
               {
                 "id": "192de2cbeebb4d57",
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ XXX Similar Questions"
+                  "title": "터미널: ✳ Friend Filtering"
                 }
               },
               {
@@ -147,11 +147,10 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Performance Evaluation Plan"
+                  "title": "터미널: ✳ 코드 실행"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -211,7 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 549.5
   },
   "right": {
     "id": "984a139b6e2a9e85",
@@ -330,44 +329,44 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "e3fbcfbccceee16e",
+  "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-75-성능-최적화-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-74-여러-시스템-통합-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-73-프로덕션-문제-디버깅-방법.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-72-기술-부채-관리-방법.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-71-레거시-시스템-현대화-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-66-코드-리뷰-접근-방식.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-65-기술-트렌드를-어떻게-따라가나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-64-ML을-위한-데이터-준비-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-63-기술-문서화를-어떻게-하나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-62-검색-시스템-구축-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-61-실시간-데이터-처리-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-60-AI-추론-파이프라인-설계.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-59-벡터-데이터베이스-경험이-있나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-58-시스템-보안을-어떻게-접근하나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-57-ETL-프로세스-설계-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-56-클라우드-플랫폼-경험을-설명해주세요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-55-데이터베이스-확장성을-어떻게-다루나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-49-주요-프로덕션-인시던트를-어떻게-처리했나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-47-가장-어려웠던-기술적-문제를-해결한-경험.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-45-기술-트렌드를-어떻게-따라가나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-37-정부-문서와-회의록-파싱에-어떻게-접근하시겠습니까.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-33-스타트업에서-기술-부채에-대한-접근-방식.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-29-백엔드-개발자로서-AI-ML-엔지니어를-어떻게-지원하시겠습니까.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-28-AI-ML-시스템이-어떻게-작동하는지-이해하고-계신가요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-27-API-설계에-대한-접근-방식.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/XXX-26-우리-시스템에서-데이터-품질을-어떻게-보장하시겠습니까.md",
+    "프로그라피/파트별 가이드/[PM] 요구 산출물 가이드.md.tmp.79787.1766921945337",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/18-우리에게-질문이-있나요.md.tmp.50369.1766921175131",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/85-시간대-차이-극복-전략.md.tmp.50369.1766920840846",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/85-시간대-차이-극복-전략.md.tmp.50369.1766920765621",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/19-가장-자랑스러운-성과는-무엇인가요.md.tmp.50369.1766919664402",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/19-가장-자랑스러운-성과는-무엇인가요.md.tmp.50369.1766919644781",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/03-우리-회사에-왜-관심을-갖게-됐나요.md.tmp.50369.1766918784408",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/03-우리-회사에-왜-관심을-갖게-됐나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/02-왜-현재-회사를-떠나려-하나요.md",
-    "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
-    "프로그라피/파트별 가이드/[QA] 요구 산출물 가이드.md",
-    "프로그라피/파트별 가이드/[백엔드] 요구 산출물 가이드.md",
-    "프로그라피/파트별 가이드/[AOS] 요구 산출물 가이드.md",
     "프로그라피/파트별 가이드/[AOS] 요구 산출물 가이드.md.tmp.79787.1766891239121",
-    "프로그라피/파트별 가이드/[iOS] 요구 산출물 가이드.md",
-    "프로그라피/파트별 가이드/[프론트엔드] 요구 산출물 가이드.md",
-    "프로그라피/파트별 가이드/[디자인] 요구 산출물 가이드.md",
-    "프로그라피/파트별 가이드/[PM] 요구 산출물 가이드.md",
-    "프로그라피/파트별 가이드/[기획-PO] 요구 산출물 가이드.md",
     "프로그라피/파트별 가이드",
     "writing/회고/2025/회고록.md.tmp.72681.1766890995125",
-    "프로그라피/통합 협업 가이드.md",
-    "프로그라피/통합 협업 가이드.md.tmp.79787.1766890921940",
-    "writing/회고/2025/회고록.md",
-    "writing/회고/2026/목표.md",
-    "writing/회고/2025/2026 목표.md",
-    "writing/회고/2025/성과.md",
-    "writing/회고/2025/목표.md",
-    "writing/회고/2025/회고록.md.tmp.72681.1766889754652",
-    "writing/회고/2026/회고록.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/14-영어-커뮤니케이션에-얼마나-자신있나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요.md",
-    "writing/회고/2025/회고록 (정량화).md",
-    "writing/회고/2026/분기회고/2026-Q4.md",
-    "writing/회고/2026/분기회고/2026-Q3.md",
-    "writing/회고/2026/분기회고/2026-Q2.md",
-    "writing/회고/2026/분기회고/2026-Q1.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",

@@ -169,6 +169,142 @@ iOS 개발 시 기획에서 정의해줘야 하는 항목:
 
 ---
 
+## iOS 개발 참고 자료
+
+### Human Interface Guidelines
+
+> Apple 공식 디자인 가이드: [HIG](https://developer.apple.com/design/human-interface-guidelines/)
+
+| 항목 | 권장 사항 |
+|------|----------|
+| **Safe Area** | 노치, 홈 인디케이터 영역 고려 |
+| **Dynamic Type** | 접근성 위한 텍스트 크기 대응 |
+| **SF Symbols** | 시스템 아이콘 활용 |
+| **Haptic Feedback** | 터치 피드백 적용 |
+
+---
+
+## iOS 특화 테스트 케이스
+
+### 필수 테스트 항목
+
+| 테스트 항목 | 테스트 내용 | 우선순위 |
+|------------|------------|---------|
+| **다크모드** | 라이트/다크 모드 전환 시 UI 확인 | 🔴 필수 |
+| **Dynamic Type** | 텍스트 크기 변경 시 레이아웃 | 🟡 권장 |
+| **방향 전환** | 세로/가로 모드 전환 | 🟡 권장 |
+| **멀티태스킹** | Split View, Slide Over (iPad) | 🟢 선택 |
+| **오프라인** | 네트워크 끊김 시 동작 | 🔴 필수 |
+| **푸시 알림** | 포그라운드/백그라운드/종료 상태 | 🔴 필수 |
+
+### 기기별 테스트 매트릭스
+
+| 기기 유형 | 최소 테스트 기기 | 비고 |
+|----------|----------------|------|
+| iPhone SE 크기 | iPhone SE 3세대 | 작은 화면 |
+| iPhone 표준 | iPhone 15 | 기본 |
+| iPhone Pro Max | iPhone 15 Pro Max | 큰 화면 |
+| iPad | iPad Air (선택) | 태블릿 지원 시 |
+
+---
+
+## 앱스토어 심사 체크리스트
+
+### 심사 통과를 위한 필수 확인 사항
+
+```markdown
+## App Store Review Checklist
+
+### 기능
+- [ ] 앱 설명과 실제 기능 일치
+- [ ] 모든 링크 정상 작동 (회원가입, 로그인 등)
+- [ ] 데모 계정 준비 (로그인 필요 시)
+- [ ] 크래시 없음 (Crashlytics 확인)
+
+### 개인정보
+- [ ] 개인정보 처리방침 URL 제공
+- [ ] App Privacy 정보 정확히 입력
+- [ ] 추적 권한 요청 시 ATT 구현
+
+### 콘텐츠
+- [ ] 저작권 문제 없는 콘텐츠
+- [ ] 연령 등급 적절히 설정
+- [ ] 불쾌한 콘텐츠 없음
+
+### 기술
+- [ ] IPv6 네트워크 지원
+- [ ] 최신 SDK 사용 (보통 6개월 이내)
+- [ ] 불필요한 권한 요청 없음
+- [ ] In-App Purchase 정상 동작 (있는 경우)
+
+### 메타데이터
+- [ ] 스크린샷 실제 앱 화면
+- [ ] 앱 이름에 불필요한 키워드 없음
+- [ ] 앱 설명 명확하고 정확함
+```
+
+### 자주 리젝되는 사유
+
+| 리젝 사유 | 대응 방안 |
+|----------|----------|
+| **Guideline 2.1** - 크래시/버그 | 충분한 QA 후 제출 |
+| **Guideline 4.2** - 최소 기능 | 핵심 기능 완성 후 제출 |
+| **Guideline 4.3** - 스팸 | 차별화 포인트 명확히 |
+| **Guideline 5.1.1** - 개인정보 | 개인정보 처리방침 필수 |
+| **Guideline 3.1.1** - IAP | 디지털 콘텐츠는 IAP 필수 |
+
+---
+
+## Swift 코드 컨벤션
+
+### 네이밍 컨벤션
+
+```swift
+// ✅ 타입: UpperCamelCase
+struct UserProfile { }
+class NetworkManager { }
+enum ButtonState { }
+protocol Fetchable { }
+
+// ✅ 변수/함수: lowerCamelCase
+let userName: String
+func fetchUserData() { }
+
+// ✅ 상수: lowerCamelCase (static은 UpperCamelCase 가능)
+let maximumRetryCount = 3
+static let DefaultTimeout: TimeInterval = 30
+
+// ✅ Bool 변수: is/has/should 접두사
+var isLoading: Bool
+var hasPermission: Bool
+```
+
+### 파일 구조 권장
+
+```
+Project/
+├── App/
+│   ├── AppDelegate.swift
+│   └── SceneDelegate.swift
+├── Features/
+│   ├── Auth/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   └── Models/
+│   └── Home/
+├── Core/
+│   ├── Network/
+│   ├── Storage/
+│   └── Utils/
+├── Resources/
+│   ├── Assets.xcassets
+│   └── Localizable.strings
+└── Supporting Files/
+    └── Info.plist
+```
+
+---
+
 ## 밍글링 체크리스트
 
 ### 기획에게 확인

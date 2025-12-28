@@ -143,6 +143,156 @@
 
 ---
 
+## Android 개발 참고 자료
+
+### Material Design 3
+
+> Google 공식 디자인 가이드: [Material Design 3](https://m3.material.io/)
+
+| 항목 | 권장 사항 |
+|------|----------|
+| **Material You** | 다이나믹 컬러 지원 고려 |
+| **Components** | Material 3 컴포넌트 활용 |
+| **Typography** | Roboto 또는 시스템 폰트 |
+| **Adaptive Layout** | 다양한 화면 크기 대응 |
+
+---
+
+## 폴더블 기기 레이아웃 가이드
+
+### 화면 상태별 대응
+
+| 화면 상태 | 설명 | 대응 방안 |
+|----------|------|----------|
+| **Folded** | 외부 화면 (커버) | 핵심 기능만 표시 |
+| **Unfolded** | 내부 큰 화면 | 2-pane 레이아웃 고려 |
+| **Flex Mode** | 반쯤 접힌 상태 | 상단/하단 분리 UI |
+| **Tabletop** | 가로로 반 접힘 | 화상통화 등 최적화 |
+
+### 폴더블 레이아웃 예시
+
+```
+[Folded - 외부 화면]
+┌─────────────┐
+│   핵심 정보  │
+│   간략 표시  │
+└─────────────┘
+
+[Unfolded - 내부 화면]
+┌───────────────────────────────┐
+│         │                     │
+│  목록   │      상세 정보      │
+│  영역   │        영역         │
+│         │                     │
+└───────────────────────────────┘
+
+[Flex Mode - 반쯤 접힌 상태]
+┌─────────────────┐
+│    컨텐츠 영역   │ ← 시청 영역
+├─────────────────┤ ← 힌지 라인
+│    컨트롤 영역   │ ← 조작 영역
+└─────────────────┘
+```
+
+### Jetpack WindowManager 활용
+
+```kotlin
+// 폴더블 상태 감지
+lifecycleScope.launch {
+    WindowInfoTracker.getOrCreate(this@Activity)
+        .windowLayoutInfo(this@Activity)
+        .collect { layoutInfo ->
+            val foldingFeature = layoutInfo.displayFeatures
+                .filterIsInstance<FoldingFeature>()
+                .firstOrNull()
+
+            when {
+                foldingFeature == null -> handleNormalMode()
+                foldingFeature.state == FoldingFeature.State.HALF_OPENED ->
+                    handleFlexMode(foldingFeature)
+                foldingFeature.state == FoldingFeature.State.FLAT ->
+                    handleUnfoldedMode()
+            }
+        }
+}
+```
+
+---
+
+## AOS 특화 테스트 케이스
+
+### 필수 테스트 항목
+
+| 테스트 항목 | 테스트 내용 | 우선순위 |
+|------------|------------|---------|
+| **폴더블 전환** | Fold/Unfold 시 UI 상태 유지 | 🔴 필수 |
+| **화면 회전** | 세로/가로 전환 시 상태 유지 | 🔴 필수 |
+| **다크 테마** | 시스템 테마 변경 대응 | 🔴 필수 |
+| **다양한 해상도** | 320dp ~ 600dp+ | 🔴 필수 |
+| **백그라운드** | 앱 백그라운드/포그라운드 전환 | 🔴 필수 |
+| **메모리 부족** | 프로세스 종료 후 복원 | 🟡 권장 |
+
+### 기기별 테스트 매트릭스
+
+| 기기 유형 | 최소 테스트 기기 | 해상도 | 비고 |
+|----------|----------------|--------|------|
+| 작은 화면 | Galaxy A10 | 360x640 | 최소 지원 |
+| 일반 | Galaxy S23 | 412x915 | 표준 |
+| 큰 화면 | Galaxy S23 Ultra | 480x1000+ | 대형 |
+| **폴더블** | Galaxy Z Fold | 904x2092 (펼침) | **필수** |
+| 플립 | Galaxy Z Flip | 옵션 | 선택 |
+
+---
+
+## Kotlin 코드 컨벤션
+
+### 네이밍 컨벤션
+
+```kotlin
+// ✅ 클래스: PascalCase
+class UserRepository { }
+data class UserProfile(val name: String)
+object NetworkModule { }
+
+// ✅ 함수/변수: camelCase
+fun fetchUserData() { }
+val userName: String
+
+// ✅ 상수: SCREAMING_SNAKE_CASE
+const val MAX_RETRY_COUNT = 3
+val DEFAULT_TIMEOUT = 30.seconds
+
+// ✅ 패키지: 소문자
+package com.prography.feature.home
+```
+
+### 파일 구조 권장
+
+```
+app/
+├── src/main/java/com/prography/
+│   ├── app/
+│   │   └── MyApplication.kt
+│   ├── feature/
+│   │   ├── auth/
+│   │   │   ├── ui/
+│   │   │   ├── viewmodel/
+│   │   │   └── model/
+│   │   └── home/
+│   ├── core/
+│   │   ├── network/
+│   │   ├── database/
+│   │   └── common/
+│   └── di/
+│       └── AppModule.kt
+└── src/main/res/
+    ├── layout/
+    ├── values/
+    └── drawable/
+```
+
+---
+
 ## 협업 시 주의사항
 
 ### 기획에게 요청

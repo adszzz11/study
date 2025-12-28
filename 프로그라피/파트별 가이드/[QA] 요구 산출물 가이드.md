@@ -39,8 +39,130 @@
 |------|------|
 | 테스트 성공률 | 100% |
 | Crash-free 비율 | 98% 이상 |
+| 테스트 커버리지 | 주요 기능 90% 이상 |
+| 회귀 버그 | 0건 목표 |
 
 > 예측 못하는 이슈는 발생할 수 있으나 최대한 잡고 싶습니다
+
+---
+
+## 테스트 전략
+
+### 테스트 유형별 가이드
+
+| 테스트 유형 | 시점 | 담당 | 중요도 |
+|------------|------|------|--------|
+| **스모크 테스트** | 빌드 직후 | QA | 🔴 필수 |
+| **기능 테스트** | 스프린트 중 | QA | 🔴 필수 |
+| **회귀 테스트** | 릴리즈 전 | QA | 🔴 필수 |
+| **탐색적 테스트** | 기능 완료 후 | QA | 🟡 권장 |
+| **성능 테스트** | 베타 전 | QA/개발 | 🟡 권장 |
+
+### 회귀 테스트 전략
+
+```
+1. 핵심 기능 정의
+   - 로그인/회원가입
+   - 메인 사용자 플로우
+   - 결제/구매 기능 (있는 경우)
+
+2. 회귀 테스트 스위트 구성
+   - Critical Path: 매 릴리즈 실행
+   - Full Regression: 메이저 릴리즈 실행
+
+3. 자동화 대상 선정
+   - 반복 실행되는 테스트
+   - 시간이 오래 걸리는 테스트
+   - 휴먼 에러가 발생하기 쉬운 테스트
+```
+
+### 테스트 커버리지 기준
+
+| 영역 | 커버리지 목표 |
+|------|-------------|
+| 핵심 기능 (Critical Path) | 100% |
+| 주요 기능 (Happy Path) | 90% 이상 |
+| 예외 케이스 (Edge Case) | 70% 이상 |
+| UI/UX | 주요 화면 100% |
+
+---
+
+## 테스트 자동화 가이드
+
+### 자동화 도구 권장
+
+| 플랫폼 | 도구 | 용도 |
+|--------|------|------|
+| Web | Playwright, Cypress | E2E 테스트 |
+| iOS | XCTest, XCUITest | UI 자동화 |
+| Android | Espresso, UI Automator | UI 자동화 |
+| API | Postman, REST Assured | API 테스트 |
+| 성능 | k6, JMeter | 부하 테스트 |
+
+### 자동화 우선순위
+
+```
+높음 (먼저 자동화):
+├── 로그인/인증 플로우
+├── 핵심 비즈니스 로직
+├── 데이터 CRUD 작업
+└── 반복적인 회귀 테스트
+
+중간:
+├── 폼 유효성 검사
+├── 네비게이션 테스트
+└── 에러 핸들링
+
+낮음 (수동 테스트 권장):
+├── 시각적 UI 검증
+├── 탐색적 테스트
+└── 사용성 테스트
+```
+
+### E2E 테스트 예시 (Playwright)
+
+```typescript
+// login.spec.ts
+import { test, expect } from '@playwright/test'
+
+test('정상 로그인 시 메인 화면으로 이동', async ({ page }) => {
+  // Given
+  await page.goto('/login')
+
+  // When
+  await page.fill('[data-testid="email"]', 'user@test.com')
+  await page.fill('[data-testid="password"]', 'password123')
+  await page.click('[data-testid="login-button"]')
+
+  // Then
+  await expect(page).toHaveURL('/main')
+  await expect(page.locator('[data-testid="welcome-message"]'))
+    .toContainText('환영합니다')
+})
+```
+
+---
+
+## 성능 테스트 기준
+
+### 모바일 앱 성능 기준
+
+| 지표 | 기준 | 측정 방법 |
+|------|------|----------|
+| 앱 시작 시간 (Cold Start) | < 3초 | Firebase Performance |
+| 화면 전환 시간 | < 1초 | Profiler |
+| API 응답 대기 | < 2초 | Network Monitor |
+| 메모리 사용량 | 앱 크래시 없음 | Memory Profiler |
+| 배터리 소모 | 과도한 소모 없음 | Battery Historian |
+
+### 웹 성능 기준
+
+| 지표 | 기준 | 측정 방법 |
+|------|------|----------|
+| LCP | < 2.5초 | Lighthouse |
+| FID | < 100ms | Lighthouse |
+| CLS | < 0.1 | Lighthouse |
+| TTI | < 3.5초 | Lighthouse |
 
 ---
 
