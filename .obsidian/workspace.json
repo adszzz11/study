@@ -10,7 +10,7 @@
           {
             "id": "443d073fd6e64a1a",
             "type": "tabs",
-            "dimension": 57.7490774907749,
+            "dimension": 57.70833333333333,
             "children": [
               {
                 "id": "e3fbcfbccceee16e",
@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "writing/회고/2025/회고록.md",
+                    "file": "인터뷰/지원자/global interview/CEO-Interview-Questions/03-우리-회사에-왜-관심을-갖게-됐나요.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "회고록"
+                  "title": "03-우리-회사에-왜-관심을-갖게-됐나요"
                 }
               }
             ]
@@ -31,7 +31,7 @@
           {
             "id": "7d423d695e082d03",
             "type": "tabs",
-            "dimension": 42.25092250922509,
+            "dimension": 42.291666666666664,
             "children": [
               {
                 "id": "192de2cbeebb4d57",
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 커리어 전환 결정"
+                  "title": "터미널: ✳ 예시 답변"
                 }
               },
               {
@@ -147,11 +147,10 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 프로젝트 산출물 분배"
+                  "title": "터미널: ✳ 산출물 평가"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -330,8 +329,11 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "7244774f7540ab38",
+  "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/03-우리-회사에-왜-관심을-갖게-됐나요.md.tmp.50369.1766918784408",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/03-우리-회사에-왜-관심을-갖게-됐나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/02-왜-현재-회사를-떠나려-하나요.md",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
     "프로그라피/파트별 가이드/[QA] 요구 산출물 가이드.md",
     "프로그라피/파트별 가이드/[백엔드] 요구 산출물 가이드.md",
@@ -365,9 +367,6 @@
     "writing/회고/2026/분기회고/2026-Q3.md",
     "writing/회고/2026/분기회고/2026-Q2.md",
     "writing/회고/2026/분기회고/2026-Q1.md",
-    "writing/회고록 - 2025년 (정량화).md",
-    "writing/회고록 - 2025년.md",
-    "writing/회고록 - 2026년.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
