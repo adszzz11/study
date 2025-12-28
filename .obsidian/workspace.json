@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요-(완료).md",
+                "file": "인터뷰/지원자/global interview/CEO-Interview-Questions/INDEX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-자기소개를-해주세요-(완료)"
+              "title": "INDEX"
             }
           }
         ]
@@ -199,7 +199,9 @@
   },
   "active": "e3fbcfbccceee16e",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/23-모호함과-변경되는-요구사항을-어떻게-처리하나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/INDEX.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/20-왜-백엔드-DevOps를-전문-분야로-선택했나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/INDEX.md.tmp.50369.1766930480610",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/29-기술-개념을-비기술-이해관계자에게-어떻게-설명하나요-(완료).md",
@@ -211,7 +213,6 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/27-첫-주에-CEO가-너무-바빠서-온보딩을-못해준다면.md.tmp.50369.1766927240690",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/25-상세한-스펙-없이-어떻게-일하나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/25-상세한-스펙-없이-어떻게-일하나요.md.tmp.50369.1766926959744",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/23-모호함과-변경되는-요구사항을-어떻게-처리하나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/23-모호함과-변경되는-요구사항을-어떻게-처리하나요.md.tmp.50369.1766926612207",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/20-왜-백엔드-DevOps를-전문-분야로-선택했나요.md.tmp.50369.1766926067734",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/20-왜-백엔드-DevOps를-전문-분야로-선택했나요.md.tmp.50369.1766926047531",
@@ -232,7 +233,6 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/10-실패-경험에-대해-말해주세요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/03-우리-회사에-왜-관심을-갖게-됐나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/02-왜-현재-회사를-떠나려-하나요-(완료).md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/26-가장-기발했던-문제-해결-경험.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/48-동료들이-나를-어떻게-묘사할까요.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
