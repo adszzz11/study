@@ -1,13 +1,13 @@
 # CEO Interview Questions Index
 
 ## 기본 질문
-| # | 질문 | 영어 |
-|---|------|------|
-| 01 | [자기소개를 해주세요](01-자기소개를-해주세요-(완료).md) | Tell me about yourself |
-| 02 | [왜 현재 회사를 떠나려 하나요](02-왜-현재-회사를-떠나려-하나요-(완료).md) | Why are you leaving your current company? |
-| 03 | [우리 회사에 왜 관심을 갖게 됐나요](03-우리-회사에-왜-관심을-갖게-됐나요-(완료).md) | Why are you interested in our company? |
-| 04 | [당신의 가장 큰 약점은 무엇인가요](04-당신의-가장-큰-약점은-무엇인가요-(완료).md) | What is your biggest weakness? |
-| 05 | [왜 스타트업에서 일하고 싶으신가요](05-왜-스타트업에서-일하고-싶으신가요-(완료).md) | Why do you want to work at a startup? |
+| #   | 질문                                                    | 영어                                        |
+| --- | ----------------------------------------------------- | ----------------------------------------- |
+| 01  | [자기소개를 해주세요](01-자기소개를-해주세요-(완료).md)                   | Tell me about yourself                    |
+| 02  | [왜 현재 회사를 떠나려 하나요](02-왜-현재-회사를-떠나려-하나요-(완료).md)       | Why are you leaving your current company? |
+| 03  | [우리 회사에 왜 관심을 갖게 됐나요](03-우리-회사에-왜-관심을-갖게-됐나요-(완료).md) | Why are you interested in our company?    |
+| 04  | [당신의 가장 큰 약점은 무엇인가요](04-당신의-가장-큰-약점은-무엇인가요-(완료).md)   | What is your biggest weakness?            |
+| 05  | [왜 스타트업에서 일하고 싶으신가요](05-왜-스타트업에서-일하고-싶으신가요-(완료).md)   | Why do you want to work at a startup?     |
 
 ## 경험 & 성과
 | # | 질문 | 영어 |
