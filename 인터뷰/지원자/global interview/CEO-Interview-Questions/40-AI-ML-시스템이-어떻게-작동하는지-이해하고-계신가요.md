@@ -40,6 +40,31 @@ This lets me be an effective partner to ML engineers.
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🟡 45% - 물어볼 수도 있음 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- "not an ML engineer, but productive collaborator" - 정직한 포지셔닝
+- 하이레벨 파이프라인 이해
+- "Where I Add Value" 명확화
+- "effective partner to ML engineers"
+
+**Aaron이 좋아할 부분:**
+- Zonagent는 AI 회사 - AI 이해 중요
+- 협업 마인드셋
+- 실용적 접근 (AI 도구 통합 경험)
+
+**팁:**
+- ML 전문가 아님을 솔직히 인정
+- 협력자로서의 가치 강조
+- Mark Jung이 기술 리더이므로 그와 협업 가능 어필
+
+---
+
 ## 한글 번역
 
 ML 엔지니어는 아니지만, 생산적인 협력자가 될 만큼 충분히 이해합니다. 제 멘탈 모델:

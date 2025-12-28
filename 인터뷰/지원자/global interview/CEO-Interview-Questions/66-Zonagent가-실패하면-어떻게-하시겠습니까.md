@@ -48,6 +48,30 @@ I'm betting on Zonagent succeeding. But even if it doesn't, I'll come out of it 
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🟡 50% - 물어볼 수도 있음 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- 시나리오별 분석 (PMF 실패, 역할 불일치, 문화, 자금)
+- "I won't half-commit" - 완전한 헌신
+- "None of that is wasted" - 성숙한 관점
+- "betting on Zonagent" - 진정성
+
+**Aaron 관점:**
+- 창업자로서 리스크 이해하는 사람 원함
+- "I'm all in" - 좋은 메시지
+- 현실적이면서도 긍정적
+
+**주의사항:**
+- 이 질문을 직접 안 해도 간접적으로 테스트할 수 있음
+- 스타트업 리스크 인지 표현 중요
+
+---
+
 ## 한글 번역
 
 이것에 대해 솔직하게 생각해봤습니다.

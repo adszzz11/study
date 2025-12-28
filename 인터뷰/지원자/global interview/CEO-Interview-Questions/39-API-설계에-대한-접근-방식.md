@@ -49,6 +49,28 @@ At Danal, I designed APIs consumed by hundreds of merchants. When you can't fix 
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🟢 25% - 낮은 확률 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- 5가지 원칙 체계화
+- "Consumer-First Design" - 사용자 중심
+- "APIs that are hard to misuse" - 실용적 인사이트
+- 문서화 강조
+
+**주의:**
+- 기술 면접 (Mark Jung)용 질문
+- Aaron에게는 너무 기술적
+
+**Aaron에게 요약:**
+> "고객이 쉽게 사용할 수 있는 API를 설계합니다. 수백 개 가맹점이 사용하는 API를 만들어봤습니다."
+
+---
+
 ## 한글 번역
 
 내부 팀과 외부 파트너 모두가 사용하는 API를 구축하면서 개발한 원칙을 따릅니다:

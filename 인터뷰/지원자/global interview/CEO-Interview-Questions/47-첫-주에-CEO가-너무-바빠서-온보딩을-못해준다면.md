@@ -48,6 +48,31 @@ By end of week one, I want to have shipped something—even if it's small.
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🔴 70% - 높은 확률 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- "I'd onboard myself" - 자율성
+- 일별 구체적 계획 (Day 1-5)
+- "nobody has time to hand-hold" - 스타트업 이해
+- "shipped something by end of week one"
+
+**Aaron이 좋아할 부분:**
+- CEO 시간 절약해줌
+- 독립적으로 일할 수 있음
+- 문서화 습관 (미래 팀원 도움)
+
+**⚠️ 중요:**
+- Aaron은 busy CEO
+- 이 질문으로 자율성 테스트 가능성 높음
+- 87번 (첫 30일 계획)과 연결
+
+---
+
 ## 한글 번역
 
 괜찮습니다—스스로 온보딩하겠습니다.

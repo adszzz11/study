@@ -34,6 +34,30 @@ You're applying AI to a genuinely messy, unstructured problem. Parsing municipal
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🔴 90% - 거의 확실히 물어볼 것 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- 미션 정확히 인용
+- 문제, 제품, 팀, 단계 모두 이해
+- Aaron의 배경 언급 (부동산 개발자 출신)
+- 기술적 도전에 대한 흥분
+
+**Aaron이 특히 좋아할 부분:**
+- "solving a problem you personally experienced"
+- 그의 창업 동기 이해
+- 깊은 리서치 증거
+
+**⚠️ 중요:**
+- 이 질문은 거의 확실히 물어볼 것
+- 03번 질문과 함께 가장 중요한 준비 항목
+
+---
+
 ## 한글 번역
 
 조사를 했습니다. 제가 이해한 바는 다음과 같습니다:

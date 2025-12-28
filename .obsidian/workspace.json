@@ -10,7 +10,7 @@
           {
             "id": "443d073fd6e64a1a",
             "type": "tabs",
-            "dimension": 70.5,
+            "dimension": 42.435424354243544,
             "children": [
               {
                 "id": "e3fbcfbccceee16e",
@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "writing/회고록 - 2025년.md",
+                    "file": "writing/회고록 - 2025년 (정량화).md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "회고록 - 2025년"
+                  "title": "회고록 - 2025년 (정량화)"
                 }
               }
             ]
@@ -31,7 +31,7 @@
           {
             "id": "7d423d695e082d03",
             "type": "tabs",
-            "dimension": 29.5,
+            "dimension": 57.564575645756456,
             "children": [
               {
                 "id": "192de2cbeebb4d57",
@@ -69,10 +69,50 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Zonagent 면접 준비"
+                  "title": "터미널: ✳ Add ultrathink"
+                }
+              },
+              {
+                "id": "7244774f7540ab38",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/leetangle/code/Note/writing",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/zsh",
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "터미널: ✳ 운동 계획"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -251,16 +291,31 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "62be8f66f9db4bed",
+  "active": "7244774f7540ab38",
   "lastOpenFiles": [
+    "writing/회고록 - 2025년 (정량화).md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/86-원격-근무-생산성-유지.md.tmp.50369.1766885287121",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/78-검색-시스템-구축-경험.md.tmp.50369.1766885214770",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/61-가장-어려웠던-기술적-문제를-해결한-경험.md.tmp.50369.1766885024932",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/33-PropTech-부동산-산업의-어떤-점이-매력적인가요.md.tmp.50369.1766884649773",
     "writing/회고록 - 2025년.md",
+    "writing/회고록 - 2026년.md",
+    "writing/분기회고/2026-Q4.md",
+    "writing/분기회고/2026-Q3.md",
+    "writing/분기회고/2026-Q2.md",
+    "writing/분기회고/2026-Q2.md.tmp.72681.1766884069346",
+    "writing/분기회고/2026-Q1.md",
+    "writing/회고록 - 2026년.md.tmp.72681.1766884043300",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/66-Zonagent가-실패하면-어떻게-하시겠습니까.md.tmp.50369.1766884033352",
+    "writing/분기회고",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/88-저희에게-질문-있으신가요.md.tmp.50369.1766884019042",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/20-마지막으로-하고-싶은-말이-있나요.md.tmp.50369.1766883939503",
     "writing/본부장님 미팅.md",
     "writing/나는 왜 Technical Writing을 시작하게 되었는가.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/50-기술-개념을-비기술-이해관계자에게-어떻게-설명하나요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/29-커리어-여정을-설명해주세요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/23-어떻게-성장하고-싶으신가요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/100-마지막으로-하고-싶은-말.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/100-마지막으로-하고-싶은-말.md.tmp.50369.1766853660565",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/99-동료들이-나를-어떻게-묘사할까요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/98-5년-후-목표.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/97-급변하는-우선순위-처리.md",
@@ -269,26 +324,10 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/94-성능-최적화-경험.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/93-여러-시스템-통합-경험.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/92-프로덕션-문제-디버깅-방법.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/92-프로덕션-문제-디버깅-방법.md.tmp.50369.1766853448169",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/91-기술-부채-관리-방법.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/90-레거시-시스템-현대화-경험.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/89-최악의-기술-결정-경험.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/88-저희에게-질문-있으신가요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/87-첫-30일-계획.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/86-원격-근무-생산성-유지.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/85-시간대-차이-극복-전략.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/84-모호한-요구사항-처리.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/84-모호한-요구사항-처리.md.tmp.50369.1766853211890",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/83-여러-이해관계자-요구사항-균형.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/82-코드-리뷰-접근-방식.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/81-기술-트렌드를-어떻게-따라가나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/81-기술-트렌드를-어떻게-따라가나요.md.tmp.50369.1766853123759",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/80-ML을-위한-데이터-준비-경험.md.tmp.50369.1766853099411",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/23-어떻게-성장하고-싶으신가요.md.tmp.50369.1766843945755",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/11-리더십-경험에-대해-말해주세요.md.tmp.50369.1766843610957",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/02-왜-현재-회사를-떠나려-하나요.md.tmp.50369.1766843432378",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions",
-    "인터뷰/지원자/global interview/Zonagent/10-질문하기",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",

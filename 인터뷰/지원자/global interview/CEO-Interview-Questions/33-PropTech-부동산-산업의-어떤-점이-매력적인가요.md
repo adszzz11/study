@@ -31,6 +31,30 @@ I've spent years making payment processes more efficient. Now I want to work on 
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🟡 65% - 물어볼 가능성 있음 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- 3가지 명확한 이유 (규모, 기술 도전, 사회적 영향)
+- "Housing affordability" - 미국 사회 문제 이해
+- fintech → PropTech 연결
+- "impact is visible in the built environment"
+
+**Aaron이 좋아할 부분:**
+- 부동산 산업 이해
+- 사회적 영향력 강조
+- Aaron 자신이 부동산 개발자였으므로 공감
+
+**팁:**
+- 기술적 세부사항보다 산업 영향력 강조
+- Aaron의 미션 (housing crisis 해결)과 연결
+
+---
+
 ## 한글 번역
 
 세 가지가 매력적입니다:

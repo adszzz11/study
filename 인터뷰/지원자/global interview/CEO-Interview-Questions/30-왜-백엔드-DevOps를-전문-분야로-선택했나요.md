@@ -31,6 +31,33 @@ This combination is exactly what early-stage startups need: someone who can buil
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🟢 35% - 낮은 확률 |
+| **답안 품질** | ⭐⭐⭐⭐ (4/5) |
+
+**강점:**
+- "discovery not planned choice" - 자연스러운 스토리
+- Backend + DevOps 조합 설명
+- "end-to-end ownership" 강조
+- "build AND ship" - 스타트업에 필요한 역량
+
+**Aaron이 좋아할 부분:**
+- 실용적 접근 (frustration → automation)
+- 전체 소유권 마인드셋
+
+**주의:**
+- Aaron은 비기술자이므로 race conditions, concurrent requests 세부사항은 간략히
+- 비즈니스 임팩트로 번역
+
+**팁:**
+- 질문할 확률 낮음 - 준비하되 우선순위 하
+- 기술적 세부사항보다 "problem-solving mindset" 강조
+
+---
+
 ## 한글 번역
 
 계획된 선택이 아니었습니다—발견이었습니다.

@@ -63,6 +63,32 @@ At Danal, we processed transaction data from hundreds of merchants, each with di
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🟡 50% - 물어볼 수도 있음 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- Zonagent 핵심 문제 직접 연결
+- Extract/Transform/Load 구조적 설명
+- 핵심 원칙 (멱등성, 체크포인팅, 모니터링)
+
+**Aaron이 좋아할 부분:**
+- "Directly relevant to Zonagent's core challenge" - 문제 이해
+- 수천 지자체 데이터 처리 경험 연결
+- 다양한 형식 처리 경험
+
+**중요:**
+- 이 질문은 Mark가 할 확률이 높지만, Aaron도 관심 가질 수 있음
+- 비즈니스 문제로 프레이밍됨
+
+**Aaron 버전:**
+> "수백 가맹점의 다른 형식 데이터를 처리한 경험이 있어서, 지자체 데이터도 같은 패턴입니다."
+
+---
+
 ## 한글 번역
 
 이것은 Zonagent의 핵심 도전과 직접적으로 관련됩니다. 제 접근 방식:

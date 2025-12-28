@@ -55,6 +55,30 @@ ML engineers should focus on improving models, not fighting infrastructure. My j
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🟡 55% - 물어볼 수도 있음 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- 5가지 역할 명확화 (데이터 인프라, 서빙, 모니터링, 통합, DX)
+- "make infrastructure invisible" - 철학 표현
+- ML 엔지니어 생산성 향상 초점
+- Zonagent AI 제품과 직접 연관
+
+**Aaron이 좋아할 부분:**
+- ML팀 지원 마인드셋
+- Mark Jung (CTO)와 협업 가능
+- 팀 시너지 창출
+
+**팁:**
+- 40번 질문과 연결해서 대답
+- "ML engineers should focus on improving models" 강조
+
+---
+
 ## 한글 번역
 
 제 일은 모델 주변의 모든 것을 처리하여 ML 엔지니어를 더 생산적으로 만드는 것입니다:

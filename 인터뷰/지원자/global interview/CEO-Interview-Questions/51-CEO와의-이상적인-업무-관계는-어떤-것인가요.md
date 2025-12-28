@@ -47,6 +47,31 @@ I want to be someone you can trust to get things done without constant oversight
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🔴 75% - 높은 확률 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- 양방향 관계 정의 (원하는 것 + 제공하는 것)
+- "trust and directness" - 핵심 가치
+- "No Surprises" - 신뢰 구축
+- "Honest Pushback" - 성숙한 접근
+
+**Aaron이 좋아할 부분:**
+- "I'll take problems off your plate" - CEO 부담 줄임
+- "Solutions, Not Just Problems"
+- "Ownership" 강조
+
+**⚠️ 중요:**
+- CEO와의 직접 작업 관계 질문
+- Aaron에게 직접 관련
+- 반드시 잘 준비
+
+---
+
 ## 한글 번역
 
 신뢰와 직접성에 기반한 관계를 원합니다.

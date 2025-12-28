@@ -57,6 +57,32 @@ But the core engineering skills transfer. And I'm a fast learner.
 
 ---
 
+## 면접관 평가 (Aaron Kirsch 기준)
+
+| 항목 | 평가 |
+|------|------|
+| **질문 확률** | 🔴 85% - 거의 확실히 물어볼 것 |
+| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+
+**강점:**
+- 5가지 구체적 가치 (데이터 파이프라인, AI 인프라, 스타트업 준비, 다른 관점, 동기)
+- "What I Don't Bring" - 솔직함
+- "Motivation translates to commitment" - 열정
+
+**Aaron이 매우 좋아할 부분:**
+- "I'm choosing a harder path" - 진정성
+- "Different perspective" - 글로벌 다양성
+- 동기가 헌신으로 번역됨
+
+**매우 중요:**
+- 핵심 질문 중 하나
+- 왜 채용해야 하는지 명확한 답변
+
+**핵심 문구:**
+> "I'm choosing a harder path. That motivation translates to commitment."
+
+---
+
 ## 한글 번역
 
 가져오는 것에 대해 구체적으로 말씀드리겠습니다:
