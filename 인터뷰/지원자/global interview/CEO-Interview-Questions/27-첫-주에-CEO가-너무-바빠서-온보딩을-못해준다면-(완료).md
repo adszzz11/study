@@ -10,7 +10,23 @@
 
 ---
 
+## 한글 답변
+
+제게 업무 자료에 대해 열람할 권한이 있다면, 그 자료들을 먼저 학습하며 할 수 있는 업무를 찾고, 계획을 세웁니다.
+
+물론, 진행 전 방향성 및 리소스 투입에 대한 의사결정을 먼저 물어볼 계획입니다.
+
+---
+
 ## English Answer
+
+If I have access to work materials, I'll study those first, find tasks I can do, and make a plan.
+
+Of course, before proceeding, I plan to ask about direction and resource allocation decisions first.
+
+---
+
+## 이전 예시 답변
 
 That's fine—I'd onboard myself.
 
@@ -53,23 +69,25 @@ By end of week one, I want to have shipped something—even if it's small.
 | 항목 | 평가 |
 |------|------|
 | **질문 확률** | 🔴 70% - 높은 확률 |
-| **답안 품질** | ⭐⭐⭐⭐⭐ (5/5) |
+| **답안 품질** | ⭐⭐⭐⭐ (4/5) |
 
 **강점:**
-- "I'd onboard myself" - 자율성
-- 일별 구체적 계획 (Day 1-5)
-- "nobody has time to hand-hold" - 스타트업 이해
-- "shipped something by end of week one"
+- 자료 학습 먼저 → 자율성 보여줌
+- 할 수 있는 업무 찾기 → 주도적
+- 의사결정 전 질문 → 독단적이지 않음
 
 **Aaron이 좋아할 부분:**
 - CEO 시간 절약해줌
 - 독립적으로 일할 수 있음
-- 문서화 습관 (미래 팀원 도움)
+- 방향성 확인 후 진행 → 리소스 낭비 방지
+
+**보완 가능:**
+- 구체적 예시 추가하면 더 설득력 있음
+- "문서 읽고, 코드 파악하고, 작은 기여부터 시작" 등
 
 **⚠️ 중요:**
 - Aaron은 busy CEO
 - 이 질문으로 자율성 테스트 가능성 높음
-- 87번 (첫 30일 계획)과 연결
 
 ---
 

@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ Next Question"
+                  "title": "터미널: ✳ 기술팀 리더십 경험"
                 }
               },
               {
@@ -331,6 +331,15 @@
   },
   "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/09-리더십-경험에-대해-말해주세요-(완료).md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/08-스트레스-상황에서-어떻게-일하시나요-(완료).md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/08-스트레스-상황에서-어떻게-일하시나요.md.tmp.50369.1766927671909",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/27-첫-주에-CEO가-너무-바빠서-온보딩을-못해준다면-(완료).md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/27-첫-주에-CEO가-너무-바빠서-온보딩을-못해준다면.md.tmp.50369.1766927240690",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/25-상세한-스펙-없이-어떻게-일하나요-(완료).md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/25-상세한-스펙-없이-어떻게-일하나요.md.tmp.50369.1766926959744",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/23-모호함과-변경되는-요구사항을-어떻게-처리하나요-(완료).md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/23-모호함과-변경되는-요구사항을-어떻게-처리하나요.md.tmp.50369.1766926612207",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/20-왜-백엔드-DevOps를-전문-분야로-선택했나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/20-왜-백엔드-DevOps를-전문-분야로-선택했나요.md.tmp.50369.1766926067734",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/20-왜-백엔드-DevOps를-전문-분야로-선택했나요.md.tmp.50369.1766926047531",
@@ -343,7 +352,6 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/12-급여-기대치가-어떻게-되나요-(완료).md",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md.tmp.72681.1766925189917",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/12-급여-기대치가-어떻게-되나요.md.tmp.50369.1766925120410",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/11-영어-커뮤니케이션에-얼마나-자신있나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/05-왜-스타트업에서-일하고-싶으신가요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/04-당신의-가장-큰-약점은-무엇인가요-(완료).md",
@@ -359,14 +367,6 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/48-동료들이-나를-어떻게-묘사할까요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/32-왜-미국-회사에서-일하고-싶으신가요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/33-기술적-결정에-대한-의견-충돌을-어떻게-처리하나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/36-회사에-오래-머무르게-하는-것은-무엇인가요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/40-압박-상황에서-빠르게-출시한-경험.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/31-나쁜-소식이나-반대-의견을-어떻게-전달하나요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/24-뭔가를-빠르게-배워야-했던-경험.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/41-고객-피드백을-개발-프로세스에-어떻게-반영하나요.md",
-    "프로그라피/파트별 가이드/[PM] 요구 산출물 가이드.md.tmp.79787.1766921945337",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/18-우리에게-질문이-있나요.md.tmp.50369.1766921175131",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/85-시간대-차이-극복-전략.md.tmp.50369.1766920840846",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
