@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 기술팀 리더십 경험"
+                  "title": "터미널: ✳ 면접 준비"
                 }
               },
               {
@@ -331,6 +331,8 @@
   },
   "active": "192de2cbeebb4d57",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/29-기술-개념을-비기술-이해관계자에게-어떻게-설명하나요-(완료).md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/29-기술-개념을-비기술-이해관계자에게-어떻게-설명하나요.md.tmp.50369.1766930074726",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/09-리더십-경험에-대해-말해주세요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/08-스트레스-상황에서-어떻게-일하시나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/08-스트레스-상황에서-어떻게-일하시나요.md.tmp.50369.1766927671909",
@@ -350,7 +352,6 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/13-언제부터-시작할-수-있나요.md.tmp.50369.1766925386672",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/13-언제부터-시작할-수-있나요.md.tmp.50369.1766925367537",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/12-급여-기대치가-어떻게-되나요-(완료).md",
-    "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md.tmp.72681.1766925189917",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/11-영어-커뮤니케이션에-얼마나-자신있나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/05-왜-스타트업에서-일하고-싶으신가요-(완료).md",
@@ -366,7 +367,6 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/26-가장-기발했던-문제-해결-경험.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/48-동료들이-나를-어떻게-묘사할까요.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/32-왜-미국-회사에서-일하고-싶으신가요.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/33-기술적-결정에-대한-의견-충돌을-어떻게-처리하나요.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
