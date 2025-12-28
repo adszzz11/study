@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요.md",
+                    "file": "writing/회고/2026/회고록.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "01-자기소개를-해주세요"
+                  "title": "회고록"
                 }
               }
             ]
@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "터미널: ✳ 한국어 인터뷰"
+                  "title": "터미널: ✳ 한글 버전 피드백"
                 }
               },
               {
@@ -111,7 +111,8 @@
                   "title": "터미널: ✳ 2025 리팩토링"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -290,12 +291,14 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "192de2cbeebb4d57",
+  "active": "e3fbcfbccceee16e",
   "lastOpenFiles": [
-    "writing/회고/2025/회고록.md.tmp.72681.1766887167253",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요.md",
-    "writing/회고/2025/회고록 (정량화).md",
     "writing/회고/2025/회고록.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/14-영어-커뮤니케이션에-얼마나-자신있나요.md",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요.md.tmp.50369.1766888163450",
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/01-자기소개를-해주세요.md",
+    "writing/회고/2025/회고록.md.tmp.72681.1766887167253",
+    "writing/회고/2025/회고록 (정량화).md",
     "writing/회고/2026/분기회고/2026-Q1.md.tmp.72681.1766887008502",
     "writing/회고/2026/회고록.md.tmp.72681.1766886996198",
     "writing/회고/2026/분기회고/2026-Q4.md",
@@ -311,8 +314,6 @@
     "writing/회고록 - 2025년.md",
     "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766886066808",
     "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766886019708",
-    "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766886014658",
-    "writing/회고록 - 2025년 (정량화).md.tmp.72681.1766885958633",
     "writing/회고록 - 2026년.md",
     "writing/분기회고/2026-Q4.md",
     "writing/분기회고/2026-Q3.md",
