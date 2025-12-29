@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "인터뷰/지원자/global interview/CEO-Interview-Questions/15-우리에게-질문이-있나요-(완료).md",
+                "file": "인터뷰/지원자/global interview/Contract.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15-우리에게-질문이-있나요-(완료)"
+              "title": "Contract"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 549.5
+    "width": 549.5,
+    "collapsed": true
   },
   "right": {
     "id": "984a139b6e2a9e85",
@@ -199,6 +200,8 @@
   },
   "active": "e3fbcfbccceee16e",
   "lastOpenFiles": [
+    "인터뷰/지원자/global interview/CEO-Interview-Questions/15-우리에게-질문이-있나요-(완료).md",
+    "인터뷰/지원자/global interview/Contract.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/INDEX.md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/03-우리-회사에-왜-관심을-갖게-됐나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/02-왜-현재-회사를-떠나려-하나요-(완료).md",
@@ -231,10 +234,8 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/45-시간대-차이-극복-전략-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/22-다음-역할에서-무엇을-기대하나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/16-가장-자랑스러운-성과는-무엇인가요-(완료).md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/15-우리에게-질문이-있나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/10-실패-경험에-대해-말해주세요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/26-가장-기발했던-문제-해결-경험.md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/48-동료들이-나를-어떻게-묘사할까요.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
