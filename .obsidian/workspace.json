@@ -4,73 +4,125 @@
     "type": "split",
     "children": [
       {
-        "id": "dc3b8b51d0025f3f",
+        "id": "99e758515eabf6b3",
         "type": "split",
         "children": [
           {
-            "id": "8335a910089e82fb",
+            "id": "f758f3cf746155b7",
             "type": "tabs",
             "children": [
               {
-                "id": "60834dc618b85fb4",
+                "id": "a2d0e7d6155b7204",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
+                    "file": "프로그라피/산출물_가이드/통합 협업 가이드.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "2025년 회고 - 시련과 재정비, 그리고 발견"
+                  "title": "통합 협업 가이드"
                 }
               }
             ]
           },
           {
-            "id": "1418a5c4624c0782",
-            "type": "tabs",
+            "id": "c0d49c9e09f9b8c8",
+            "type": "split",
             "children": [
               {
-                "id": "a9bacda0c6935755",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/leetangle/code/Note/writing/회고/2025",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/zsh",
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
+                "id": "87a1adb1896a2782",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "1120f278652fae43",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "terminal:terminal",
+                      "state": {
+                        "terminal:terminal": {
+                          "cwd": "/Users/leetangle/code/Note/프로그라피/산출물_가이드",
+                          "focus": false,
+                          "profile": {
+                            "args": [],
+                            "executable": "/bin/zsh",
+                            "name": "",
+                            "platforms": {
+                              "darwin": true
+                            },
+                            "pythonExecutable": "python3",
+                            "restoreHistory": false,
+                            "rightClickAction": "copyPaste",
+                            "successExitCodes": [
+                              "0",
+                              "SIGINT",
+                              "SIGTERM"
+                            ],
+                            "terminalOptions": {
+                              "documentOverride": null
+                            },
+                            "type": "integrated",
+                            "useWin32Conhost": true
+                          },
+                          "serial": null
+                        }
                       },
-                      "serial": null
+                      "pinned": true,
+                      "icon": "terminal",
+                      "title": "터미널: ✳ 파일 정리 및 프로세스"
                     }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "터미널: ✳ 2025년 이직 성공"
-                }
+                  }
+                ]
+              },
+              {
+                "id": "0de8258b0555e5df",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "1e9276aff5ce60bf",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "terminal:terminal",
+                      "state": {
+                        "terminal:terminal": {
+                          "cwd": "/Users/leetangle/code/Note/프로그라피/워크샵_아젠다",
+                          "focus": false,
+                          "profile": {
+                            "args": [],
+                            "executable": "/bin/zsh",
+                            "name": "",
+                            "platforms": {
+                              "darwin": true
+                            },
+                            "pythonExecutable": "python3",
+                            "restoreHistory": false,
+                            "rightClickAction": "copyPaste",
+                            "successExitCodes": [
+                              "0",
+                              "SIGINT",
+                              "SIGTERM"
+                            ],
+                            "terminalOptions": {
+                              "documentOverride": null
+                            },
+                            "type": "integrated",
+                            "useWin32Conhost": true
+                          },
+                          "serial": null
+                        }
+                      },
+                      "pinned": true,
+                      "icon": "terminal",
+                      "title": "터미널: ✳ 멘토 워크숍 기획"
+                    }
+                  }
+                ]
               }
-            ]
+            ],
+            "direction": "vertical"
           }
         ],
         "direction": "horizontal"
@@ -249,8 +301,15 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "a9bacda0c6935755",
+  "active": "1e9276aff5ce60bf",
   "lastOpenFiles": [
+    "프로그라피/워크샵_아젠다",
+    "프로그라피/산출물_가이드/통합 협업 가이드.md",
+    "프로그라피/산출물_가이드/산출물 인터뷰 - 기획.md",
+    "인터뷰/지원자/이력서/이상민_이력서_20251109.pdf",
+    "프로그라피/산출물_가이드",
+    "인터뷰/지원자/경력기술서/이상민_경력기술상세_20251109.pdf",
+    "인터뷰/지원자/커버레터/이상민_커버레터_놀유니버스_20251109.pdf",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md.tmp.59993.1767200424119",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md.tmp.59993.1767200399995",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
@@ -270,12 +329,7 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/08-스트레스-상황에서-어떻게-일하시나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/08-스트레스-상황에서-어떻게-일하시나요.md.tmp.50369.1766927671909",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/27-첫-주에-CEO가-너무-바빠서-온보딩을-못해준다면-(완료).md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/27-첫-주에-CEO가-너무-바빠서-온보딩을-못해준다면.md.tmp.50369.1766927240690",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/25-상세한-스펙-없이-어떻게-일하나요-(완료).md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/25-상세한-스펙-없이-어떻게-일하나요.md.tmp.50369.1766926959744",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/23-모호함과-변경되는-요구사항을-어떻게-처리하나요.md.tmp.50369.1766926612207",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/20-왜-백엔드-DevOps를-전문-분야로-선택했나요.md.tmp.50369.1766926067734",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/20-왜-백엔드-DevOps를-전문-분야로-선택했나요.md.tmp.50369.1766926047531",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/17-이전-직장에서-무엇을-했나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/14-다른-회사도-면접-보고-있나요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/13-언제부터-시작할-수-있나요-(완료).md",
@@ -285,8 +339,6 @@
     "인터뷰/지원자/global interview/CEO-Interview-Questions/04-당신의-가장-큰-약점은-무엇인가요-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/45-시간대-차이-극복-전략-(완료).md",
     "인터뷰/지원자/global interview/CEO-Interview-Questions/22-다음-역할에서-무엇을-기대하나요-(완료).md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/16-가장-자랑스러운-성과는-무엇인가요-(완료).md",
-    "인터뷰/지원자/global interview/CEO-Interview-Questions/10-실패-경험에-대해-말해주세요-(완료).md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
