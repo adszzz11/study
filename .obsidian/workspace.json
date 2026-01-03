@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "프로그라피/산출물_가이드/03_통합 협업 프로세스.md",
+                    "file": "프로그라피/워크샵_아젠다/Part1_목표설정.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "03_통합 협업 프로세스"
+                  "title": "Part1_목표설정"
                 }
               }
             ]
@@ -118,7 +118,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ Workshop Agenda"
+                      "title": "터미널: ✳ Directory Evaluation"
                     }
                   }
                 ]
@@ -303,16 +303,16 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "1120f278652fae43",
+  "active": "1e9276aff5ce60bf",
   "lastOpenFiles": [
+    "프로그라피/워크샵_아젠다/Part1_목표설정.md",
+    "프로그라피/워크샵_아젠다/Part0_정체성확인.md",
     "프로그라피/워크샵_아젠다/Part5_프로그램설계.md",
     "프로그라피/워크샵_아젠다/Part4_퇴출제도.md",
     "프로그라피/워크샵_아젠다/Part3_선발기준.md",
     "프로그라피/워크샵_아젠다/Part2_운영진역할정의.md",
     "프로그라피/산출물_가이드/03_통합 협업 프로세스.md",
-    "프로그라피/워크샵_아젠다/Part1_목표설정.md",
     "프로그라피/산출물_가이드/02_파트별 산출물 리스트.md",
-    "프로그라피/워크샵_아젠다/Part0_정체성확인.md",
     "프로그라피/워크샵_아젠다/Part0_정체성확인.md.tmp.16934.1767423843583",
     "프로그라피/산출물_가이드/pre/파트별 가이드/[PM] 요구 산출물 가이드.md",
     "프로그라피/산출물_가이드/pre/파트별 가이드/[프론트엔드] 요구 산출물 가이드.md",
