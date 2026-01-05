@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "프로그라피/워크샵_아젠다/워크숍_아젠다_20260111.md",
+                    "file": "프로그라피/산출물_가이드/구글드라이브_업로드용/01_기획_PO/기획_PO 가이드.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "워크숍_아젠다_20260111"
+                  "title": "기획_PO 가이드"
                 }
               }
             ]
@@ -73,7 +73,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ 공식 문서 톤앤매너"
+                      "title": "터미널: ✳ 백엔드 명세 가이드"
                     }
                   }
                 ]
@@ -118,7 +118,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ 아젠다 정리 요청"
+                      "title": "터미널: ✳ Google Drive Upload"
                     }
                   }
                 ]
@@ -303,8 +303,14 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "1120f278652fae43",
+  "active": "62be8f66f9db4bed",
   "lastOpenFiles": [
+    "프로그라피/산출물_가이드/구글드라이브_업로드용/00_공통/통합 밍글링 프로세스.md",
+    "프로그라피/워크샵_아젠다/[공유용] 프로그라피 11기 멘토 워크숍 아젠다.md",
+    "프로그라피/산출물_가이드/구글드라이브_업로드용/00_공통/통합 협업 프로세스.md",
+    "프로그라피/산출물_가이드/구글드라이브_업로드용/01_기획_PO/기획_PO 가이드.md",
+    "프로그라피/워크샵_아젠다/Part0_정체성확인.md",
+    "프로그라피/워크샵_아젠다/Part1_목표설정.md",
     "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료/산출물 인터뷰 - PM.md.tmp.44140.1767628963130",
     "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료/산출물 인터뷰 - PM.md.tmp.44140.1767628962979",
     "프로그라피/산출물_가이드/구글드라이브_업로드용/06_AOS/AOS 가이드.md.tmp.44140.1767628819089",
@@ -334,13 +340,7 @@
     "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료/산출물 인터뷰 - PO.md",
     "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료/산출물 인터뷰 - PM.md",
     "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료/산출물 인터뷰 - AOS.md",
-    "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료",
     "프로그라피/워크샵_아젠다/참고_TSV워크숍_요약.md",
-    "프로그라피/산출물_가이드/산출물 인터뷰 - 디자인.md",
-    "프로그라피/산출물_가이드/구글드라이브_업로드용/08_QA/QA 가이드.md",
-    "프로그라피/산출물_가이드/구글드라이브_업로드용/07_백엔드/백엔드 가이드.md",
-    "프로그라피/산출물_가이드/구글드라이브_업로드용/06_AOS/AOS 가이드.md",
-    "프로그라피/산출물_가이드/구글드라이브_업로드용/05_iOS/iOS 가이드.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
