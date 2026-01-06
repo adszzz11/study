@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "프로그라피/워크샵_아젠다/Part 5. 선발 및 퇴출.md",
+                    "file": "프로그라피/워크샵_아젠다/Part 4. 커뮤니티.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Part 5. 선발 및 퇴출"
+                  "title": "Part 4. 커뮤니티"
                 }
               }
             ]
@@ -118,7 +118,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ 프로그라피 타겟-솔루션 정의"
+                      "title": "터미널: ✳ 역할 정의 문서"
                     }
                   }
                 ]
@@ -305,15 +305,16 @@
   },
   "active": "a2d0e7d6155b7204",
   "lastOpenFiles": [
+    "프로그라피/워크샵_아젠다/Part 3. 프로그램 설계.md",
+    "프로그라피/워크샵_아젠다/Part 2. 역할 정의.md.tmp.16934.1767713827352",
+    "프로그라피/워크샵_아젠다/Part 2. 역할 정의.md",
     "프로그라피/워크샵_아젠다/Part 0-1. 정체성 및 목표.md",
+    "프로그라피/워크샵_아젠다/Part 5. 선발 및 퇴출.md",
     "프로그라피/워크샵_아젠다/Part 0-1. 정체성 및 목표.md.tmp.16934.1767676435497",
     "프로그라피/워크샵_아젠다/Part 1. 목표 설정.md",
     "프로그라피/워크샵_아젠다/Part 0. 정체성 확인.md",
-    "프로그라피/워크샵_아젠다/Part 2. 역할 정의.md",
     "프로그라피/워크샵_아젠다/프로그라피 11기 멘토 워크숍 아젠다.md",
-    "프로그라피/워크샵_아젠다/Part 5. 선발 및 퇴출.md",
     "프로그라피/워크샵_아젠다/Part 4. 커뮤니티.md",
-    "프로그라피/워크샵_아젠다/Part 3. 프로그램 설계.md",
     "프로그라피/워크샵_아젠다/[공유용] Part 0. 정체성 확인.md",
     "프로그라피/워크샵_아젠다/[공유용] Part 1. 목표 설정.md",
     "프로그라피/워크샵_아젠다/[공유용] Part 3. 프로그램 설계.md",
@@ -337,10 +338,8 @@
     "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료/산출물 인터뷰 - PM.md.tmp.44140.1767628963130",
     "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료/산출물 인터뷰 - PM.md.tmp.44140.1767628962979",
     "프로그라피/산출물_가이드/구글드라이브_업로드용/06_AOS/AOS 가이드.md.tmp.44140.1767628819089",
-    "프로그라피/산출물_가이드/구글드라이브_업로드용/06_AOS/AOS 가이드.md.tmp.44140.1767628818990",
     "프로그라피/워크샵_아젠다/워크숍_아젠다_20260111.md",
     "프로그라피/산출물_가이드/00_공통/04_통합 밍글링 프로세스.md",
-    "프로그라피/워크샵_아젠다/Part3_프로그램설계.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
