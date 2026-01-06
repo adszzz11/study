@@ -9,7 +9,7 @@
 
 ## 참고 문서
 
-> 아래 내용은 2025년 10월 25일 TSV 워크숍에서 결정된 사항입니다.
+> 2025년 10월 25일 TSV 워크숍에서 결정된 사항.
 >
 > **원본:** [프로그라피 타겟-솔루션-밸류 정의 워크숍 결과](https://docs.google.com/document/d/1qhX_JvgHGcPCo215ZPa5AontvFiZ8s6nKYF1-E8B6bk/)
 
