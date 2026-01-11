@@ -17,12 +17,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "CLAUDE.md",
+                    "file": "writing/회고/2025/2025년 회고 - velog.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CLAUDE"
+                  "title": "2025년 회고 - velog"
                 }
               }
             ]
@@ -301,8 +301,24 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "f133a144b6944122",
+  "active": "a2d0e7d6155b7204",
   "lastOpenFiles": [
+    "업무/슈퍼블록/konda-process/13-handover-guide.md",
+    "업무/슈퍼블록/konda-process/12-issue-management-guide.md",
+    "업무/슈퍼블록/konda-process/09-environment-guide.md",
+    "업무/슈퍼블록/konda-process/08-deployment-process.md",
+    "업무/슈퍼블록/konda-process/07-qa-process.md",
+    "업무/슈퍼블록/konda-process/06-api-integration-guide.md",
+    "업무/슈퍼블록/konda-process/05-development-process.md",
+    "업무/슈퍼블록/konda-process/04-design-process.md",
+    "업무/슈퍼블록/konda-process/03-planning-process.md",
+    "업무/슈퍼블록/konda-process/10-security-guidelines.md",
+    "업무/슈퍼블록/konda-process/11-nda-security-agreement.md",
+    "업무/슈퍼블록/konda-process/02-communication-guide.md",
+    "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
+    "업무/슈퍼블록/konda-process/00-project-overview.md",
+    "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768146645706",
+    "업무/슈퍼블록/konda-process",
     "writing/회고/2025/2025년 회고 - velog.md",
     "writing/회고/2025/2025년 회고 - velog.md.tmp.7240.1768145649375",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
@@ -319,26 +335,10 @@
     "프로그라피/done/워크샵_아젠다/[진행] 퍼실리테이터 가이드.md",
     "프로그라피/done/워크샵_아젠다/Part 3. 프로그램 설계.md",
     "프로그라피/done/워크샵_아젠다/Part 2. 역할 정의.md",
-    "프로그라피/done/워크샵_아젠다/Part 0-1. 정체성 및 목표.md",
     "프로그라피/워크샵_아젠다/Part 2. 역할 정의.md.tmp.16934.1767714929928",
     "프로그라피/워크샵_아젠다/프로그라피 11기 멘토 워크숍 아젠다.md.tmp.16934.1767714801051",
     "프로그라피/워크샵_아젠다/프로그라피 11기 멘토 워크숍 아젠다.md.tmp.16934.1767714796582",
-    "프로그라피/done/워크샵_아젠다/프로그라피 11기 멘토 워크숍 아젠다.md",
-    "프로그라피/done/워크샵_아젠다/Part 4. 커뮤니티.md",
-    "프로그라피/done/워크샵_아젠다/Part 5. 선발 및 퇴출.md",
     "프로그라피/워크샵_아젠다/Part 2. 역할 정의.md.tmp.16934.1767713827352",
-    "프로그라피/워크샵_아젠다/Part 0-1. 정체성 및 목표.md.tmp.16934.1767676435497",
-    "프로그라피/워크샵_아젠다/Part 1. 목표 설정.md",
-    "프로그라피/워크샵_아젠다/Part 0. 정체성 확인.md",
-    "프로그라피/워크샵_아젠다/[공유용] Part 0. 정체성 확인.md",
-    "프로그라피/워크샵_아젠다/[공유용] Part 1. 목표 설정.md",
-    "프로그라피/워크샵_아젠다/[공유용] Part 3. 프로그램 설계.md",
-    "프로그라피/워크샵_아젠다/[공유용] Part 2. 역할 정의.md",
-    "프로그라피/워크샵_아젠다/[공유용] 프로그라피 11기 멘토 워크숍 아젠다.md",
-    "프로그라피/워크샵_아젠다/[공유용] Part 5. 선발 및 퇴출.md",
-    "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료/산출물 인터뷰 - 백엔드.md.tmp.44140.1767632112611",
-    "프로그라피/워크샵_아젠다/[공유용] Part 4. 커뮤니티.md",
-    "프로그라피/done/산출물_가이드/구글드라이브_업로드용/00_공통/통합 밍글링 프로세스.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
