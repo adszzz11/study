@@ -28,49 +28,101 @@
             ]
           },
           {
-            "id": "121aca938a1de193",
-            "type": "tabs",
+            "id": "d36a7e8c69642b60",
+            "type": "split",
             "children": [
               {
-                "id": "f133a144b6944122",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/leetangle/code/Note/업무/슈퍼블록",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/zsh",
-                        "name": "",
-                        "platforms": {
-                          "darwin": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
+                "id": "121aca938a1de193",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "f133a144b6944122",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "terminal:terminal",
+                      "state": {
+                        "terminal:terminal": {
+                          "cwd": "/Users/leetangle/code/Note/업무/슈퍼블록",
+                          "focus": false,
+                          "profile": {
+                            "args": [],
+                            "executable": "/bin/zsh",
+                            "name": "",
+                            "platforms": {
+                              "darwin": true
+                            },
+                            "pythonExecutable": "python3",
+                            "restoreHistory": false,
+                            "rightClickAction": "copyPaste",
+                            "successExitCodes": [
+                              "0",
+                              "SIGINT",
+                              "SIGTERM"
+                            ],
+                            "terminalOptions": {
+                              "documentOverride": null
+                            },
+                            "type": "integrated",
+                            "useWin32Conhost": true
+                          },
+                          "serial": null
+                        }
                       },
-                      "serial": null
+                      "pinned": true,
+                      "icon": "terminal",
+                      "title": "터미널: ✳ Plan Mode Setup"
                     }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "터미널: ✳ Plan Mode Setup"
-                }
+                  }
+                ]
+              },
+              {
+                "id": "945abacd47ad93c0",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "22c0489b4693a667",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "terminal:terminal",
+                      "state": {
+                        "terminal:terminal": {
+                          "cwd": "/Users/leetangle/code/Note/업무/슈퍼블록",
+                          "focus": false,
+                          "profile": {
+                            "args": [],
+                            "executable": "/bin/zsh",
+                            "name": "",
+                            "platforms": {
+                              "darwin": true
+                            },
+                            "pythonExecutable": "python3",
+                            "restoreHistory": false,
+                            "rightClickAction": "copyPaste",
+                            "successExitCodes": [
+                              "0",
+                              "SIGINT",
+                              "SIGTERM"
+                            ],
+                            "terminalOptions": {
+                              "documentOverride": null
+                            },
+                            "type": "integrated",
+                            "useWin32Conhost": true
+                          },
+                          "serial": null
+                        }
+                      },
+                      "pinned": true,
+                      "icon": "terminal",
+                      "title": "터미널: ✳ 2025년 회고록"
+                    }
+                  }
+                ]
               }
-            ]
+            ],
+            "direction": "vertical"
           }
         ],
         "direction": "horizontal"
@@ -251,6 +303,9 @@
   },
   "active": "f133a144b6944122",
   "lastOpenFiles": [
+    "writing/회고/2025/2025년 회고 - velog.md",
+    "writing/회고/2025/2025년 회고 - velog.md.tmp.7240.1768145649375",
+    "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
     "CLAUDE.md",
     "업무/슈퍼블록",
     "Obsidian-Claude-Code-통합-가이드.md",
@@ -283,10 +338,7 @@
     "프로그라피/워크샵_아젠다/[공유용] Part 5. 선발 및 퇴출.md",
     "프로그라피/산출물_가이드/구글드라이브_업로드용/99_원본자료/산출물 인터뷰 - 백엔드.md.tmp.44140.1767632112611",
     "프로그라피/워크샵_아젠다/[공유용] Part 4. 커뮤니티.md",
-    "프로그라피/워크샵_아젠다/[공유용] Part 1. 목표 설정.md.tmp.16934.1767632072032",
     "프로그라피/done/산출물_가이드/구글드라이브_업로드용/00_공통/통합 밍글링 프로세스.md",
-    "프로그라피/done/산출물_가이드/구글드라이브_업로드용/00_공통/통합 협업 프로세스.md",
-    "프로그라피/done/산출물_가이드/00_공통/03_통합 협업 프로세스.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
