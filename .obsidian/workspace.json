@@ -10,6 +10,7 @@
           {
             "id": "f758f3cf746155b7",
             "type": "tabs",
+            "dimension": 56.08856088560885,
             "children": [
               {
                 "id": "a2d0e7d6155b7204",
@@ -30,6 +31,7 @@
           {
             "id": "d36a7e8c69642b60",
             "type": "split",
+            "dimension": 43.91143911439114,
             "children": [
               {
                 "id": "121aca938a1de193",
@@ -301,10 +303,13 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "f133a144b6944122",
+  "active": "a2d0e7d6155b7204",
   "lastOpenFiles": [
-    "업무/슈퍼블록/konda-process/00-project-overview.md",
     "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
+    "업무/슈퍼블록/konda-process/16-project-closing-checklist.md.tmp.5668.1768183782559",
+    "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183739473",
+    "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183709743",
+    "업무/슈퍼블록/konda-process/00-project-overview.md",
     "업무/슈퍼블록/konda-process/09-environment-guide.md",
     "업무/슈퍼블록/konda-process/16-project-closing-checklist.md",
     "업무/슈퍼블록/konda-process/15-risk-management.md",
@@ -334,11 +339,7 @@
     "프로그라피/done",
     "업무/환불 프로세스 정의  + 정산_20241108.md",
     "프로그라피/done/워크샵_아젠다/[진행] 피그잼 템플릿 구조.md",
-    "프로그라피/done/워크샵_아젠다/[진행] 워크숍 슬라이드.md",
     "프로그라피/워크샵_아젠다/Part 2. 역할 정의.md.tmp.16934.1767714929928",
-    "프로그라피/워크샵_아젠다/프로그라피 11기 멘토 워크숍 아젠다.md.tmp.16934.1767714801051",
-    "프로그라피/워크샵_아젠다/프로그라피 11기 멘토 워크숍 아젠다.md.tmp.16934.1767714796582",
-    "프로그라피/워크샵_아젠다/Part 2. 역할 정의.md.tmp.16934.1767713827352",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
