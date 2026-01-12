@@ -17,12 +17,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "writing/회고/2025/2025년 회고 - velog.md",
+                    "file": "업무/슈퍼블록/konda-process/00-project-overview.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "2025년 회고 - velog"
+                  "title": "00-project-overview"
                 }
               }
             ]
@@ -71,7 +71,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ Plan Mode Setup"
+                      "title": "터미널: ✳ 문서 작성 인터뷰"
                     }
                   }
                 ]
@@ -301,11 +301,17 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "a2d0e7d6155b7204",
+  "active": "f133a144b6944122",
   "lastOpenFiles": [
+    "업무/슈퍼블록/konda-process/00-project-overview.md",
+    "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
+    "업무/슈퍼블록/konda-process/09-environment-guide.md",
+    "업무/슈퍼블록/konda-process/16-project-closing-checklist.md",
+    "업무/슈퍼블록/konda-process/15-risk-management.md",
+    "업무/슈퍼블록/konda-process/14-onboarding-guide.md",
+    "writing/회고/2025/2025년 회고 - velog.md",
     "업무/슈퍼블록/konda-process/13-handover-guide.md",
     "업무/슈퍼블록/konda-process/12-issue-management-guide.md",
-    "업무/슈퍼블록/konda-process/09-environment-guide.md",
     "업무/슈퍼블록/konda-process/08-deployment-process.md",
     "업무/슈퍼블록/konda-process/07-qa-process.md",
     "업무/슈퍼블록/konda-process/06-api-integration-guide.md",
@@ -315,11 +321,8 @@
     "업무/슈퍼블록/konda-process/10-security-guidelines.md",
     "업무/슈퍼블록/konda-process/11-nda-security-agreement.md",
     "업무/슈퍼블록/konda-process/02-communication-guide.md",
-    "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
-    "업무/슈퍼블록/konda-process/00-project-overview.md",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768146645706",
     "업무/슈퍼블록/konda-process",
-    "writing/회고/2025/2025년 회고 - velog.md",
     "writing/회고/2025/2025년 회고 - velog.md.tmp.7240.1768145649375",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
     "CLAUDE.md",
@@ -332,9 +335,6 @@
     "업무/환불 프로세스 정의  + 정산_20241108.md",
     "프로그라피/done/워크샵_아젠다/[진행] 피그잼 템플릿 구조.md",
     "프로그라피/done/워크샵_아젠다/[진행] 워크숍 슬라이드.md",
-    "프로그라피/done/워크샵_아젠다/[진행] 퍼실리테이터 가이드.md",
-    "프로그라피/done/워크샵_아젠다/Part 3. 프로그램 설계.md",
-    "프로그라피/done/워크샵_아젠다/Part 2. 역할 정의.md",
     "프로그라피/워크샵_아젠다/Part 2. 역할 정의.md.tmp.16934.1767714929928",
     "프로그라피/워크샵_아젠다/프로그라피 11기 멘토 워크숍 아젠다.md.tmp.16934.1767714801051",
     "프로그라피/워크샵_아젠다/프로그라피 11기 멘토 워크숍 아젠다.md.tmp.16934.1767714796582",
