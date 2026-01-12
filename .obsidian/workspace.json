@@ -10,7 +10,7 @@
           {
             "id": "f758f3cf746155b7",
             "type": "tabs",
-            "dimension": 51.75276752767528,
+            "dimension": 58.12500000000001,
             "children": [
               {
                 "id": "a2d0e7d6155b7204",
@@ -31,7 +31,7 @@
           {
             "id": "d36a7e8c69642b60",
             "type": "split",
-            "dimension": 48.247232472324725,
+            "dimension": 41.875,
             "children": [
               {
                 "id": "121aca938a1de193",
@@ -73,7 +73,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ 개발팀 부재"
+                      "title": "터미널: ✳ 비금융-금융 통신"
                     }
                   }
                 ]
@@ -303,13 +303,15 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "f133a144b6944122",
+  "active": "a2d0e7d6155b7204",
   "lastOpenFiles": [
+    "업무/슈퍼블록/konda-process/07-qa-process.md.tmp.5668.1768226764479",
+    "업무/슈퍼블록/konda-process/06-api-integration-guide.md.tmp.5668.1768226738954",
+    "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
+    "업무/슈퍼블록/konda-process/00-project-overview.md",
     "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md.tmp.5668.1768185924933",
     "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md.tmp.5668.1768185920444",
-    "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
     "업무/슈퍼블록/konda-process/02-communication-guide.md",
-    "업무/슈퍼블록/konda-process/00-project-overview.md",
     "업무/슈퍼블록/konda-process/16-project-closing-checklist.md.tmp.5668.1768183782559",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183739473",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183709743",
@@ -337,8 +339,6 @@
     "Obsidian-Claude-Code-통합-가이드.md",
     "auto-commit/autoCommit_shell.md",
     "업무/소비잇 인수인계.md",
-    "프로그라피/do",
-    "프로그라피/done",
     "업무/환불 프로세스 정의  + 정산_20241108.md",
     "프로그라피/done/워크샵_아젠다/[진행] 피그잼 템플릿 구조.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
