@@ -10,7 +10,7 @@
           {
             "id": "f758f3cf746155b7",
             "type": "tabs",
-            "dimension": 56.08856088560885,
+            "dimension": 51.75276752767528,
             "children": [
               {
                 "id": "a2d0e7d6155b7204",
@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "업무/슈퍼블록/konda-process/00-project-overview.md",
+                    "file": "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "00-project-overview"
+                  "title": "01-roles-and-responsibilities"
                 }
               }
             ]
@@ -31,7 +31,7 @@
           {
             "id": "d36a7e8c69642b60",
             "type": "split",
-            "dimension": 43.91143911439114,
+            "dimension": 48.247232472324725,
             "children": [
               {
                 "id": "121aca938a1de193",
@@ -73,7 +73,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ 기술스택 비교"
+                      "title": "터미널: ✳ 개발팀 부재"
                     }
                   }
                 ]
@@ -303,10 +303,13 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "a2d0e7d6155b7204",
+  "active": "f133a144b6944122",
   "lastOpenFiles": [
-    "업무/슈퍼블록/konda-process/00-project-overview.md",
+    "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md.tmp.5668.1768185924933",
+    "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md.tmp.5668.1768185920444",
     "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
+    "업무/슈퍼블록/konda-process/02-communication-guide.md",
+    "업무/슈퍼블록/konda-process/00-project-overview.md",
     "업무/슈퍼블록/konda-process/16-project-closing-checklist.md.tmp.5668.1768183782559",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183739473",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183709743",
@@ -325,7 +328,6 @@
     "업무/슈퍼블록/konda-process/03-planning-process.md",
     "업무/슈퍼블록/konda-process/10-security-guidelines.md",
     "업무/슈퍼블록/konda-process/11-nda-security-agreement.md",
-    "업무/슈퍼블록/konda-process/02-communication-guide.md",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768146645706",
     "업무/슈퍼블록/konda-process",
     "writing/회고/2025/2025년 회고 - velog.md.tmp.7240.1768145649375",
@@ -339,7 +341,6 @@
     "프로그라피/done",
     "업무/환불 프로세스 정의  + 정산_20241108.md",
     "프로그라피/done/워크샵_아젠다/[진행] 피그잼 템플릿 구조.md",
-    "프로그라피/워크샵_아젠다/Part 2. 역할 정의.md.tmp.16934.1767714929928",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
