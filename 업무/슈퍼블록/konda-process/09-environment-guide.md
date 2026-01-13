@@ -247,8 +247,8 @@ LOG_LEVEL=debug
 
 ### 8.2 문의 채널
 
-- 환경 관련 문의: Slack #konda-dev
-- 접속 이슈: Slack #konda-dev + 내부 개발팀 멘션
+- 환경 관련 문의: Slack #proj-konda-dev
+- 접속 이슈: Slack #proj-konda-dev + 내부 개발 담당자 멘션
 
 ---
 

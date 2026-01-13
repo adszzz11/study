@@ -313,8 +313,7 @@ GitHub → Slack 알림:
 
 | 채널 | 알림 내용 |
 |------|----------|
-| #konda-dev | PR, 머지 알림 |
-| #konda-bug | 버그 이슈 알림 |
+| #proj-konda-dev | PR, 머지 알림, 버그 이슈 알림 |
 
 ---
 

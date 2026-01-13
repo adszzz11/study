@@ -75,11 +75,8 @@
 | 알림 설정 | 멘션 알림 활성화 | [ ] |
 
 **필수 Slack 채널:**
-- #konda-general
-- #konda-dev
-- #konda-design (디자인팀)
-- #konda-planning (기획팀)
-- #konda-bug
+- #proj-konda-all (전체 소통)
+- #proj-konda-dev (개발 관련)
 
 #### Figma
 | 항목 | 설명 | 확인 |

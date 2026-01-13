@@ -149,7 +149,7 @@
 외주사 기획서 작성 완료
         │
         ▼
-Slack #konda-planning 채널에 검토 요청
+Slack #proj-konda-all 채널에 검토 요청
         │
         ▼
 내부 검토 (PM + 개발팀)
@@ -224,7 +224,7 @@ Slack #konda-planning 채널에 검토 요청
 변경 필요성 인지
       │
       ▼
-Slack #konda-planning 채널에서 협의
+Slack #proj-konda-all 채널에서 협의
       │
       ▼
 변경 영향도 분석

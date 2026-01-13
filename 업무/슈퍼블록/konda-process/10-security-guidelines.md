@@ -273,7 +273,7 @@ function processInput(data) {
 
 3. 보고 채널:
    - 긴급: 전화
-   - 일반: Slack #konda-security (생성 필요)
+   - 일반: Slack #proj-konda-dev
 ```
 
 ---

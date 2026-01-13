@@ -222,7 +222,7 @@ Konda (Team)
 
 ### 6.1 피드백 채널
 
-- **Slack #konda-design**: 간단한 피드백, 질의
+- **Slack #proj-konda-all**: 간단한 피드백, 질의
 - **Figma 코멘트**: 특정 요소에 대한 상세 피드백
 - **정기 미팅**: 전체적인 방향성 논의
 

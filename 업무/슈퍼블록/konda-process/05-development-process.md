@@ -279,7 +279,7 @@ Fixes: #78
 main 브랜치 최신화
       │
       ▼
-Slack #konda-deploy에 배포 요청
+Slack #proj-konda-dev에 배포 요청
       │
       ▼
 내부 팀 코드 확인

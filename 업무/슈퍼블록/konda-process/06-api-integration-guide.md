@@ -302,7 +302,7 @@ Authorization: Bearer <access_token>
 ### 8.1 API 변경 프로세스
 
 ```
-1. API 변경 필요성 논의 (Slack #konda-dev)
+1. API 변경 필요성 논의 (Slack #proj-konda-dev)
 2. API 명세 초안 작성
 3. App 팀과 리뷰
 4. 명세 확정
