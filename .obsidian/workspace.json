@@ -73,7 +73,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ 다날 채용공고"
+                      "title": "터미널: ✳ Discord 문법"
                     }
                   }
                 ]
@@ -305,6 +305,7 @@
   },
   "active": "88829b243008d808",
   "lastOpenFiles": [
+    "discord.md.tmp.41871.1768378831847",
     "discord.md",
     "writing/회고/2025/2025년 회고 - velog.md",
     "업무/슈퍼블록/konda-process/08-deployment-process.md",
@@ -340,7 +341,6 @@
     "auto-commit/autoCommit_shell.md",
     "업무/소비잇 인수인계.md",
     "업무/환불 프로세스 정의  + 정산_20241108.md",
-    "프로그라피/done/워크샵_아젠다/[진행] 피그잼 템플릿 구조.md",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/traceViewer/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/vite/recorder/playwright-logo.svg",
     "assignment/zonagent/구현체/mvp/venv/lib/python3.14/site-packages/playwright/driver/package/lib/server/chromium/appIcon.png",
