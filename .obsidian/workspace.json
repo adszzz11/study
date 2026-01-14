@@ -73,7 +73,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ 업무 협력 불가"
+                      "title": "터미널: ✳ Ultrathink 공고 평가"
                     }
                   }
                 ]
@@ -303,7 +303,7 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "a2d0e7d6155b7204",
+  "active": "88829b243008d808",
   "lastOpenFiles": [
     "discord.md",
     "인터뷰/지원자/이력서/이상민_이력서_20251109.pdf",
