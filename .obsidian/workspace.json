@@ -73,7 +73,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ Discord 문법"
+                      "title": "터미널: ✳ 업무 협력 불가"
                     }
                   }
                 ]
@@ -303,10 +303,11 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "88829b243008d808",
+  "active": "a2d0e7d6155b7204",
   "lastOpenFiles": [
-    "discord.md.tmp.41871.1768378831847",
     "discord.md",
+    "인터뷰/지원자/이력서/이상민_이력서_20251109.pdf",
+    "discord.md.tmp.41871.1768378831847",
     "writing/회고/2025/2025년 회고 - velog.md",
     "업무/슈퍼블록/konda-process/08-deployment-process.md",
     "업무/슈퍼블록/konda-process/09-environment-guide.md",
@@ -326,7 +327,6 @@
     "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md.tmp.5668.1768185920444",
     "업무/슈퍼블록/konda-process/16-project-closing-checklist.md.tmp.5668.1768183782559",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183739473",
-    "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183709743",
     "업무/슈퍼블록/konda-process/16-project-closing-checklist.md",
     "업무/슈퍼블록/konda-process/15-risk-management.md",
     "업무/슈퍼블록/konda-process/14-onboarding-guide.md",
@@ -334,7 +334,6 @@
     "업무/슈퍼블록/konda-process/12-issue-management-guide.md",
     "업무/슈퍼블록/konda-process/10-security-guidelines.md",
     "업무/슈퍼블록/konda-process/11-nda-security-agreement.md",
-    "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768146645706",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
     "CLAUDE.md",
     "Obsidian-Claude-Code-통합-가이드.md",
