@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "업무/슈퍼블록/konda-process/02-communication-guide.md",
+                    "file": "writing/회고/2025/2025년 회고 - velog.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "02-communication-guide"
+                  "title": "2025년 회고 - velog"
                 }
               }
             ]
@@ -303,37 +303,36 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "f133a144b6944122",
+  "active": "a2d0e7d6155b7204",
   "lastOpenFiles": [
-    "업무/슈퍼블록/konda-process/02-communication-guide.md.tmp.5668.1768266741942",
+    "업무/슈퍼블록/konda-process/08-deployment-process.md",
+    "업무/슈퍼블록/konda-process/09-environment-guide.md",
+    "업무/슈퍼블록/konda-process/07-qa-process.md",
+    "업무/슈퍼블록/konda-process/06-api-integration-guide.md",
+    "업무/슈퍼블록/konda-process/05-development-process.md",
+    "업무/슈퍼블록/konda-process/04-design-process.md",
+    "업무/슈퍼블록/konda-process/03-planning-process.md",
     "업무/슈퍼블록/konda-process/02-communication-guide.md",
-    "업무/슈퍼블록/konda-process/09-environment-guide.md.tmp.5668.1768266454334",
     "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
+    "업무/슈퍼블록/konda-process/00-project-overview.md",
+    "업무/슈퍼블록/konda-process/02-communication-guide.md.tmp.5668.1768266741942",
+    "업무/슈퍼블록/konda-process/09-environment-guide.md.tmp.5668.1768266454334",
     "업무/슈퍼블록/konda-process/07-qa-process.md.tmp.5668.1768226764479",
     "업무/슈퍼블록/konda-process/06-api-integration-guide.md.tmp.5668.1768226738954",
-    "업무/슈퍼블록/konda-process/00-project-overview.md",
     "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md.tmp.5668.1768185924933",
     "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md.tmp.5668.1768185920444",
     "업무/슈퍼블록/konda-process/16-project-closing-checklist.md.tmp.5668.1768183782559",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183739473",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768183709743",
-    "업무/슈퍼블록/konda-process/09-environment-guide.md",
     "업무/슈퍼블록/konda-process/16-project-closing-checklist.md",
     "업무/슈퍼블록/konda-process/15-risk-management.md",
     "업무/슈퍼블록/konda-process/14-onboarding-guide.md",
     "writing/회고/2025/2025년 회고 - velog.md",
     "업무/슈퍼블록/konda-process/13-handover-guide.md",
     "업무/슈퍼블록/konda-process/12-issue-management-guide.md",
-    "업무/슈퍼블록/konda-process/08-deployment-process.md",
-    "업무/슈퍼블록/konda-process/07-qa-process.md",
-    "업무/슈퍼블록/konda-process/06-api-integration-guide.md",
-    "업무/슈퍼블록/konda-process/05-development-process.md",
-    "업무/슈퍼블록/konda-process/04-design-process.md",
-    "업무/슈퍼블록/konda-process/03-planning-process.md",
     "업무/슈퍼블록/konda-process/10-security-guidelines.md",
     "업무/슈퍼블록/konda-process/11-nda-security-agreement.md",
     "업무/슈퍼블록/konda-process/00-project-overview.md.tmp.5668.1768146645706",
-    "업무/슈퍼블록/konda-process",
     "writing/회고/2025/2025년 회고 - 시련과 재정비, 그리고 발견.md",
     "CLAUDE.md",
     "Obsidian-Claude-Code-통합-가이드.md",
