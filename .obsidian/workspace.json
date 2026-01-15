@@ -10,7 +10,7 @@
           {
             "id": "f758f3cf746155b7",
             "type": "tabs",
-            "dimension": 47.97047970479705,
+            "dimension": 69.64944649446494,
             "children": [
               {
                 "id": "a2d0e7d6155b7204",
@@ -31,7 +31,7 @@
           {
             "id": "d36a7e8c69642b60",
             "type": "split",
-            "dimension": 52.02952029520295,
+            "dimension": 30.350553505535053,
             "children": [
               {
                 "id": "121aca938a1de193",
@@ -73,7 +73,7 @@
                       },
                       "pinned": true,
                       "icon": "terminal",
-                      "title": "터미널: ✳ 팀 인력 대체"
+                      "title": "터미널: ✳ Remove Emojis"
                     }
                   }
                 ]
@@ -305,29 +305,29 @@
   },
   "active": "a2d0e7d6155b7204",
   "lastOpenFiles": [
+    "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md.tmp.7181.1768464636283",
+    "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md.tmp.7181.1768464632060",
+    "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md.tmp.7181.1768464628027",
+    "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md.tmp.7181.1768464615305",
+    "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md.tmp.7181.1768464612021",
+    "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md",
+    "업무/슈퍼블록/konda-process/08-deployment-process.md",
+    "업무/슈퍼블록/konda-process/07-qa-process.md",
+    "업무/슈퍼블록/konda-process/04-design-process.md",
+    "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
+    "업무/슈퍼블록/konda-process/00-project-overview.md",
     "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md.tmp.7181.1768441913526",
     "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md.tmp.7181.1768441909927",
     "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md.tmp.7181.1768441898414",
-    "aa다날 금융개발팀 저를 대체할 사람을 찾습니다.md",
     "discord.md.tmp.7181.1768441476744",
     "discord.md.tmp.7181.1768441263877",
     "인터뷰/지원자/이력서/이상민_이력서_20251109.pdf",
-    "discord.md.tmp.41871.1768378831847",
     "writing/회고/2025/2025년 회고 - velog.md",
-    "업무/슈퍼블록/konda-process/08-deployment-process.md",
     "업무/슈퍼블록/konda-process/09-environment-guide.md",
-    "업무/슈퍼블록/konda-process/07-qa-process.md",
     "업무/슈퍼블록/konda-process/06-api-integration-guide.md",
     "업무/슈퍼블록/konda-process/05-development-process.md",
-    "업무/슈퍼블록/konda-process/04-design-process.md",
     "업무/슈퍼블록/konda-process/03-planning-process.md",
     "업무/슈퍼블록/konda-process/02-communication-guide.md",
-    "업무/슈퍼블록/konda-process/01-roles-and-responsibilities.md",
-    "업무/슈퍼블록/konda-process/00-project-overview.md",
-    "업무/슈퍼블록/konda-process/02-communication-guide.md.tmp.5668.1768266741942",
-    "업무/슈퍼블록/konda-process/09-environment-guide.md.tmp.5668.1768266454334",
-    "업무/슈퍼블록/konda-process/07-qa-process.md.tmp.5668.1768226764479",
-    "업무/슈퍼블록/konda-process/06-api-integration-guide.md.tmp.5668.1768226738954",
     "업무/슈퍼블록/konda-process/16-project-closing-checklist.md",
     "업무/슈퍼블록/konda-process/15-risk-management.md",
     "업무/슈퍼블록/konda-process/14-onboarding-guide.md",
