@@ -1,7 +1,0 @@
-# Phase 0 Research Dependencies
-# Alpharetta CivicClerk HTML 구조 분석용
-
-playwright>=1.40.0
-beautifulsoup4>=4.12.0
-httpx>=0.25.0
-lxml>=4.9.0
