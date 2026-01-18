@@ -26,15 +26,15 @@ parent: "[[README]]"
 
 ### 주요 용어
 
-| 용어 | 설명 |
-|------|------|
-| **Cluster** | Control Plane + Worker Node들의 집합 |
-| **Node** | 컨테이너가 실행되는 물리/가상 머신 |
-| **Pod** | K8s 최소 배포 단위, 1개 이상의 컨테이너 그룹 |
-| **Service** | Pod 집합에 대한 네트워크 접근점 |
-| **Deployment** | Pod 배포와 스케일링을 관리하는 리소스 |
-| **Namespace** | 클러스터 내 가상 분리 단위 |
-| **kubectl** | K8s 클러스터를 제어하는 CLI 도구 |
+| 용어             | 설명                               |
+| -------------- | -------------------------------- |
+| **Cluster**    | Control Plane + Worker Node들의 집합 |
+| **Node**       | 컨테이너가 실행되는 물리/가상 머신              |
+| **Pod**        | K8s 최소 배포 단위, 1개 이상의 컨테이너 그룹     |
+| **Service**    | Pod 집합에 대한 네트워크 접근점              |
+| **Deployment** | Pod 배포와 스케일링을 관리하는 리소스           |
+| **Namespace**  | 클러스터 내 가상 분리 단위                  |
+| **kubectl**    | K8s 클러스터를 제어하는 CLI 도구            |
 
 ---
 
