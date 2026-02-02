@@ -6,12 +6,12 @@
 
 ### 핵심 구성요소
 
-| 개념 | 설명 | Git 비유 |
-|------|------|----------|
-| **Flow** | 워크플로우의 컨테이너, 최상위 함수 | Repository |
-| **Task** | 개별 작업 단위, 재사용 가능 | Commit |
-| **Deployment** | Flow를 실행 가능한 상태로 패키징 | Release |
-| **Work Pool** | 실행 인프라 정의 (K8s, Docker 등) | CI/CD Runner |
+| 개념             | 설명                        | Git 비유       |
+| -------------- | ------------------------- | ------------ |
+| **Flow**       | 워크플로우의 컨테이너, 최상위 함수       | Repository   |
+| **Task**       | 개별 작업 단위, 재사용 가능          | Commit       |
+| **Deployment** | Flow를 실행 가능한 상태로 패키징      | Release      |
+| **Work Pool**  | 실행 인프라 정의 (K8s, Docker 등) | CI/CD Runner |
 
 ### 개념 다이어그램
 
