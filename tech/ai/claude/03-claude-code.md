@@ -230,6 +230,40 @@ claude --dangerously-skip-permissions
 
 ---
 
+## 10. 릴리즈 노트
+
+### v2.1.86 (2026-03-27)
+
+**추가 기능:**
+- API 요청에 `X-Claude-Code-Session-Id` 헤더 추가 → 프록시 집계 용이
+- VCS 디렉터리 제외 목록에 `.jj` (Jujutsu), `.sl` (Sapling) 추가
+
+**버그 수정:**
+- `--resume` 시 "tool_use ids were found without tool_result blocks" 오류 수정
+- 조건부 skill 설정 시 프로젝트 루트 외부 파일에서 Write/Edit/Read 실패 수정
+- 불필요한 config 디스크 쓰기로 인한 Windows 성능 저하 및 잠재적 파일 손상 수정
+- `/feedback` 사용 시 긴 세션에서 out-of-memory 크래시 수정
+- `--bare` 모드에서 인터랙티브 세션의 MCP 도구가 드롭되는 문제 수정
+- OAuth 로그인 URL이 ~20자로 잘려서 복사되던 문제 수정
+- 좁은 터미널에서 마스킹된 입력이 토큰 시작 부분을 노출하는 문제 수정
+- macOS/Linux에서 공식 marketplace 플러그인 스크립트 permission denied 오류 수정
+- 멀티 인스턴스 환경에서 statusline이 잘못된 모델을 표시하는 문제 수정
+
+---
+
+### v2.1.85 (2026-03-26)
+
+**추가 기능:**
+- MCP 헬퍼를 위한 환경 변수 추가: `CLAUDE_CODE_MCP_SERVER_NAME`, `CLAUDE_CODE_MCP_SERVER_URL`
+- 훅(hooks)에 조건부 `if` 필드 추가 (permission rule 문법 필터링 지원)
+- 예약 작업(`/loop`, `CronCreate`)에 타임스탬프 마커 추가
+- Deep link 쿼리 최대 5,000자 지원으로 확장
+
+**버그 수정:**
+- compaction, 플러그인, MCP OAuth 플로우 관련 다수 버그 수정
+
+---
+
 ## 다음 단계
 
 > [!tip] 다음으로

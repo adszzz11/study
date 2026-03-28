@@ -215,23 +215,62 @@ with client.messages.stream(
 
 ---
 
-## 6. 요금
+## 6. 최신 API 변경사항 (2026-03-27)
+
+### Web Search & Tool Calling GA
+
+- **Web search tool** 및 programmatic tool calling이 **정식 출시(GA)** → beta 헤더 불필요
+- **API code execution** 이 web search 또는 web fetch와 함께 사용 시 **무료**
+  - Sandboxed code execution으로 모델 성능 및 토큰 효율 향상
+
+### Data Residency (데이터 레지던시)
+
+```json
+{
+  "model": "claude-sonnet-4-6",
+  "inference_geo": "us",
+  "messages": [...]
+}
+```
+
+- `inference_geo` 파라미터로 모델 추론 실행 지역 지정 가능
+- US-only 추론: 2026-02-01 이후 출시 모델 기준 **1.1× 요금** 적용
+
+### Structured Outputs GA
+
+- Claude Sonnet 4.5, Opus 4.5, Haiku 4.5에서 **Structured Outputs 정식 출시**
+- 개선 사항: 확장된 schema 지원, grammar compilation 레이턴시 감소, 단순화된 통합 경로
+
+---
+
+## 7. 요금
 
 ### 가격 (2026년 1월 기준)
 
 | 모델 | Input (1M tokens) | Output (1M tokens) |
 |------|-------------------|-------------------|
-| Claude Opus 4.5 | $15 | $75 |
-| Claude Sonnet 4 | $3 | $15 |
-| Claude Haiku 3.5 | $0.80 | $4 |
+| Claude Opus 4.6 | $15 | $75 |
+| Claude Sonnet 4.6 | $3 | $15 |
+| Claude Haiku 4.5 | $0.80 | $4 |
 
 ### 비용 계산 예시
 
 ```
 1,000 요청 × (500 입력 + 200 출력 토큰)
 = 500K input + 200K output tokens
-= (0.5 × $3) + (0.2 × $15) = $4.50 (Sonnet 기준)
+= (0.5 × $3) + (0.2 × $15) = $4.50 (Sonnet 4.6 기준)
 ```
+
+---
+
+## 8. 업데이트 이력
+
+| 날짜 | 내용 |
+|------|------|
+| 2026-03-27 | Web search tool & tool calling GA (beta 헤더 불필요) |
+| 2026-03-27 | Web search/fetch와 함께 쓰면 code execution 무료 |
+| 2026-03-27 | Data residency 제어 (`inference_geo` 파라미터) 도입 |
+| 2026-03-27 | Structured Outputs GA (Sonnet/Opus/Haiku 4.5) |
 
 ---
 
