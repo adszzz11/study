@@ -33,6 +33,8 @@ timeline
               : Telegram/Discord/iMessage
     2026-03-24 : Computer Use 정식
               : 데스크톱 자동 조작
+    2026-03-27 : Claude Code v2.1.86
+              : Channels 플래그, 세션 ID 헤더
 ```
 
 ---
@@ -94,6 +96,49 @@ timeline
 - Claude가 데스크톱 화면을 보고 직접 조작
 - 앱 열기, 웹 브라우저 탐색, 스프레드시트 편집
 - Dispatch와 결합하여 부재중에도 작업 수행
+
+### Claude Code v2.1.86 (2026-03-27)
+
+**세션 & 프록시**
+- API 요청에 `X-Claude-Code-Session-Id` 헤더 추가 (프록시 집계 지원)
+- MCP 서버 중복 제거: 로컬 설정과 claude.ai 커넥터 동시 설정 시 로컬 우선
+
+**VCS 지원 확대**
+- `.jj` (Jujutsu), `.sl` (Sapling) 디렉토리 제외 목록 추가
+
+**버그 수정**
+- `--resume` 시 "tool_use ids without tool_result blocks" 오류 수정
+- 프로젝트 루트 밖 파일에서 Write/Edit/Read 도구 실패 수정
+- `deniedMcpServers` 설정이 claude.ai MCP 서버를 차단하지 못하던 문제 수정
+- `--bare` 모드에서 MCP 도구가 누락되던 문제 수정
+- `/feedback` 사용 시 긴 세션에서 OOM 크래시 수정
+- 마스킹된 입력(OAuth 코드)에서 토큰 시작 부분이 노출되던 문제 수정
+- macOS/Linux에서 v2.1.83 이후 공식 마켓플레이스 플러그인 스크립트 실패 수정
+- 리모트 세션 스트리밍 중단 시 메모리 누수 수정
+- 엣지 연결 변경 시 ECONNRESET 오류 반복 수정
+
+**성능 & UX 개선**
+- macOS 키체인 캐시 스타트업 지연 단축 (5초 → 30초 간격)
+- `@` 파일 멘션의 토큰 오버헤드 감소
+- Bedrock/Vertex/Foundry 프롬프트 캐시 히트율 향상
+- 1M 이상 토큰 수 표시 방식 개선 (`1512.6k` → `1.5m`)
+- ToolSearch 활성화 시 글로벌 시스템 프롬프트 캐싱 정상 동작
+- 메모리 파일명 클릭 시 하이라이트 및 열기 지원
+- Skill 설명 250자 상한 적용, `/skills` 메뉴 알파벳 정렬
+
+**신규 기능**
+- statusline 스크립트에 `rate_limits` 필드 추가 (claude.ai 사용량 표시)
+- `source: 'settings'` 플러그인 마켓플레이스 소스 지원
+- skill/슬래시 커맨드에 `effort` frontmatter 지원
+- `--channels` 플래그 리서치 프리뷰: MCP 서버가 세션으로 메시지 push 가능
+
+**VS Code**
+- 긴 작업 중 확장 프로그램 무응답 수정
+- OAuth 갱신 후 Max 플랜 사용자가 Sonnet으로 기본 설정되던 문제 수정
+
+> 출처: https://code.claude.com/docs/en/changelog
+
+---
 
 ### Claude Apps (모바일)
 
