@@ -22,29 +22,50 @@ AI 코딩 에이전트가 단일 세션에서 벗어나 **다중 병렬 실행**
 
 ---
 
-## 핵심 도구 종합 비교
+## 핵심 도구 종합 비교 (2026-03-29 기준)
+
+### Tier 1: 기존 학습 완료
 
 | 비교 항목 | [[conductor/README\|Conductor]] | [[cmux/README\|cmux]] | [[oh-my-claudecode/README\|OMC]] | [[claude-squad/README\|Claude Squad]] | [[vibe-kanban/README\|Vibe Kanban]] |
 |-----------|-----------|------|-----|-------------|-------------|
-| **유형** | macOS 앱 | 네이티브 터미널 | Claude Code 확장 | CLI (tmux) | CLI + Web UI |
+| **유형** | macOS GUI 앱 | 네이티브 터미널 | Claude Code 확장 | CLI (tmux) | CLI + Web UI |
 | **격리 방식** | git worktree | 없음 (패널) | 없음 | git worktree | git worktree |
-| **지원 에이전트** | Claude Code | 모든 CLI 에이전트 | Claude Code 전용 | CC/Codex/Aider | CC/Gemini/Amp |
+| **지원 에이전트** | CC + Codex | 모든 CLI 에이전트 | Claude Code 전용 | CC/Codex/Aider | CC/Gemini/Amp |
+| **Claude 고유기능** | ✅ 100% | ✅ 100% | ✅ (확장 레이어) | ✅ 100% | ✅ 100% |
 | **모델 라우팅** | ✗ | ✗ | ✓ (Haiku→Opus) | ✗ | ✗ |
-| **가격** | 유료 | 무료 (OSS) | 무료 (OSS) | 무료 (OSS) | 무료 (OSS) |
+| **가격** | 현재 무료 | 무료 (OSS) | 무료 (OSS) | 무료 (OSS) | 무료 (OSS) |
 | **병렬 실행** | ✓ | ✓ (패널) | ✓ (5 workers) | ✓ | ✓ |
 | **시각화** | GUI 대시보드 | 터미널 탭 | 터미널 | 터미널 | 칸반 보드 |
 | **설치** | DMG 다운로드 | DMG 다운로드 | npm install | brew install | npm install |
-| **핵심 차별점** | 시각적 UX | 범용 터미널 | 토큰 최적화 30-50% | 심플 + 안정 | 내장 diff 리뷰 |
+| **핵심 차별점** | Checkpoint + GitHub 연동 | 범용 터미널 | 토큰 최적화 30-50% | 심플 + 안정 | 내장 diff 리뷰 |
+
+### Tier 2: 주목할 신규 도구
+
+| 비교 항목 | [[ccmanager/README\|ccmanager]] | [[agent-deck/README\|Agent Deck]] | [[emdash/README\|Emdash]] | [[superset/README\|Superset]] |
+|-----------|-----------|------------|--------|----------|
+| **유형** | TUI (PTY 기반) | TUI (tmux) | GUI (Electron) | GUI (Electron) |
+| **격리 방식** | git worktree | tmux 세션 | git worktree | git worktree |
+| **지원 에이전트** | 8종 (CC/Codex/Gemini 등) | CC/Codex/Gemini 등 | **23종** | 모든 CLI 에이전트 |
+| **Claude 고유기능** | ✅ 100% | ✅ 100% (Skills Manager) | ✅ 100% (Skills sync) | ✅ 100% |
+| **가격** | 무료 (MIT) | 무료 (MIT) | 무료 (MIT) | 무료 (ELv2) |
+| **플랫폼** | macOS/Linux | macOS/Linux/Win(WSL) | 전체 | macOS (Win/Linux 예정) |
+| **GitHub Stars** | ~970 | ~1,780 | ~3,200 | ~8,120 |
+| **핵심 차별점** | tmux 없이 8+ 에이전트 | **실시간 비용 추적** | **Best-of-N 비교** | IDE 연동 (VS Code/JetBrains) |
+| **설치** | npm install -g | brew install | brew install --cask | DMG 다운로드 |
 
 ### 선택 가이드
 
 | 상황 | 추천 도구 | 이유 |
 |------|----------|------|
-| GUI 선호 + macOS | Conductor | 시각적 대시보드, 직관적 UX |
-| 다양한 CLI 에이전트 사용 | cmux | 에이전트 무관하게 모든 CLI 지원 |
-| Claude 토큰 비용 절감 | OMC | 모델 라우팅으로 30-50% 절감 |
-| 가벼운 CLI 관리 | Claude Squad | brew install 한 줄, tmux 기반 |
-| 팀/프로젝트 관리 필요 | Vibe Kanban | 칸반 보드 + PR 스타일 diff 리뷰 |
+| GUI 선호 + Claude/Codex | **Conductor** | Checkpoint, GitHub 연동, .context 공유 |
+| GUI + 23종 에이전트 | **Emdash** | Best-of-N 비교, 티켓 연동 (YC W26) |
+| GUI + IDE 연동 | **Superset** | VS Code/JetBrains 원클릭, 8k+ stars |
+| 터미널 + 다양한 에이전트 | **ccmanager** | 8종 에이전트, tmux 불필요, 설치 간편 |
+| 터미널 + 비용 추적 | **Agent Deck** | 실시간 비용 대시보드, MCP 관리, 대화 포크 |
+| 가벼운 CLI 관리 | **Claude Squad** | brew install 한 줄, tmux 기반 |
+| 다양한 CLI 모니터링 | **cmux** | 범용 터미널, 알림 배지, 소켓 API |
+| Claude 토큰 비용 절감 | **OMC** | 모델 라우팅으로 30-50% 절감 |
+| 팀/프로젝트 관리 | **Vibe Kanban** | 칸반 보드 + PR 스타일 diff 리뷰 |
 
 ---
 
@@ -64,27 +85,50 @@ AI 코딩 에이전트가 단일 세션에서 벗어나 **다중 병렬 실행**
 
 ## 추가 도구 (참고)
 
-### Composio Agent Orchestrator
-- 에이전트 플릿 관리, CI 수정/머지 충돌 자동 처리
-- 에이전트/런타임/트래커 무관 (Claude Code, Codex, Aider + tmux, Docker + GitHub, Linear)
-- [GitHub](https://github.com/ComposioHQ/agent-orchestrator)
+### 자율 오케스트레이션
 
-### Gas Town (Steve Yegge)
-- "AI 에이전트의 Kubernetes" — 20-30개 에이전트 동시 실행
-- 역할 기반 아키텍처 (Mayor, Polecats, Witness 등)
-- 실험 단계, 시간당 ~$100 비용
-- [GitHub](https://github.com/steveyegge/gastown)
+| 도구 | 핵심 | 링크 |
+|------|------|------|
+| **Composio Agent Orchestrator** | CI 실패 자동 수정, 리뷰 코멘트 자동 대응, SSE 대시보드 | [GitHub](https://github.com/ComposioHQ/agent-orchestrator) |
+| **Automaker** | 칸반에 기능 설명 → 에이전트가 자율 구현/테스트/버그수정 | [GitHub](https://github.com/AutoMaker-Org/automaker) |
 
-### Sculptor (Imbue)
-- Docker 컨테이너 격리로 에이전트 실행
-- 페어링 모드로 컨테이너 작업을 로컬 repo로 가져오기
-- 베타 단계, Claude Code/Codex 지원
-- [GitHub](https://github.com/imbue-ai/sculptor)
+### 터미널 기반
 
-### Conductor-MCP (GGPrompts)
-- Claude Code용 MCP 서버, 33개 tmux 관리 도구
-- TTS 통합, 실시간 모니터링
-- [GitHub](https://github.com/GGPrompts/conductor-mcp)
+| 도구 | 핵심 | 링크 |
+|------|------|------|
+| **dmux** | 11 에이전트 CLI, AI 커밋 메시지, lifecycle hooks (MIT) | [GitHub](https://github.com/standardagents/dmux) |
+| **AMUX** | self-healing 무인 실행, 웹 대시보드, 단일 Python 파일 | [GitHub](https://github.com/mixpeek/amux) |
+| **Chloe** | 칸반 + 터미널 결합, 100% Rust, 제로 텔레메트리 | [getchloe.sh](https://getchloe.sh) |
+
+### GUI / 데스크톱
+
+| 도구 | 핵심 | 링크 |
+|------|------|------|
+| **Shannon** | 시각적 DAG 편집기로 에이전트 의존관계 정의 (MIT) | [GitHub](https://github.com/yessGlory17/shannon) |
+| **Canopy** | 소스코드 미접근 보안, 자동 상태 추적, CopyTree 기반 | [canopyide.com](https://canopyide.com) |
+
+### 벤더 네이티브
+
+| 도구 | 핵심 | 비고 |
+|------|------|------|
+| **Claude Code Agent Teams** | Anthropic 공식, 2-16명 팀원 스폰, 에이전트 간 직접 소통 | Opus 4.6부터 |
+| **GitHub Agent HQ** | Issue/PR에서 여러 에이전트에 작업 배분 | Copilot 구독 |
+| **Google Antigravity** | 5+ 에이전트 동시, 멀티 모델, 무료 프리뷰 | 공개 프리뷰 |
+| **Cursor Background Agents** | 클라우드 VM에서 최대 20개 병렬 | Cursor 구독 |
+
+### 기타
+
+| 도구 | 핵심 | 링크 |
+|------|------|------|
+| **Gas Town** (Steve Yegge) | "AI 에이전트의 Kubernetes" — 20-30개 동시 실행 | [GitHub](https://github.com/steveyegge/gastown) |
+| **Sculptor** (Imbue) | Docker 컨테이너 격리, 페어링 모드 | [GitHub](https://github.com/imbue-ai/sculptor) |
+| **Conductor-MCP** (GGPrompts) | Claude Code용 MCP 서버, 33개 tmux 도구 | [GitHub](https://github.com/GGPrompts/conductor-mcp) |
+| **AgentPipe** | 에이전트 간 대화/토론 "방", 비용 추적 | [agentpipe.ai](https://agentpipe.ai) |
+
+### 큐레이션 리스트
+
+- [awesome-cli-coding-agents](https://github.com/bradAGI/awesome-cli-coding-agents) — 80+ 에이전트 + harness 목록
+- [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators)
 
 ---
 
@@ -110,13 +154,21 @@ AI 코딩 에이전트가 단일 세션에서 벗어나 **다중 병렬 실행**
 - [ ] [[claude-squad/02-ecosystem|Claude Squad 생태계]]
 - [ ] [[vibe-kanban/02-ecosystem|Vibe Kanban 생태계]]
 
-### 3단계: 실습
+### 3단계: Tier 2 도구 개요
+- [ ] [[ccmanager/01-overview|ccmanager]] — 8종 에이전트, tmux 불필요
+- [ ] [[agent-deck/01-overview|Agent Deck]] — 실시간 비용 추적, MCP 관리
+- [ ] [[emdash/01-overview|Emdash]] — 23종 에이전트, Best-of-N 비교
+- [ ] [[superset/01-overview|Superset]] — IDE 연동, 8k+ stars
+
+### 4단계: 실습
 - [ ] 현재 사용 중인 Conductor와 1-2개 대안 도구 직접 비교 테스트
 - [ ] 자신의 워크플로우에 최적인 도구 선정
 
 ---
 
 ## 바로가기
+
+### Tier 1 (상세 학습)
 
 | 도구 | 개요 | 생태계 | 참고자료 |
 |------|------|--------|---------|
@@ -125,6 +177,15 @@ AI 코딩 에이전트가 단일 세션에서 벗어나 **다중 병렬 실행**
 | OMC | [[oh-my-claudecode/01-overview]] | [[oh-my-claudecode/02-ecosystem]] | [[oh-my-claudecode/03-references]] |
 | Claude Squad | [[claude-squad/01-overview]] | [[claude-squad/02-ecosystem]] | [[claude-squad/03-references]] |
 | Vibe Kanban | [[vibe-kanban/01-overview]] | [[vibe-kanban/02-ecosystem]] | [[vibe-kanban/03-references]] |
+
+### Tier 2 (개요)
+
+| 도구 | 개요 |
+|------|------|
+| ccmanager | [[ccmanager/01-overview]] |
+| Agent Deck | [[agent-deck/01-overview]] |
+| Emdash | [[emdash/01-overview]] |
+| Superset | [[superset/01-overview]] |
 
 ---
 
