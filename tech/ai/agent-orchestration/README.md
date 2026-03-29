@@ -69,17 +69,35 @@ AI 코딩 에이전트가 단일 세션에서 벗어나 **다중 병렬 실행**
 
 ---
 
-## CLI 에이전트 간략 비교
+## CLI 코딩 에이전트 비교
 
-오케스트레이션 도구가 관리하는 대상인 CLI 에이전트들의 비교:
+> 상세 비교: [[cli-agents|CLI 코딩 에이전트 종합 비교]]
 
-| 에이전트 | 제공사 | 기본 모델 | 가격 | 특징 |
-|----------|--------|----------|------|------|
-| **Claude Code** | Anthropic | Claude Opus/Sonnet | Max $100-200/월 | MCP, Skills, Hooks, 서브에이전트 |
-| **Gemini CLI** | Google | Gemini 2.5 Pro | 무료 (일 1000회) | 1M 토큰 컨텍스트, Google Search |
-| **Codex** | OpenAI | GPT-4o/o3 | Plus $20/월~ | Rust 기반, 서브에이전트 |
-| **Aider** | 오픈소스 | 다중 모델 | 무료 (API 비용) | 50+ 언어, 자동 git 커밋 |
-| **Amp** | Sourcegraph | 다중 모델 | 일일 무료 크레딧 | 무제한 토큰, 세션 공유 |
+오케스트레이션 도구가 관리하는 대상인 CLI 에이전트들의 비교 (무료 여부 중심):
+
+### 완전 무료 (OSS + BYOK)
+
+| 에이전트 | Stars | 지원 모델 | 언어 | 핵심 차별점 |
+|----------|-------|----------|------|------------|
+| **Gemini CLI** | ~99K | Gemini 2.5 Pro/Flash | TS | **일 1,000회 무료**, 1M 컨텍스트 |
+| **Cline CLI** | ~59.6K | 모든 프로바이더 | TS | Human-in-the-loop, Checkpoint |
+| **Aider** | ~42.5K | 100+ 모델 | Python | 가장 성숙, 자동 git 커밋 |
+| **Goose** | ~33.7K | 모든 LLM | Rust | Block 12K 직원 실사용, MCP 네이티브 |
+| **Pi** | ~28.7K | 15+ 프로바이더 | TS | 미니멀, 4가지 모드 |
+| **Qwen Code** | ~21.2K | Qwen3-Coder 480B+ | TS | SWE-bench 69.6%, Gemini CLI 포크 |
+| **Hermes** | ~15.4K | 200+ (OpenRouter) | Python | Self-learning, 크론 스케줄러 |
+| **OpenCode** | ~11.6K | 75+ 프로바이더 | Go | LSP 자동 설정, 멀티 세션 |
+
+### 유료 (구독/API)
+
+| 에이전트 | Stars | 최저 가격 | 무료 티어 | 핵심 차별점 |
+|----------|-------|----------|----------|------------|
+| **Claude Code** | ~84K | Pro $20/월 | ❌ | Skills, Hooks, MCP, 서브에이전트 |
+| **Codex CLI** | ~68K | Plus $20/월 | 제한적 | Terminal-Bench #1, Rust |
+| **Copilot CLI** | ~9.6K | Pro $10/월 | ✅ 제한 | GitHub 네이티브 연동 |
+| **Mistral Vibe** | ~3.7K | $14.99/월 | ❌ | 7x 비용 효율, 유럽 |
+| **Amp** | N/A | 광고 기반 무료 | ✅ ~$10/일 | Deep mode, 서브에이전트 |
+| **Kiro** | ~3.3K | Pro $20/월 | ✅ 50 크레딧 | Spec-driven, Agent Hooks |
 
 ---
 
@@ -186,6 +204,12 @@ AI 코딩 에이전트가 단일 세션에서 벗어나 **다중 병렬 실행**
 | Agent Deck | [[agent-deck/01-overview]] |
 | Emdash | [[emdash/01-overview]] |
 | Superset | [[superset/01-overview]] |
+
+### CLI 코딩 에이전트
+
+| 문서 | 설명 |
+|------|------|
+| [[cli-agents]] | 18종 CLI 코딩 에이전트 종합 비교 (무료 여부, 벤치마크, 비용 최적화) |
 
 ---
 
