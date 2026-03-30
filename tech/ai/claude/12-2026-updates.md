@@ -35,6 +35,8 @@ timeline
               : 데스크톱 자동 조작
     2026-03-27 : Claude Code v2.1.86
               : Channels 플래그, 세션 ID 헤더
+    2026-03-29 : Claude Code v2.1.87
+              : Dispatch 메시지 전달 버그 수정
 ```
 
 ---
@@ -96,6 +98,15 @@ timeline
 - Claude가 데스크톱 화면을 보고 직접 조작
 - 앱 열기, 웹 브라우저 탐색, 스프레드시트 편집
 - Dispatch와 결합하여 부재중에도 작업 수행
+
+### Claude Code v2.1.87 (2026-03-29)
+
+**버그 수정**
+- Cowork Dispatch에서 메시지가 전달되지 않던 문제 수정
+
+> 출처: https://github.com/anthropics/claude-code/releases/tag/v2.1.87
+
+---
 
 ### Claude Code v2.1.86 (2026-03-27)
 
