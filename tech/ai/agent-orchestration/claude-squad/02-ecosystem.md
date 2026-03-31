@@ -29,16 +29,16 @@ parent: "[[README]]"
 
 ## 2. 대안 도구 비교
 
-| 비교 항목 | Claude Squad | Conductor | Vibe Kanban |
-|-----------|-------------|-----------|-------------|
-| 인터페이스 | CLI (tmux) | GUI (macOS 앱) | CLI + Web UI |
-| 격리 | git worktree | git worktree | git worktree |
-| 설치 | brew install | DMG 다운로드 | npm install |
-| 에이전트 | CC/Codex/Aider/Amp | Claude Code만 | CC/Gemini/Amp |
-| 가격 | 무료 (OSS) | 유료 | 무료 (OSS) |
-| 백그라운드 | ✓ (auto-accept) | ✓ | ✓ |
-| 러닝커브 | 낮음 | 매우 낮음 | 중간 |
-| 적합한 상황 | CLI 선호, 가벼운 관리 | GUI 선호 | 프로젝트/팀 관리 |
+| 비교 항목  | Claude Squad       | Conductor     | Vibe Kanban   |
+| ------ | ------------------ | ------------- | ------------- |
+| 인터페이스  | CLI (tmux)         | GUI (macOS 앱) | CLI + Web UI  |
+| 격리     | git worktree       | git worktree  | git worktree  |
+| 설치     | brew install       | DMG 다운로드      | npm install   |
+| 에이전트   | CC/Codex/Aider/Amp | Claude Code만  | CC/Gemini/Amp |
+| 가격     | 무료 (OSS)           | 유료            | 무료 (OSS)      |
+| 백그라운드  | ✓ (auto-accept)    | ✓             | ✓             |
+| 러닝커브   | 낮음                 | 매우 낮음         | 중간            |
+| 적합한 상황 | CLI 선호, 가벼운 관리     | GUI 선호        | 프로젝트/팀 관리     |
 
 ### Claude Squad만의 강점
 
