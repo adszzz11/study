@@ -88,9 +88,9 @@ type: tech-series
 
 ### Computer Use 성능
 
-| 벤치마크 | Sonnet 4.5 이전 | Sonnet 4.6 |
-|----------|-----------------|------------|
-| OSWorld (데스크톱 작업) | ~15% | **72.5%** |
+| 벤치마크              | Sonnet 4.5 이전 | Sonnet 4.6 |
+| ----------------- | ------------- | ---------- |
+| OSWorld (데스크톱 작업) | ~15%          | **72.5%**  |
 
 ---
 
@@ -116,12 +116,12 @@ type: tech-series
 
 ### 요구사항
 
-| 항목 | 내용 |
-|------|------|
+| 항목   | 내용                                               |
+| ---- | ------------------------------------------------ |
 | 데스크톱 | Claude Desktop (macOS/Windows x64) - 항상 열려 있어야 함 |
-| 모바일 | Claude iOS/Android 최신 버전 |
-| 구독 | Pro 또는 Max 플랜 필수 |
-| 네트워크 | 양쪽 디바이스 인터넷 연결 필요 |
+| 모바일  | Claude iOS/Android 최신 버전                         |
+| 구독   | Pro 또는 Max 플랜 필수                                 |
+| 네트워크 | 양쪽 디바이스 인터넷 연결 필요                                |
 
 ### Best Practices
 
@@ -141,12 +141,12 @@ type: tech-series
 
 ### Deep Connectors
 
-| 서비스 | 기능 |
-|--------|------|
+| 서비스          | 기능            |
+| ------------ | ------------- |
 | Google Drive | 문서 탐색, 데이터 합성 |
-| Gmail | 이메일 초안 작성 |
-| DocuSign | 조항 분석 |
-| FactSet | 금융 데이터 접근 |
+| Gmail        | 이메일 초안 작성     |
+| DocuSign     | 조항 분석         |
+| FactSet      | 금융 데이터 접근     |
 
 ### Private Plugin Marketplace
 

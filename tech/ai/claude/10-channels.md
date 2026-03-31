@@ -166,13 +166,13 @@ claude --channels plugin:imessage@claude-plugins-official
 
 ## 5. 요구사항 & 제한
 
-| 항목 | 내용 |
-|------|------|
-| Claude Code 버전 | v2.1.80 이상 |
-| 런타임 | Bun 설치 필요 |
-| 인증 | claude.ai Pro/Max 구독 (API 키 미지원) |
-| 조직 | Teams/Enterprise는 관리자가 명시적으로 활성화 필요 |
-| 상태 | 리서치 프리뷰 (2026-03) |
+| 항목             | 내용                                  |
+| -------------- | ----------------------------------- |
+| Claude Code 버전 | v2.1.80 이상                          |
+| 런타임            | Bun 설치 필요                           |
+| 인증             | claude.ai Pro/Max 구독 (API 키 미지원)    |
+| 조직             | Teams/Enterprise는 관리자가 명시적으로 활성화 필요 |
+| 상태             | 리서치 프리뷰 (2026-03)                   |
 
 ---
 
