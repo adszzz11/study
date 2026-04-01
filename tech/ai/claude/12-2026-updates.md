@@ -37,6 +37,9 @@ timeline
               : Channels 플래그, 세션 ID 헤더
     2026-03-29 : Claude Code v2.1.87
               : Dispatch 메시지 전달 버그 수정
+    2026-03-31 : Claude Code v2.1.88
+              : npm 소스맵 파일 실수로 포함
+              : 소스코드 51만 줄 유출
 ```
 
 ---
@@ -99,6 +102,55 @@ timeline
 - 앱 열기, 웹 브라우저 탐색, 스프레드시트 편집
 - Dispatch와 결합하여 부재중에도 작업 수행
 
+### Claude Code v2.1.88 (2026-03-31) ⚠️ 소스코드 유출 사고
+
+> ⚠️ **보안 경고**: 2026-03-31 00:21~03:29 UTC 사이에 npm에서 Claude Code를 설치한 경우, axios 1.14.1 또는 0.30.4 악성 버전(RAT 포함)이 설치되었을 수 있음. `plain-crypto-js` 의존성이 lockfile에 있으면 즉시 시크릿 교체 및 OS 재설치 권고.
+
+**소스코드 유출 사고**
+
+Anthropic이 npm 패키지에 59.8MB JavaScript 소스맵 파일(`.map`)을 실수로 포함시켜 **약 51만 줄(~1,900개 파일)의 TypeScript 소스코드**가 공개됨.
+
+- 2026-03-31 04:23 ET, 보안 연구자 Chaofan Shou(@shoucccc)가 X에 최초 공개
+- GitHub 백업 repo가 **41,500+ 포크**로 확산
+- Anthropic 공식 입장: "고객 데이터·자격증명 노출 없음. 인간 실수로 인한 릴리스 패키징 오류"
+
+**유출로 드러난 내부 정보**
+
+| 코드명 | 실제 모델 |
+|--------|-----------|
+| Fennec | Opus 4.6 |
+| Capybara | Claude 4.6 변종 (미출시) |
+| Numbat | 테스트 중인 미공개 모델 |
+
+- 44개의 기능 플래그(빌드는 완료됐지만 미출시 기능들)
+- **Undercover Mode**: 내부 코드명이 외부에 노출되는 것을 막는 시스템 (아이러니하게 소스맵으로 전체 유출됨)
+- **KAIROS**: "Always-On Claude" 영속 어시스턴트 모드 (세션 간 메모리 유지, 선제적 작업 시작)
+
+**신규 기능**
+
+- `CLAUDE_CODE_NO_FLICKER=1` 환경변수: 깜박임 없는 alt-screen 렌더링 (가상 스크롤백)
+- `@` 멘션에서 이름 있는 서브에이전트 지원
+- `PermissionDenied` 훅: auto mode classifier 거부 후 발동
+- PowerShell 지원 확대, 권한 처리 개선
+- 장세션 안정성, Windows/음성 모드 버그 수정
+
+> 출처:
+> - https://www.theregister.com/2026/03/31/anthropic_claude_code_source_code/
+> - https://siliconangle.com/2026/03/31/anthropic-accidentally-exposes-claude-code-source-code-npm-packaging-error/
+> - https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/
+
+---
+
+### Claude Code 사용량 한도 초과 이슈 (2026-03-31)
+
+- 사용자들이 예상보다 훨씬 빠르게 Claude Code 쿼터를 소진하는 문제 발생
+- Anthropic 공식 인정: "사람들이 예상보다 훨씬 빠르게 사용 한도에 도달하고 있다. 팀의 최우선 과제로 조사 중"
+- 배경: 3월 28일 프로모션 종료(피크 타임 외 2배 한도), 피크 타임 쿼터 감소(사용자 7% 영향), 토큰 사용 증가 버그 가능성
+
+> 출처: https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/
+
+---
+
 ### Claude Code v2.1.87 (2026-03-29)
 
 **버그 수정**
@@ -160,6 +212,17 @@ timeline
 ---
 
 ## 3. API & 플랫폼
+
+### ⚠️ 모델 Deprecation 공지
+
+| 모델 | 서비스 종료일 | 대체 모델 |
+|------|-------------|-----------|
+| Claude Haiku 3 (claude-3-haiku-20240307) | **2026-04-19** | Claude Haiku 4.5 |
+| Sonnet 4.5/Sonnet 4 1M 컨텍스트 베타 (`context-1m-2025-08-07` 헤더) | **2026-04-30** | Claude Sonnet 4.6 또는 Opus 4.6 (정식 1M 지원) |
+
+> 출처: https://releasebot.io/updates/anthropic
+
+---
 
 ### 코드 실행 무료화
 
@@ -250,4 +313,8 @@ timeline
 - [CNBC - Claude Computer Use](https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html)
 - [Anthropic Release Notes](https://releasebot.io/updates/anthropic)
 - [Claude Platform Release Notes](https://platform.claude.com/docs/en/release-notes/overview)
+- [The Register - Claude Code 소스코드 유출](https://www.theregister.com/2026/03/31/anthropic_claude_code_source_code/)
+- [The Register - Claude Code 사용량 한도](https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/)
+- [Fortune - Anthropic 소스코드 2차 유출](https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/)
+- [SiliconANGLE - npm 패키징 오류](https://siliconangle.com/2026/03/31/anthropic-accidentally-exposes-claude-code-source-code-npm-packaging-error/)
 - 관련 노트: [[10-channels]], [[11-cowork-dispatch]], [[03-claude-code]]
