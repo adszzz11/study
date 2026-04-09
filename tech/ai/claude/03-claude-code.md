@@ -232,6 +232,32 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.97 (2026-04-08)
+
+**추가 기능:**
+- `Ctrl+O` Focus view 토글 (NO_FLICKER 모드에서 프롬프트·툴 요약·응답 집중 뷰)
+- `refreshInterval` statusline 설정: N초마다 자동 재실행
+- `/agents`에서 `● N running` 서브에이전트 수 표시기
+- Cedar 정책 파일(`.cedar`, `.cedarpolicy`) 문법 강조
+
+**보안 수정:**
+- Bash 툴 권한 하드닝, permission rule JS 프로토타입 매칭 버그 수정
+- MCP 연결 버퍼 관리 강화
+
+**버그 수정:**
+- `/resume` 피커 및 파일 편집 diff 사라지는 문제
+- 서브에이전트 작업 디렉토리 부모 세션 누출
+- NO_FLICKER 렌더링 다수 수정
+
+---
+
+### v2.1.96 (2026-04-08)
+
+**버그 수정:**
+- Bedrock 요청 403 "Authorization header is missing" 회귀 수정 (`AWS_BEARER_TOKEN_BEDROCK` / `CLAUDE_CODE_SKIP_BEDROCK_AUTH` 사용 시)
+
+---
+
 ### v2.1.86 (2026-03-27)
 
 **추가 기능:**
