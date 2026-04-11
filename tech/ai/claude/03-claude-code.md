@@ -232,6 +232,29 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.101 (2026-04-10)
+
+**추가 기능:**
+- `/team-onboarding` 명령어: 로컬 사용 기록 기반 팀원 온보딩 가이드 자동 생성
+- OS CA 인증서 저장소 신뢰: 엔터프라이즈 TLS 프록시 기본 지원 (`CLAUDE_CODE_CERT_STORE=bundled`로 번들 CA만 사용)
+- `/ultraplan` 및 원격 세션에서 클라우드 환경 자동 생성
+
+**개선 사항:**
+- Brief mode 재시도, Focus mode 자체 완결 요약, Rate-limit 피드백 상세화
+- `/resume`이 세션 제목으로 검색 지원
+- `allowManagedHooksOnly` 설정 시 강제 플러그인 훅 실행
+
+**보안 수정:**
+- LSP 바이너리 감지 `which` 폴백 커맨드 인젝션 취약점 수정
+
+**버그 수정:**
+- 메모리 누수(장시간 세션, Bedrock 인증 실패) 수정
+- `permissions.deny` 규칙이 `PreToolUse` 훅 재정의하지 않던 문제 수정
+- 서브에이전트 MCP 툴 상속, 격리 worktree 파일 접근, Bash 샌드박싱 수정
+- `/resume` 피커 다수 UI 개선
+
+---
+
 ### v2.1.97 (2026-04-08)
 
 **추가 기능:**
