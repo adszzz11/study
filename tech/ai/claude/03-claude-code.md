@@ -232,6 +232,27 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.105 (2026-04-13)
+
+**신규 기능:**
+- `EnterWorktree` 툴에 `path` 파라미터 추가 (기존 worktree 전환)
+- PreCompact 훅 지원 (차단 가능, 종료 코드 2 또는 `{"decision":"block"}`)
+- 플러그인 `monitors` manifest 키로 백그라운드 Monitor 지원
+- 스킬 설명 길이 250자 → 1,536자로 확대
+- API 스트림 5분 비활성 시 자동 중단
+
+**개선 사항:**
+- `WebFetch` 에서 `<style>`/`<script>` 내용 제거 (CSS 과다 페이지 대응)
+- `/doctor` UI에 상태 아이콘 추가 (`f` 키로 자동 수정)
+- MCP 대용량 출력 포맷별 스마트 축약 (JSON → `jq` 등)
+
+**버그 수정:**
+- 큐 메시지 이미지 첨부 소실, ASCII art 앞 공백 제거, 화면 blank, `alt+enter` 오작동 등 다수 UI 수정
+- 429 rate-limit raw JSON 노출, stdio MCP hang, headless 세션 MCP 툴 누락 수정
+- SSH/mosh 환경 16색 팔레트 바랜 색상, plan mode `acceptEdits` 권한 다운그레이드 수정
+
+---
+
 ### v2.1.101 (2026-04-10)
 
 **추가 기능:**
