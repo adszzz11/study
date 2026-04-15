@@ -267,6 +267,7 @@ with client.messages.stream(
 
 | 날짜 | 내용 |
 |------|------|
+| 2026-04-14 | Claude Sonnet 4 / Opus 4 deprecated (2026-06-15 은퇴 예정) |
 | 2026-03-27 | Web search tool & tool calling GA (beta 헤더 불필요) |
 | 2026-03-27 | Web search/fetch와 함께 쓰면 code execution 무료 |
 | 2026-03-27 | Data residency 제어 (`inference_geo` 파라미터) 도입 |
