@@ -97,7 +97,75 @@ timeline
               : autoScrollEnabled 설정, /plugin Installed 탭 개선
               : Remote Control 클라이언트 명령어 확장
               : MCP hang 버그, CPU 사용률 등 다수 수정
+    2026-04-16 : Claude Opus 4.7 정식 출시
+              : 복잡한 추론·에이전트 코딩 최강 GA 모델
+              : Opus 4.6과 동일 가격 $5/$25 per MTok
+              : API 브레이킹 체인지 포함 (마이그레이션 가이드 필수)
+    2026-04-16 : Claude Code v2.1.111
+              : Opus 4.7 xhigh effort 레벨 추가
+              : Max 구독자 Auto mode → Opus 4.7 사용 가능
+              : /ultrareview 명령어 (멀티에이전트 클라우드 코드 리뷰)
+              : /less-permission-prompts 스킬 추가
+              : Auto(match terminal) 테마 옵션
+    2026-04-16 : Claude Code v2.1.112
+              : "claude-opus-4-7 is temporarily unavailable" auto mode 버그 수정
 ```
+
+---
+
+### Claude Opus 4.7 정식 출시 (2026-04-16)
+
+> 출처: https://platform.claude.com/docs/en/release-notes/overview
+
+| 항목 | 내용 |
+|------|------|
+| 가격 | Opus 4.6과 동일 — **$5 / $25 per MTok** |
+| 포지션 | 복잡한 추론·에이전트 코딩 분야 최고 GA 모델 |
+| 특징 | 소프트웨어 엔지니어링, 비전, 명령 준수, 장기 에이전트 작업 개선 |
+| 주의 | Opus 4.6 대비 **API 브레이킹 체인지** 포함 |
+
+- 마이그레이션 가이드: [Migrating to Claude Opus 4.7](https://platform.claude.com/docs/en/about-claude/models/migration-guide#migrating-to-claude-opus-4-7)
+- 신기능 상세: [What's new in Claude Opus 4.7](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7)
+
+---
+
+### Claude Code v2.1.111 (2026-04-16)
+
+> 출처: https://code.claude.com/docs/en/changelog
+
+**신규 기능**
+
+- **Opus 4.7 xhigh effort**: `/effort` 명령어로 `xhigh` 레벨 선택 가능 (`high`와 `max` 사이)
+  - `/effort` 실행 시 화살표 키로 탐색하는 **인터랙티브 슬라이더** UI 제공
+- **Auto mode for Max 구독자**: `--enable-auto-mode` 플래그 없이도 자동 활성화, Opus 4.7 모델로 동작
+- **`/ultrareview`**: 병렬 멀티에이전트 분석을 통한 포괄적 클라우드 기반 코드 리뷰
+- **`/less-permission-prompts` 스킬**: 트랜스크립트를 스캔하여 `.claude/settings.json` 허용 목록 제안
+- **Auto (match terminal) 테마**: `/theme`에서 터미널 다크/라이트 모드에 자동 동기화하는 옵션 추가
+- **Windows PowerShell 툴**: 단계적 배포 중 (`CLAUDE_CODE_USE_POWERSHELL_TOOL` 환경변수로 opt-in/out)
+- **Plan 파일 이름**: 프롬프트 내용 기반 이름 생성 (예: `fix-auth-race-snug-otter.md`)
+
+**개선 사항**
+
+- 읽기 전용 Bash 명령어에 glob 패턴 포함 시 권한 프롬프트 표시 안 함
+- `/setup-vertex` 및 `/setup-bedrock` 개선 — 모델 자동 발견
+- `/skills` 메뉴에서 `t` 키로 토큰 수 기준 정렬 지원
+- `Ctrl+U`로 입력 버퍼 초기화, `Ctrl+L`로 전체 강제 리드로우
+- Bedrock/Vertex/Foundry rate-limit 오류 메시지 개선
+
+**버그 수정**
+
+- v2.1.110에서 도입된 비스트리밍 폴백 재시도 횟수 상한 제거 (revert)
+- 터미널 렌더링, LSP 진단, 플러그인 처리 등 다수 수정
+
+---
+
+### Claude Code v2.1.112 (2026-04-16)
+
+> 출처: https://code.claude.com/docs/en/changelog
+
+**버그 수정**
+
+- Auto mode에서 "claude-opus-4-7 is temporarily unavailable" 오류 수정
 
 ---
 
