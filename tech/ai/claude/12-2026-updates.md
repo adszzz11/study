@@ -109,7 +109,47 @@ timeline
               : Auto(match terminal) 테마 옵션
     2026-04-16 : Claude Code v2.1.112
               : "claude-opus-4-7 is temporarily unavailable" auto mode 버그 수정
+    2026-04-17 : Claude Code v2.1.113
+              : 네이티브 바이너리 실행, sandbox.network.deniedDomains 추가
+              : macOS /private 경로 보안, Bash deny 규칙 강화
+              : 다수 UX·버그 수정
 ```
+
+---
+
+### Claude Code v2.1.113 (2026-04-17)
+
+> 출처: https://code.claude.com/docs/en/changelog
+
+**신규 기능 & 개선**
+
+- **네이티브 바이너리**: CLI가 번들 JavaScript 대신 플랫폼별 네이티브 Claude Code 바이너리를 실행
+- **`sandbox.network.deniedDomains`**: `allowedDomains`에 와일드카드가 있어도 특정 도메인 차단 가능
+- **Fullscreen 탐색**: Shift+↑/↓로 선택 영역이 화면 끝을 넘어갈 때 뷰포트 자동 스크롤
+- **Readline 호환성**: 멀티라인 입력에서 `Ctrl+A` / `Ctrl+E`가 논리적 줄의 시작/끝으로 이동
+- **Windows**: `Ctrl+Backspace`로 이전 단어 삭제
+- **URL 처리**: 줄 바꿈된 긴 URL이 OSC 8 하이퍼링크로 클릭 가능하게 유지
+- **`/loop` 개선**: 재개 시 "Claude resuming /loop wakeup" 표시, Esc로 대기 중 wakeup 취소 가능
+- **Remote Control**: `/extra-usage` 및 `@`-파일 자동완성이 모바일/웹 원격 클라이언트에서 동작
+- **`/ultrareview` 개선**: 병렬화된 검사, diffstat 표시, 애니메이션 실행 화면
+- **서브에이전트 안정성**: 멈춘 서브에이전트가 10분 후 무한 hang 대신 명확한 오류로 실패
+
+**보안 수정**
+
+- macOS: `/private/{etc,var,tmp,home}` 경로가 `Bash(rm:*)` 규칙 아래 위험한 제거 대상으로 처리
+- Bash deny 규칙이 `env`/`sudo`/`watch`/`ionice`/`setsid`로 래핑된 명령어에도 매칭
+- `Bash(find:*)` 규칙이 `find -exec` / `-delete` 를 더 이상 자동 승인하지 않음
+
+**버그 수정**
+
+- MCP 동시 호출 타임아웃 처리 수정
+- `Cmd+Backspace` / `Ctrl+U` 삭제 동작 수정
+- 인라인 코드 내 파이프 문자로 인한 마크다운 테이블 깨짐 수정
+- 텍스트 입력 중 세션 recap 자동 실행 수정
+- `/copy`의 GitHub/Notion/Slack 테이블 정렬 수정
+- `dangerouslyDisableSandbox` 권한 프롬프트 우회 버그 수정
+- Windows에서 `/insights` 크래시 수정
+- Remote Control 트랜스크립트 스트리밍 수정
 
 ---
 
