@@ -113,7 +113,64 @@ timeline
               : 네이티브 바이너리 실행, sandbox.network.deniedDomains 추가
               : macOS /private 경로 보안, Bash deny 규칙 강화
               : 다수 UX·버그 수정
+    2026-04-18 : Claude Code v2.1.114
+              : agent-teams 권한 대화상자 크래시 수정
+    2026-04-20 : Claude Code v2.1.116
+              : /resume 대형 세션 최대 67% 성능 향상
+              : thinking 스피너 진행 힌트 인라인 표시
+              : /config 검색이 옵션 값도 매칭
+              : sandbox rm/rmdir 위험 경로 안전 검사 강화
 ```
+
+---
+
+### Claude Code v2.1.116 (2026-04-20)
+
+> 출처: https://code.claude.com/docs/en/changelog
+
+**성능 개선**
+
+- **`/resume` 속도 대폭 향상**: 40MB+ 대형 세션에서 최대 **67% 빠름**
+- **dead-fork 항목 처리**: 많은 dead-fork 항목이 있는 세션도 효율적으로 처리
+- **MCP 빠른 시작**: 여러 stdio 서버가 설정된 경우 MCP 시작 속도 향상
+
+**UI/UX 개선**
+
+- **thinking 진행 힌트 인라인 표시**: "still thinking", "thinking more", "almost done thinking" 순서로 스피너에 표시
+- **VS Code/Cursor/Windsurf 스크롤 개선**: fullscreen 스크롤이 더 부드럽게 동작
+- **`/config` 검색 강화**: 옵션 값도 매칭 (예: "vim" 검색 시 Editor mode 설정이 검출됨)
+- **`/doctor` 응답 중 접근**: Claude가 응답 중에도 현재 턴 완료를 기다리지 않고 `/doctor` 열기 가능
+- **슬래시 커맨드 필터**: 결과 없을 때 "No commands match" 표시
+
+**툴 & 플러그인**
+
+- **Bash 툴 `gh` rate-limit 힌트**: `gh` 명령어가 GitHub API 요청 한도에 도달할 때 힌트 표시
+- **플러그인 의존성 자동 설치**: `/reload-plugins` 및 백그라운드 플러그인 자동 업데이트 시 누락된 의존성 자동 설치
+- **에이전트 frontmatter 훅**: `--agent`로 메인 스레드 에이전트 실행 시 `hooks:` 발동
+
+**보안**
+
+- **sandbox 위험 경로 안전 검사**: `rm`/`rmdir`가 주요 시스템 디렉토리를 대상으로 할 때 sandbox auto-allow가 위험 경로 안전 검사를 더 이상 우회하지 않음
+
+**버그 수정**
+
+- 데바나가리 및 기타 인도 문자 스크립트 열 정렬 깨짐 수정
+- Kitty 키보드 프로토콜 사용 터미널에서 Ctrl+- 가 undo를 발동하지 않던 문제 수정
+- 특정 터미널에서 Cmd+Left/Right가 줄 시작/끝으로 이동하지 않던 문제 수정
+- 인라인 모드 스크롤백 중복 수정
+- 짧은 터미널 높이에서 모달 검색 다이얼로그 오버플로우 수정
+- `/branch`가 50MB 이상 트랜스크립트 대화를 거부하던 문제 수정
+- VS Code 통합 터미널 스크롤 중 빈 셀 분산 표시 수정
+
+---
+
+### Claude Code v2.1.114 (2026-04-18)
+
+> 출처: https://code.claude.com/docs/en/changelog
+
+**버그 수정**
+
+- agent-teams 팀원이 툴 권한을 요청할 때 권한 대화상자가 크래시하던 문제 수정
 
 ---
 
