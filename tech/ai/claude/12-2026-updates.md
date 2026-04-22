@@ -109,6 +109,9 @@ timeline
               : Auto(match terminal) 테마 옵션
     2026-04-16 : Claude Code v2.1.112
               : "claude-opus-4-7 is temporarily unavailable" auto mode 버그 수정
+    2026-04-17 : Claude Design 출시 (Anthropic Labs)
+              : Opus 4.7 기반 비주얼 디자인 도구 리서치 프리뷰
+              : Pro/Max/Team/Enterprise 구독자 사용 가능
     2026-04-17 : Claude Code v2.1.113
               : 네이티브 바이너리 실행, sandbox.network.deniedDomains 추가
               : macOS /private 경로 보안, Bash deny 규칙 강화
@@ -120,7 +123,83 @@ timeline
               : thinking 스피너 진행 힌트 인라인 표시
               : /config 검색이 옵션 값도 매칭
               : sandbox rm/rmdir 위험 경로 안전 검사 강화
+    2026-04-22 : Claude Code v2.1.117
+              : 포크 서브에이전트 외부 빌드 지원 (CLAUDE_CODE_FORK_SUBAGENT=1)
+              : Pro/Max Opus 4.6·Sonnet 4.6 기본 effort=high
+              : 네이티브 빌드 Glob·Grep → bfs·ugrep 교체 (성능 향상)
+              : /resume 대형 세션 요약 제안, MCP 동시 연결 기본 활성화
 ```
+
+---
+
+### Claude Code v2.1.117 (2026-04-22)
+
+> 출처: https://code.claude.com/docs/en/changelog
+
+**신규 기능 & 개선**
+
+- **포크 서브에이전트 외부 빌드 지원**: `CLAUDE_CODE_FORK_SUBAGENT=1` 환경변수로 외부 빌드에서도 포크 서브에이전트 활성화 가능
+- **Agent frontmatter mcpServers**: `--agent`로 메인 스레드 에이전트 실행 시 frontmatter의 `mcpServers` 자동 로드
+- **모델 선택 영속성**: `/model` 선택이 재시작 후에도 유지 (프로젝트가 다른 모델을 고정해도); 시작 헤더에 모델 출처(프로젝트/관리 설정 고정) 표시
+- **`/resume` 요약 제안**: stale·대형 세션 재읽기 전 요약 제안 (기존 `--resume` 동작과 일치)
+- **MCP 동시 연결 기본 활성화**: 로컬 + claude.ai MCP 서버 모두 설정 시 동시 연결이 기본값 → 시작 속도 향상
+- **플러그인 의존성 설치**: 이미 설치된 플러그인에 `/plugin install` 시 누락 의존성 자동 설치
+- **Marketplace 강제 적용**: `blockedMarketplaces` 및 `strictKnownMarketplaces` 설정이 install·update·refresh·autoupdate 시 모두 적용
+- **Advisor Tool 개선** (실험적): 실험 레이블, learn-more 링크, 시작 알림, "result content could not be processed" 오류 수정
+
+**성능 최적화**
+
+- **보존 정리 범위 확대**: `~/.claude/tasks/`, `~/.claude/shell-snapshots/`, `~/.claude/backups/` 포함
+- **네이티브 빌드** (macOS/Linux): `Glob` 및 `Grep` 툴이 임베디드 `bfs` + `ugrep`으로 교체 → Bash 툴 경유로 별도 툴 왕복 없이 빠른 검색
+- **Windows**: 프로세스당 `where.exe` 실행 경로 캐싱으로 서브프로세스 시작 속도 향상
+- **기본 effort 레벨 변경**: Pro/Max 구독자의 Opus 4.6 및 Sonnet 4.6 기본값이 `medium` → `high`로 상향
+
+**버그 수정**
+
+- Plain-CLI OAuth 토큰 세션 중 만료 시 401에서 반응적으로 재갱신
+- 매우 큰 HTML 페이지에서 `WebFetch` 행 현상 수정
+- 프록시 HTTP 204 No Content 응답이 크래시 유발하던 문제 수정
+- 만료된 `CLAUDE_CODE_OAUTH_TOKEN`으로 실행 시 `/login`이 무효하던 문제 수정
+- 타이핑 직후 `Ctrl+_` undo가 동작하지 않던 문제 수정
+- Bun에서 `NO_PROXY`가 원격 API 요청에 적용되지 않던 문제 수정
+- 느린 연결에서 escape/return 오발동 수정
+- thinking 비활성화 상태에서 Bedrock application-inference-profile이 Opus 4.7로 실패하던 문제 수정
+- 다른 모델 실행 시 서브에이전트가 파일 읽기에 멀웨어 경고 잘못 표시하던 문제 수정
+- Linux에서 idle 재렌더 루프로 인한 메모리 증가 수정
+
+**OpenTelemetry**
+
+- 새로운 `command_name` 및 `command_source` 어트리뷰트 추가
+
+---
+
+### Claude Design (2026-04-17)
+
+> 출처: https://www.anthropic.com/news/claude-design-anthropic-labs
+
+**개요**
+
+Anthropic Labs에서 출시한 비주얼 디자인 협업 도구로, Claude Opus 4.7 기반 리서치 프리뷰.
+
+| 항목 | 내용 |
+|------|------|
+| 출시 | 2026년 4월 17일 (리서치 프리뷰) |
+| 모델 | Claude Opus 4.7 |
+| 대상 | Pro, Max, Team, Enterprise 구독자 |
+| Enterprise | 기본 비활성화, 관리자가 활성화 가능 |
+
+**주요 기능**
+
+- **텍스트 프롬프트로 디자인 생성**: 원하는 내용을 설명하면 Claude가 첫 버전 제작
+- **반복 수정**: 대화, 인라인 코멘트, 직접 편집, 커스텀 슬라이더로 다듬기
+- **입력 소스 다양화**: 이미지, 문서(DOCX/PPTX/XLSX), 코드베이스, 웹 캡처 도구 지원
+- **디자인 시스템 구축**: 코드베이스·디자인 파일을 읽어 팀 색상·타이포그래피·컴포넌트 자동 반영
+- **공유 & 내보내기**: 조직 내 URL 공유, Canva·PDF·PPTX·HTML 내보내기
+- **그룹 협업**: 편집 권한 부여 시 동료와 동시 편집 및 Claude와 그룹 대화
+
+**시장 반응**
+
+- 출시 당일 Figma 주가 7.28% 하락 ($20.32 → $18.84)
 
 ---
 
