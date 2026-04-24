@@ -232,6 +232,34 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.119 (2026-04-23)
+
+**신규 기능:**
+- `/config` 설정이 `~/.claude/settings.json`에 영속 저장 (프로젝트/로컬/정책 우선순위 적용)
+- `prUrlTemplate` 설정: 커스텀 코드 리뷰 URL 지정
+- `CLAUDE_CODE_HIDE_CWD` 환경변수
+- `--from-pr`이 GitLab, Bitbucket, GitHub Enterprise URL 허용
+- 훅 페이로드에 `duration_ms` (툴 실행 시간) 추가
+- PowerShell 툴 명령어 자동 승인 지원
+
+**버그 수정:**
+- CRLF 붙여넣기, MCP OAuth, 플러그인 관리 수정
+
+---
+
+### v2.1.118 (2026-04-23)
+
+**신규 기능:**
+- Vim visual mode: `v` (character), `V` (line)
+- `/cost` + `/stats` → `/usage`로 통합
+- 커스텀 테마 생성 (`/theme` 또는 `~/.claude/themes/`)
+- 훅에서 MCP 툴 직접 호출: `type: "mcp_tool"`
+- `DISABLE_UPDATES` 환경변수
+- WSL에서 Windows 측 managed settings 상속
+- Auto 모드 `"$defaults"` 지원
+
+---
+
 ### v2.1.108 (2026-04-14)
 
 **신규 기능:**

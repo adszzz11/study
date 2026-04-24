@@ -128,7 +128,76 @@ timeline
               : Pro/Max Opus 4.6·Sonnet 4.6 기본 effort=high
               : 네이티브 빌드 Glob·Grep → bfs·ugrep 교체 (성능 향상)
               : /resume 대형 세션 요약 제안, MCP 동시 연결 기본 활성화
+    2026-04-23 : Claude Code v2.1.118
+              : vim visual mode 추가 (v/V)
+              : /cost·/stats → /usage 통합
+              : 커스텀 테마 생성 지원
+              : 훅에서 MCP 툴 직접 호출 (type: "mcp_tool")
+    2026-04-23 : Claude Code v2.1.119
+              : /config 설정이 ~/.claude/settings.json에 영속 저장
+              : prUrlTemplate 설정, CLAUDE_CODE_HIDE_CWD 환경변수
+              : --from-pr GitLab/Bitbucket/GHE URL 지원
+              : 훅에 duration_ms 추가
+    2026-04-23 : API: Managed Agents Memory 공개 베타
+              : managed-agents-2026-04-01 헤더로 에이전트 메모리 사용 가능
 ```
+
+---
+
+### Claude Code v2.1.119 (2026-04-23)
+
+> 출처: https://github.com/anthropics/claude-code/releases
+
+**신규 기능 & 개선**
+
+- **`/config` 영속 저장**: 설정이 `~/.claude/settings.json`에 저장되며 프로젝트/로컬/정책 오버라이드 우선순위 적용
+- **`prUrlTemplate` 설정**: 커스텀 코드 리뷰 URL 템플릿 지정 가능
+- **`CLAUDE_CODE_HIDE_CWD` 환경변수**: 현재 작업 디렉토리 표시 숨기기
+- **`--from-pr` 다중 플랫폼 지원**: GitLab, Bitbucket, GitHub Enterprise PR URL 허용
+- **`--print` 모드 frontmatter 준수**: 에이전트의 `tools:` 및 `disallowedTools:` frontmatter 설정 반영
+- **PowerShell 툴 자동 승인**: 권한 모드에서 PowerShell 툴 명령어 자동 승인 가능
+- **훅 `duration_ms`**: 각 툴 실행에 소요된 시간(ms)이 훅 페이로드에 포함
+- **Vim 모드 수정**: INSERT 모드에서 Esc 시 큐에 쌓인 메시지를 끌어오지 않음
+
+**버그 수정**
+
+- CRLF 붙여넣기 처리 수정
+- MCP OAuth 관련 수정
+- 플러그인 관리 안정성 개선
+
+---
+
+### Claude Code v2.1.118 (2026-04-23)
+
+> 출처: https://github.com/anthropics/claude-code/releases
+
+**신규 기능 & 개선**
+
+- **Vim visual mode**: `v`키로 character visual mode, `V`키로 visual-line mode 진입 가능
+- **`/usage` 통합 명령어**: `/cost`와 `/stats`가 하나의 `/usage` 명령어로 통합
+- **커스텀 테마**: `/theme`에서 테마 생성 가능, `~/.claude/themes/` 디렉토리에서 직접 편집 지원
+- **훅에서 MCP 툴 직접 호출**: `type: "mcp_tool"` 형식으로 훅이 MCP 툴을 직접 invoke 가능
+- **`DISABLE_UPDATES` 환경변수**: 자동 업데이트 비활성화
+- **WSL 관리 설정 상속**: Windows 측 managed settings를 WSL에서 상속 가능
+- **Auto 모드 `"$defaults"` 지원**: 커스텀 규칙 추가 시 기본 규칙 유지
+
+**버그 수정**
+
+- OAuth 관련 수정
+- 플러그인 처리 안정성 개선
+- 다수 UI 버그 수정
+
+---
+
+### API: Managed Agents Memory 공개 베타 (2026-04-23)
+
+> 출처: https://platform.claude.com/docs/en/release-notes/overview
+
+Claude Managed Agents의 **Memory** 기능이 공개 베타로 출시.
+
+- **헤더**: `managed-agents-2026-04-01` (기존 Managed Agents 헤더와 동일)
+- **기능**: 에이전트가 세션 간 정보를 저장·조회할 수 있는 메모리 레이어
+- **문서**: [Using agent memory](https://platform.claude.com/docs/en/managed-agents/memory)
 
 ---
 
