@@ -232,6 +232,24 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.120 (2026-04-25)
+
+**신규 기능:**
+- Windows에서 Git Bash 없이 PowerShell을 Shell 툴로 사용 가능
+- `claude ultrareview` CLI 명령어: CI/스크립트에서 `/ultrareview` 비인터랙티브 실행 지원
+  - `--json` 플래그로 raw JSON 출력
+  - 완료 시 exit code 0, 실패 시 exit code 1
+- Skills에서 `${CLAUDE_EFFORT}` 변수로 현재 effort 레벨 참조 가능
+- 서브프로세스에 `AI_AGENT` 환경변수 설정 (Claude Code 트래픽 귀속용)
+
+**버그 수정:**
+- stdio MCP 툴 호출 중 Esc 키가 서버 연결 전체를 닫던 문제 수정
+- `--resume` 후 `/rewind` 및 인터랙티브 오버레이가 키보드 입력에 반응하지 않던 문제 수정
+- 비풀스크린 모드에서 터미널 scrollback 중복 표시 수정
+- `DISABLE_TELEMETRY`가 usage metrics를 억제하지 않던 문제 수정
+
+---
+
 ### v2.1.119 (2026-04-23)
 
 **신규 기능:**

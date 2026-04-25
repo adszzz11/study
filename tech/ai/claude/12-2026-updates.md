@@ -140,7 +140,34 @@ timeline
               : 훅에 duration_ms 추가
     2026-04-23 : API: Managed Agents Memory 공개 베타
               : managed-agents-2026-04-01 헤더로 에이전트 메모리 사용 가능
+    2026-04-25 : Claude Code v2.1.120
+              : Windows Git Bash 없이 PowerShell Shell 툴 사용 가능
+              : claude ultrareview CLI 명령어 (CI/스크립트 비인터랙티브 실행)
+              : Skills에서 ${CLAUDE_EFFORT} 변수 참조 가능
+              : AI_AGENT 환경변수 서브프로세스에 자동 설정
 ```
+
+---
+
+### Claude Code v2.1.120 (2026-04-25)
+
+> 출처: https://github.com/anthropics/claude-code/releases
+
+**신규 기능 & 개선**
+
+- **Windows PowerShell Shell 툴**: Git Bash 없이도 PowerShell을 Shell 툴로 자동 사용
+- **`claude ultrareview` CLI**: CI 파이프라인이나 스크립트에서 `/ultrareview`를 비인터랙티브로 실행
+  - stdout으로 결과 출력, `--json`으로 raw JSON 출력
+  - 완료 exit code 0 / 실패 exit code 1
+- **`${CLAUDE_EFFORT}` 변수**: Skills 설정에서 현재 effort 레벨을 동적으로 참조 가능
+- **`AI_AGENT` 환경변수**: Claude Code가 실행하는 서브프로세스에 자동으로 설정 → 트래픽 귀속 추적 용이
+
+**버그 수정**
+
+- stdio MCP 툴 호출 중 Esc 키가 서버 연결 전체를 끊던 문제 수정
+- `--resume` 후 `/rewind` 및 인터랙티브 오버레이가 키보드 입력에 반응하지 않던 문제 수정
+- 비풀스크린 모드에서 터미널 scrollback 중복 표시 수정
+- `DISABLE_TELEMETRY` 환경변수가 usage metrics를 억제하지 않던 문제 수정
 
 ---
 
