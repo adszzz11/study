@@ -140,12 +140,27 @@ timeline
               : 훅에 duration_ms 추가
     2026-04-23 : API: Managed Agents Memory 공개 베타
               : managed-agents-2026-04-01 헤더로 에이전트 메모리 사용 가능
+    2026-04-24 : API: Rate Limits API 출시
+              : 조직/워크스페이스 Rate Limit 프로그래밍 방식으로 조회 가능
     2026-04-25 : Claude Code v2.1.120
               : Windows Git Bash 없이 PowerShell Shell 툴 사용 가능
               : claude ultrareview CLI 명령어 (CI/스크립트 비인터랙티브 실행)
               : Skills에서 ${CLAUDE_EFFORT} 변수 참조 가능
               : AI_AGENT 환경변수 서브프로세스에 자동 설정
 ```
+
+---
+
+### API: Rate Limits API 출시 (2026-04-24)
+
+> 출처: https://platform.claude.com/docs/en/release-notes/overview
+
+**Rate Limits API** 정식 출시 — 관리자가 조직 및 워크스페이스에 설정된 Rate Limit을 프로그래밍 방식으로 조회할 수 있는 API.
+
+- **엔드포인트**: `/v1/rate-limits` (Admin API)
+- **용도**: 조직·워크스페이스별 현재 Rate Limit 설정을 자동화 스크립트나 모니터링 시스템에서 직접 조회
+- **대상**: 조직 관리자 (Admin 권한 필요)
+- **문서**: [Rate limits API](https://platform.claude.com/docs/en/build-with-claude/rate-limits-api)
 
 ---
 
