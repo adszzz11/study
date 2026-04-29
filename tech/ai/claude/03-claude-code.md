@@ -232,6 +232,35 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.122 (2026-04-28)
+
+**신규 기능:**
+- `ANTHROPIC_BEDROCK_SERVICE_TIER` 환경변수: Bedrock 서비스 티어 선택 지원
+- `/resume` 검색창에 PR URL 붙여넣기로 GitHub·GitLab·Bitbucket 세션 탐색
+- MCP 중복 서버 자동 감지 및 제거 힌트 제공
+
+**버그 수정:**
+- 이미지 리사이징 최대 크기 수정 (2576px → 2000px)
+- Vertex AI·Bedrock 구조화 출력 오류 수정
+- 보이스 모드 키바인딩 문제 수정
+
+---
+
+### v2.1.121 (2026-04-28)
+
+**신규 기능:**
+- MCP 서버 설정에 `alwaysLoad: true` 옵션 추가 (툴 검색 지연 건너뜀)
+- `claude plugin prune` 명령어: 고아 플러그인 의존성 정리
+- `/skills` 타입-to-필터 검색 박스
+- PostToolUse 훅이 모든 툴의 출력 내용 교체 가능
+- 풀스크린 스크롤 개선 및 스크롤 가능한 다이얼로그 지원
+
+**버그 수정:**
+- `/usage` 페이지 2GB+ 메모리 누수 수정
+- 이미지 처리 관련 메모리 누수 수정
+
+---
+
 ### v2.1.120 (2026-04-25)
 
 **신규 기능:**

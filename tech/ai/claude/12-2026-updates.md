@@ -147,7 +147,77 @@ timeline
               : claude ultrareview CLI 명령어 (CI/스크립트 비인터랙티브 실행)
               : Skills에서 ${CLAUDE_EFFORT} 변수 참조 가능
               : AI_AGENT 환경변수 서브프로세스에 자동 설정
+    2026-04-28 : Claude Code v2.1.121
+              : alwaysLoad MCP 옵션, claude plugin prune
+              : PostToolUse 훅 툴 출력 교체, 메모리 누수 수정
+    2026-04-28 : Claude Code v2.1.122
+              : ANTHROPIC_BEDROCK_SERVICE_TIER 환경변수
+              : /resume PR URL 지원 (GitHub/GitLab/Bitbucket)
+              : MCP 중복 서버 감지 및 제거 힌트
+    2026-04-28 : 크리에이티브 툴 커넥터 9종 출시
+              : Adobe (Creative Cloud 50+), Blender, Ableton, Affinity
+              : Autodesk Fusion, Resolume Arena/Wire, SketchUp, Splice
+              : Blender Development Fund 패트론 등록
 ```
+
+---
+
+### Anthropic 크리에이티브 툴 커넥터 9종 출시 (2026-04-28)
+
+> 출처: https://www.anthropic.com/news/claude-for-creative-work
+
+Anthropic이 크리에이티브 전문 툴과 통합되는 **9종의 Claude 커넥터**를 발표.
+
+| 커넥터 | 기능 |
+|--------|------|
+| **Adobe** | Creative Cloud 50+ 툴 연동 (Photoshop, Premiere, Express 등) |
+| **Blender** | Python API 자연어 인터페이스, 3D 씬 분석·스크립팅 |
+| **Ableton** | Live·Push 공식 문서 기반 Q&A |
+| **Affinity** | 배치 이미지 조정, 레이어 명명, 파일 내보내기 자동화 |
+| **Autodesk Fusion** | 자연어 대화로 3D 모델 생성·수정 |
+| **Resolume Arena/Wire** | 실시간 자연어 제어 (VJ·라이브 퍼포먼스) |
+| **SketchUp** | 3D 건축·디자인 모델 작업 지원 |
+| **Splice** | 로열티 프리 샘플 카탈로그 검색 |
+
+- Anthropic이 **Blender Development Fund** 패트론으로 등록 (오픈소스 3D 소프트웨어 후원)
+
+---
+
+### Claude Code v2.1.122 (2026-04-28)
+
+> 출처: https://github.com/anthropics/claude-code/releases
+
+**신규 기능 & 개선**
+
+- **`ANTHROPIC_BEDROCK_SERVICE_TIER` 환경변수**: Bedrock 서비스 티어 선택 지원
+- **`/resume` PR URL 지원**: 검색창에 PR URL 붙여넣기로 GitHub·GitLab·Bitbucket PR 생성 세션 탐색
+- **MCP 중복 서버 감지**: 중복 MCP 서버 자동 감지 및 제거 힌트 제공
+
+**버그 수정**
+
+- 이미지 리사이징 최대 크기 수정 (2576px → 2000px)
+- Vertex AI·Bedrock 구조화 출력 오류 수정
+- 보이스 모드 키바인딩 문제 수정
+- 포크 세션 엣지 케이스 수정, 모델 선택 버그 수정
+
+---
+
+### Claude Code v2.1.121 (2026-04-28)
+
+> 출처: https://github.com/anthropics/claude-code/releases
+
+**신규 기능 & 개선**
+
+- **MCP `alwaysLoad` 옵션**: MCP 서버 설정에 `alwaysLoad: true` 추가 시 툴 검색 지연(deferral) 건너뜀
+- **`claude plugin prune`**: 고아(orphaned) 플러그인 의존성 정리 명령어
+- **`/skills` 검색 필터**: 타이핑으로 스킬 목록 필터링 가능
+- **PostToolUse 훅 출력 교체**: 모든 툴에 대해 PostToolUse 훅이 툴 출력 내용을 교체 가능
+- 풀스크린 스크롤 개선 및 다이얼로그 스크롤 지원
+
+**버그 수정**
+
+- `/usage` 페이지 2GB+ 메모리 누수 수정
+- 이미지 처리 관련 메모리 누수 수정
 
 ---
 
