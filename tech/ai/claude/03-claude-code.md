@@ -232,6 +232,13 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.123 (2026-04-29)
+
+**버그 수정:**
+- `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1` 설정 시 OAuth 인증 401 재시도 루프 수정
+
+---
+
 ### v2.1.122 (2026-04-28)
 
 **신규 기능:**
