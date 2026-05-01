@@ -267,6 +267,8 @@ with client.messages.stream(
 
 | 날짜 | 내용 |
 |------|------|
+| 2026-04-30 | 1M 컨텍스트 윈도우 베타 종료 (Sonnet 4.5/Sonnet 4) → Sonnet 4.6/Opus 4.6으로 마이그레이션 필요 |
+| 2026-04-24 | Rate Limits API 출시: 조직/워크스페이스 Rate Limit 프로그래밍 방식 조회 가능 |
 | 2026-04-23 | Managed Agents Memory 공개 베타 (`managed-agents-2026-04-01` 헤더) |
 | 2026-04-14 | Claude Sonnet 4 / Opus 4 deprecated (2026-06-15 은퇴 예정) |
 | 2026-03-27 | Web search tool & tool calling GA (beta 헤더 불필요) |
