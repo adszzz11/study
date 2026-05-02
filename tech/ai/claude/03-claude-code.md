@@ -232,6 +232,26 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.126 (2026-05-01)
+
+**신규 기능:**
+- `claude project purge [path]`: 프로젝트의 모든 Claude Code 상태 삭제 (`--dry-run`, `-y`, `-i`, `--all` 지원)
+- `/model` 피커에서 게이트웨이(`ANTHROPIC_BASE_URL`) `/v1/models` 목록 표시
+- `claude auth login`에서 WSL2/SSH/컨테이너 환경용 터미널 OAuth 코드 붙여넣기 지원
+- Windows: PowerShell 7 (Store/MSI/.NET global tool) 자동 감지, 기본 셸로 사용
+- Auto 모드에서 권한 확인 지연 시 스피너 빨간색으로 전환
+
+**보안 수정:**
+- `allowManagedDomainsOnly`/`allowManagedReadPathsOnly`가 상위 managed-settings에 `sandbox` 블록 없을 때 무시되던 버그 수정
+- `--dangerously-skip-permissions`가 `.claude/`, `.git/`, `.vscode/`, 셸 설정 파일 쓰기 프롬프트 우회
+
+**버그 수정:**
+- 느린 연결/IPv6 전용 devcontainer OAuth 로그인 실패 수정
+- Mac 슬립 후 "Stream idle timeout" 오류 수정
+- 2000px 초과 이미지 붙여넣기 시 자동 다운스케일
+
+---
+
 ### v2.1.123 (2026-04-29)
 
 **버그 수정:**
