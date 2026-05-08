@@ -188,7 +188,99 @@ timeline
               : CLAUDE_CODE_DISABLE_ALTERNATE_SCREEN=1 옵션
               : stdio MCP 10GB+ RSS 메모리 누수 수정
               : 터미널 안정성 대폭 개선 (30+ 버그 수정)
+    2026-05-06 : Claude 사용량 한도 2배 확대
+              : Pro/Max/Team/Enterprise 요금제 Claude Code 5시간 제한 → 2배
+              : Pro/Max 피크 시간 제한 폐지
+              : SpaceX Colossus 1 데이터센터 GPU 22만개+ 확보
+    2026-05-06 : Claude Managed Agents 3가지 신기능 발표
+              : Dreaming (리서치 프리뷰) - 과거 세션 복기·자기 개선
+              : Outcomes (공개 베타) - 성공 기준 루브릭 기반 최적화
+              : Multiagent Orchestration (공개 베타) - 리드 에이전트 → 전문 에이전트 위임
+    2026-05-07 : Claude Code v2.1.133
+              : worktree.baseRef 설정 추가 (fresh/head)
+              : sandbox.bwrapPath / sandbox.socatPath 관리 설정 (Linux/WSL)
+              : hooks에 effort.level 필드 / $CLAUDE_EFFORT 환경변수 추가
+              : 401 토큰 경쟁 조건 버그 수정, /effort 세션 격리 수정
 ```
+
+---
+
+### Claude Code v2.1.133 (2026-05-07)
+
+> 출처: https://code.claude.com/docs/en/changelog
+
+**신규 기능 & 개선**
+
+- **`worktree.baseRef` 설정**: `fresh` | `head` 옵션으로 `--worktree`, `EnterWorktree`, agent-isolation worktree가 `origin/<기본 브랜치>` vs 로컬 `HEAD` 중 어디서 분기할지 선택 가능
+  - 기본값 `fresh`가 `EnterWorktree` 기반을 `origin/<기본>` (v2.1.128 이전 동작)으로 되돌림 — 미푸시 커밋을 새 worktree에 유지하려면 `worktree.baseRef: "head"` 설정
+- **`sandbox.bwrapPath` / `sandbox.socatPath`** (Linux/WSL): 커스텀 bubblewrap·socat 바이너리 경로를 관리 설정으로 지정 가능
+- **`parentSettingsBehavior` 관리 키**: 어드민 티어에서 SDK `managedSettings`(상위 티어)를 정책 병합(`merge`) 또는 선순위(`first-wins`)로 지정
+- **Hooks에 Effort 정보 전달**: 활성 effort 레벨이 훅 JSON 입력의 `effort.level` 필드와 `$CLAUDE_EFFORT` 환경변수로 전달 — Bash 툴 명령어에서 `$CLAUDE_EFFORT` 직접 참조 가능
+
+**성능 개선**
+
+- 메모리 압박 시 warm-spare 백그라운드 워커를 해제해 메모리 사용량 절감
+- Focus 모드 동작 개선
+
+**버그 수정**
+
+- 토큰 갱신 경쟁 조건(race)으로 병렬 세션 전체가 401에서 막히던 문제 수정
+- `Edit`/`Write` 허용 규칙이 드라이브 루트(`C:\`) 또는 POSIX `/`에 잘못 매칭되던 문제 수정
+- MCP OAuth 흐름에서 HTTP(S)_PROXY / NO_PROXY / mTLS가 무시되던 문제 수정
+- claude.ai 원격 제어 stop/interrupt가 CLI 세션을 완전히 취소하지 않던 문제 수정
+- `/effort`가 다른 동시 세션의 effort 레벨까지 변경하던 문제 수정
+- 서브에이전트가 Skill 툴을 통해 프로젝트·유저·플러그인 스킬을 발견하지 못하던 문제 수정
+
+---
+
+### Claude Managed Agents 3가지 신기능 (2026-05-06)
+
+> 출처: https://siliconangle.com/2026/05/06/anthropic-letting-claude-agents-dream-dont-sleep-job/
+
+Anthropic이 Claude Managed Agents에 **Dreaming**, **Outcomes**, **Multiagent Orchestration** 세 가지 기능을 추가 발표.
+
+#### Dreaming (리서치 프리뷰)
+
+- 에이전트가 과거 세션을 복기하여 패턴을 찾고 **자기 개선**하는 메모리 확장 기능
+- 단일 에이전트가 발견하기 어려운 반복 실수, 공통 워크플로우, 팀 선호 패턴을 도출
+- 개발자가 제어 수준 선택 가능: 메모리 자동 업데이트 OR 변경 전 검토 후 적용
+- 사례: Harvey(법률) — 파일 형식 우회 패턴·툴별 패턴 기억으로 완료율 **약 6배** 향상
+
+#### Outcomes (공개 베타)
+
+- 성공 기준을 루브릭(rubric)으로 작성하면 에이전트가 이를 목표로 최적화
+- 내부 테스트에서 표준 프롬프트 루프 대비 **태스크 성공률 최대 10%p 향상**
+- 어려운 문제에서 가장 큰 개선 효과
+
+#### Multiagent Orchestration (공개 베타)
+
+- **리드 에이전트**가 작업을 분해하여 각자 모델·프롬프트·툴을 갖춘 **전문 에이전트**에게 위임
+- 전문 에이전트들은 공유 파일시스템에서 병렬 작업
+- 사례: Netflix 플랫폼 팀 — 수백 개 빌드의 로그를 분석해 애플리케이션 간 반복 이슈 식별
+
+| 기능 | 상태 |
+|------|------|
+| Dreaming | 리서치 프리뷰 |
+| Outcomes | 공개 베타 |
+| Multiagent Orchestration | 공개 베타 |
+| Memory | 공개 베타 (기존) |
+
+---
+
+### Claude 사용량 한도 2배 확대 (2026-05-06)
+
+> 출처: https://www.anthropic.com/news/higher-limits-spacex
+
+**배경**: Anthropic이 SpaceX의 **Colossus 1 데이터센터** 전체 컴퓨트를 확보 (30일 내 300MW+, GPU 22만 개+ 접근권).
+
+**변경 사항**
+
+| 요금제 | 변경 내용 |
+|--------|-----------|
+| Pro / Max | Claude Code 5시간 한도 2배, 피크 시간 제한 완전 폐지 |
+| Team / Enterprise (좌석제) | Claude Code 5시간 한도 2배 |
+| API Tier 1 | 최대 입력 토큰/분 **1,500% 증가**, 출력 토큰/분 **900% 증가** |
+| Free | 변경 없음 |
 
 ---
 
