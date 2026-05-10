@@ -201,7 +201,78 @@ timeline
               : sandbox.bwrapPath / sandbox.socatPath 관리 설정 (Linux/WSL)
               : hooks에 effort.level 필드 / $CLAUDE_EFFORT 환경변수 추가
               : 401 토큰 경쟁 조건 버그 수정, /effort 세션 격리 수정
+    2026-05-08 : Claude Code v2.1.134-135
+              : SDK 호스트 localSettings Bash 권한 힌트
+              : EnterWorktree 기본값 local HEAD 분기로 변경
+              : Auto mode 분류 불가 액션 힌트 표시
+              : Focus 모드 디밍, 드래그앤드롭 이미지 업로드, Remote Control 다수 수정
+    2026-05-08 : Claude Code v2.1.136
+              : CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL 환경변수
+              : settings.autoMode.hard_deny 규칙 추가
+              : /clear 후 MCP 서버 소실 버그 수정 (VS Code·JetBrains·Agent SDK)
+              : OAuth 토큰 동시 갱신 경쟁 조건 수정
+    2026-05-09 : Claude Code v2.1.137
+              : VS Code Windows 익스텐션 활성화 오류 수정 (핫픽스)
+    2026-05-09 : Claude Code v2.1.138
+              : 내부 수정 (Internal fixes)
 ```
+
+---
+
+### Claude Code v2.1.134-135 (2026-05-08)
+
+> 출처: https://github.com/anthropics/claude-code/releases
+
+**신규 기능 & 개선**
+
+- **SDK 호스트 `localSettings` Bash 권한 힌트**: SDK 호스트가 Bash 권한 프롬프트에 대해 영속적인 `localSettings` 제안을 수신
+- **`EnterWorktree` 기본 브랜치 변경**: 새 브랜치를 `origin/<기본 브랜치>` 대신 로컬 `HEAD`에서 생성 (문서 설명과 일치)
+- **Auto mode 분류 불가 액션 힌트**: 분류기가 액션 평가 불가 시 사용자에게 힌트 표시
+
+**버그 수정**
+
+- Focus 모드 디밍(dimming) 동작 이슈 수정
+- Kitty 터미널에서 `/exit` 시 불필요한 데스크톱 알림 발생 수정
+- Remote Control에서 Rate Limit 시 빈 메시지 표시 수정
+- 드래그앤드롭 이미지 업로드 행(hang) 수정
+- 매우 큰 입력(10MB 이상)을 `claude -p`로 파이프할 때 크래시 루프 수정
+
+---
+
+### Claude Code v2.1.136 (2026-05-08)
+
+> 출처: https://github.com/anthropics/claude-code/releases
+
+**신규 기능 & 개선**
+
+- **`CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL`**: OpenTelemetry로 응답을 캡처하는 Enterprise 환경에서 세션 품질 서베이를 재활성화하는 환경변수
+- **`settings.autoMode.hard_deny`**: Auto mode 분류기에서 사용자 의도나 예외에 관계없이 무조건 차단하는 deny 규칙 설정 지원
+
+**버그 수정**
+
+- **MCP 서버 소실 버그 수정**: VS Code 익스텐션, JetBrains 플러그인, Agent SDK에서 `/clear` 후 `.mcp.json`, 플러그인, `claude.ai` 커넥터에 설정된 MCP 서버가 자동으로 사라지는 문제 수정
+- **OAuth 토큰 경쟁 조건 수정**: 동시 자격증명 쓰기가 새로 갱신된 OAuth 토큰을 덮어써 강제 재로그인을 유발하는 희귀한 루프 수정
+- **MCP OAuth 리프레시 토큰 손실 수정**: 여러 서버가 동시에 리프레시할 때 MCP OAuth 리프레시 토큰이 손실되는 문제 수정
+
+---
+
+### Claude Code v2.1.137 (2026-05-09)
+
+> 출처: https://github.com/anthropics/claude-code/releases
+
+**버그 수정**
+
+- **[VS Code] Windows 익스텐션 활성화 오류 수정**: v2.1.136에서 발생한 Windows에서 VS Code 익스텐션이 로드되지 않는 문제 핫픽스 (2026-05-08 22:30 UTC 발생 → 2026-05-09 00:24 UTC 해결)
+
+---
+
+### Claude Code v2.1.138 (2026-05-09)
+
+> 출처: https://github.com/anthropics/claude-code/releases
+
+**내부 수정**
+
+- 내부 안정성 및 신뢰성 개선 (Internal fixes)
 
 ---
 
