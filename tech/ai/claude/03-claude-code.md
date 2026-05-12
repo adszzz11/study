@@ -232,6 +232,37 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.139 (2026-05-11)
+
+**신규 기능:**
+- `claude agents`: Agent View (Research Preview) — 실행 중·대기 중·완료된 모든 Claude Code 세션 통합 목록
+- `/goal` 명령어: 완료 조건 설정 시 조건 충족까지 자동으로 턴을 이어가며 작업 진행, 경과 시간·턴 수·토큰 사용량 오버레이 패널 표시
+- `/scroll-speed` 명령어: 마우스 휠 스크롤 속도 조정 (라이브 프리뷰 지원)
+- `claude plugin details <name>`: 플러그인 컴포넌트 목록 및 세션당 예상 토큰 비용 표시
+
+**개선 사항:**
+- Transcript view 네비게이션: `?` 단축키 도움말, `{`/`}` 로 사용자 프롬프트 간 이동, `v` 로 단축키 패널 토글
+- 훅 `args: string[]` (exec form): 쉘 없이 명령 직접 실행 → 따옴표 이스케이프 문제 해소
+- `PostToolUse` 훅에 `continueOnBlock` 옵션 추가 → 거부 사유를 Claude에 피드백 가능
+- MCP stdio 서버에 `CLAUDE_PROJECT_DIR` 환경변수 전달
+- Compaction 프롬프트가 민감한 사용자 지시사항 보존
+- `/mcp` Reconnect 시 `.mcp.json` 변경 즉시 반영, HTTP 상태 코드 및 URL 오류 표시
+- `/context all` 에 스킬별 토큰 예상치 표시 (모델 토크나이저 반영)
+- 원격 MCP 서버 재시도(transient failure) 전체 사용자 적용
+- 서브에이전트 API 요청에 `x-claude-code-agent-id`/`x-claude-code-parent-agent-id` 헤더 및 OTEL span 속성 추가
+
+**보안 수정:**
+- `claude auth login`/`logout`/`status` 차단하던 credential 만료 데드락 수정
+
+**버그 수정:**
+- `autoAllowBashIfSandboxed`가 셸 확장(`$VAR`, `$(cmd)`) 포함 명령을 승인하지 않던 문제 수정
+- 훅 터미널 오염 수정 및 훅에서 터미널 접근 제거
+- HTTP/SSE MCP 서버의 무한 메모리 증가 수정 (프레임당 16 MB 상한)
+- `Skill(name *)` 와일드카드 권한 규칙이 prefix 매칭으로 올바르게 동작하도록 수정
+- 다수 UI 버그, 렌더링 문제, 안정성 개선
+
+---
+
 ### v2.1.128 (2026-05-04)
 
 **신규 기능:**
