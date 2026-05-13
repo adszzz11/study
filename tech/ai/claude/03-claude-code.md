@@ -232,6 +232,22 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.140 (2026-05-12)
+
+**개선 사항:**
+- Agent tool `subagent_type` 대소문자·구분자 비구분 매칭 (예: `"Code Reviewer"` → `code-reviewer` 자동 변환)
+- 에이전트 색상 팔레트 업데이트
+
+**버그 수정:**
+- `/goal`이 `disableAllHooks`/`allowManagedHooksOnly` 설정 시 무한 대기하던 문제 수정
+- 심링크 파일 설정 핫리로드 문제 수정
+- `claude --bg` 백그라운드 서비스 연결 문제 수정
+- 엔터프라이즈 엔드포인트 보안 환경 백그라운드 서비스 시작 실패 수정
+- 원격 관리 설정 401 오류 시 재시도 안 되던 문제 수정
+- `/loop` 중복 웨이크업, Windows 이벤트 루프 중단, Read 툴 검증 오류 등 다수 수정
+
+---
+
 ### v2.1.139 (2026-05-11)
 
 **신규 기능:**
