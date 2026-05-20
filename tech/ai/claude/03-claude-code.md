@@ -232,6 +232,62 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.145 (2026-05-19)
+
+**신규 기능:**
+- `claude agents --json`: 실행 중인 Claude 세션 목록을 JSON으로 출력 (tmux-resurrect, 상태 바 등 스크립팅 활용)
+- OpenTelemetry: `claude_code.tool` span에 `agent_id`·`parent_agent_id` 속성 추가, 백그라운드 서브에이전트 트레이스 부모 관계 수정
+- Status line JSON에 GitHub 레포·PR 정보 포함
+- `/plugin` 탐색 화면에서 설치 전 플러그인 구성요소 미리보기
+- `claude agents` 탭 타이틀에 입력 대기 세션 수 표시
+- 전체화면 모드에서 슬래시·@-mention 제안 목록 마우스 지원
+- Stop·SubagentStop 훅 입력에 `background_tasks`, `session_crons` 필드 추가
+
+**보안 수정:**
+- Bash 명령에서 허용 목록에 없는 환경변수 단순 할당(`VAR=val`)이 자동 승인되던 권한 우회 버그 수정
+
+**버그 수정:**
+- MCP 프롬프트 슬래시 명령 원시 오류 표시 수정
+- 터미널 리사이즈 후 스피너/경과시간 멈춤 수정
+- Windows PowerShell 5.1 교차 프로젝트 재개 실패 수정
+- Agent View 음성 Push-to-Talk 미동작 수정
+- 동시 생성 시 태스크 목록 무작위 순서 렌더링 수정
+- `gh pr create` 후 PR 배지 즉시 갱신 수정
+- 비ASCII 팀 멤버 이름 API 호출 실패 수정
+- `/review` Classic Projects 레포 deprecated GraphQL 수정
+- Read 툴 토큰 한도 초과 시 하드 에러 대신 PARTIAL 뷰 반환
+
+---
+
+### v2.1.144 (2026-05-19)
+
+**신규 기능:**
+- `/resume` 백그라운드 세션 지원
+- 백그라운드 서브에이전트 완료 알림에 경과 시간 포함
+- `/model` 명령으로 현재 세션 전용 모델 변경 (`d` 키로 기본값 설정)
+
+**버그 수정:**
+- API 연결 불가 시 시작 지연 75초 → 15초 타임아웃으로 단축
+- 긴 세션에서 프로그레시브 터미널 디스플레이 오염 수정
+
+---
+
+### v2.1.143 (2026-05-15)
+
+**신규 기능:**
+- 플러그인 의존성 강제: `claude plugin disable` 시 의존 플러그인 존재하면 비활성화 거부
+- `claude plugin enable` 전이 의존성 자동 활성화
+- `/plugin` 마켓플레이스 브라우즈에 예상 컨텍스트 비용 표시
+- `worktree.bgIsolation: "none"` 설정 추가
+- PowerShell 툴 `-ExecutionPolicy Bypass` 옵션으로 실행
+
+**버그 수정:**
+- Stop 훅 8회 연속 차단 후 경고와 함께 턴 종료
+- `.credentials.json` scopes 배열 아닌 경우 무한 대기 수정
+- Windows Terminal/WSL `claude agents` 우클릭 붙여넣기 수정
+
+---
+
 ### v2.1.140 (2026-05-12)
 
 **개선 사항:**
