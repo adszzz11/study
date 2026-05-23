@@ -28,9 +28,20 @@ parent: "[[README]]"
 
 | 모델 | 특징 | 용도 |
 |------|------|------|
-| **Claude Opus 4.5** | 최고 성능, 깊은 사고 | 복잡한 분석, 코딩 |
-| **Claude Sonnet 4** | 균형잡힌 성능 | 일반 업무, 코딩 |
-| **Claude Haiku 3.5** | 빠른 속도, 저비용 | 단순 작업, 분류 |
+| **Claude Opus 4.6** | 최고 성능, 깊은 사고, 최대 128K output | 복잡한 분석, 코딩 |
+| **Claude Sonnet 4.6** | 균형잡힌 성능, 1M context (beta), extended thinking | 일반 업무, 코딩, 에이전틱 검색 |
+| **Claude Haiku 4.5** | 빠른 속도, 저비용 | 단순 작업, 분류 |
+
+> [!warning] Deprecation
+> **Claude Haiku 3** (`claude-3-haiku-20240307`) 2026-04-19 에 retire 예정 → Claude Haiku 4.5로 마이그레이션 권장
+
+### 🚨 Claude Mythos (2026-03-27 유출)
+
+- Anthropic CMS 오류로 내부 자료가 외부에 노출되며 다음 모델 **"Claude Mythos"** (코드명 Capybara) 존재가 알려짐
+- 현재 Claude 4.6 Opus 대비 프로그래밍/추론 작업에서 "dramatically" 성능 향상
+- 특히 사이버보안 취약점 탐지에 탁월
+- Opus 위의 **4번째 제품 티어**로 출시 예정, 초기에는 사이버보안 방어 목적 선별 고객에게만 제공
+- 일반 공개 시점 미정
 
 ### 주요 용어
 
@@ -79,9 +90,15 @@ parent: "[[README]]"
 
 ### 단점
 
-- ❌ 실시간 정보 접근 불가 (학습 데이터 기준)
 - ❌ 이미지 생성 불가
-- ❌ 인터넷 검색 제한적
+- ❌ 고급 모델일수록 비용 높음
+
+### 업데이트 이력
+
+| 날짜 | 내용 |
+|------|------|
+| 2026-03-27 | Claude Mythos 내부 자료 유출, Claude 4.6 모델 최대 output 128K 상향 |
+| 2026-03-27 | Claude Haiku 3 deprecation 공지 (2026-04-19 retire) |
 
 ---
 
