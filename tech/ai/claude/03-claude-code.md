@@ -232,6 +232,47 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.149 (2026-05-22)
+
+**신규 기능:**
+- `/usage`: 스킬·서브에이전트·플러그인·MCP 서버 비용별 카테고리 세부 사용량 표시
+- `/diff` 상세 뷰 키보드 스크롤 지원 (화살표, `j`/`k`, PgUp/PgDn, Space, Home/End)
+- Markdown 렌더링: GFM task list 체크박스 (`- [ ] todo` / `- [x] done`) 렌더링 지원
+- Enterprise: `allowAllClaudeAiMcps` managed setting 추가 (claude.ai 클라우드 MCP 커넥터 로드)
+
+**보안 수정:**
+- PowerShell 내장 `cd` 함수(`cd..`, `cd\`, `cd~`, `X:`)가 작업 디렉터리를 감지 없이 변경하던 권한 우회 수정
+- Git worktrees: sandbox 쓰기 허용 목록이 공유 `.git` 디렉터리 대신 전체 메인 리포지토리를 덮던 문제 수정
+- PowerShell 규칙: prefix/와일드카드 허용 규칙이 네이티브 실행 파일·스크립트를 사전 승인하지 않던 문제 수정
+- Bash `find`: macOS에서 대형 디렉터리 트리 탐색 시 시스템 파일/vnode 테이블 소진 후 크래시 수정
+
+**버그 수정:**
+- 생각 스피너 색상 지속 문제 수정
+- 접힌 출력 줄 수 표시 수정
+- 슬래시 명령어 클리핑 수정
+- 기타 다수 UI 개선
+
+---
+
+### v2.1.148 (2026-05-22)
+
+**버그 수정:**
+- Bash 툴이 모든 명령에서 exit code 127을 반환하던 문제 수정 (v2.1.147 회귀)
+
+---
+
+### v2.1.147 (2026-05-21)
+
+**신규 기능:**
+- 백그라운드 세션 고정(Pinned): 유휴 시에도 세션 유지, Claude Code 업데이트 적용 시 자동 재시작
+- `/simplify` → `/code-review` 로 이름 변경: effort 레벨 지정 가능 (예: `/code-review high`)
+  - GitHub PR 인라인 코멘트로 correctness 버그 보고 가능
+- 자동 업데이터 개선: 재시도 로직 및 오류 보고 강화
+- diff 렌더링 성능 개선
+- 프롬프트 히스토리에서 연속 중복 입력 미기록
+
+---
+
 ### v2.1.145 (2026-05-19)
 
 **신규 기능:**
