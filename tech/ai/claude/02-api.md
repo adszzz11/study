@@ -267,6 +267,7 @@ with client.messages.stream(
 
 | 날짜 | 내용 |
 |------|------|
+| 2026-05-18 | Web search tool이 더 풍부한 SEC 공시 데이터 반환 → 금융 리서치 에이전트, 실적 분석, 실사 워크플로우에 citation 포함 |
 | 2026-04-30 | 1M 컨텍스트 윈도우 베타 종료 (Sonnet 4.5/Sonnet 4) → Sonnet 4.6/Opus 4.6으로 마이그레이션 필요 |
 | 2026-04-24 | Rate Limits API 출시: 조직/워크스페이스 Rate Limit 프로그래밍 방식 조회 가능 |
 | 2026-04-23 | Managed Agents Memory 공개 베타 (`managed-agents-2026-04-01` 헤더) |

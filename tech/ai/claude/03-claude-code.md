@@ -232,6 +232,103 @@ claude --dangerously-skip-permissions
 
 ## 10. 릴리즈 노트
 
+### v2.1.149 (2026-05-22)
+
+**신규 기능:**
+- `/usage`: 스킬·서브에이전트·플러그인·MCP 서버 비용별 카테고리 세부 사용량 표시
+- `/diff` 상세 뷰 키보드 스크롤 지원 (화살표, `j`/`k`, PgUp/PgDn, Space, Home/End)
+- Markdown 렌더링: GFM task list 체크박스 (`- [ ] todo` / `- [x] done`) 렌더링 지원
+- Enterprise: `allowAllClaudeAiMcps` managed setting 추가 (claude.ai 클라우드 MCP 커넥터 로드)
+
+**보안 수정:**
+- PowerShell 내장 `cd` 함수(`cd..`, `cd\`, `cd~`, `X:`)가 작업 디렉터리를 감지 없이 변경하던 권한 우회 수정
+- Git worktrees: sandbox 쓰기 허용 목록이 공유 `.git` 디렉터리 대신 전체 메인 리포지토리를 덮던 문제 수정
+- PowerShell 규칙: prefix/와일드카드 허용 규칙이 네이티브 실행 파일·스크립트를 사전 승인하지 않던 문제 수정
+- Bash `find`: macOS에서 대형 디렉터리 트리 탐색 시 시스템 파일/vnode 테이블 소진 후 크래시 수정
+
+**버그 수정:**
+- 생각 스피너 색상 지속 문제 수정
+- 접힌 출력 줄 수 표시 수정
+- 슬래시 명령어 클리핑 수정
+- 기타 다수 UI 개선
+
+---
+
+### v2.1.148 (2026-05-22)
+
+**버그 수정:**
+- Bash 툴이 모든 명령에서 exit code 127을 반환하던 문제 수정 (v2.1.147 회귀)
+
+---
+
+### v2.1.147 (2026-05-21)
+
+**신규 기능:**
+- 백그라운드 세션 고정(Pinned): 유휴 시에도 세션 유지, Claude Code 업데이트 적용 시 자동 재시작
+- `/simplify` → `/code-review` 로 이름 변경: effort 레벨 지정 가능 (예: `/code-review high`)
+  - GitHub PR 인라인 코멘트로 correctness 버그 보고 가능
+- 자동 업데이터 개선: 재시도 로직 및 오류 보고 강화
+- diff 렌더링 성능 개선
+- 프롬프트 히스토리에서 연속 중복 입력 미기록
+
+---
+
+### v2.1.145 (2026-05-19)
+
+**신규 기능:**
+- `claude agents --json`: 실행 중인 Claude 세션 목록을 JSON으로 출력 (tmux-resurrect, 상태 바 등 스크립팅 활용)
+- OpenTelemetry: `claude_code.tool` span에 `agent_id`·`parent_agent_id` 속성 추가, 백그라운드 서브에이전트 트레이스 부모 관계 수정
+- Status line JSON에 GitHub 레포·PR 정보 포함
+- `/plugin` 탐색 화면에서 설치 전 플러그인 구성요소 미리보기
+- `claude agents` 탭 타이틀에 입력 대기 세션 수 표시
+- 전체화면 모드에서 슬래시·@-mention 제안 목록 마우스 지원
+- Stop·SubagentStop 훅 입력에 `background_tasks`, `session_crons` 필드 추가
+
+**보안 수정:**
+- Bash 명령에서 허용 목록에 없는 환경변수 단순 할당(`VAR=val`)이 자동 승인되던 권한 우회 버그 수정
+
+**버그 수정:**
+- MCP 프롬프트 슬래시 명령 원시 오류 표시 수정
+- 터미널 리사이즈 후 스피너/경과시간 멈춤 수정
+- Windows PowerShell 5.1 교차 프로젝트 재개 실패 수정
+- Agent View 음성 Push-to-Talk 미동작 수정
+- 동시 생성 시 태스크 목록 무작위 순서 렌더링 수정
+- `gh pr create` 후 PR 배지 즉시 갱신 수정
+- 비ASCII 팀 멤버 이름 API 호출 실패 수정
+- `/review` Classic Projects 레포 deprecated GraphQL 수정
+- Read 툴 토큰 한도 초과 시 하드 에러 대신 PARTIAL 뷰 반환
+
+---
+
+### v2.1.144 (2026-05-19)
+
+**신규 기능:**
+- `/resume` 백그라운드 세션 지원
+- 백그라운드 서브에이전트 완료 알림에 경과 시간 포함
+- `/model` 명령으로 현재 세션 전용 모델 변경 (`d` 키로 기본값 설정)
+
+**버그 수정:**
+- API 연결 불가 시 시작 지연 75초 → 15초 타임아웃으로 단축
+- 긴 세션에서 프로그레시브 터미널 디스플레이 오염 수정
+
+---
+
+### v2.1.143 (2026-05-15)
+
+**신규 기능:**
+- 플러그인 의존성 강제: `claude plugin disable` 시 의존 플러그인 존재하면 비활성화 거부
+- `claude plugin enable` 전이 의존성 자동 활성화
+- `/plugin` 마켓플레이스 브라우즈에 예상 컨텍스트 비용 표시
+- `worktree.bgIsolation: "none"` 설정 추가
+- PowerShell 툴 `-ExecutionPolicy Bypass` 옵션으로 실행
+
+**버그 수정:**
+- Stop 훅 8회 연속 차단 후 경고와 함께 턴 종료
+- `.credentials.json` scopes 배열 아닌 경우 무한 대기 수정
+- Windows Terminal/WSL `claude agents` 우클릭 붙여넣기 수정
+
+---
+
 ### v2.1.140 (2026-05-12)
 
 **개선 사항:**
