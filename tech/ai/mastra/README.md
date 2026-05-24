@@ -29,8 +29,9 @@ type: tech-tool-study
 | 4 | [[04-memory-rag]] | Memory 4계층 + RAG 파이프라인 | 실무 적용 |
 | 5 | [[05-tools-mcp]] | createTool, MCP Client/Server, 통합 패턴 | 실무 적용 |
 | 6 | [[06-evals-observability]] | Scorers, AI Tracing, OTEL | 운영 |
-| 7 | [[cheatsheet]] | 핵심 API 빠른 참조 | 모두 |
-| 8 | [[99-references]] | 공식 문서, GitHub, 튜토리얼 링크 | 모두 |
+| 7 | [[07-case-studies]] | 프로덕션 사례 (Replit·Sanity·Factorial·Cedar·WorkOS·11x) | 실무 적용 |
+| 8 | [[cheatsheet]] | 핵심 API 빠른 참조 | 모두 |
+| 9 | [[99-references]] | 공식 문서, GitHub, 튜토리얼 링크 | 모두 |
 
 ---
 
