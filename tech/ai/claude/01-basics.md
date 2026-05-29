@@ -28,9 +28,13 @@ parent: "[[README]]"
 
 | 모델 | 특징 | 용도 |
 |------|------|------|
-| **Claude Opus 4.6** | 최고 성능, 깊은 사고, 최대 128K output | 복잡한 분석, 코딩 |
-| **Claude Sonnet 4.6** | 균형잡힌 성능, 1M context (beta), extended thinking | 일반 업무, 코딩, 에이전틱 검색 |
+| **Claude Opus 4.8** | 최신, SWE-Bench Pro 69.2%, 에이전틱 작업 강화 | 에이전틱 코딩, 금융 분석, 복잡한 추론 |
+| **Claude Opus 4.7** | 1M context 표준가, 고해상도 비전, Task Budgets | 복잡한 분석, 코딩, 대용량 컨텍스트 |
+| **Claude Sonnet 4.6** | 균형잡힌 성능, 1M context, extended thinking | 일반 업무, 코딩, 에이전틱 검색 |
 | **Claude Haiku 4.5** | 빠른 속도, 저비용 | 단순 작업, 분류 |
+
+> [!info] 2026-05-28 업데이트
+> **Claude Opus 4.8** (`claude-opus-4-8`) 출시 — Opus 4.7과 동일 가격, Fast mode 3배 저렴, 2.5× 속도
 
 > [!warning] Deprecation
 > **Claude Haiku 3** (`claude-3-haiku-20240307`) 2026-04-19 에 retire 예정 → Claude Haiku 4.5로 마이그레이션 권장
