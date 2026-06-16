@@ -77,3 +77,16 @@ AI와 데이터 활용 맥락은 [[study/tech/ai/litellm/README|LiteLLM]], [[stu
 - [[study/tech/ai/llm-wiki-study/README]]
 - [[study/tech/data/dolt/README]]
 - [[study/tech/ai/autoresearch-study/README]]
+
+## Q&A
+**Q:** 매주 가설 검증 실험을 한다면 어떤 단계로 시작하는게 좋을까?
+**A:** 처음에는 광고 채널이나 copy부터 바꾸기보다, 이 노트의 기본 흐름인 `시장 -> 고객 -> 가치제안 -> 실행 -> 측정`을 1주 단위로 작게 반복하는 게 좋다. 추천 시작 순서는 다음과 같다.
+
+1. `Business goal`을 하나 정한다. 예: signup 20건, 첫 구매 10건, 상담 신청 5건처럼 이번 주에 판단 가능한 목표로 둔다.
+2. `Target segment`와 `Customer insight`를 좁힌다. 모든 고객이 아니라 "누가 어떤 pain point/barrier 때문에 망설이는가"를 한 문장으로 쓴다.
+3. 하나의 `Hypothesis`만 세운다. 예: "가격 부담을 느끼는 신규 방문자에게 risk reversal 메시지를 보여주면 landing page CVR이 오른다."
+4. `4P` 중 무엇을 건드리는 실험인지 정한다. 보통 초반 주간 실험은 `Promotion`의 headline, offer, creative angle, landing page section부터 시작하되, 결과가 계속 약하면 `Product`, `Price`, `Place` 문제인지 되돌아본다.
+5. `Primary metric` 하나와 `guardrail metric`을 정한다. 예: primary는 signup CVR, guardrail은 bounce rate, refund rate, unsubscribe rate.
+6. 작게 실행하고 기록한다. Control/Variant, audience, channel, 기간, sample size, 결과, 배운 점을 남긴다. 유의미한 결과가 없어도 고객의 pain point, benefit, barrier에 대한 학습을 기록하면 다음 실험의 질이 좋아진다.
+
+초보자라면 첫 4주는 `Customer insight` 검증에 집중하는 편이 좋다. 1주차는 리뷰/인터뷰로 pain point를 모으고, 2주차는 메시지 angle을 테스트하고, 3주차는 offer나 trust 요소를 테스트하고, 4주차는 landing page funnel에서 이탈 구간을 확인한다. 이렇게 해야 매주 실험이 단순한 A/B test가 아니라 `STP`, `4P`, `funnel`, `KPI Tree`를 연결하는 학습 루프가 된다.
