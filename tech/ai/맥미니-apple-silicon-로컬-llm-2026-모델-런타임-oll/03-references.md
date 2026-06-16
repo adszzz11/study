@@ -53,3 +53,22 @@ type: tech-tool-study
 - [ ] model card의 license가 개인/상업 사용 목적에 맞는가?
 - [ ] GGUF 또는 MLX model의 quantization과 context length가 Mac mini memory에 맞는가?
 - [ ] OpenAI-compatible API가 tool calling, structured output, streaming을 필요한 수준까지 지원하는가?
+
+## 추가 조사: 64GB 추천 모델 출처
+
+| 자료 | 링크 | 확인한 내용 |
+|---|---|---|
+| Ollama `qwen3` library | https://ollama.com/library/qwen3 | 8B 5.2GB, 14B 9.3GB, 30B 19GB, 32B 20GB, 30B/235B MoE, Hermes Agent launch 예시 |
+| Ollama `deepseek-r1` library | https://ollama.com/library/deepseek-r1 | 32B 20GB, 70B 43GB, reasoning model, 0528 Qwen3-8B update |
+| Ollama `gemma3` library | https://ollama.com/library/gemma3 | 12B 8.1GB, 27B 17GB, text+image, 128K context, QAT model |
+| Ollama `llama3.3` library | https://ollama.com/library/llama3.3 | 70B 43GB, 128K context, multilingual/tool-use considerations |
+| Qwen3-Coder-30B-A3B-Instruct model card | https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct | 30.5B total / 3.3B activated, native 256K context, agentic coding/tool calling |
+| Qwen3-Coder-Next model card | https://huggingface.co/Qwen/Qwen3-Coder-Next | Apache-2.0 open-weight coding model, 실험 후보 |
+| Qwen3-Coder-Next technical report | https://arxiv.org/abs/2603.00729 | 80B total / 3B active coding agent model, agent-centric benchmark 지향 |
+| Qwen3.6-35B-A3B model card | https://huggingface.co/Qwen/Qwen3.6-35B-A3B | 35B-A3B급 long-context/tool-use 실험 후보, 262K default context는 OOM 주의 |
+
+메모:
+
+- model library의 file size는 weight size에 가깝고, 실제 사용량은 runtime overhead, KV cache, batch, image token, concurrent request 때문에 더 커진다.
+- 64GB Mac mini에서는 30B/32B급을 주력으로 삼되, 70B급은 단독 실험으로 분리하는 것이 안정적이다.
+- model card의 최대 context가 128K/256K/1M이어도 local Mac에서 그대로 쓰기보다 8K/16K/32K부터 측정한다.

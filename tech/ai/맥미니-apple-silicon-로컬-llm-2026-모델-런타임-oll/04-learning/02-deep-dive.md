@@ -126,3 +126,90 @@ llama-server \
 - coding/agent 작업은 14B~32B급을 필요할 때만 load하는 방식이 현실적이다.
 - `base_url`을 통일하면 [[litellm]] 또는 앱 설정만 바꿔 local/cloud 전환이 쉬워진다.
 - [[codex]] 같은 coding agent에 붙일 때는 tool calling, streaming, context length를 별도로 검증한다.
+
+## 추가 조사: Hermes Agent 동시 실행 기준 실험
+
+### 64GB memory budget 가정
+
+Mac mini M4 Pro 64GB에서 실제 LLM에 전부를 쓸 수 있다고 보면 안 된다. macOS, browser, editor, Hermes Agent, terminal multiplexer, vector DB, embedding process, file watcher가 같이 memory를 쓴다.
+
+실무 예산:
+
+| 항목 | 보수적 예산 | 메모 |
+|---|---:|---|
+| macOS + 기본 앱 | 8~12GB | browser tab 수에 따라 크게 변동 |
+| Hermes Agent / coding agent | 2~8GB | 작업공간 크기, tool call, 로그에 따라 변동 |
+| RAG/embedding/vector store | 2~8GB | chunking, index build 중 peak가 큼 |
+| 항상 켜둘 8B/14B model | 5~10GB+ | Ollama library 기준 `qwen3:8b` 5.2GB, `qwen3:14b` 9.3GB |
+| 주력 30B/32B model | 19~25GB+ | weight 외 KV cache/runtime overhead 필요 |
+| 여유 buffer | 8~16GB | memory pressure green/yellow 경계 유지용 |
+
+### 추천 운영 패턴
+
+1. **Default model:** `qwen3:8b` 또는 `qwen3:14b`
+   - Hermes Agent의 빠른 요약, 분류, 초안, 간단한 코드 설명에 사용한다.
+   - context는 처음에 8K~16K로 제한하고, long document는 chunk/RAG로 보낸다.
+
+2. **Heavy research model:** `qwen3:30b` 또는 `qwen3:32b`
+   - 논문/문서 비교, 코드베이스 분석, 긴 의사결정 문서 작성에 사용한다.
+   - 동시에 여러 research를 돌릴 때는 같은 30B model에 요청을 몰아주고, 다른 30B+ model을 추가로 load하지 않는다.
+
+3. **Verifier model:** `deepseek-r1:32b`
+   - 최종 결론 검토, 수학/논리/반례 찾기에 사용한다.
+   - thinking output이 길 수 있으므로 `max_tokens`와 task 범위를 좁힌다.
+
+4. **Vision model:** `gemma3:12b` 또는 `gemma3:27b`
+   - screenshot, chart, PDF page image 설명에만 별도 사용한다.
+   - vision model은 image token 때문에 text-only 27B보다 memory가 더 빡빡하게 느껴질 수 있다.
+
+### 실험 matrix
+
+| Test | Loaded models | Context | Background jobs | Pass 기준 |
+|---|---|---:|---|---|
+| A | `qwen3:8b` | 8K | Hermes Agent 1개 | memory pressure green, 응답 지연 낮음 |
+| B | `qwen3:14b` | 16K | Hermes Agent + browser research | memory pressure green/yellow, swap 증가 작음 |
+| C | `qwen3:30b` | 16K | RAG query + file search | sustained throughput 체감 가능 |
+| D | `qwen3:30b` + embedding | 32K | research 2개 | swap 급증 없고 실패 없이 완료 |
+| E | `llama3.3:70b` | 4K~16K | heavy job 없음 | 단독 실험으로만 pass |
+
+### 측정 명령
+
+```bash
+ollama ps
+ollama list
+vm_stat
+memory_pressure
+top -l 1 -o mem | head -n 30
+```
+
+간단한 smoke prompt:
+
+```text
+아래 연구 메모를 읽고, 결론/근거/리스크/다음 실험을 한국어 bullet로 분리해줘.
+각 bullet은 근거 문장 번호를 포함해.
+```
+
+### LiteLLM routing 예시
+
+```yaml
+model_list:
+  - model_name: local-fast
+    litellm_params:
+      model: ollama/qwen3:8b
+      api_base: http://localhost:11434
+  - model_name: local-research
+    litellm_params:
+      model: ollama/qwen3:30b
+      api_base: http://localhost:11434
+  - model_name: local-reasoning
+    litellm_params:
+      model: ollama/deepseek-r1:32b
+      api_base: http://localhost:11434
+```
+
+운영 원칙:
+
+- Hermes Agent의 기본값은 `local-fast`로 둔다.
+- 긴 research synthesis만 `local-research`로 보낸다.
+- 결론 검토와 반례 찾기는 `local-reasoning`으로 분리한다.
+- cloud fallback은 architecture decision, high-stakes writing, local model disagreement 때만 사용한다.

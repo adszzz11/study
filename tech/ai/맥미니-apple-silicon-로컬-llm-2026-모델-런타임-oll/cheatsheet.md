@@ -121,3 +121,32 @@ llama-server \
 - [[litellm]]
 - [[model-context-protocol-mcp]]
 - [[codex]]
+
+## 추가 조사: M4 Pro 64GB 빠른 선택
+
+| 목적 | 먼저 고를 모델 | 명령 |
+|---|---|---|
+| Hermes Agent 기본값 | `qwen3:8b` | `ollama run qwen3:8b` |
+| 기본값보다 좋은 품질 | `qwen3:14b` | `ollama run qwen3:14b` |
+| 주력 research/coding | `qwen3:30b` | `ollama run qwen3:30b` |
+| dense 32B 비교 | `qwen3:32b` | `ollama run qwen3:32b` |
+| reasoning 검토 | `deepseek-r1:32b` | `ollama run deepseek-r1:32b` |
+| vision/document image | `gemma3:12b` 또는 `gemma3:27b` | `ollama run gemma3:27b` |
+| 대형 단독 실험 | `llama3.3:70b` | `ollama run llama3.3:70b` |
+
+권장 기본값:
+
+```text
+default = qwen3:14b
+research = qwen3:30b
+reasoning = deepseek-r1:32b
+vision = gemma3:27b
+```
+
+동시 실행 규칙:
+
+- `8B/14B + embedding/RAG + Hermes Agent`: 상시 운영 후보
+- `30B/32B + Hermes Agent`: 주력 research 후보
+- `30B/32B + 30B/32B`: 가능해도 swap/latency를 보고 제한
+- `70B + Hermes Agent + research jobs`: 기본 운영으로는 비추천
+- context는 8K -> 16K -> 32K 순서로 올리고, 128K 이상은 별도 실험으로 기록

@@ -95,3 +95,75 @@ print(response.choices[0].message.content)
 - 첫 셋업은 **Ollama + LM Studio** 조합이 가장 실용적이다.
 - 성능 실험과 fine-tuning은 **MLX-LM**을 별도 트랙으로 둔다.
 - 저수준 server control과 embedding/RAG는 **llama.cpp**를 배운다.
+
+## 추가 조사: Mac mini M4 Pro 64GB/2TB 모델 추천
+
+기준 사양:
+
+- **Mac mini M4 Pro**
+- **Unified memory:** 64GB
+- **SSD:** 2TB
+- **운영 목표:** Hermes Agent + local LLM + 여러 research job 동시 실행
+
+### 결론
+
+64GB unified memory는 30B/32B급 quantized model을 실사용하기 좋은 구간이다. 다만 Hermes Agent, browser/research process, embedding/RAG, 여러 local server를 같이 띄울 계획이라면 70B급을 상시 모델로 두기보다 **항상 켜둘 8B/14B + 주력 30B/32B + 특수 목적 vision/reasoning model**로 나누는 편이 안정적이다.
+
+| 역할 | 1순위 추천 | 대안 | 이유 |
+|---|---|---|---|
+| 항상 켜둘 기본 assistant | `qwen3:8b` 또는 `qwen3:14b` | `gemma3:12b` | 빠른 응답, 낮은 memory pressure, 한국어/요약/일반 research에 충분 |
+| 주력 research/coding agent | `qwen3:30b` 또는 `qwen3:32b` | `Qwen3-Coder-30B-A3B-Instruct` GGUF/MLX quant | 64GB에서 품질과 속도의 균형이 좋고, 30B MoE는 활성 parameter가 작아 agent loop에 유리 |
+| reasoning 전용 | `deepseek-r1:32b` | `deepseek-r1:14b` | 수학/논리/검토용. 답변이 길고 느릴 수 있어 필요할 때만 load |
+| vision/document screenshot | `gemma3:27b` | `gemma3:12b` | text+image 입력, 문서 스크린샷/도표 질의에 유용 |
+| 실험용 대형 모델 | `llama3.3:70b` | Qwen3-Coder-Next quant | 43GB급 weight는 64GB에 들어갈 수 있지만 Hermes/research 동시 실행과 long context에서는 여유가 작음 |
+
+### Ollama 기준 빠른 설치 세트
+
+```bash
+# 항상 켜둘 모델
+ollama pull qwen3:8b
+ollama pull qwen3:14b
+
+# 주력 research/coding
+ollama pull qwen3:30b
+ollama pull qwen3:32b
+
+# reasoning / vision
+ollama pull deepseek-r1:32b
+ollama pull gemma3:27b
+```
+
+### 동시 실행 관점의 권장 조합
+
+| 시나리오 | 권장 load | 설명 |
+|---|---|---|
+| 평상시 daemon | `qwen3:8b` 또는 `qwen3:14b` 1개 | Hermes Agent가 자주 호출하는 기본 local endpoint |
+| research batch | `qwen3:30b` 1개 + embedding/RAG | 긴 문서 요약, 후보안 생성, 코드 탐색 |
+| 검토 단계 | `qwen3:30b` 결과를 `deepseek-r1:32b`로 cross-check | reasoning model은 verifier처럼 짧게 사용 |
+| vision 필요 | `gemma3:12b`/`27b`를 별도 session으로 load | image token 때문에 text model보다 memory 여유를 더 잡음 |
+| 대형 실험 | `llama3.3:70b` 단독, context 4K~16K부터 | 다른 heavy job을 내리고 단일 실험으로 취급 |
+
+### 피해야 할 기본값
+
+- `70B`를 항상 켜두고 Hermes Agent와 여러 research job을 동시에 돌리는 구성
+- model card의 최대 context를 그대로 쓰는 구성: 128K/256K는 가능 여부보다 **KV cache 비용**이 먼저 문제다.
+- vision model과 30B+ text model을 동시에 오래 유지하는 구성
+- quantization, context, prompt template를 기록하지 않고 모델만 바꿔 비교하는 방식
+
+### 2TB SSD 운영 감각
+
+- 2TB면 8B/14B/30B/32B/vision/reasoning 모델을 여러 variant로 보관해도 여유가 있다.
+- 다만 GGUF/MLX quantization variant를 많이 받으면 200~500GB는 빠르게 사용한다.
+- `Ollama`, `LM Studio`, `HF cache`, benchmark output, RAG index 위치를 분리해서 관리한다.
+
+```bash
+ollama list
+du -sh ~/.ollama ~/.cache/huggingface 2>/dev/null
+```
+
+### 최신 확인 포인트
+
+- Ollama의 `qwen3` library는 8B 5.2GB, 14B 9.3GB, 30B 19GB, 32B 20GB variant를 제공한다.
+- Ollama의 `deepseek-r1` library는 32B 20GB, 70B 43GB variant를 제공한다.
+- Ollama의 `gemma3` library는 12B 8.1GB, 27B 17GB, text+image, 128K context variant를 제공한다.
+- Qwen3-Coder-30B-A3B-Instruct model card는 30.5B total / 3.3B activated parameter, native 256K context, agentic coding/tool calling을 강조한다.
