@@ -105,3 +105,13 @@ client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 - [[litellm]]
 - [[model-context-protocol-mcp]]
 - [[codex]]
+
+## Q&A
+**Q:** 주식 리서치, 연구, 투자자동화에서 Codex SDK와 local LLM을 어떻게 나눠 쓰는 게 좋은가?
+**A:** 이 용도에는 local LLM만으로 전부 처리하기보다, 노트의 권장처럼 cloud/tool agent와 local endpoint의 역할을 분리하는 구성이 좋다. 공개 자료 수집, 리포트 크롤링, 데이터 파이프라인 코드 작성, backtest script 생성, broker API wrapper 구현은 `Codex SDK` 같은 coding/research agent에 맡기고, 계좌 내역, 보유 종목, 개인 투자 규칙, 매매 후보 검토처럼 민감하거나 반복적인 판단 보조는 Mac mini의 local LLM에 맡기는 방식이다.
+
+권장 구조는 `Codex SDK -> research/code automation`, `local LLM -> private portfolio analyst/verifier`, `deterministic rule engine -> order decision/execution`이다. local LLM은 계좌 데이터와 투자 메모를 외부 API로 보내지 않는 장점이 있으므로, 포트폴리오 요약, 리스크 설명, 종목별 thesis 정리, 매매 전 체크리스트, strategy log 해석에 적합하다. 반대로 실제 주문 실행은 LLM이 직접 결정하게 두지 말고, position sizing, max loss, exposure limit, cooldown, 승인 단계 같은 규칙 기반 guardrail을 통과한 경우에만 broker API가 실행하도록 분리하는 편이 안전하다.
+
+Mac mini 64GB급이라면 상시 모델은 `qwen3:8b` 또는 `qwen3:14b`, 깊은 리서치/비교는 `qwen3:30b`/`qwen3:32b`, 최종 논리 검토는 `deepseek-r1:32b`처럼 역할을 나눈다. `Ollama`를 기본 automation endpoint로 두고, `LiteLLM`으로 `local-fast`, `local-research`, `local-reasoning`, cloud fallback을 라우팅하면 Codex SDK와 local LLM을 같은 OpenAI-compatible 흐름에서 다루기 쉽다. 긴 리포트와 시계열 데이터는 long context에 그대로 넣기보다 RAG/vector store와 chunk 요약으로 처리하고, 모델 비교 때는 model, quantization, context length, prompt template, memory pressure를 함께 기록한다.
+
+투자자동화의 핵심은 "LLM이 매수/매도를 마음대로 한다"가 아니라 "LLM이 리서치와 판단 근거를 구조화하고, 사람이 정한 deterministic policy가 실행을 제한한다"에 가깝다. 따라서 초기 MVP는 1) Codex SDK로 데이터 수집/backtest/리포트 생성 자동화, 2) local LLM으로 계좌/종목 메모 요약과 trade rationale 생성, 3) 주문은 paper trading 또는 human approval부터 시작, 4) 충분한 로그와 재현 가능한 backtest가 쌓인 뒤 제한된 자동 실행으로 확장하는 순서가 적합하다.
