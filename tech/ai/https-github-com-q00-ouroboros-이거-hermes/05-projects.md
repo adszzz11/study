@@ -166,3 +166,133 @@ Ouroboros를 먼저 쓸 작업:
 ```
 
 → 빠른 참조: [[cheatsheet]]
+
+## 추가 조사: agent 서비스 비교 프로젝트
+
+조사일: 2026-06-18
+
+목표: Ouroboros가 만들 `Seed`/issue template이 실제 agent 서비스에서 성능을 올리는지 비교한다.
+
+## 프로젝트 6 — Async coding agent bake-off
+
+대상:
+
+| 서비스 | 입력 | 결과 |
+|---|---|---|
+| Devin | Linear/Jira/GitHub issue, web/CLI prompt | session, branch, PR, logs |
+| Google Jules | GitHub repo/branch + prompt 또는 `jules` issue label | plan, diff, PR |
+| OpenAI Codex cloud | IDE/GitHub delegated task | cloud task, diff, PR |
+| GitHub Copilot coding agent | assigned issue/task | draft PR, comments |
+| Factory Droid Exec | headless CI/CD task | automation output, PR/review/check |
+
+실험 설계:
+
+1. 같은 작은 task를 일반 issue와 Seed-like issue 두 버전으로 만든다.
+2. 각 agent에 같은 repo snapshot을 준다.
+3. 생성된 branch/PR을 같은 기준으로 평가한다.
+
+평가표:
+
+| 항목 | 측정 |
+|---|---|
+| acceptance criteria 충족 | 0-5 |
+| CI/test pass | pass/fail |
+| 불필요한 파일 변경 | count |
+| reviewer가 이해하기 쉬운 설명 | 0-5 |
+| prompt 재질문/clarification 필요 여부 | yes/no |
+| rollback/replay 가능성 | session log, branch, checkpoint |
+
+Seed-like issue 예시:
+
+```md
+## Goal
+- Add a `/healthz` endpoint that returns service status.
+
+## Non-goals
+- Do not add auth.
+- Do not change deployment config.
+
+## Constraints
+- Keep response JSON stable.
+- No new runtime dependencies.
+
+## Acceptance Criteria
+- [ ] `GET /healthz` returns HTTP 200.
+- [ ] Response includes `{"status":"ok"}`.
+- [ ] Existing API tests still pass.
+
+## Validation
+- Run `pytest`.
+- Add or update endpoint test.
+```
+
+## 프로젝트 7 — Prompt-to-app service review
+
+대상: Replit Agent, Lovable, Bolt, Firebase Studio.
+
+검증할 app prompt:
+
+```md
+Build a small internal issue tracker with login, projects, issues, comments,
+status workflow, and an admin-only user management page.
+```
+
+비교 기준:
+
+| 축 | 질문 |
+|---|---|
+| Requirements handling | prompt를 plan/task로 분해하고 확인받는가? |
+| Data model | Project/Issue/Comment/User 권한 모델이 명확한가? |
+| Auth/security | auth, role, row-level access control이 안전한가? |
+| Code ownership | GitHub sync/export가 가능한가? |
+| Verification | test, preview, deploy smoke test를 제공하는가? |
+| Recovery | checkpoint, rollback, version history가 있는가? |
+| Production gap | logging, rate limit, secret management, backup이 빠져 있는가? |
+
+Ouroboros 보강 포인트:
+
+- prompt-to-app 서비스에 바로 긴 prompt를 넣기보다, 먼저 `Seed`로 domain ontology와 non-goal을 분리한다.
+- acceptance criteria에 UI뿐 아니라 auth rule, database access, deployment rollback을 넣는다.
+- 생성 결과를 "데모"와 "운영 가능한 앱"으로 분리 평가한다.
+
+## 프로젝트 8 — Agent-ready issue template 운영
+
+목표: GitHub issue template을 agent-ready하게 바꾸고 merge rate/rework rate를 관찰한다.
+
+```yaml
+name: Agent-ready task
+description: Task intended for coding agents such as Devin, Codex, Copilot, Jules, or Droid
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+  - type: textarea
+    id: non_goals
+    attributes:
+      label: Non-goals
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant files / context
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation commands
+```
+
+관찰 지표:
+
+- agent PR merge rate
+- reviewer comment count
+- CI failure count
+- reopened/rework count
+- issue 작성부터 PR ready까지 lead time

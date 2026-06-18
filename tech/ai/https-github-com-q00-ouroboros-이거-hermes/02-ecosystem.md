@@ -90,3 +90,74 @@ Ouroboros가 MCP를 쓰면 spec-first workflow 안에서 external data, internal
 Ouroboros는 Hermes와 "비슷한 급의 agent"라기보다, Hermes 같은 agent runtime을 **더 안전하게 일하게 만드는 specification-first operating layer**로 보는 편이 좋다.
 
 → 다음: [[03-references]] · 실습: [[04-learning/01-getting-started]]
+
+## 추가 조사: agent 서비스 지형
+
+조사일: 2026-06-18
+
+사용자 의견의 "이런 느낌의 agent 서비스"는 크게 두 부류로 나뉜다.
+
+| 카테고리 | 대표 서비스 | 기본 입력 | 산출물 | Ouroboros 관점 |
+|---|---|---|---|---|
+| Async coding agent | Devin, Google Jules, GitHub Copilot coding agent, OpenAI Codex cloud, Factory Droid | issue, ticket, repo task, PR comment | branch, diff, draft PR, test log | Seed/acceptance criteria를 먼저 만들면 agent에게 넘길 ticket 품질이 올라감 |
+| Local/IDE agent | Claude Code, Codex CLI, Cursor Agent, Windsurf/Devin in IDE, Factory Droid CLI | local prompt, editor selection, terminal task | working tree patch, command transcript | runtime adapter 후보. approval, sandbox, tool permission 차이가 중요 |
+| Prompt-to-app / app builder | Replit Agent, Lovable, Bolt, Firebase Studio | product idea, screenshot, Figma, natural language | full-stack app, preview, deploy, GitHub sync | "앱 전체"를 만들수록 spec gate와 보안/데이터 모델 검증이 더 중요 |
+| SDLC automation platform | Factory Software Factory, Devin automations, Copilot agents panel | backlog, signals, CI, incident, review queue | triage, codegen, validation, release/docs automation | Ouroboros의 event/replay/evaluation layer와 가장 가까운 운영형 확장 방향 |
+
+### 서비스별 메모
+
+| 서비스 | 포지션 | 주목 기능 | 리스크/검증 포인트 |
+|---|---|---|---|
+| Devin | autonomous AI software engineer | web/CLI/Desktop/API, cloud sessions, embedded IDE/browser/shell, Linear/Jira/Slack/GitHub workflow, parallel backlog 처리 | docs 자체도 "clear prompts, explicit completion criteria, easy verification"를 강조. 즉 Ouroboros식 Seed가 직접 보완재 |
+| Google Jules | async GitHub coding agent | repo/branch 선택, issue에 `jules` label로 task assign, Cloud VM에서 plan 생성, diff 확인 후 PR 생성 | plan 승인, PR diff review, concurrent task quota를 기준으로 운영해야 함 |
+| OpenAI Codex cloud | cloud coding agent | cloud environment에서 background/parallel task 실행, IDE/GitHub delegation, 환경 설정과 internet access control | local CLI보다 장기/병렬 작업에 유리하지만 env setup, secrets, network policy가 중요 |
+| GitHub Copilot coding agent | GitHub-native agent | issue/task assign, GitHub Actions 기반 cloud env, draft PR, review comment 응답, agents panel | GitHub issue 품질이 성패를 좌우. issue template을 Seed-like하게 만드는 것이 효과적 |
+| Factory Droid | agent-native SDLC platform | Droid CLI/App/Exec, custom Droids, skills, hooks, MCP, Droid Computers, readiness, code review/QA/security review | 단순 coding agent보다 팀 SDLC 자동화 플랫폼. governance/observability/on-prem 요구에 맞음 |
+| Replit Agent | browser IDE + app builder | natural language로 code, infra, tests, deploy; Plan mode; checkpoints/rollback; Lite/Economy/Power modes | 비개발자 접근성이 강함. database/auth/secret 권한과 rollback/checkpoint 정책 확인 필요 |
+| Lovable | full-stack AI development platform | frontend/backend/db/auth/integration 생성, GitHub sync, workspace collaboration, enterprise governance | prompt-to-app 계열. 생성 코드 ownership은 장점이나 Supabase/RLS 같은 backend access control 검증 필수 |
+| Bolt | AI app/site builder | Plan/Build, Figma/GitHub import, design system, model routing, Bolt Cloud hosting/db/auth | UI/prototype 속도가 장점. "production" claim은 test, auth, data model, deploy boundary로 검증 |
+| Firebase Studio | Google cloud browser IDE/app prototyping | Gemini App Prototyping agent, Firebase Auth/Firestore setup, Code OSS 기반 VM, preview/publish | 현재 문서상 2027-03-22 sunset 예정. 신규 장기 도입보다 migration 대상/비교군으로 보는 편이 안전 |
+| Cursor Agent | IDE-native agent | codebase indexing, natural language code changes, agentic PR/commit traces가 연구 데이터에 등장 | editor UX는 강하지만 team-level audit/replay는 별도 정책 필요 |
+
+### Ouroboros와 연결되는 관찰
+
+- **Issue readiness가 핵심 병목**: 최근 agentic PR 연구들은 agent 성공률이 task/issue 품질, scope, relevant artifact hint, validation instruction에 민감하다고 본다. 이는 Ouroboros의 `Seed`와 `Ambiguity gate`가 해결하려는 문제와 거의 같다.
+- **서비스들이 plan mode를 흡수 중**: Replit/Bolt/Jules/Devin 모두 실행 전 plan, task list, approval, review loop를 제품 기능으로 넣고 있다. Ouroboros는 이 흐름을 vendor-neutral하게 추상화할 수 있다.
+- **prompt-to-app은 더 높은 검증이 필요**: 앱 생성 서비스는 frontend뿐 아니라 auth, database, storage, deployment까지 만들기 때문에 `acceptance_criteria`에 security rule, data access, rollback, observability를 포함해야 한다.
+- **운영형 agent는 event/audit가 경쟁 축**: Factory, Devin, Codex cloud, Copilot coding agent는 background/parallel work를 강조한다. 병렬성이 늘수록 "누가 왜 무엇을 바꿨는가"를 남기는 event sourcing/replay가 중요해진다.
+
+### Seed-like issue template
+
+GitHub Copilot coding agent, Devin, Jules, Codex cloud 같은 async agent에게 넘길 issue는 다음 형태가 유리하다.
+
+```md
+## Goal
+- 
+
+## Non-goals
+- 
+
+## Context
+- Relevant files:
+- Related issue/PR:
+- External docs:
+
+## Constraints
+- Runtime/env:
+- Security/data:
+- Backward compatibility:
+
+## Acceptance Criteria
+- [ ] Mechanical:
+- [ ] Semantic:
+- [ ] UX/API:
+
+## Validation
+- Commands:
+- Manual smoke test:
+- CI expectations:
+
+## Handoff Notes
+- Rollback plan:
+- Reviewer focus:
+```
