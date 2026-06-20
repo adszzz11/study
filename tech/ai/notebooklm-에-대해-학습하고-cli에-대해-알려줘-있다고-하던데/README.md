@@ -100,3 +100,7 @@ notebooklm-에-대해-학습하고-cli에-대해-알려줘-있다고-하던데/
 
 **생성일**: 2026-06-20  
 **상태**: 학습 중
+
+## Q&A
+**Q:** Claude plugin 같은 NotebookLM 확장이나 CLI 도구가 있는가?
+**A:** NotebookLM 자체에는 2026-06 기준으로 공식 plugin/extension, 전용 CLI, 공식 API가 확인되지 않는다. NotebookLM은 sources를 넣고 citations, Audio/Video Overview, study artifacts를 만드는 web/mobile 중심 research product로 보는 편이 맞다. Claude 쪽을 말한 것이라면 NotebookLM plugin이라기보다 Claude Code 같은 CLI agent나 MCP 연동 생태계를 별도로 보는 문제다. terminal에서 local repo/docs를 다루려면 Gemini CLI, Codex, Claude Code 같은 CLI agent가 더 적합하고, NotebookLM-like workflow를 자동화하려면 custom RAG나 MCP server로 sources/search/read/report tool을 설계하는 쪽이 현실적이다.
