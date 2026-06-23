@@ -77,6 +77,37 @@ Goal -> Plan -> Retrieve context -> Use tools -> Observe -> Diagnose -> Patch ->
 - Verification command and result
 ```
 
+## 추가 조사: Claude 적용 치트시트
+
+| Harness 목적 | Claude에서 둘 곳 |
+|---|---|
+| repo 작업 규칙 | `CLAUDE.md` 또는 `.claude/CLAUDE.md` |
+| 팀 공유 권한/설정 | `.claude/settings.json` |
+| 개인 실험 설정 | `.claude/settings.local.json` |
+| 반복 업무 템플릿 | `.claude/skills/<name>/SKILL.md` |
+| 검증/보안 specialist | `.claude/agents/<name>.md` |
+| lifecycle 자동화 | `.claude/settings.json`의 `hooks` |
+| 외부 도구 연결 | `.mcp.json` 또는 plugin의 `.mcp.json` |
+| 팀 배포 패키지 | Claude Code plugin |
+
+### Claude용 기본 프롬프트
+
+```text
+CLAUDE.md의 Working Loop를 따라 진행해줘.
+요구사항을 checklist로 바꾸고, 관련 파일을 읽은 뒤 최소 변경만 해라.
+검증 명령을 실행하고 실패하면 failure attribution을 남긴 다음 재시도해라.
+완료 보고에는 변경 파일, 요구사항 충족 여부, 검증 명령/결과, 남은 위험을 포함해라.
+```
+
+### 먼저 만들 plugin 후보
+
+| Plugin/Skill | 용도 | 포함하면 좋은 것 |
+|---|---|---|
+| `test-repair` | 실패 테스트 자동 진단/수정 loop | Skill + verification reviewer subagent |
+| `pr-review-gate` | PR 완료 증거 점검 | Subagent + Stop hook |
+| `repo-onboarding` | 큰 repo context bootstrap | Skill + read-only MCP |
+| `ops-watch` | 정기 로그/CI 감시 | `/loop` prompt + read-only MCP + alert hook |
+
 ## 실패 분류
 
 | Failure | 의미 | 대응 |

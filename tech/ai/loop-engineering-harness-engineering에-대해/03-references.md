@@ -24,6 +24,10 @@ type: tech-tool-study
 | OpenAI | [OpenAI Agents SDK Docs](https://developers.openai.com/api/docs/guides/agents) | orchestration, tools, approvals, state 설계 |
 | Anthropic | [Claude Code Docs: Run prompts on a schedule `/loop`](https://code.claude.com/docs/en/scheduled-tasks) | 반복 prompt 실행과 scheduled task |
 | Anthropic | [Claude Code Docs: Routines](https://code.claude.com/docs/en/routines) | schedule/API/GitHub event 기반 자동 실행 |
+| Anthropic | [Claude Code Docs: Settings](https://code.claude.com/docs/en/settings) | project/local/managed scope, permissions, plugin settings |
+| Anthropic | [Claude Code Docs: Memory](https://code.claude.com/docs/en/memory) | `CLAUDE.md` 기반 project memory |
+| Anthropic | [Claude Code Docs: Skills](https://code.claude.com/docs/en/skills) | 반복 업무 절차를 skill로 캡슐화 |
+| Anthropic | [Claude Code Docs: Plugins](https://code.claude.com/docs/en/plugins) | skills, agents, hooks, MCP server를 재사용 패키지로 배포 |
 | Anthropic | [Claude Code Docs: Subagents](https://code.claude.com/docs/en/sub-agents) | specialist agent를 나누는 방식 |
 | Anthropic | [Claude Code Docs: Hooks reference](https://code.claude.com/docs/en/hooks) | lifecycle hook으로 harness에 정책 삽입 |
 

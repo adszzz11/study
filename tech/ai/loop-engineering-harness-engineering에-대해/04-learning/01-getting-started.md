@@ -122,6 +122,124 @@ go test ./...
 - [ ] 실패 시 재시도 방식이 있다.
 - [ ] 사람이 리뷰할 지점이 정해져 있다.
 
+## 추가 조사: Claude Code에 적용하는 최소 Loop Harness
+
+Claude에 적용할 때는 `AGENTS.md`보다 Claude Code가 직접 읽는 `CLAUDE.md`와 `.claude/settings.json`을 중심으로 잡는 것이 실용적이다. 공식 문서 기준으로 Claude Code는 user/project/local/managed scope를 나누고, project 설정은 `.claude/settings.json`, local 개인 설정은 `.claude/settings.local.json`, project memory는 `CLAUDE.md` 또는 `.claude/CLAUDE.md`를 사용한다.
+
+### 1. `CLAUDE.md`에 loop를 박아두기
+
+```md
+# CLAUDE.md
+
+## Working Loop
+- Restate the user request as a checklist before editing.
+- Read the smallest relevant set of files first.
+- Make scoped changes that follow existing patterns.
+- Run the most relevant focused test first, then broader tests when needed.
+- If a command fails, classify it as `context`, `tool`, `test`, `requirement`, or `permission` failure before retrying.
+- Stop after 3 repeated failures with the same cause and ask for human direction.
+
+## Verification Protocol
+- Do not claim completion without command output, test result, screenshot, or diff-based evidence.
+- Bug fix: add or update a regression test when feasible.
+- Refactor: show that public behavior is unchanged.
+- Docs-only: verify links, filenames, and frontmatter.
+
+## Permission Boundary
+- Allowed: read files, edit workspace files, run test/lint/build commands.
+- Ask first: dependency changes, migrations, auth/payment/security changes.
+- Forbidden: production deploy, secret access, destructive data commands.
+
+## Completion Report
+- Changed files
+- Why each change was needed
+- Verification commands and results
+- Remaining risks or skipped checks
+```
+
+### 2. `.claude/settings.json`으로 권한을 harness화하기
+
+공식 settings 문서는 permission rule을 `allow`, `ask`, `deny`로 둘 수 있고, project scope의 `.claude/settings.json`은 팀과 공유할 수 있다고 설명한다. 개인 실험은 `.claude/settings.local.json`에 둔다.
+
+```json
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(npm test)",
+      "Bash(npm run test *)",
+      "Bash(npm run lint)",
+      "Bash(pytest *)",
+      "Bash(go test ./...)"
+    ],
+    "ask": [
+      "Bash(npm install *)",
+      "Bash(pnpm add *)",
+      "Bash(rails db:migrate *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(curl * | sh)",
+      "Bash(kubectl delete *)",
+      "Bash(terraform apply *)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)"
+    ]
+  }
+}
+```
+
+| Harness 요소 | Claude Code 매핑 | 먼저 할 일 |
+|---|---|---|
+| `Project memory` | `CLAUDE.md`, `.claude/CLAUDE.md` | repo 구조, 테스트 규칙, loop 작성 |
+| `Permission boundary` | `.claude/settings.json` permissions | 허용/질문/금지 명령 분리 |
+| `Verification protocol` | `CLAUDE.md` + hooks | 완료 보고와 test command 강제 |
+| `Tool registry` | MCP, plugins, allowed tools | read-only tool부터 연결 |
+| `Failure attribution` | prompt/skill/report template | 실패 원인 분류를 보고 양식에 포함 |
+
+### 3. 바로 쓸 수 있는 작업 프롬프트
+
+```text
+이 repo의 CLAUDE.md 규칙을 따라 loop engineering 방식으로 진행해줘.
+
+목표:
+- <해야 할 일>
+
+절차:
+- 먼저 요구사항을 checklist로 바꿔라.
+- 관련 파일을 찾고, 왜 그 파일을 보는지 짧게 설명해라.
+- 변경은 최소 범위로 해라.
+- 검증 명령을 실행하고, 실패하면 failure attribution을 작성한 뒤 재시도해라.
+- 같은 원인으로 3회 실패하면 멈추고 사람에게 필요한 결정을 요청해라.
+
+완료 보고:
+- 변경 파일
+- 요구사항별 충족 여부
+- 실행한 검증 명령과 결과
+- 남은 위험
+```
+
+### 4. `/loop`로 반복 업무 만들기
+
+Claude Code의 scheduled task 문서는 `/loop`로 prompt를 주기적으로 실행하는 방식을 제공한다. 운영 감시나 정기 점검에는 "무조건 고쳐라"보다 "관찰하고 report하라, 위험 작업은 승인받아라"가 안전하다.
+
+```text
+/loop every 30 minutes
+Check CI status and recent error logs.
+If failures exist:
+- summarize failing job/log lines
+- identify likely owner/component
+- suggest the smallest next action
+- do not deploy, rollback, delete data, or change secrets
+```
+
+참고:
+
+- Claude Code settings: https://code.claude.com/docs/en/settings
+- Claude Code memory: https://code.claude.com/docs/en/memory
+- Claude Code scheduled tasks `/loop`: https://code.claude.com/docs/en/scheduled-tasks
+
 ## 관련 노트
 
 - [[study/tech/ai/codex]]
