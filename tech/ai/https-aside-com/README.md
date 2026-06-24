@@ -74,3 +74,7 @@ https-aside-com/
 - [Aside official](https://aside.com/)
 - [Aside Help Center](https://docs.aside.com/)
 - [YC profile: Aside](https://www.ycombinator.com/companies/aside)
+
+## Q&A
+**Q:** CLI로 Aside를 쓰는 아키텍처가 있는가?
+**A:** 있다. Aside는 `aside` CLI를 제공하고, 이 CLI는 별도 browser automation script라기보다 Aside의 browser-native task runtime을 command line에서 시작하는 entrypoint에 가깝다. 예를 들어 `aside "Open localhost:3000 and run a smoke test"`처럼 자연어 task를 넘기면 Aside가 로그인된 browser state, file context, working folder, permission mode, approval gate를 사용해 작업을 수행한다. 개발자 아키텍처로 보면 `CLI -> Aside task runtime -> browser tabs / logged-in sites / files / credentials -> artifacts / approval / wait-resume` 흐름이다. 더 깊게 붙일 때는 `aside mcp`로 MCP server를 열어 coding agent나 IDE가 Aside의 browser automation을 tool처럼 호출하게 만들고, deterministic step을 실험할 때는 `aside repl`을 쓴다. 따라서 CLI화의 핵심은 headless Playwright식 runner를 직접 만드는 것이 아니라, Aside browser를 local-first agent runtime으로 두고 CLI/MCP/REPL을 그 runtime의 developer interface로 쓰는 구조다.
