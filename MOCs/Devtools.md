@@ -24,6 +24,10 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/울트라코드에-대해-학습해봐/README|UltraCode]]
 - [[tech/devtools/켄트백이-가지고-있는-지론들에-대해-공부하고싶어-spike라던가-이런-소/README|Kent Beck practices]]
 
+## Tool Studies
+
+- [[tech/devtools/build-your-own-x/README|build-your-own-x]]
+
 ## Bridge Notes
 
 - Coding agents -> [[MOCs/AI|AI]]
