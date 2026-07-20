@@ -23,6 +23,10 @@ status: active
 - [[tech/infra/elk/README|ELK]]
 - [[tech/infra/jenkins/README|Jenkins]]
 
+## Tool Studies
+
+- [[tech/infra/https-research-perplexity-ai-articles-ma/README|https://research.perplexity.ai/articles/making-space-secure-and-efficient-runti…]]
+
 ## Bridge Notes
 
 - Hosted AI runtime -> [[MOCs/AI|AI]]
