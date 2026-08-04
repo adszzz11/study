@@ -1,6 +1,6 @@
 # study — 기술 학습 노트
 
-기술 개념·도구·논문을 구조화한 학습 노트 모음. 일부는 [hermes](https://github.com/adszzz11/hermes)의
+기술 개념·도구·논문을 구조화한 학습 노트 모음. 일부는 [morae](https://github.com/adszzz11/morae)의
 자율 study 워크플로우(웹리서치 → tool-study → PR)로, 일부는 수동으로 작성.
 
 - Obsidian 시작점: [[Home]]
