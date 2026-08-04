@@ -51,9 +51,9 @@ type: tech-tool-study
 
 (기존 [[lazycodex-poc]] 런북에 "게이트 깨보기" 실습 절차가 있음 — 참고.)
 
-## 5. hermes의 등가물 (대조)
+## 5. morae의 등가물 (대조)
 
-| OmO | hermes |
+| OmO | morae |
 |-----|--------|
 | Oracle 검증 | `ops/gates/self-test.sh`(배포 전 게이트) |
 | Ralph Loop | ralph-loop 플러그인 / autodeploy 재시도 |
