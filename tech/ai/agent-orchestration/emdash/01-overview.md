@@ -33,7 +33,7 @@ Emdash는 General Action(Y Combinator W26)이 개발한 **에이전트 개발 �
 | **Amp** | Sourcegraph |
 | **Kiro** | AWS |
 | **Cline** | 오픈소스 |
-| + 15종 더 | Qwen Code, Hermes, Goose, Droid 등 |
+| + 15종 더 | Qwen Code, Morae, Goose, Droid 등 |
 
 ### Claude Code 고유기능 보존
 

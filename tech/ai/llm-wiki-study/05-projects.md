@@ -5,7 +5,7 @@
 본 vault는 이미:
 - `study/tech/ai/` — 풍부한 자료
 - `study/tech/ai/multi-agent-platforms/` — 오늘 81 파일 추가
-- `study/tech/ai/openclaw-study/` — Hermes/OpenClaw 자료
+- `study/tech/ai/openclaw-study/` — Morae/OpenClaw 자료
 - `study/tech/ai/autoresearch-study/` — Karpathy 자율 패턴
 
 → **이미 wiki에 가까움**. 다만 LLM-maintained 영역과 사람-maintained 영역이 섞여있음. 점진 분리 + LLM Wiki 패턴 적용이 자연스러움.
@@ -32,7 +32,7 @@
 ```
 
 ### 기대 효과
-- "Hermes vs OpenClaw" 같은 cross-도메인 질문에 1초 답변
+- "Morae vs OpenClaw" 같은 cross-도메인 질문에 1초 답변
 - 본 vault의 모든 자료가 자동 cross-ref
 - 새 study 추가 시 자동 통합
 
@@ -51,7 +51,7 @@
     -d "text=주간 wiki 점검: $(jq length /tmp/lint.json) 항목 미해결"
 ```
 
-### 구현 (옵션 B: Hermes 직원으로)
+### 구현 (옵션 B: Morae 직원으로)
 Phase 2에서 Paperclip 들어오면 wiki-lint 직원 채용:
 ```yaml
 agent: wiki-lint
@@ -98,15 +98,15 @@ JSON Canvas Skill로 본 vault의 **카테고리·관계 지도** 자동 생성.
 
 매월 자동 갱신.
 
-## 🔴 P5. Hermes + LLM Wiki 통합 (★★★)
+## 🔴 P5. Morae + LLM Wiki 통합 (★★★)
 
 ### 시나리오
-텔레그램 비서 Hermes가 본 vault를 **장기 기억**으로 사용.
+텔레그램 비서 Morae가 본 vault를 **장기 기억**으로 사용.
 
 ```
 사용자: "지난 주에 우리가 LangGraph vs Mastra 비교한 거 다시 알려줘"
    ↓
-Hermes → obsidian-mcp-server → wiki/comparisons/ 검색
+Morae → obsidian-mcp-server → wiki/comparisons/ 검색
    ↓
 관련 페이지 합성 → 답변
    ↓

@@ -91,7 +91,7 @@
 
 | 역할 | 추천 |
 |------|------|
-| Paperclip의 직원으로 채용 가능한 것 | Claude Code, OpenClaw, **Hermes**, Codex, Cursor, Bash, Python, CrewAI 스크립트, LangGraph 그래프 |
+| Paperclip의 직원으로 채용 가능한 것 | Claude Code, OpenClaw, **Morae**, Codex, Cursor, Bash, Python, CrewAI 스크립트, LangGraph 그래프 |
 | 데이터 저장 | Postgres (권장), SQLite (소규모) |
 | 메시지 큐 | (불필요 — DB 큐) |
 | 모니터링 | 내장 대시보드 + Grafana(선택) |

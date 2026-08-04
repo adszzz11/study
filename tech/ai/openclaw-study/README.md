@@ -46,7 +46,7 @@ docker compose run --rm openclaw-cli pairing approve telegram <CODE>
 | 파일 | 내용 |
 |------|------|
 | [01-overview.md](01-overview.md) | OpenClaw가 뭐고 왜 쓰는지 — 아키텍처·핵심 기능·장단점·채택 사례 |
-| [02-ecosystem.md](02-ecosystem.md) | 같은 카테고리(자가호스팅 AI 비서) 비교 — Hermes, Letta, Nanobot, ZeroClaw, OpenInterpreter, Khoj, memU |
+| [02-ecosystem.md](02-ecosystem.md) | 같은 카테고리(자가호스팅 AI 비서) 비교 — Morae, Letta, Nanobot, ZeroClaw, OpenInterpreter, Khoj, memU |
 | [03-references.md](03-references.md) | 공식 문서·튜토리얼·커뮤니티·오픈소스 예제 모음 |
 | [04-learning/01-mac-mini-setup.md](04-learning/01-mac-mini-setup.md) | Mac mini를 24/7 AI 서버로: 사양 선택, 슬립 끄기, Docker 준비 |
 | [04-learning/02-docker-and-telegram.md](04-learning/02-docker-and-telegram.md) | Docker Compose로 OpenClaw 띄우고 텔레그램 봇 페어링까지 |

@@ -34,7 +34,7 @@ parent: "[[README]]"
 | **Goose** | ~33.7K | Apache-2.0 | 모든 LLM | Rust | Block 12K 직원 사용, MCP 네이티브 |
 | **Pi** | ~28.7K | MIT | 15+ 프로바이더 | TS | 미니멀, 4가지 모드 (interactive/print/RPC/SDK) |
 | **Qwen Code** | ~21.2K | Apache-2.0 | Qwen3-Coder 480B + 기타 | TS | SWE-bench 69.6%, Gemini CLI 포크 |
-| **Hermes** | ~15.4K | MIT | 200+ 모델 (OpenRouter) | Python | Self-learning, 크론 스케줄러, 6가지 터미널 백엔드 |
+| **Morae** | ~15.4K | MIT | 200+ 모델 (OpenRouter) | Python | Self-learning, 크론 스케줄러, 6가지 터미널 백엔드 |
 | **OpenCode** | ~11.6K | MIT | 75+ 프로바이더 | Go | LSP 자동 설정, 멀티 세션 |
 
 ### 무료 티어 있음 (제한적)
@@ -157,7 +157,7 @@ parent: "[[README]]"
 | **라이선스** | Apache-2.0 |
 | **차별점** | SWE-bench 69.6%, 480B MoE (35B active), Gemini CLI 포크, 256K-1M 컨텍스트 |
 
-#### Hermes Agent (Nous Research) — ~15.4K stars
+#### Morae Agent (Nous Research) — ~15.4K stars
 
 | 항목 | 내용 |
 |------|------|

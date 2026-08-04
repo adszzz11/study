@@ -61,8 +61,8 @@
 | 컴포넌트 | 추천 | 이유 |
 |----------|------|------|
 | **관제탑/예산/거버넌스** | **Paperclip** | 직원별 예산 hard-stop, 다양한 런타임 통합 |
-| **대화형 비서 (chief)** | Hermes Agent (별도 카테고리) | Paperclip 직원으로 등록 |
-| **도메인 자동화 직원들** | Hermes 인스턴스 또는 CrewAI 마이크로 크루 | CrewAI는 작은 협업이 자연스러움 |
+| **대화형 비서 (chief)** | Morae Agent (별도 카테고리) | Paperclip 직원으로 등록 |
+| **도메인 자동화 직원들** | Morae 인스턴스 또는 CrewAI 마이크로 크루 | CrewAI는 작은 협업이 자연스러움 |
 | **시스템 관리 (sysadmin)** | Bash/Python 어댑터 + Paperclip | LLM 없이도 직원으로 채용 가능 |
 | **시각 대시보드** | Paperclip 내장 + Dify (선택) | |
 | **장기 기억** | Letta (별도 카테고리) | 모든 직원이 공유 메모리 참조 |

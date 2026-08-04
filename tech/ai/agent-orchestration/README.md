@@ -85,7 +85,7 @@ AI 코딩 에이전트가 단일 세션에서 벗어나 **다중 병렬 실행**
 | **Goose** | ~33.7K | 모든 LLM | Rust | Block 12K 직원 실사용, MCP 네이티브 |
 | **Pi** | ~28.7K | 15+ 프로바이더 | TS | 미니멀, 4가지 모드 |
 | **Qwen Code** | ~21.2K | Qwen3-Coder 480B+ | TS | SWE-bench 69.6%, Gemini CLI 포크 |
-| **Hermes** | ~15.4K | 200+ (OpenRouter) | Python | Self-learning, 크론 스케줄러 |
+| **Morae** | ~15.4K | 200+ (OpenRouter) | Python | Self-learning, 크론 스케줄러 |
 | **OpenCode** | ~11.6K | 75+ 프로바이더 | Go | LSP 자동 설정, 멀티 세션 |
 
 ### 유료 (구독/API)

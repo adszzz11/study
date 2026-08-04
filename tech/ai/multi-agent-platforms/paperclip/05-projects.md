@@ -30,7 +30,7 @@
 
 | 직원 | 런타임 | 책임 | 예산/월 | LLM |
 |------|--------|------|---------|-----|
-| **chief** | OpenClaw 또는 Hermes | TG/Discord 응대·위임 | $50 | claude-opus-4-7 |
+| **chief** | OpenClaw 또는 Morae | TG/Discord 응대·위임 | $50 | claude-opus-4-7 |
 | **mail** | claude-code | 메일 분류·답장 초안 | $10 | claude-sonnet-4-6 |
 | **pr-bot** | claude-code | GitHub PR 점검 | $10 | claude-sonnet-4-6 |
 | **research** | claude-code | 리서치·요약 | $15 | mixed |

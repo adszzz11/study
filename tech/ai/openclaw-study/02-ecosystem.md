@@ -8,7 +8,7 @@
 자가호스팅 개인 AI 에이전트
 │
 ├─ A. 메신저 게이트웨이형 (OpenClaw 스타일)
-│   └─ OpenClaw, Hermes, Nanobot, ZeroClaw
+│   └─ OpenClaw, Morae, Nanobot, ZeroClaw
 │
 ├─ B. 장기 기억 중심형
 │   └─ Letta(MemGPT), memU, LettaBot
@@ -28,7 +28,7 @@
 | 프로젝트 | 카테고리 | 코드 크기 | 메모리 | 보안 모델 | 핵심 특징 | 적합 사용처 |
 |---------|---------|----------|--------|----------|----------|------------|
 | **OpenClaw** | A | 430k LOC, TS | ~512MB+ | Host 직접 실행 | 20+ 메신저, 모델 자유 | 멀티채널 만능 봇 |
-| **Hermes** | A | TS/Python | ~300MB | 컨테이너 sandbox | 보안 강화판 OpenClaw fork 계열 | 보안 민감 환경 |
+| **Morae** | A | TS/Python | ~300MB | 컨테이너 sandbox | 보안 강화판 OpenClaw fork 계열 | 보안 민감 환경 |
 | **Nanobot** | A | 4k LOC, Python | <100MB | 가벼움 | HKU 발 OpenClaw 라이트 99% 축소 | 가벼움 우선 |
 | **ZeroClaw** | A | Rust 단일 바이너리 | **<5MB** | 정적 컴파일 | 10ms 부팅, 임베디드 가능 | 라즈베리파이/임베디드 |
 | **NanoClaw** | A | Python+컨테이너 | 격리 | 강제 컨테이너 격리 | "탈출해도 샌드박스만 죽음" | 보안 + 단순함 |
@@ -88,7 +88,7 @@ OpenClaw는 **장기 기억 시스템이 약하다**. 그래서 실전에서는 
 ## 🔥 최신 트렌드 (2026 Q1-Q2)
 
 1. **"Lethal Trifecta" 인식 확산** — Simon Willison이 명명한 3대 위험(사적 데이터 + 외부 입력 + 외부 통신) 인식이 OpenClaw 폭풍 성장과 함께 메인스트림화.
-2. **컨테이너 강제 격리** — NanoClaw/Hermes처럼 "에이전트는 무조건 컨테이너 안에서" 패턴 부상.
+2. **컨테이너 강제 격리** — NanoClaw/Morae처럼 "에이전트는 무조건 컨테이너 안에서" 패턴 부상.
 3. **MCP의 사실상 표준화** — Anthropic의 MCP가 자가호스팅 에이전트의 도구 인터페이스 표준으로 굳어지는 중.
 4. **Mac mini M4 = 표준 홈 AI 서버** — 16GB+ 통합 메모리, 15W idle/30W load, Metal GPU 자동 사용. 월 전기료 $3-5.
 5. **로컬 모델 품질 약진** — Llama 3.3 70B, Gemma 3, Qwen 2.5가 M4 Pro 48GB에서 GPT-4 mini급 품질을 35-50 tok/s로 제공.
