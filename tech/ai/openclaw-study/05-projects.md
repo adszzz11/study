@@ -57,7 +57,7 @@ agents:
 
 ### 구현 단계
 
-1. docker-compose에 vault 마운트: `- ~/code/leetangle/Note:/workspace/vault:ro`
+1. docker-compose에 vault 마운트: `- ~/orca/personal/Note:/workspace/vault:ro`
 2. 임베딩 도구 추가: `ollama pull mxbai-embed-large`
 3. 벡터 인덱스 빌드 (OpenClaw의 vector_search skill 또는 Khoj 연동)
 4. 텔레그램 봇에 `/note <query>` 명령 추가
