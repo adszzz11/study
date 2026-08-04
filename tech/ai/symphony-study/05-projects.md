@@ -83,7 +83,7 @@ mise exec -- ./bin/symphony ./WORKFLOW.md --port 4000
 # 1. Linear에 테스트 이슈 생성 (Todo 상태)
 # 2. Symphony 로그에서 이슈 감지 확인
 # 3. 워크스페이스 생성 확인
-ls ~/code/workspaces/  # 이슈명으로 디렉토리 생성됨
+ls ~/orca/personal/workspaces/  # 이슈명으로 디렉토리 생성됨
 
 # 4. 대시보드 확인 (포트 지정 시)
 curl http://localhost:4000/api/v1/state | jq .
@@ -116,7 +116,7 @@ polling:
   interval_ms: 10000
 
 workspace:
-  root: ~/code/symphony-workspaces
+  root: ~/orca/personal/symphony-workspaces
 
 hooks:
   after_create: |

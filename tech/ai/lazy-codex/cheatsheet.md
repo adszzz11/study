@@ -41,10 +41,10 @@ $ulw-loop "작업"      # Oracle 검증까지 자기-반복(≤500)
 ## 멀티에이전트
 Prometheus(계획) · Sisyphus(오케스트레이터) · Hephaestus(워커) · **Oracle(검증)** · Librarian(검색)
 
-## vs hermes (한 줄)
+## vs morae (한 줄)
 - OmO/lazycodex = **한 작업 거짓 없이 완수**(Oracle·Ralph)
-- hermes = **24/7 안전 운영**(self-test 게이트 + 격리 워크트리 + PR 사람-머지 + RCX)
-- 결합 = OmO 검증 규율 ⊕ hermes 운영/격리/사람 게이트
+- morae = **24/7 안전 운영**(self-test 게이트 + 격리 워크트리 + PR 사람-머지 + RCX)
+- 결합 = OmO 검증 규율 ⊕ morae 운영/격리/사람 게이트
 
 ## 링크
 [[lazy-codex/README|시리즈 처음]] · [[lazycodex]] · [[multi-agent-platforms]] · [[codex]]
