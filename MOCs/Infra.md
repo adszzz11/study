@@ -23,6 +23,10 @@ status: active
 - [[tech/infra/elk/README|ELK]]
 - [[tech/infra/jenkins/README|Jenkins]]
 
+## Tool Studies
+
+- [[tech/infra/ecc/README|Ecc]]
+
 ## Bridge Notes
 
 - Hosted AI runtime -> [[MOCs/AI|AI]]
