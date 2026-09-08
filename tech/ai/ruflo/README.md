@@ -78,3 +78,33 @@ Learning / Routing Feedback Loop
 - [AgentDB plugin](https://github.com/ruvnet/ruflo/blob/main/plugins/ruflo-agentdb/README.md)
 - [Guidance architecture overview](https://github.com/ruvnet/ruflo/blob/main/v3/%40claude-flow/guidance/docs/guides/architecture-overview.md)
 
+## Q&A
+
+**Q:** Ruflo와 Orca를 함께 사용하면 어떤 효과를 기대할 수 있으며, 사용사례가 있는가?
+
+**A:** 가장 유용한 조합은 **Orca가 worktree·terminal·agent 실행을 관리하고, Ruflo가 검증된 작업 지식을 persistent memory로 제공하는 구성**이다. 기존 노트의 핵심인 역할 분해·결과 검증·경험 재사용을 Orca의 개발 workflow에 연결하는 방식이다. 아래 효과는 두 도구의 기능과 노트에 근거한 설계 가설이며, 이 저장소에서 연동하거나 성능을 실측한 결과는 아니다.
+
+Orca는 이미 여러 coding agent 실행과 orchestration을 지원하므로 Ruflo를 추가해야 병렬 작업이 가능해지는 것은 아니다. 추가 가치는 단순 agent 증설보다 **session과 worktree를 넘어 실패 원인·검증 결과·설계 결정을 검색하고 재사용하는 것**에 있다. Orca의 agent 실행과 hooks 노출은 [공식 Claude Code 문서](https://www.onorca.dev/docs/agents/claude-code), Ruflo의 memory 기능은 [AgentDB 문서](https://github.com/ruvnet/ruflo/blob/main/plugins/ruflo-agentdb/README.md)에 설명되어 있다.
+
+| 활용 시나리오 | 함께 사용하는 방식 | 기대 효과 |
+|---|---|---|
+| 반복되는 bug 수정 | 첫 Orca 작업에서 확인한 원인·수정·test evidence를 Ruflo에 저장하고, 다음 작업의 agent가 검색 | 같은 원인을 다시 조사하는 시간과 설명 반복 감소 |
+| module별 refactoring | Orca의 별도 worktree에서 module을 수정하고, 공통 API contract와 검증된 제약을 Ruflo memory에서 참조 | 작업 디렉터리 분리와 설계 맥락 공유를 함께 달성; 최종 merge conflict와 integration test는 별도 확인 |
+| Test-gap audit | researcher·tester·reviewer가 조사한 근거를 모으고, 확정된 failure pattern만 저장 | 누락된 edge case 발견과 다음 audit의 조사 효율 개선 가능 |
+
+이 시나리오들은 [[05-projects|기존 Projects 노트]]의 `Read-only repository audit`, `Test-gap swarm`, `Persistent project memory`를 Orca 환경으로 확장한 **실험 제안**이다. 해당 노트는 완료된 구축 사례나 benchmark 보고서가 아니다.
+
+연결은 우선 다음처럼 단순하게 시작할 수 있다.
+
+```text
+Orca: worktree / agent session / 작업 진행 관리
+  └─ 실행 중인 coding agent
+       ├─ repository 조사·수정·test
+       └─ MCP 또는 CLI → Ruflo memory 검색·검증된 결과 저장
+```
+
+각 coding client에서 Ruflo MCP 또는 CLI 접근을 설정해야 한다. 설치만으로 Orca의 task·terminal·worktree 상태가 Ruflo와 자동 동기화되거나, 서로 다른 worktree의 memory가 자동 공유된다고 가정하면 안 된다. 공유 backend와 project 범위를 명시해야 하며, AgentDB 문서상 일부 API는 `namespace`를 무시하므로 사용하는 API의 실제 분리 동작도 확인해야 한다. 위 구성은 Orca가 실행을 소유하고 Ruflo는 memory를 제공하게 한다. 나중에 Ruflo swarm을 추가한다면 task 분배·retry·종료를 담당할 coordinator를 하나로 정해야 중복 실행과 비용 증가를 줄일 수 있다.
+
+**공개 사용사례는 어디까지 확인됐는가?** 2026-09-09 확인 범위에서 Ruflo 공식 문서와 `"ruflo" "orca"`, `"claude-flow" "Orca" worktree` 공개 검색으로는, 이 Orca 개발환경과 Ruflo를 함께 구축해 효과를 측정한 case study나 공식 integration guide를 찾지 못했다. [Ruflo MCP Tools 문서](https://github.com/ruvnet/ruflo/wiki/MCP-Tools)에는 memory 저장·검색과 task routing 예제가 있고, Orca 공식 문서에는 worktree에서 agent를 실행하는 사용법이 있다. 이는 개별 기능의 사용 예제이며 두 제품을 결합한 실증 사례는 아니다. 사례가 없다고 단정할 수는 없지만, 현재 근거로 특정 속도 향상이나 비용 절감 수치를 약속할 수는 없다.
+
+첫 검증은 **Orca의 기존 workflow에 Ruflo memory만 추가**하는 것이 적합하다. 같은 repository·commit·model 조건에서 `Orca만 사용`, `Orca + Ruflo memory`를 비교하고, 첫 작업에서 검증한 failure pattern이 유사한 다음 작업에 도움이 되는지 본다. 측정 항목은 task 성공률, wall-clock time, token/cost, human review time, stale memory로 인한 오판이다. 기존 Orca workflow만으로 충분하거나 작은 수정이 대부분이면 추가 MCP 호출과 운영 복잡성이 이득보다 클 수 있다.
