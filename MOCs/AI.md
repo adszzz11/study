@@ -53,6 +53,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/이-시스템이랑-notebooklm이랑-연동하고싶어-가능한지-확인해봐/README|NotebookLM integration]]
 - [[tech/ai/you-could-have-designed-state-of-the-art/README|Positional encoding]]
 - [[tech/ai/맥미니-apple-silicon-로컬-llm-2026-모델-런타임-oll/README|Apple Silicon local LLM]]
+- [[tech/ai/표준-하네스랑-프로바이더-적응형-하네스/README|표준 하네스랑 프로바이더 적응형 하네스]]
 
 ## Claude And Prompting
 
