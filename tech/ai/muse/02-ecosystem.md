@@ -50,3 +50,20 @@ status: draft
 - [Unity AI FAQ](https://unity.com/features/ai?trial=true)
 - [Meta — Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/)
 - [WHAMM 아키텍처·한계 (2025-04-04)](https://www.microsoft.com/en-us/research/articles/whamm-real-time-world-modelling-of-interactive-environments/)
+
+## 추가 조사: Meta의 제품과 모델 계층 구분
+
+> 확인일: 2026-09-09. 위 world model 중심 비교는 이전 조사 범위다.
+
+| 이름 | 역할 | 학습할 지점 |
+|---|---|---|
+| Muse | 개인 에이전트 제품 | 목표 수행과 결과 확인 |
+| Muse Spark | Meta Superintelligence Labs의 모델 계열 | multimodal reasoning, tool use |
+| Meta AI | Spark 최초 발표 당시의 앱·웹 assistant 접점 | 모델과 사용자 서비스의 관계 |
+| Muse Code / Meta Model API | Spark 1.3 공식 발표에서 명시한 사용 경로 | 코딩 도구와 개발자 모델 접근 구분 |
+
+- 2026-04-08 Spark 최초 발표는 일부 사용자 대상 **private API preview**를 설명했다. 이 과거 상태를 현재 접근 조건으로 복사하지 않는다.
+- 2026-09-02 Spark 1.3 발표는 **max reasoning**을 Muse Code와 Meta Model API에서 제공한다고 명시한다. API 모델 접근만으로 Muse의 기억·VM·제품 UI 전체를 얻는다는 뜻은 아니다.
+- Microsoft WHAM의 checkpoint·GPU 요건·Microsoft Research License를 Meta 제품에 적용할 근거는 없다.
+
+출처: [Spark 최초 발표](https://ai.meta.com/blog/introducing-muse-spark-msl/), [Spark 1.3 발표](https://research.meta.ai/blog/introducing-muse-spark-1-3).

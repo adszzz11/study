@@ -64,3 +64,31 @@ Microsoft Research License는 코드·모델·데이터 배포와 독립 hosted 
 - [WHAMM 아키텍처·한계 (2025-04-04)](https://www.microsoft.com/en-us/research/articles/whamm-real-time-world-modelling-of-interactive-environments/)
 - [WHAM-RT 현재 소개](https://www.microsoft.com/en-us/research/project/wham/wham-rt/)
 - [Microsoft Research License](https://huggingface.co/microsoft/wham/blob/main/LICENSE.md)
+
+## 추가 조사: Meta Muse 중심 학습 프로젝트 재설계
+
+> 확인일: 2026-09-09. 위 WHAM rollout 과제 대신 아래 과제를 사용한다. 모두 제안이며 미실행 상태다.
+
+[공식 설계 글](https://introducing.muse.ai/)의 Goals·background work·Artifacts를 관찰 대상으로 삼는다.
+
+| 과제 | 방법 | 완료 조건 |
+|---|---|---|
+| 공식 자료 비교 | 제품 발표와 모델 발표를 표로 정리 | 모든 사실에 출처 연결 |
+| 학습 계획 실행 | 3일 계획 중 첫 단계 수행 요청 | 계획·실제 산출물·누락 비교 |
+| 요구사항 수정 | 진행 중 산출물 형식을 표에서 체크리스트로 변경 | 이전 제약 유지 여부 기록 |
+| 결과 검증 | 생성한 학습 자료의 인용 5건 확인 | 링크 유효성과 주장 일치 분리 |
+
+Spark 1.3은 긴 작업과 복잡한 지시 유지 개선을 발표했다. 이를 아래 실험의 **검증할 주장**으로 삼고 성공을 미리 가정하지 않는다. [Spark 1.3 공식 발표](https://research.meta.ai/blog/introducing-muse-spark-1-3).
+
+```yaml
+# 자체 실험 기록 양식; Muse API 또는 설정 스키마가 아님
+observed_at: null
+product_and_visible_model: null
+requested_goal: ""
+constraints: []
+completed_steps: []
+verified_sources: []
+missed_requirements: []
+user_interventions: null
+artifact_observation: ""
+```

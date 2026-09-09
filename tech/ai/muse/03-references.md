@@ -58,3 +58,20 @@ status: draft
 - [Google DeepMind — Genie 3](https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/)
 - [Unity AI FAQ](https://unity.com/features/ai?trial=true)
 - [Meta — Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/)
+
+## 추가 조사: Meta Muse 재학습용 1차 자료
+
+> 확인일: 2026-09-09. 위 Microsoft 자료는 동명 연구 참고용이다. Meta 학습에는 아래 자료를 우선한다.
+
+| 읽기 순서 | 공식 자료 | 확인할 내용 |
+|---|---|---|
+| 1 | [Muse 제품 발표](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) | 2026-09-08 제품 범위와 배포 상태 |
+| 2 | [How We Designed Muse](https://introducing.muse.ai/) | Goals, Memory, Artifacts, 활동 기록 |
+| 3 | [Muse Spark 최초 기술 발표](https://ai.meta.com/blog/introducing-muse-spark-msl/) | 모델 학습과 추론의 scaling axes |
+| 4 | [Muse Spark 1.3](https://research.meta.ai/blog/introducing-muse-spark-1-3) | 2026-09-02 모델 업데이트와 제공 경로 |
+
+### 근거의 한계와 다음 조사
+
+- 제품 발표가 연결한 [보안 상세 자료](https://security.muse.ai/)는 이번 열람에서 리다이렉트 후 본문을 가져오지 못했다. 상세 구현을 확인한 것으로 간주하지 않는다.
+- 발표일, 페이지 갱신일, 실제 실험일을 분리한다. 마케팅 표현을 독립적인 비교 평가로 취급하지 않는다.
+- API 실습을 추가할 때는 공식 개발 문서에서 endpoint, model ID, 인증 방식, 가격·제한을 다시 확인한다. 이번 보강에서는 API 호출이나 제품 실행을 수행하지 않았다.

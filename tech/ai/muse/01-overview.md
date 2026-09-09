@@ -71,3 +71,20 @@ controller actions ───── action tokens ─┤
 - [WHAMM 아키텍처·한계 (2025-04-04)](https://www.microsoft.com/en-us/research/articles/whamm-real-time-world-modelling-of-interactive-environments/)
 - [WHAM-RT 현재 소개](https://www.microsoft.com/en-us/research/project/wham/wham-rt/)
 - [Microsoft Research License](https://huggingface.co/microsoft/wham/blob/main/LICENSE.md)
+
+## 추가 조사: Meta Muse의 목적과 실행 환경
+
+> 확인일: 2026-09-09. 위 WHAM 개요는 동명 Microsoft 연구에 관한 것으로, 이번 학습 대상에 적용하지 않는다.
+
+Muse는 대화로 받은 목표를 실제 작업으로 이어가는 개인 에이전트다. Meta 발표에 따르면 전용 클라우드 **Muse Secure VM**과 브라우저에서 작업하며, 앱을 닫은 뒤에도 진행한다. 이메일 발송·구매 같은 민감한 작업에는 사용자 승인을 요청한다.
+
+| 구분 | 발표 기준 상태 |
+|---|---|
+| 접점 | Muse 앱, WhatsApp 대화 |
+| 초기 배포 | 미국 iOS·Android·muse.ai 순차 제공 |
+| AI glasses | 향후 제공 예정 |
+| Confidential VM | 2026년 후반 예정; 현재 Secure VM과 구별 |
+
+한국 이용 가능 여부나 요금의 상세 조건은 이 발표만으로 확정하지 않는다. 제품의 보안·성능 설명은 **Meta의 발표 내용**이며 이 study에서 직접 검증한 결과는 아니다.
+
+출처: [Meta Muse 제품 발표, 2026-09-08](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/).

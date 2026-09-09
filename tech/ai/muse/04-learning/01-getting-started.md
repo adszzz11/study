@@ -86,3 +86,23 @@ python run_server.py --model models/WHAM_200M.ckpt
 - [공식 Model Card·실행 코드·weights](https://huggingface.co/microsoft/wham)
 - [Bleeding Edge sample dataset](https://huggingface.co/datasets/microsoft/bleeding-edge-gameplay-sample)
 - [Microsoft Research License](https://huggingface.co/microsoft/wham/blob/main/LICENSE.md)
+
+## 추가 조사: Meta Muse 첫 학습 절차
+
+> 확인일: 2026-09-09. 위 WHAM 설치 명령은 Meta Muse 실행법이 아니다. 아래는 **제안된 실습**이며 실행 기록이 아니다.
+
+1. [공식 Muse 발표](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)에서 연결한 제품 경로를 이용하고, 계정·지역에서 제공되는지 확인한다. 접근 불가하면 공식 사례를 읽은 기록으로 남긴다.
+2. 공개 자료로 끝나는 작은 목표를 입력한다. 예: 아래 학습 계획 요청.
+3. 결과물(Artifact)과 활동 기록(activity log)을 대조해 출처가 실제 결론을 뒷받침하는지 확인한다.
+4. Goals에서 계획과 진행 상태를, Memory에서 기억한 정보를 확인한다. 공식 설계 글은 Memory 파일을 직접 읽고 편집할 수 있다고 설명한다.
+
+```text
+Meta Muse 공식 발표와 Muse Spark 1.3 발표를 읽고
+모델과 제품의 차이를 배우는 3일 학습 계획을 만들어 줘.
+각 항목에 원문 링크와 완료 조건을 넣어 줘.
+확인한 사실과 네 제안을 구분해 줘.
+```
+
+완료 기준: 출처 검증 1건, 사실/제안 구분, 계획 대비 결과 차이 기록. 실제 사용하지 않았다면 성공 여부를 채우지 않는다.
+
+출처: [How We Designed Muse — Goals, Memory, Artifacts](https://introducing.muse.ai/).

@@ -92,3 +92,37 @@ object_persistence_observation: ""
 - [Nature — World and Human Action Models towards gameplay ideation](https://www.nature.com/articles/s41586-025-08600-3)
 - [WHAMM 아키텍처·한계 (2025-04-04)](https://www.microsoft.com/en-us/research/articles/whamm-real-time-world-modelling-of-interactive-environments/)
 - [WHAM-RT 현재 소개](https://www.microsoft.com/en-us/research/project/wham/wham-rt/)
+
+## 추가 조사: Muse Spark의 추론과 Muse의 작업 실행
+
+> 확인일: 2026-09-09. 위 ViT-VQGAN·MaskGIT·WHAM 파라미터 수는 Meta Muse 아키텍처가 아니다.
+
+### 모델 측 학습 축
+
+Meta의 Spark 최초 기술 발표는 **native multimodality**, tool use, visual chain of thought, multi-agent orchestration을 설명한다. 학습·추론은 다음 세 축으로 나눠 읽는다.
+
+| 축 | 학습 포인트 |
+|---|---|
+| Pre-training | multimodal 이해와 추론의 기반을 학습 |
+| Reinforcement learning (RL) | 사전학습 뒤 능력과 신뢰성을 강화 |
+| Test-time reasoning | 추론 시 계산을 추가 사용; Contemplating은 여러 agent를 병렬 조율 |
+
+이는 공개 설명의 요약이다. 모델 전체 구조, 정확한 parameter count, 로컬 실행 가능성을 이 설명만으로 추정하지 않는다. [Spark 기술 발표](https://ai.meta.com/blog/introducing-muse-spark-msl/).
+
+### 제품 측 실행과 통제
+
+```text
+사용자 목표 → Muse의 계획·도구 사용 → 결과물·진행 기록
+                     ↓
+            Secure VM의 외부 작업
+                     ↓
+         Sentinel 검사 / 필요한 사용자 승인
+```
+
+위 그림은 제품 발표를 요약한 개념도이며 내부 호출 순서를 재현한 구현도가 아니다. Meta는 시스템 수준에서 분리된 Sentinel이 인터넷으로 나가는 작업을 검사하고, 사용자에게 audit trail을 제공한다고 설명한다. 이를 prompt injection이나 오작동이 불가능하다는 보장으로 읽지 않는다. [Muse 공식 발표](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/).
+
+### 평가 질문
+
+- 모델의 답변 정확도와 제품의 실제 task completion을 별도로 측정했는가?
+- 실패 후 재시도·사용자 개입·최종 산출물까지 관찰했는가?
+- 공식 성능 주장과 우리 실험 결과를 구분했는가?

@@ -69,3 +69,15 @@ GPU / batch size / 생성 설정 / 소요 시간
 - [WHAMM 아키텍처·한계 (2025-04-04)](https://www.microsoft.com/en-us/research/articles/whamm-real-time-world-modelling-of-interactive-environments/)
 - [WHAM-RT 현재 소개](https://www.microsoft.com/en-us/research/project/wham/wham-rt/)
 - [Microsoft Research License](https://huggingface.co/microsoft/wham/blob/main/LICENSE.md)
+
+## 추가 조사: Meta Muse 복습 요약
+
+> 확인일: 2026-09-09. 위 WHAM 수치와 명령은 이번 Meta study의 요약에서 제외한다.
+
+- **제품과 모델:** Muse의 작업 수행과 Muse Spark의 추론 능력을 구분한다.
+- **학습 키워드:** goal, tool use, multimodal reasoning, background work, memory, artifact, audit trail.
+- **검증 순서:** 요청 → 계획 → 수행 기록 → 산출물 → 출처·제약 충족 여부.
+- **버전 기록:** 실제 표시된 제품·모델 이름을 기록한다. Spark 1.3 발표 사실을 모든 사용자 세션의 고정 버전으로 단정하지 않는다.
+- **재현 원칙:** 문서 조사와 직접 실행을 분리하고, 확인하지 않은 API 명령·성능 수치를 만들지 않는다.
+
+참조: [[tech/ai/muse/03-references|Meta 1차 자료와 한계]], [[tech/ai/muse/04-learning/01-getting-started|추가 조사 실습]], [[tech/ai/muse/05-projects|추가 조사 과제]].

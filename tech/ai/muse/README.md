@@ -55,3 +55,14 @@ status: draft
 - [공식 Model Card·실행 코드·weights](https://huggingface.co/microsoft/wham)
 - [WHAM-RT 현재 소개](https://www.microsoft.com/en-us/research/project/wham/wham-rt/)
 - [Microsoft Research License](https://huggingface.co/microsoft/wham/blob/main/LICENSE.md)
+
+## 추가 조사: 학습 대상 정정 — Meta Muse
+
+> 정정일: 2026-09-09. 사용자 의견 “다시 학습해 이거 meta의 muse야”를 반영한다. **이 study의 대상은 Meta Muse다.** 위 Microsoft Research/WHAM 설명과 기존 학습 경로는 대상을 잘못 선택한 기록이며, Meta Muse의 정의·사양·설치법으로 사용하지 않는다. append 요청에 따라 기존 본문은 보존한다.
+
+- **Muse:** Meta가 2026-09-08 발표한 개인 AI 에이전트(personal AI agent).
+- **Muse Spark:** 에이전트의 추론을 담당하는 기반 모델 계열. 제품 Muse와 모델 Muse Spark를 구분한다.
+- 새 학습 순서: 각 파일의 `추가 조사` 섹션을 **개요 → 생태계 → 참고자료 → 시작하기 → 심화 → 프로젝트 → cheatsheet** 순서로 읽는다.
+- 연구 질문: “어떤 게임 프레임을 생성하는가?”에서 “사용자 목표를 어떻게 실행하고, 기억하며, 검증 가능한 결과로 남기는가?”로 전환한다.
+
+출처: [Meta Muse 공식 발표](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/).
