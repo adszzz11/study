@@ -30,6 +30,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/awsome-design/README|awsome design]]
 - [[tech/devtools/task-observer/README|task observer]]
 - [[tech/devtools/claude-code-setup/README|claude code setup]]
+- [[tech/devtools/claude-mem/README|claude mem]]
 
 ## Bridge Notes
 
