@@ -56,6 +56,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/switchyard/README|switchyard]]
 - [[tech/ai/image-to-code/README|image to code]]
 - [[tech/ai/headroom/README|headroom]]
+- [[tech/ai/표준-하네스랑-프로바이더-적응형-하네스/README|표준 하네스랑 프로바이더 적응형 하네스]]
 
 ## Claude And Prompting
 
