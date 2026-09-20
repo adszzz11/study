@@ -28,6 +28,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 
 - [[tech/devtools/paseo/README|paseo]]
 - [[tech/devtools/awsome-design/README|awsome design]]
+- [[tech/devtools/task-observer/README|task observer]]
 
 ## Bridge Notes
 
