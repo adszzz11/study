@@ -33,6 +33,7 @@ status: active
 
 - [[tech/backend/https-www-instagram-com-reel-dddvxsdairg/README|https://www.instagram.com/reel/DddvxSdAIrG/?stkn=MTA2cWltdXN0bmkyOQ==]]
 - [[tech/backend/bytebytego/README|bytebytego]]
+- [[tech/backend/playmcp/README|playMCP]]
 
 ## Bridge Notes
 
