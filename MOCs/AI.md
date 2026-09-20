@@ -60,6 +60,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/muse/README|Muse]]
 - [[tech/ai/toplr-ai/README|toplr.ai]]
 - [[tech/ai/ruflo/README|Ruflo]]
+- [[tech/ai/https-www-affinity-studio-help-ai-connec/README|https://www.affinity.studio/help/ai-connector-setup/]]
 
 ## Claude And Prompting
 
