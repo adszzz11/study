@@ -49,6 +49,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/ui-ux-promax/README|ui/ux promax]]
 - [[tech/devtools/lazyweb-mcp/README|lazyweb mcp]]
 - [[tech/devtools/nicelydone-mcp/README|nicelydone mcp]]
+- [[tech/devtools/mobbin-mcp/README|mobbin mcp]]
 
 ## Bridge Notes
 
