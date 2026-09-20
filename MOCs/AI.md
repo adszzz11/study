@@ -68,6 +68,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/composio/README|Composio]]
 - [[tech/ai/omniroute/README|Omniroute]]
 - [[tech/ai/jev/README|Jev]]
+- [[tech/ai/hermes-agent-server와-notebooklm을-함께-쓰는-사/README|Hermes agent server와 notebooklm을 함께 쓰는 사례. 공부한 메모리를 notebooklm에 옮기고싶어]]
 
 ## Claude And Prompting
 
