@@ -39,6 +39,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/zapier/README|zapier]]
 - [[tech/devtools/https-www-palantir-com-docs-foundry-supe/README|https://www.palantir.com/docs/foundry/superrepo/overview]]
 - [[tech/devtools/codeburn/README|Codeburn]]
+- [[tech/devtools/github-cathrynlavery-diagram-design/README|GitHub: cathrynlavery/diagram-design]]
 
 ## Bridge Notes
 
