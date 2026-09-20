@@ -44,6 +44,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/archify/README|Archify]]
 - [[tech/devtools/build-your-own-x/README|build-your-own-x]]
 - [[tech/devtools/https-claude-com-blog-ai-code-migration/README|https://claude.com/blog/ai-code-migration]]
+- [[tech/devtools/https-www-youtube-com-watch-v-wkbpx-odmn/README|https://www.youtube.com/watch?v=WkBPX-oDMnA]]
 
 ## Bridge Notes
 
