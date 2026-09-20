@@ -72,6 +72,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/google-opal/README|Google opal]]
 - [[tech/ai/inspoai-mcp/README|inspoAI mcp]]
 - [[tech/ai/refero-mcp/README|refero mcp]]
+- [[tech/ai/agent-browser/README|agent browser]]
 
 ## Claude And Prompting
 
