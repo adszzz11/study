@@ -26,7 +26,7 @@ tracker:
   kind: linear
   project_slug: "my-project"
 workspace:
-  root: ~/code/workspaces
+  root: ~/orca/personal/workspaces
 agent:
   max_concurrent_agents: 10
 codex:
@@ -71,7 +71,7 @@ tracker:
   kind: linear
   project_slug: "my-project-abc123"
 workspace:
-  root: ~/code/workspaces
+  root: ~/orca/personal/workspaces
 ---
 
 You are working on a Linear issue {{ issue.identifier }}.
@@ -106,7 +106,7 @@ polling:
   interval_ms: 5000                  # 5초마다 폴링 (기본 30초)
 
 workspace:
-  root: ~/code/my-workspaces         # 워크스페이스 루트 디렉토리
+  root: ~/orca/personal/my-workspaces         # 워크스페이스 루트 디렉토리
 
 hooks:
   after_create: |                    # 워크스페이스 최초 생성 시

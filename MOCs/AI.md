@@ -44,7 +44,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 ## Tool Studies
 
 - [[tech/ai/https-aside-com/README|Aside]]
-- [[tech/ai/https-github-com-q00-ouroboros-이거-hermes/README|Ouroboros and Hermes-like tools]]
+- [[tech/ai/https-github-com-q00-ouroboros-이거-morae/README|Ouroboros and Hermes-like tools]]
 - [[tech/ai/https-sakana-ai-fugu-분석/README|Sakana Fugu]]
 - [[tech/ai/https-www-southbridge-ai-hankweave/README|Hankweave]]
 - [[tech/ai/https-www-southbridge-ai-blog-antibrittl/README|Antibrittle agents]]
@@ -64,6 +64,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/prime-agent/README|prime agent]]
 - [[tech/ai/eli5/README|eli5]]
 - [[tech/ai/holaos/README|Holaos]]
+- [[tech/ai/https-github-com-mattpocock-skills-tree/README|https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-grea…]]
 
 ## Claude And Prompting
 

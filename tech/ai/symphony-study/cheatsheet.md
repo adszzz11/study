@@ -57,7 +57,7 @@ tracker:
   kind: linear
   project_slug: "your-slug-here"
 workspace:
-  root: ~/code/workspaces
+  root: ~/orca/personal/workspaces
 ---
 You are working on {{ issue.identifier }}: {{ issue.title }}
 {{ issue.description }}

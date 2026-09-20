@@ -86,7 +86,7 @@ budget: $10/month
 ```yaml
 agent: daily-backup
 runtime: bash
-command: "rsync -av ~/code/ /Volumes/Backup/"
+command: "rsync -av ~/orca/personal/ /Volumes/Backup/"
 budget: $0
 routine: "0 2 * * *"
 ```
