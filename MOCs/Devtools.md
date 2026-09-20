@@ -36,6 +36,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/remotion/README|remotion]]
 - [[tech/devtools/https-driverjs-com/README|https://driverjs.com]]
 - [[tech/devtools/https-github-com-lilmgenius-paperthin/README|https://github.com/LilMGenius/paperthin]]
+- [[tech/devtools/zapier/README|zapier]]
 
 ## Bridge Notes
 
