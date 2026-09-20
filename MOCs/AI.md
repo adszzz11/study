@@ -66,6 +66,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/holaos/README|Holaos]]
 - [[tech/ai/https-github-com-mattpocock-skills-tree/README|https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-grea…]]
 - [[tech/ai/composio/README|Composio]]
+- [[tech/ai/omniroute/README|Omniroute]]
 
 ## Claude And Prompting
 
