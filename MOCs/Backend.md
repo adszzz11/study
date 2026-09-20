@@ -29,6 +29,10 @@ status: active
 
 - [[tech/backend/spring|Spring folder]]
 
+## Tool Studies
+
+- [[tech/backend/https-www-instagram-com-reel-dddvxsdairg/README|https://www.instagram.com/reel/DddvxSdAIrG/?stkn=MTA2cWltdXN0bmkyOQ==]]
+
 ## Bridge Notes
 
 - API clients and LLM services -> [[MOCs/AI|AI]]
