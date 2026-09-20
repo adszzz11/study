@@ -54,6 +54,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/you-could-have-designed-state-of-the-art/README|Positional encoding]]
 - [[tech/ai/맥미니-apple-silicon-로컬-llm-2026-모델-런타임-oll/README|Apple Silicon local LLM]]
 - [[tech/ai/switchyard/README|switchyard]]
+- [[tech/ai/image-to-code/README|image to code]]
 
 ## Claude And Prompting
 
