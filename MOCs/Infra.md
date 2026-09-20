@@ -26,6 +26,7 @@ status: active
 ## Tool Studies
 
 - [[tech/infra/ecc/README|Ecc]]
+- [[tech/infra/https-research-perplexity-ai-articles-ma/README|https://research.perplexity.ai/articles/making-space-secure-and-efficient-runti…]]
 
 ## Bridge Notes
 
