@@ -47,6 +47,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/https-www-youtube-com-watch-v-wkbpx-odmn/README|https://www.youtube.com/watch?v=WkBPX-oDMnA]]
 - [[tech/devtools/backstage-io/README|backstage.io]]
 - [[tech/devtools/ui-ux-promax/README|ui/ux promax]]
+- [[tech/devtools/lazyweb-mcp/README|lazyweb mcp]]
 
 ## Bridge Notes
 
