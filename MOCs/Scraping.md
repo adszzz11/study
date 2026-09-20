@@ -19,6 +19,10 @@ status: active
 - [[tech/scraping/browserless/README|Browserless]]
 - [[tech/scraping/firecrawl/README|Firecrawl]]
 
+## Tool Studies
+
+- [[tech/scraping/hikugen/README|Hikugen]]
+
 ## Bridge Notes
 
 - Browser-native agents -> [[MOCs/AI|AI]]
