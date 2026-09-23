@@ -52,6 +52,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/mobbin-mcp/README|mobbin mcp]]
 - [[tech/devtools/web-design-guidelines/README|web design guidelines]]
 - [[tech/devtools/taste/README|taste]]
+- [[tech/devtools/hyperframes/README|Hyperframes]]
 
 ## Bridge Notes
 
