@@ -74,6 +74,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/refero-mcp/README|refero mcp]]
 - [[tech/ai/agent-browser/README|agent browser]]
 - [[tech/ai/instinct-ai/README|instinct AI]]
+- [[tech/ai/jev와-laya/README|Jev와 laya]]
 
 ## Claude And Prompting
 
