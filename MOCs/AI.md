@@ -75,6 +75,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/agent-browser/README|agent browser]]
 - [[tech/ai/instinct-ai/README|instinct AI]]
 - [[tech/ai/jev와-laya/README|Jev와 laya]]
+- [[tech/ai/claudian/README|Claudian]]
 
 ## Claude And Prompting
 
