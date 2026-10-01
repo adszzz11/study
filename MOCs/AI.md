@@ -77,6 +77,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/jev와-laya/README|Jev와 laya]]
 - [[tech/ai/claudian/README|Claudian]]
 - [[tech/ai/이력서-작성-skills/README|이력서 작성 skills]]
+- [[tech/ai/gemini-4/README|Gemini 4]]
 
 ## Claude And Prompting
 
