@@ -65,3 +65,34 @@ approval은 prompt의 “진행해” 같은 문자열이 아니라 대상, 범�
 - https://deerflow.tech/en/docs/harness/skills
 - https://deerflow.tech/en/docs/harness/tools
 - https://deerflow.tech/en/docs/harness/sandbox
+
+## 추가 조사: Continuous Research Desk (지속 연구 데스크)
+
+오케스트레이션을 꾸준히 연구한다면 단발 report보다, 작은 관측 작업을 누적하고 사람이 주기적으로 가설을 갱신하는 research desk가 좋은 실험장이다. DeerFlow 2.1의 scheduled task, durable batch, project/conversation 분기는 이 형태에 맞지만, 자동 수집과 자동 결론을 같은 권한으로 묶어서는 안 된다.
+
+```text
+Schedule / manual trigger
+  → source-change discovery (read-only)
+  → durable per-source extraction
+  → dedupe + evidence ledger
+  → analyst review / hypothesis update
+  → approved publication or notification
+```
+
+| 단계 | subagent 책임 | 사람의 책임 | side-effect policy |
+|---|---|---|---|
+| 발견(discovery) | 공식 release/docs 변경 수집 | source allowlist 변경 | read-only만 허용 |
+| 추출(extraction) | change, quote 범위, URL, 수집 시각 구조화 | 표본 source fidelity 검토 | artifact write만 허용 |
+| 종합(synthesis) | 차이·충돌·미확인 항목 요약 | 가설 채택/폐기 | 외부 게시 금지 |
+| 배포(publication) | 승인된 초안 형식화 | 대상·범위·시점 승인 | approval 뒤 scoped write |
+
+- **research backlog**: 아직 검증하지 않은 claim, source freshness, 다음 확인 작업을 durable store에 남긴다. memory에는 결론만 남기지 말고 근거와 만료/재검토 시점을 연결한다.
+- **branching**: 같은 evidence로 보수적 결론과 공격적 결론을 별도 conversation/project branch에서 시험한다. branch의 결과를 섞기 전에는 provenance를 비교한다.
+- **stop rule**: 새 source가 결론을 바꾸지 않거나 예산 상한에 도달하면 더 많은 delegation 대신 `UNVERIFIED`와 다음 조사 질문을 보고한다.
+- **weekly review**: task 성공률 외에 source 변경 탐지 지연, 중복 수집률, review queue age, 승인 없이 시도된 side effect 수를 함께 본다.
+
+## 추가 조사 Sources
+
+- https://github.com/bytedance/deer-flow/releases/tag/v2.1.0
+- https://deerflow.tech/en/docs/harness/subagents
+- https://langchain-ai.github.io/langgraph/concepts/durable_execution/
