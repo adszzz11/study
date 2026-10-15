@@ -60,6 +60,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/claude-mod/README|Claude mod]]
 - [[tech/devtools/fest-jev-compaction/README|Fest-jev-compaction]]
 - [[tech/devtools/golive-skill/README|Golive-skill]]
+- [[tech/devtools/rea/README|REA]]
 
 ## Bridge Notes
 
