@@ -22,6 +22,7 @@ status: active
 ## Tool Studies
 
 - [[tech/scraping/hikugen/README|Hikugen]]
+- [[tech/scraping/awwwards-mcp/README|awwwards MCP]]
 
 ## Bridge Notes
 
