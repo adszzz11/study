@@ -83,6 +83,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/humanizer/README|humanizer]]
 - [[tech/ai/ai-job-search/README|Ai job search]]
 - [[tech/ai/ai-engineering-from-scrach/README|Ai engineering from scrach]]
+- [[tech/ai/vercel-eve/README|Vercel eve]]
 
 ## Claude And Prompting
 
