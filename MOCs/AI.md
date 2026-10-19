@@ -81,6 +81,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/answer-me-with-html/README|Answer-me-with-html]]
 - [[tech/ai/deerflow/README|deerflow]]
 - [[tech/ai/humanizer/README|humanizer]]
+- [[tech/ai/ai-job-search/README|Ai job search]]
 
 ## Claude And Prompting
 
