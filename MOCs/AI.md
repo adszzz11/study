@@ -88,6 +88,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/mark-it-down/README|Mark it down]]
 - [[tech/ai/rag-cag-kag/README|RAG CAG KAG]]
 - [[tech/ai/clairic/README|clairic]]
+- [[tech/ai/harness2/README|harness2]]
 
 ## Claude And Prompting
 
