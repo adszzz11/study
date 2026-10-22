@@ -66,3 +66,7 @@ Workspace
 - https://kylon.io/blog/how-permissions-work-in-kylon
 - https://kylon.io/help/approve-agent-actions
 - https://kylon.io/help/prompt-injection-protection
+
+## Q&A
+**Q:** Kylon은 어떤 기능까지 지원하며, ERP 수준의 제품인가?
+**A:** Kylon은 사람과 AI agent가 `Room`에서 협업하면서 외부 SaaS를 `Connection`으로 연결하고, shared record·tracker·mobile form 같은 내부 `App`, schedule/webhook/record change 기반 `workflow`, approval, tool trace·run history를 운영하는 AI-native 업무 orchestration workspace다. Gmail/Outlook, Slack, Notion, GitHub, Salesforce 등과의 연동을 바탕으로 CRM 갱신, sales research, invoice follow-up, field-operation 접수·escalation 같은 업무를 자동화할 수 있다. 다만 ERP처럼 회계 원장, 재고·조달·생산·급여, 표준 ERP transaction과 master data를 system of record로 포괄 제공하는 제품은 아니다. 기존 ERP/CRM/업무 시스템을 대체하기보다 그 위에서 agent 작업·승인·handoff를 연결하는 orchestration layer로 보는 것이 정확하다. ERP 데이터를 조회·갱신하는 workflow나 보조 App은 만들 수 있지만, 핵심 ERP 데이터와 업무 규칙은 기존 ERP에 두고 Kylon은 human-in-the-loop automation과 운영 화면에 쓰는 구성이 적합하다.
