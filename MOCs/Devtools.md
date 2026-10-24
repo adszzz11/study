@@ -64,6 +64,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/responsively/README|responsively]]
 - [[tech/devtools/public-apis/README|public-apis]]
 - [[tech/devtools/mercury-라는데-git같은-branching-tool/README|Mercury 라는데 git같은 branching tool]]
+- [[tech/devtools/the-pragramitic-engineer/README|The pragramitic engineer?]]
 
 ## Bridge Notes
 
