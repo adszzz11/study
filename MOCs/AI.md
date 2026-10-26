@@ -93,6 +93,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/https-careers-kakao-com-jobs-p-14519-여기에/README|https://careers.kakao.com/jobs/P-14519 여기에 있는 모든 용어들 해석해]]
 - [[tech/ai/llm-파일들의-생성원리/README|.llm 파일들의 생성원리]]
 - [[tech/ai/perplexity-deceider-for-mac/README|Perplexity deceider for mac]]
+- [[tech/ai/저-시간까지-못잤어/README|????저 시간까지 못잤어..????]]
 
 ## Claude And Prompting
 
