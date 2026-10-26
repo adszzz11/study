@@ -91,6 +91,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/harness2/README|harness2]]
 - [[tech/ai/cli-anything/README|Cli anything]]
 - [[tech/ai/https-careers-kakao-com-jobs-p-14519-여기에/README|https://careers.kakao.com/jobs/P-14519 여기에 있는 모든 용어들 해석해]]
+- [[tech/ai/llm-파일들의-생성원리/README|.llm 파일들의 생성원리]]
 
 ## Claude And Prompting
 
