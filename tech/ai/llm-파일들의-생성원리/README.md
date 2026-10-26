@@ -52,3 +52,9 @@ status: draft
 - https://github.com/ggml-org/llama.cpp/blob/master/docs/models.md
 - https://github.com/huggingface/safetensors/blob/main/README.md
 - https://fileinfo.com/extension/llm
+
+## Q&A
+
+**Q:** Claude나 Codex가 가장 이해하기 쉬운 파일 형식은 무엇인가?
+
+**A:** Claude나 Codex에 내용을 읽히고 수정하게 하려면 UTF-8 `Markdown` 같은 plain-text 형식이 가장 적합하다. 구조가 필요하면 `JSON`·`YAML`·`CSV`처럼 text로 직접 검토할 수 있는 형식을 함께 쓴다. 반면 `GGUF`, `safetensors`, `ONNX`, `.pt`는 모델 runtime이나 framework가 읽는 binary artifact이므로, 에이전트가 그 내부 weight를 사람이 읽듯 이해하는 입력 형식으로 기대하면 안 된다. 이 파일들은 metadata나 변환 결과를 확인하는 대상이며, 설명·설정·tokenizer·평가 결과는 별도 text 파일로 제공하는 편이 좋다.
