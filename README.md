@@ -8,7 +8,7 @@
 - 캡처/정리 흐름: [[Inbox/README|Inbox]] → [[Sources/README|Sources]] / [[Projects/README|Projects]]
 
 - `tech/{ai,backend,data,devtools,infra,scraping}/` — 기술 학습(개념·도구·시리즈·tool-study)
-- `book/` `conference/` `marp/` — 독서·컨퍼런스·발표 자료
+- `scripts/vault-audit.py` — 깨진 링크·MOC 미등록·frontmatter 누락 점검 (`python3 scripts/vault-audit.py`)
 
 > Obsidian wiki-link 문법 사용. 자동 생성분은 PR로 검토 후 머지.
 > Note(private) vault에서 history 보존 이전(2026-06-10).
