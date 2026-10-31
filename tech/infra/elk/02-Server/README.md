@@ -17,28 +17,28 @@ updated: 2025-10-06
 
 ## 📚 학습 자료
 
-### [[01-Beats-설치-및-구성|📡 Beats 설치]]
+### [[01-beats-setup|📡 Beats 설치]]
 
 경량 데이터 수집기
 
 - Filebeat: 로그 파일 수집
 - Metricbeat: 시스템 메트릭
 
-### [[02-Logstash-파이프라인|⚙️ Logstash 파이프라인]]
+### [[02-logstash-pipeline|⚙️ Logstash 파이프라인]]
 
 데이터 처리 파이프라인
 
 - Input, Filter, Output
 - 파싱 및 변환
 
-### [[03-Elasticsearch-설치-및-구성|🔍 Elasticsearch 설치]]
+### 🔍 Elasticsearch 설치
 
 분산 검색 엔진
 
 - 클러스터 구성
 - 인덱스 관리
 
-### [[04-Kibana-시각화|📊 Kibana 시각화]]
+### 📊 Kibana 시각화
 
 데이터 시각화 도구
 
@@ -88,10 +88,10 @@ graph TB
 ## 🎯 설치 순서
 
 > [!tip] 권장 순서
-> 1. [[03-Elasticsearch-설치-및-구성|Elasticsearch]] (먼저)
-> 2. [[04-Kibana-시각화|Kibana]]
-> 3. [[02-Logstash-파이프라인|Logstash]] (선택)
-> 4. [[01-Beats-설치-및-구성|Beats]] (마지막)
+> 1. Elasticsearch (먼저)
+> 2. Kibana
+> 3. [[02-logstash-pipeline|Logstash]] (선택)
+> 4. [[01-beats-setup|Beats]] (마지막)
 
 ### 체크리스트
 

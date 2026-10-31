@@ -70,5 +70,5 @@ type: tech-tool-study
 ## 관련 노트
 
 - [[../langchain-crewai/01-overview|LangChain·CrewAI 비교]]
-- [[../ai-ecosystem/|AI 에이전트 생태계 전반]]
-- [[../claude/|Claude Agent SDK]]
+- [[tech/ai/ai-ecosystem/README|AI 에이전트 생태계 전반]]
+- [[tech/ai/claude/README|Claude Agent SDK]]

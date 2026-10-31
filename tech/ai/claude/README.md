@@ -108,7 +108,7 @@ claude/
 
 ## 관련 노트
 
-- [[study/tech/http/pre/api-design|API 설계]]
+- [[tech/backend/http/pre/api-design|API 설계]]
 
 ---
 

@@ -53,7 +53,7 @@ ponytail/
 - Read `references/examples.md` only when the user asks for examples or the output format is unclear.
 ```
 
-이 방식은 [[study/tech/ai/thin-harness-fat-skills]]의 관점과 잘 맞는다. harness는 얇게 유지하고, 업무 지식은 skill package에 두는 식이다.
+이 방식은 [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]]의 관점과 잘 맞는다. harness는 얇게 유지하고, 업무 지식은 skill package에 두는 식이다.
 
 ## 3. scripts 설계
 
@@ -129,7 +129,7 @@ rg -n "curl|wget|rm -rf|ssh|eval|TOKEN|SECRET|HOME|\\.ssh" ponytail/
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - external tool/data 연결이 필요할 때
-- [[study/tech/ai/lazy-codex]] - 검증 루프와 false completion 대응
-- [[study/tech/ai/claude/05-skills]] - Claude skill 구조
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - external tool/data 연결이 필요할 때
+- [[tech/ai/lazy-codex/README|lazy-codex]] - 검증 루프와 false completion 대응
+- [[tech/ai/claude/05-skills|05-skills]] - Claude skill 구조
 

@@ -30,4 +30,4 @@
 - Reddit r/LangChain
 
 ## 🔗 vault 내 인접
-- [[study/tech/ai/langchain-crewai]] — 기존 자료
+- [[tech/ai/langchain-crewai/README|langchain-crewai]] — 기존 자료

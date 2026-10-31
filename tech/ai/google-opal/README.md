@@ -44,7 +44,7 @@ Opal은 반복 AI 업무를 `User Input → Generate/Agent → Output` 흐름으
 
 - [[MOCs/Index]]
 - [[MOCs/AI]]
-- [[tech/ai/gemini/README|Gemini]]
+- [[tech/ai/gemini-4/README|Gemini]]
 - [[tech/ai/model-context-protocol-mcp/README|Model Context Protocol (MCP)]]
 
 ## Sources

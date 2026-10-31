@@ -62,6 +62,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/autoresearch-study/README]] - 논문과 리서치 루프 정리 참고
-- [[study/tech/ai/litellm/README]] - LLM 분석 도구 구성 참고
-- [[study/tech/ai/codex/README]] - 리서치 노트 자동화 참고
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - 논문과 리서치 루프 정리 참고
+- [[tech/ai/litellm/README|litellm]] - LLM 분석 도구 구성 참고
+- [[tech/ai/codex/README|codex]] - 리서치 노트 자동화 참고

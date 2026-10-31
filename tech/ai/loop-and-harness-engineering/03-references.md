@@ -59,6 +59,6 @@ type: tech-tool-study
 
 ## 관련 노트
 
-- [[study/tech/ai/codex]]
-- [[study/tech/ai/model-context-protocol-mcp]]
-- [[study/tech/ai/lazy-codex]]
+- [[tech/ai/codex/README|codex]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/lazy-codex/README|lazy-codex]]

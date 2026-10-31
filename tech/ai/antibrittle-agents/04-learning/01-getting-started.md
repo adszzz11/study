@@ -159,6 +159,6 @@ touch runs/antibrittle-demo/claims.md
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex/04-learning/02-verified-completion]] - 검증 완료 loop
-- [[study/tech/ai/model-context-protocol-mcp/04-learning/01-getting-started]] - tool/resource discovery 실습
-- [[study/tech/ai/autoresearch-study]] - research workflow 구조화
+- [[tech/ai/lazy-codex/04-learning/02-verified-completion|02-verified-completion]] - 검증 완료 loop
+- [[tech/ai/model-context-protocol-mcp/04-learning/01-getting-started|01-getting-started]] - tool/resource discovery 실습
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - research workflow 구조화

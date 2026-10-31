@@ -42,10 +42,10 @@ type: tech-tool-study
 
 ## 함께 볼 노트
 
-- [[ai-ecosystem]] - local LLM이 전체 AI stack에서 맡는 위치
-- [[litellm]] - OpenAI-compatible endpoint를 local/cloud gateway로 묶는 방법
-- [[model-context-protocol-mcp]] - local model과 tool context 연결
-- [[codex]] - coding agent가 local endpoint를 활용하는 방식 검토
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - local LLM이 전체 AI stack에서 맡는 위치
+- [[tech/ai/litellm/README|litellm]] - OpenAI-compatible endpoint를 local/cloud gateway로 묶는 방법
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - local model과 tool context 연결
+- [[tech/ai/codex/README|codex]] - coding agent가 local endpoint를 활용하는 방식 검토
 
 ## 검증 체크리스트
 

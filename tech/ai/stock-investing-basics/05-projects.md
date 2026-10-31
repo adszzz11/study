@@ -198,9 +198,9 @@ SEC EDGAR에서 공시를 가져와 LLM으로 요약하되, 투자 추천이 아
 
 ### 관련 노트
 
-- [[study/tech/ai/codex/README]]
-- [[study/tech/ai/langchain-crewai/README]]
-- [[study/tech/ai/llm-wiki-study/README]]
+- [[tech/ai/codex/README|codex]]
+- [[tech/ai/langchain-crewai/README|langchain-crewai]]
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]]
 
 ---
 

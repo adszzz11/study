@@ -3,6 +3,8 @@ date: 2026-10-24
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - mercury-라는데-git같은-branching-tool
 ---
 
 # Mercurial 학습 노트

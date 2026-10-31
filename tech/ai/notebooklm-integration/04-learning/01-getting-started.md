@@ -128,5 +128,5 @@ notebooklm-integration-test/
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - 실습 결과를 도구 선택 기준에 반영
-- [[study/tech/ai/litellm]] - API 대체 PoC에서 provider routing이 필요할 때 참고
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - 실습 결과를 도구 선택 기준에 반영
+- [[tech/ai/litellm/README|litellm]] - API 대체 PoC에서 provider routing이 필요할 때 참고

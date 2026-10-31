@@ -66,7 +66,7 @@
 
 ## 🔗 본 vault 내 인접
 
-- [[study/tech/ai/autoresearch-study]] — 같은 Karpathy 자율 패턴
-- [[study/tech/ai/openclaw-study]] — 메신저형 비서
-- [[study/tech/ai/multi-agent-platforms]] — 오케스트레이션
-- [[study/tech/ai/claude]] — Claude Code · Skills
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] — 같은 Karpathy 자율 패턴
+- [[tech/ai/openclaw-study/README|openclaw-study]] — 메신저형 비서
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] — 오케스트레이션
+- [[tech/ai/claude/README|claude]] — Claude Code · Skills

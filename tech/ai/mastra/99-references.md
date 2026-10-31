@@ -141,7 +141,7 @@ status: studying
 ## 6. 관련 노트 (이 vault 안)
 
 - [[../langchain-crewai/01-overview|LangChain·CrewAI 비교]]
-- [[../ai-ecosystem/|AI 에이전트 생태계 전반]]
-- [[../claude/|Claude Agent SDK]]
-- [[../openrouter/|OpenRouter (모델 라우팅 비교 관점)]]
-- [[../litellm/|LiteLLM (Python 진영의 비슷한 추상화)]]
+- [[tech/ai/ai-ecosystem/README|AI 에이전트 생태계 전반]]
+- [[tech/ai/claude/README|Claude Agent SDK]]
+- [[tech/ai/openrouter/README|OpenRouter (모델 라우팅 비교 관점)]]
+- [[tech/ai/litellm/README|LiteLLM (Python 진영의 비슷한 추상화)]]

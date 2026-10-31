@@ -3,6 +3,8 @@ date: 2026-08-24
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - 골드만삭스-퀀트-깃허브
 ---
 
 # GS Quant: 골드만삭스 퀀트 GitHub

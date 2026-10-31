@@ -157,6 +157,6 @@ npm run lint
 
 ## 관련 노트
 
-- [[study/tech/ai/codex/cheatsheet]] - Codex 빠른 참조
-- [[study/tech/ai/claude/03-claude-code]] - Claude Code 기본 사용
-- [[study/tech/ai/model-context-protocol-mcp]] - 외부 도구 연결
+- [[tech/ai/codex/cheatsheet|cheatsheet]] - Codex 빠른 참조
+- [[tech/ai/claude/03-claude-code|03-claude-code]] - Claude Code 기본 사용
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - 외부 도구 연결

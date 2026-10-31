@@ -124,8 +124,8 @@ llama-server \
 
 - 항상 켜둘 모델은 memory pressure가 낮은 3B~8B급을 우선한다.
 - coding/agent 작업은 14B~32B급을 필요할 때만 load하는 방식이 현실적이다.
-- `base_url`을 통일하면 [[litellm]] 또는 앱 설정만 바꿔 local/cloud 전환이 쉬워진다.
-- [[codex]] 같은 coding agent에 붙일 때는 tool calling, streaming, context length를 별도로 검증한다.
+- `base_url`을 통일하면 [[tech/ai/litellm/README|litellm]] 또는 앱 설정만 바꿔 local/cloud 전환이 쉬워진다.
+- [[tech/ai/codex/README|codex]] 같은 coding agent에 붙일 때는 tool calling, streaming, context length를 별도로 검증한다.
 
 ## 추가 조사: Hermes Agent 동시 실행 기준 실험
 

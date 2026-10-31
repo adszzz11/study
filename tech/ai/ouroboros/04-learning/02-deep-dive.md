@@ -175,8 +175,8 @@ Ouroboros가 여러 runtime을 지원한다는 것은 "모든 agent가 동일하
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - independent verification, false completion 방지
-- [[study/tech/ai/litellm]] - multi-model consensus와 provider routing
-- [[study/tech/ai/model-context-protocol-mcp]] - external tools/context 연결
+- [[tech/ai/lazy-codex/README|lazy-codex]] - independent verification, false completion 방지
+- [[tech/ai/litellm/README|litellm]] - multi-model consensus와 provider routing
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - external tools/context 연결
 
 → 다음: [[../05-projects]]

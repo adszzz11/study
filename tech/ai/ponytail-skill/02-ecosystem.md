@@ -53,7 +53,7 @@ Agent extension
 
 ## 4. MCP와의 차이
 
-[[study/tech/ai/model-context-protocol-mcp]]는 agent가 외부 tool/data/prompt를 발견하고 호출하는 protocol이다. Skill은 agent에게 “어떻게 일할지”를 알려주는 instruction package다.
+[[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]는 agent가 외부 tool/data/prompt를 발견하고 호출하는 protocol이다. Skill은 agent에게 “어떻게 일할지”를 알려주는 instruction package다.
 
 | 구분 | Agent Skill | MCP |
 |------|-------------|-----|
@@ -90,8 +90,8 @@ ponytail-plugin/
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/05-skills]] - Claude Skills 학습 노트
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP protocol 비교 기준
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent 확장 방식
-- [[study/tech/ai/lazy-codex]] - agent harness와 skill의 역할 분리
+- [[tech/ai/claude/05-skills|05-skills]] - Claude Skills 학습 노트
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP protocol 비교 기준
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent 확장 방식
+- [[tech/ai/lazy-codex/README|lazy-codex]] - agent harness와 skill의 역할 분리
 

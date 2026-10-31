@@ -117,6 +117,6 @@ Shared sources
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - UI형 AI 도구와 API형 AI 도구의 역할 분리
-- [[study/tech/ai/model-context-protocol-mcp]] - 내부 문서/도구를 agent에게 노출하는 별도 통합 방향
-- [[study/tech/ai/litellm]] - production RAG backend의 provider routing 검토
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - UI형 AI 도구와 API형 AI 도구의 역할 분리
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - 내부 문서/도구를 agent에게 노출하는 별도 통합 방향
+- [[tech/ai/litellm/README|litellm]] - production RAG backend의 provider routing 검토

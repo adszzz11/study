@@ -249,4 +249,4 @@ socket.close();  // 4-way handshake
 - [Wikipedia - TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 - [GeeksforGeeks - TCP](https://www.geeksforgeeks.org/computer-networks/what-is-transmission-control-protocol-tcp/)
 - [RFC 5681 - TCP Congestion Control](https://datatracker.ietf.org/doc/html/rfc5681)
-- 관련 노트: [[UDP]], [[IP]], [[HTTP]]
+- 관련 노트: [[UDP]], [[IP]], HTTP

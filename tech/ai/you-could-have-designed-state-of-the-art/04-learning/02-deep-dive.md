@@ -198,7 +198,7 @@ def validate_rope_shapes(q, k, cos, sin):
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - long-context 모델을 실제 서비스에서 선택/라우팅하는 문제
-- [[study/tech/ai/model-context-protocol-mcp]] - context를 모델 안에 넣을지 tool로 가져올지의 설계
-- [[study/tech/ai/ai-ecosystem]] - Transformer 계열 architecture 변화 추적
+- [[tech/ai/litellm/README|litellm]] - long-context 모델을 실제 서비스에서 선택/라우팅하는 문제
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - context를 모델 안에 넣을지 tool로 가져올지의 설계
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - Transformer 계열 architecture 변화 추적
 

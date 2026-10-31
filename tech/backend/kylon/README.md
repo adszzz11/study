@@ -3,6 +3,8 @@ date: 2026-10-22
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-kylon-io
 ---
 
 # Kylon

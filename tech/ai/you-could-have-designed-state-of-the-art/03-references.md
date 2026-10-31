@@ -122,7 +122,7 @@ keywords = [
 
 ## 6. 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - LLM architecture/paper reading 경로 연결
-- [[study/tech/ai/litellm]] - long-context provider/model 선택과 운영
-- [[study/tech/ai/llm-wiki-study]] - 긴 문서 지식 처리에서 context strategy 비교
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - LLM architecture/paper reading 경로 연결
+- [[tech/ai/litellm/README|litellm]] - long-context provider/model 선택과 운영
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 긴 문서 지식 처리에서 context strategy 비교
 

@@ -166,6 +166,6 @@ auth와 input validation 관점에서 src/api를 audit해줘.
 
 ## 관련 노트
 
-- [[study/tech/devtools/qa/what-is-qa]] - QA 관점의 검증
-- [[study/tech/ai/codex/05-projects]] - Codex 실전 workflow
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP 기반 internal assistant
+- [[tech/devtools/qa/what-is-qa|what-is-qa]] - QA 관점의 검증
+- [[tech/ai/codex/05-projects|05-projects]] - Codex 실전 workflow
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP 기반 internal assistant

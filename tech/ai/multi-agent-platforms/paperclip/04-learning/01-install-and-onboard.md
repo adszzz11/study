@@ -128,7 +128,7 @@ chmod 600 .env
 launchctl load ~/Library/LaunchAgents/com.user.paperclip.plist
 ```
 
-`com.user.openclaw.plist` 패턴과 동일 (참고: [[study/tech/ai/openclaw-study/04-learning/01-mac-mini-setup]]).
+`com.user.openclaw.plist` 패턴과 동일 (참고: [[tech/ai/openclaw-study/04-learning/01-mac-mini-setup|01-mac-mini-setup]]).
 
 ## 🔗 다음
 

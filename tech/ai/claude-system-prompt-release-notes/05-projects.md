@@ -42,7 +42,7 @@ snapshot:
 
 - release note diff를 PR로 생성
 - 변경 항목별 "formatting", "safety", "tool", "date/context" tag 부여
-- [[study/tech/ai/ai-ecosystem/01-overview]] provider watchlist와 연결
+- [[tech/ai/ai-ecosystem/01-overview|01-overview]] provider watchlist와 연결
 
 ## 프로젝트 2. API prompt governance template
 
@@ -149,12 +149,12 @@ def build_instruction(provider: str, instruction: str) -> dict:
     raise ValueError(f"unsupported provider: {provider}")
 ```
 
-이 프로젝트는 [[study/tech/ai/litellm]] 같은 gateway와 함께 쓰기 좋다.
+이 프로젝트는 [[tech/ai/litellm/README|litellm]] 같은 gateway와 함께 쓰기 좋다.
 
 ---
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - multi-provider routing 위에 instruction adapter를 얹는 프로젝트
-- [[study/tech/ai/model-context-protocol-mcp]] - prompt governance와 tool/resource governance를 같이 설계
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent runtime prompt audit 대상으로 확장
+- [[tech/ai/litellm/README|litellm]] - multi-provider routing 위에 instruction adapter를 얹는 프로젝트
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - prompt governance와 tool/resource governance를 같이 설계
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent runtime prompt audit 대상으로 확장

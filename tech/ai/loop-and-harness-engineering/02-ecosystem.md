@@ -77,7 +77,7 @@ harness = 업무 환경, 권한, 도구, 평가, 기록
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP는 harness의 tool/context 표준 계층
-- [[study/tech/ai/lazy-codex]] - 검증 중심 coding harness 사례
-- [[study/tech/ai/litellm]] - model routing과 gateway 관점
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent 생태계
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP는 harness의 tool/context 표준 계층
+- [[tech/ai/lazy-codex/README|lazy-codex]] - 검증 중심 coding harness 사례
+- [[tech/ai/litellm/README|litellm]] - model routing과 gateway 관점
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent 생태계

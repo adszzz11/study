@@ -253,8 +253,8 @@ curl -X POST \
 
 ## 🔗 관련 문서
 
-- [[01-Kotlin-SpringBoot-로깅-설정|← Kotlin 로깅 설정]]
-- [[03-Kotlin-로깅-Best-Practices|Best Practices →]]
+- [[01-kotlin-springboot-logging|← Kotlin 로깅 설정]]
+- [[03-kotlin-logging-best-practices|Best Practices →]]
 
 ---
 

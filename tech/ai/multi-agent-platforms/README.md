@@ -81,10 +81,10 @@
 
 ## 🔗 인접 학습
 
-- [[study/tech/ai/openclaw-study]] — 메신저 게이트웨이형 (다른 카테고리, 직원으로 채용 가능)
-- [[study/tech/ai/agent-orchestration]] — CLI 에이전트 오케스트레이션 (Claude Squad 등, 다른 카테고리)
-- [[study/tech/ai/langchain-crewai]] — 기존 vault 자료 보강 참고
-- [[study/tech/ai/mastra]] — TS 기반 AI 프레임워크
+- [[tech/ai/openclaw-study/README|openclaw-study]] — 메신저 게이트웨이형 (다른 카테고리, 직원으로 채용 가능)
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] — CLI 에이전트 오케스트레이션 (Claude Squad 등, 다른 카테고리)
+- [[tech/ai/langchain-crewai/README|langchain-crewai]] — 기존 vault 자료 보강 참고
+- [[tech/ai/mastra/README|mastra]] — TS 기반 AI 프레임워크
 
 ## ⚠️ 카테고리 함정
 

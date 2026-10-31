@@ -9,6 +9,8 @@ tags:
   - prompt-governance
 status: learning
 type: tech-tool-study
+aliases:
+  - https-platform-claude-com-docs-en-releas
 ---
 
 # Claude System Prompts Release Notes
@@ -63,10 +65,10 @@ https-platform-claude-com-docs-en-releas/
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - agent/tool context를 runtime에 주입하는 protocol 계층
-- [[study/tech/ai/litellm]] - API gateway에서 model routing과 prompt policy를 관리하는 맥락
-- [[study/tech/ai/ai-ecosystem/01-overview]] - AI ecosystem 안에서 provider별 instruction primitive 비교
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent runtime prompt와 tool behavior가 결합되는 운영 맥락
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent/tool context를 runtime에 주입하는 protocol 계층
+- [[tech/ai/litellm/README|litellm]] - API gateway에서 model routing과 prompt policy를 관리하는 맥락
+- [[tech/ai/ai-ecosystem/01-overview|01-overview]] - AI ecosystem 안에서 provider별 instruction primitive 비교
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent runtime prompt와 tool behavior가 결합되는 운영 맥락
 
 ---
 

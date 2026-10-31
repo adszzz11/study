@@ -8,6 +8,8 @@ tags:
   - lm-studio
   - mlx
 type: tech-tool-study
+aliases:
+  - 맥미니-apple-silicon-로컬-llm-2026-모델-런타임-oll
 ---
 
 # 맥미니 Apple Silicon 로컬 LLM 2026 학습 가이드
@@ -70,7 +72,7 @@ client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 - [ ] Mac mini 사양 확인: unified memory, memory bandwidth, 저장공간
 - [ ] Ollama 설치 및 `qwen3:8b` 실행
 - [ ] REST API와 OpenAI-compatible endpoint 차이 이해
-- [ ] [[litellm]] 또는 [[model-context-protocol-mcp]] 같은 상위 도구와 연결 가능성 확인
+- [ ] [[tech/ai/litellm/README|litellm]] 또는 [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] 같은 상위 도구와 연결 가능성 확인
 
 ### 2단계: runtime 비교
 
@@ -84,7 +86,7 @@ client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 - [ ] coding/agent용 모델 1개, 한국어 요약용 모델 1개 선정
 - [ ] API server 자동 시작 방식 선택
 - [ ] prompt, system template, context length 기준 기록
-- [ ] [[ai-ecosystem]] 흐름 안에서 cloud LLM과 local LLM 역할 분리
+- [ ] [[tech/ai/ai-ecosystem/README|ai-ecosystem]] 흐름 안에서 cloud LLM과 local LLM 역할 분리
 
 ---
 
@@ -101,10 +103,10 @@ client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 
 ## 관련 노트
 
-- [[ai-ecosystem]]
-- [[litellm]]
-- [[model-context-protocol-mcp]]
-- [[codex]]
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]]
+- [[tech/ai/litellm/README|litellm]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/codex/README|codex]]
 
 ## Q&A
 **Q:** 주식 리서치, 연구, 투자자동화에서 Codex SDK와 local LLM을 어떻게 나눠 쓰는 게 좋은가?

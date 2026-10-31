@@ -163,6 +163,6 @@ Prompt governance 원칙:
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent runtime의 phase-specific instruction 운영
-- [[study/tech/ai/litellm]] - model gateway에서 versioning과 audit를 붙이는 방식
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/resource 호출과 instruction authority 경계
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent runtime의 phase-specific instruction 운영
+- [[tech/ai/litellm/README|litellm]] - model gateway에서 versioning과 audit를 붙이는 방식
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/resource 호출과 instruction authority 경계

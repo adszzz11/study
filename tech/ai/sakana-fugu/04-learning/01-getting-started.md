@@ -191,6 +191,6 @@ task_id, model, timestamp, latency, input_tokens, output_tokens, cost, pass_fail
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - 같은 prompt set을 여러 provider/model에 흘리는 gateway 평가
-- [[study/tech/ai/model-context-protocol-mcp]] - agentic task가 외부 tool/context를 필요로 할 때의 integration layer
-- [[study/tech/ai/autoresearch-study]] - paper reproduction benchmark 설계 참고
+- [[tech/ai/litellm/README|litellm]] - 같은 prompt set을 여러 provider/model에 흘리는 gateway 평가
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agentic task가 외부 tool/context를 필요로 할 때의 integration layer
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - paper reproduction benchmark 설계 참고

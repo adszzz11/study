@@ -188,6 +188,6 @@ Prompt review checklist:
 
 ## 관련 노트
 
-- [[study/tech/ai/claude]] - Claude API에서 system/user message 구성
-- [[study/tech/ai/llm-wiki-study]] - 문서 기반 답변과 wiki workflow
-- [[study/tech/ai/codex]] - coding agent task brief 작성 방식
+- [[tech/ai/claude/README|claude]] - Claude API에서 system/user message 구성
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 문서 기반 답변과 wiki workflow
+- [[tech/ai/codex/README|codex]] - coding agent task brief 작성 방식

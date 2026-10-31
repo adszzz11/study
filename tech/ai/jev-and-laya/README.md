@@ -3,6 +3,8 @@ date: 2026-09-25
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - jev와-laya
 ---
 
 # Jev와 laya

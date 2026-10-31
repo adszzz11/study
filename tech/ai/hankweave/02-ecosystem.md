@@ -74,10 +74,10 @@ CI job
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - agent가 쓰는 tool/resource integration layer
-- [[study/tech/ai/lazy-codex]] - coding harness와 검증 loop
-- [[study/tech/ai/multi-agent-platforms]] - AutoGen, CrewAI 등 multi-agent framework 맥락
-- [[study/tech/infra/prefect]] - workflow orchestration 관점에서 비교 가능한 도구
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent가 쓰는 tool/resource integration layer
+- [[tech/ai/lazy-codex/README|lazy-codex]] - coding harness와 검증 loop
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - AutoGen, CrewAI 등 multi-agent framework 맥락
+- [[tech/infra/prefect/README|prefect]] - workflow orchestration 관점에서 비교 가능한 도구
 
 ## References
 

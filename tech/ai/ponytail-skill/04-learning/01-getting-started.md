@@ -114,7 +114,7 @@ description: Use this skill when the user asks to run the Ponytail workflow: val
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/05-skills]] - Claude Skills 사용 흐름
-- [[study/tech/ai/codex]] - Codex 계열 지침/skill 운용 관점
-- [[study/tech/ai/model-context-protocol-mcp]] - 외부 tool 연결이 필요할 때 비교
+- [[tech/ai/claude/05-skills|05-skills]] - Claude Skills 사용 흐름
+- [[tech/ai/codex/README|codex]] - Codex 계열 지침/skill 운용 관점
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - 외부 tool 연결이 필요할 때 비교
 

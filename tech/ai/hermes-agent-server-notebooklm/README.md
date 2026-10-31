@@ -3,6 +3,8 @@ date: 2026-09-20
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - hermes-agent-server와-notebooklm을-함께-쓰는-사
 ---
 
 # Hermes Agent Server와 NotebookLM을 함께 쓰는 사례

@@ -108,9 +108,9 @@ symphony-study/
 
 ## 관련 노트
 
-- [[agent-orchestration|에이전트 오케스트레이션 학습 노트]]
-- [[langchain-crewai|LangChain-CrewAI]]
-- [[ai-ecosystem|AI Ecosystem]]
+- [[tech/ai/agent-orchestration/README|에이전트 오케스트레이션 학습 노트]]
+- [[tech/ai/langchain-crewai/README|LangChain-CrewAI]]
+- [[tech/ai/ai-ecosystem/README|AI Ecosystem]]
 
 ---
 

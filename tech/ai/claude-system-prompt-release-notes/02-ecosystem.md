@@ -112,8 +112,8 @@ Gemini의 장점은 config interface가 단순하다는 점이다. 다만 Claude
 | API app을 production 운영 | provider별 `system`/`instructions`/`system_instruction` code versioning |
 | model snapshot 재현성 필요 | Claude model IDs and versioning semantics |
 | prompt leak 우려 | proprietary detail 최소화, redaction, audits |
-| multi-provider gateway | [[study/tech/ai/litellm]] 같은 routing layer에서 prompt policy 분리 |
-| agent tool runtime | [[study/tech/ai/model-context-protocol-mcp]]와 system prompt boundary 함께 설계 |
+| multi-provider gateway | [[tech/ai/litellm/README|litellm]] 같은 routing layer에서 prompt policy 분리 |
+| agent tool runtime | [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]와 system prompt boundary 함께 설계 |
 
 ## 7. 트렌드
 
@@ -127,9 +127,9 @@ Gemini의 장점은 config interface가 단순하다는 점이다. 다만 Claude
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem/01-overview]] - provider별 AI platform 비교 맥락
-- [[study/tech/ai/litellm]] - multi-provider instruction/routing 정책 관리
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/resource context와 instruction 계층 비교
+- [[tech/ai/ai-ecosystem/01-overview|01-overview]] - provider별 AI platform 비교 맥락
+- [[tech/ai/litellm/README|litellm]] - multi-provider instruction/routing 정책 관리
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/resource context와 instruction 계층 비교
 
 ## 다음 단계
 

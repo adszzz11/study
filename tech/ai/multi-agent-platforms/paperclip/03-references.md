@@ -41,5 +41,5 @@
 ## 🔗 인접 카테고리
 
 - 다른 오케스트레이션 → 본 폴더 [../README.md](../README.md)
-- 메신저 게이트웨이 → [[study/tech/ai/openclaw-study]]
-- LangChain 계열 → [[study/tech/ai/langchain-crewai]]
+- 메신저 게이트웨이 → [[tech/ai/openclaw-study/README|openclaw-study]]
+- LangChain 계열 → [[tech/ai/langchain-crewai/README|langchain-crewai]]

@@ -127,10 +127,10 @@ Antibrittle: loop state, boundary, receipts, metrics, recovery
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP tool/data protocol
-- [[study/tech/ai/langchain-crewai]] - LangChain/CrewAI ecosystem
-- [[study/tech/ai/multi-agent-platforms]] - multi-agent platform 비교
-- [[study/tech/ai/ai-ecosystem/01-overview]] - AI ecosystem 큰 그림
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP tool/data protocol
+- [[tech/ai/langchain-crewai/README|langchain-crewai]] - LangChain/CrewAI ecosystem
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - multi-agent platform 비교
+- [[tech/ai/ai-ecosystem/01-overview|01-overview]] - AI ecosystem 큰 그림
 
 ## 다음 단계
 

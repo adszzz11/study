@@ -138,6 +138,6 @@ bunx hankweave@latest --headless --autostart --max-cost 5
 
 ## 관련 노트
 
-- [[study/tech/ai/codex]] - Hankweave가 실행할 수 있는 coding harness
-- [[study/tech/ai/lazy-codex]] - agent 실행 검증 패턴
-- [[study/tech/devtools/git]] - checkpoint/rollback 이해에 필요한 Git 기초
+- [[tech/ai/codex/README|codex]] - Hankweave가 실행할 수 있는 coding harness
+- [[tech/ai/lazy-codex/README|lazy-codex]] - agent 실행 검증 패턴
+- [[tech/devtools/git/README|git]] - checkpoint/rollback 이해에 필요한 Git 기초

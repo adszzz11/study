@@ -74,6 +74,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - OpenAI-compatible LLM gateway와 MCP connector의 결합 가능성
-- [[study/tech/ai/openclaw-study]] - messenger/agent gateway를 MCP로 확장할 수 있는 맥락
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent tool integration과 MCP server 연결
+- [[tech/ai/litellm/README|litellm]] - OpenAI-compatible LLM gateway와 MCP connector의 결합 가능성
+- [[tech/ai/openclaw-study/README|openclaw-study]] - messenger/agent gateway를 MCP로 확장할 수 있는 맥락
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent tool integration과 MCP server 연결

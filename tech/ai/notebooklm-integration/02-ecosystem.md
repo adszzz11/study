@@ -127,9 +127,9 @@ User app
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - API/tool integration이 필요한 경우의 표준화 관점
-- [[study/tech/ai/litellm]] - provider routing과 RAG backend 운영 관점
-- [[study/tech/ai/ai-ecosystem]] - NotebookLM, Claude Projects, Gemini API 같은 AI 도구 분류
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - API/tool integration이 필요한 경우의 표준화 관점
+- [[tech/ai/litellm/README|litellm]] - provider routing과 RAG backend 운영 관점
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - NotebookLM, Claude Projects, Gemini API 같은 AI 도구 분류
 
 ## 다음 단계
 

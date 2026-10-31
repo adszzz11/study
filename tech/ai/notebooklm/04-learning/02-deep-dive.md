@@ -141,6 +141,6 @@ NotebookLM 자체 기능, Gemini CLI, 비공식 자동화 가능성을 구분해
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - NotebookLM-like CLI workflow의 integration layer
-- [[study/tech/ai/litellm]] - custom RAG의 provider routing/gateway
-- [[study/tech/ai/agent-orchestration/cli-agents]] - Gemini CLI, Codex, Claude Code 등 terminal agents 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - NotebookLM-like CLI workflow의 integration layer
+- [[tech/ai/litellm/README|litellm]] - custom RAG의 provider routing/gateway
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - Gemini CLI, Codex, Claude Code 등 terminal agents 비교

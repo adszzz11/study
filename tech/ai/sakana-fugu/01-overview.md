@@ -190,9 +190,9 @@ Sakana 공식 페이지는 Fugu/Fugu Ultra가 다음 benchmark에서 공개 fron
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - provider gateway/router와 managed orchestration 비교
-- [[study/tech/ai/agent-orchestration/conductor]] - orchestration model 연구 맥락
-- [[study/tech/ai/multi-agent-platforms/autogen]] - 직접 agent role/workflow를 설계하는 대안
+- [[tech/ai/litellm/README|litellm]] - provider gateway/router와 managed orchestration 비교
+- [[tech/ai/agent-orchestration/conductor/README|conductor]] - orchestration model 연구 맥락
+- [[tech/ai/multi-agent-platforms/autogen/README|autogen]] - 직접 agent role/workflow를 설계하는 대안
 
 ---
 

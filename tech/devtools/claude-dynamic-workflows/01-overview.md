@@ -136,10 +136,10 @@ sequenceDiagram
 
 ## 5. 관련 노트
 
-- [[study/tech/ai/claude/03-claude-code]] - Claude Code의 기본 agent loop
-- [[study/tech/ai/claude/08-subagents]] - subagent 설계와 context isolation
-- [[study/tech/ai/thin-harness-fat-skills]] - harness와 skill의 역할 분리
-- [[study/tech/ai/multi-agent-platforms]] - multi-agent platform 관점
+- [[tech/ai/claude/03-claude-code|03-claude-code]] - Claude Code의 기본 agent loop
+- [[tech/ai/claude/08-subagents|08-subagents]] - subagent 설계와 context isolation
+- [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]] - harness와 skill의 역할 분리
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - multi-agent platform 관점
 
 ---
 

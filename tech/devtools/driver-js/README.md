@@ -3,6 +3,8 @@ date: 2026-09-07
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-driverjs-com
 ---
 
 # Driver.js

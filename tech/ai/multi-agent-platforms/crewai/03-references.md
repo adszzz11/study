@@ -30,5 +30,5 @@
 - Twitter: @crewAIInc
 
 ## 🔗 본 vault 내 인접
-- [[study/tech/ai/langchain-crewai]] — 기존 자료
+- [[tech/ai/langchain-crewai/README|langchain-crewai]] — 기존 자료
 - 본 폴더 비교: [../README.md](../README.md)

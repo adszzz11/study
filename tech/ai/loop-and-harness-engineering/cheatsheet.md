@@ -139,6 +139,6 @@ harness = 이슈 설명서, 코드베이스 안내, 실행 권한, 테스트 기
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]]
-- [[study/tech/ai/model-context-protocol-mcp]]
-- [[study/tech/ai/agent-orchestration/cli-agents]]
+- [[tech/ai/lazy-codex/README|lazy-codex]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]]

@@ -111,9 +111,9 @@ message = client.messages.create(
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - API gateway에서 provider별 system prompt와 routing을 다루는 맥락
-- [[study/tech/ai/model-context-protocol-mcp]] - runtime context/tool 주입과 prompt boundary 비교
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent CLI의 system prompt와 tool policy 운영
+- [[tech/ai/litellm/README|litellm]] - API gateway에서 provider별 system prompt와 routing을 다루는 맥락
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - runtime context/tool 주입과 prompt boundary 비교
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent CLI의 system prompt와 tool policy 운영
 
 ## References
 

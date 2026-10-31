@@ -77,9 +77,9 @@ API workflow
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - Codex/API tool integration과 연결되는 protocol layer
-- [[study/tech/ai/litellm]] - GPT-5.6, Claude, Gemini를 gateway에서 비교/라우팅하는 관점
-- [[study/tech/ai/agent-orchestration/cli-agents]] - Codex/Claude Code 등 CLI agent 운영 맥락
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - Codex/API tool integration과 연결되는 protocol layer
+- [[tech/ai/litellm/README|litellm]] - GPT-5.6, Claude, Gemini를 gateway에서 비교/라우팅하는 관점
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - Codex/Claude Code 등 CLI agent 운영 맥락
 
 ## References
 

@@ -48,7 +48,7 @@ npx @modelcontextprotocol/inspector
 
 - [ ] [[02-ecosystem|생태계]] 파악 - Function Calling, OpenAPI, A2A, LangChain tools와 비교
 - [ ] MCP가 integration layer인지, agent framework인지 구분
-- [ ] [[study/tech/ai/litellm]]와의 역할 차이 정리
+- [ ] [[tech/ai/litellm/README|litellm]]와의 역할 차이 정리
 
 ### 3단계: 공식 문서와 스펙 확인
 
@@ -99,10 +99,10 @@ model-context-protocol-mcp/
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - LLM provider routing/gateway 계층
-- [[study/tech/ai/llm-wiki-study]] - MCP로 vault/wiki 작업을 노출할 수 있는 지식 관리 패턴
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent CLI와 tool integration 맥락
-- [[study/tech/ai/multi-agent-platforms]] - multi-agent platform 생태계
+- [[tech/ai/litellm/README|litellm]] - LLM provider routing/gateway 계층
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - MCP로 vault/wiki 작업을 노출할 수 있는 지식 관리 패턴
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent CLI와 tool integration 맥락
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - multi-agent platform 생태계
 
 ---
 

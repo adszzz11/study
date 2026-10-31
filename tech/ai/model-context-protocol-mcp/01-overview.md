@@ -193,9 +193,9 @@ HTTP transport는 `MCP-Session-Id`, `MCP-Protocol-Version` header와 resumabilit
 
 ## 관련 노트
 
-- [[study/tech/ai/llm-wiki-study]] - MCP resource/tool로 vault 지식을 노출하는 응용 가능
-- [[study/tech/ai/litellm]] - LLM routing layer와 MCP integration layer의 차이 비교
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent가 MCP server를 tool로 쓰는 흐름
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - MCP resource/tool로 vault 지식을 노출하는 응용 가능
+- [[tech/ai/litellm/README|litellm]] - LLM routing layer와 MCP integration layer의 차이 비교
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent가 MCP server를 tool로 쓰는 흐름
 
 ---
 

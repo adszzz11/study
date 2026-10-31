@@ -178,6 +178,6 @@ Content-Type: application/json
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - LLM gateway와 MCP connector를 함께 설계
-- [[study/tech/ai/llm-wiki-study]] - vault knowledge를 MCP resource/tool로 노출
-- [[study/tech/ai/multi-agent-platforms]] - agent framework와 protocol 생태계 비교
+- [[tech/ai/litellm/README|litellm]] - LLM gateway와 MCP connector를 함께 설계
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - vault knowledge를 MCP resource/tool로 노출
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - agent framework와 protocol 생태계 비교

@@ -125,9 +125,9 @@ Hankweave는 token을 쓰기 전에 API key, model availability, file path, rig 
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration]] - agent workflow runtime의 큰 맥락
-- [[study/tech/ai/lazy-codex]] - harness 실행과 검증 루프 관점 비교
-- [[study/tech/ai/codex]] - Hankweave가 호출할 수 있는 coding agent harness
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] - agent workflow runtime의 큰 맥락
+- [[tech/ai/lazy-codex/README|lazy-codex]] - harness 실행과 검증 루프 관점 비교
+- [[tech/ai/codex/README|codex]] - Hankweave가 호출할 수 있는 coding agent harness
 
 ## References
 

@@ -9,7 +9,7 @@ type: tech-tool-study
 
 ## 1. 실전 PoC (버리는 레포로)
 
-> 자세한 런북은 기존 [[lazycodex-poc]] 참고. 요지:
+> 자세한 런북은 기존 lazycodex-poc 참고. 요지:
 
 1. 버리는 샘플 레포 생성(`lazycodex-poc`).
 2. `npx lazycodex-ai install` → `/init-deep`.
@@ -41,6 +41,6 @@ Discord(@Sang-MINI) → morae-task (오케스트레이션, C)
 ## 4. 도입 결정 메모
 - **lazycodex 단독 도입?** → 단일-작업 검증이 필요하면 yes. 단 morae와 역할 중복(둘 다 하니스).
 - **차용만?** → 추천. Hashline·Oracle식 검증을 morae-task에 흡수(별도 ADR로).
-- **주의**: OmO는 OpenCode/Codex 종속. morae는 codex app-server 직접 — 통합 시 어댑터 경계 고려([[multi-agent-platforms]]).
+- **주의**: OmO는 OpenCode/Codex 종속. morae는 codex app-server 직접 — 통합 시 어댑터 경계 고려([[tech/ai/multi-agent-platforms/README|multi-agent-platforms]]).
 
 → 빠른 참조: [[lazy-codex/cheatsheet|cheatsheet]]

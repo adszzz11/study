@@ -113,7 +113,7 @@ Safety:
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/03-claude-code]]
-- [[study/tech/ai/claude/08-subagents]]
-- [[study/tech/ai/thin-harness-fat-skills]]
-- [[study/tech/ai/codex]]
+- [[tech/ai/claude/03-claude-code|03-claude-code]]
+- [[tech/ai/claude/08-subagents|08-subagents]]
+- [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]]
+- [[tech/ai/codex/README|codex]]

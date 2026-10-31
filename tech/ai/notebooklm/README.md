@@ -7,6 +7,8 @@ tags:
   - gemini
 status: learning
 type: tech-tool-study
+aliases:
+  - notebooklm-에-대해-학습하고-cli에-대해-알려줘-있다고-하던데
 ---
 
 # NotebookLM
@@ -41,7 +43,7 @@ Sources
 
 - [ ] [[02-ecosystem|생태계]]에서 NotebookLM, Gemini CLI, Gemini Deep Research, ChatGPT Projects, Claude Projects, Perplexity Spaces, Custom RAG 비교
 - [ ] browser/mobile UX 중심 도구와 scriptable CLI/API 중심 도구의 차이 정리
-- [ ] [[study/tech/ai/agent-orchestration/cli-agents]]와 연결해 terminal-first AI agent 맥락 확인
+- [ ] [[tech/ai/agent-orchestration/cli-agents|cli-agents]]와 연결해 terminal-first AI agent 맥락 확인
 
 ### 3단계: 공식 자료 확인
 
@@ -91,10 +93,10 @@ notebooklm-에-대해-학습하고-cli에-대해-알려줘-있다고-하던데/
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - Gemini CLI와 다른 CLI agents 비교
-- [[study/tech/ai/model-context-protocol-mcp]] - NotebookLM-like workflow를 MCP/RAG로 대체할 때의 integration layer
-- [[study/tech/ai/litellm]] - custom RAG나 internal assistant에서 LLM routing을 분리하는 패턴
-- [[study/tech/ai/ai-ecosystem]] - AI tool landscape 맥락
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - Gemini CLI와 다른 CLI agents 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - NotebookLM-like workflow를 MCP/RAG로 대체할 때의 integration layer
+- [[tech/ai/litellm/README|litellm]] - custom RAG나 internal assistant에서 LLM routing을 분리하는 패턴
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - AI tool landscape 맥락
 
 ---
 

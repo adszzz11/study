@@ -3,6 +3,8 @@ date: 2026-07-20
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-www-youtube-com-watch-v-wkbpx-odmn
 ---
 
 # Understanding is the New Bottleneck
@@ -65,9 +67,9 @@ Spec·Intent + Repository + Diff + Tests + Runtime trace
 
 - [[MOCs/Index]]
 - [[MOCs/Devtools]]
-- [[tech/ai/codex]] — coding agent와 human review workflow
-- [[tech/ai/agent-orchestration]] — agent autonomy와 orchestration 설계
-- [[tech/devtools/git]] — diff, commit, PR 단위의 변경 추적
+- [[tech/ai/codex/README|codex]] — coding agent와 human review workflow
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] — agent autonomy와 orchestration 설계
+- [[tech/devtools/git/README|git]] — diff, commit, PR 단위의 변경 추적
 
 ## Sources
 

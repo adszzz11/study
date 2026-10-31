@@ -134,13 +134,13 @@ Dynamic Workflows는 Skills와 Subagents를 대체하기보다 함께 쓸 때 �
 | Workflow + Hooks | workflow 전후에 formatting, tests, audit log 같은 자동화를 붙임 |
 | Workflow + LLM Wiki | source fan-out, claim extraction, contradiction flagging, wiki synthesis |
 
-관련해서 [[study/tech/ai/thin-harness-fat-skills]]는 "harness는 얇게, reusable knowledge는 skill에 둔다"는 관점으로 읽을 수 있다.
+관련해서 [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]]는 "harness는 얇게, reusable knowledge는 skill에 둔다"는 관점으로 읽을 수 있다.
 
 ---
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/05-skills]]
-- [[study/tech/ai/claude/08-subagents]]
-- [[study/tech/ai/claude/06-hooks]]
-- [[study/tech/ai/llm-wiki-study]]
+- [[tech/ai/claude/05-skills|05-skills]]
+- [[tech/ai/claude/08-subagents|08-subagents]]
+- [[tech/ai/claude/06-hooks|06-hooks]]
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]]

@@ -61,7 +61,7 @@ User vague intent
 | 실패 패턴 | 모호한 지시를 추측해서 구현 | clarity 부족 시 execution 이전에 멈춤 |
 | 확장 지점 | MCP, skills, hooks, subagents | plugins, runtime adapters, event store |
 
-[[study/tech/ai/codex]]나 [[study/tech/ai/claude]]를 이미 쓰고 있다면 Ouroboros는 "더 좋은 agent"보다 "agent에게 넘길 작업을 더 좋은 contract로 만드는 layer"로 이해하는 편이 정확하다.
+[[tech/ai/codex/README|codex]]나 [[tech/ai/claude/README|claude]]를 이미 쓰고 있다면 Ouroboros는 "더 좋은 agent"보다 "agent에게 넘길 작업을 더 좋은 contract로 만드는 layer"로 이해하는 편이 정확하다.
 
 ## MCP와의 관계
 
@@ -69,7 +69,7 @@ MCP(Model Context Protocol)는 AI app이 local files, databases, search, workflo
 
 | 계층 | 예 |
 |---|---|
-| Context/tool protocol | [[study/tech/ai/model-context-protocol-mcp]] |
+| Context/tool protocol | [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] |
 | Agent runtime | Claude Code, Codex CLI, Gemini CLI, OpenCode, Hermes |
 | Spec/evaluation workflow | Ouroboros |
 

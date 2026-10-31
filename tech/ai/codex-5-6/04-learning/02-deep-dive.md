@@ -109,9 +109,9 @@ GPT-5.6 도입 효과는 모델 점수만으로 판단하지 않는다.
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/resource protocol과 Programmatic Tool Calling의 비교 축
-- [[study/tech/ai/lazy-codex]] - agent 완료 검증과 false completion 방지
-- [[study/tech/ai/litellm]] - tier/provider routing과 비용 측정
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/resource protocol과 Programmatic Tool Calling의 비교 축
+- [[tech/ai/lazy-codex/README|lazy-codex]] - agent 완료 검증과 false completion 방지
+- [[tech/ai/litellm/README|litellm]] - tier/provider routing과 비용 측정
 
 ## References
 

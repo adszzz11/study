@@ -107,7 +107,7 @@ Claude Code 또는 `/wiki ingest`:
 - `study/wiki/concepts/compounding-knowledge.md` 신규
 - `study/wiki/concepts/rag-vs-llm-wiki.md` 신규
 - `study/wiki/entities/karpathy.md` 신규 또는 갱신
-- 본 vault 기존 [[autoresearch-study]] 와 cross-ref 추가
+- 본 vault 기존 [[tech/ai/autoresearch-study/README|autoresearch-study]] 와 cross-ref 추가
 - `study/wiki/index.md` 갱신
 - `study/wiki/log.md` 한 줄 추가
 

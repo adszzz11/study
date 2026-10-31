@@ -118,5 +118,5 @@ return official.slice(0, 5);
 - [[04-learning/01-getting-started|시작하기]]
 - [[04-learning/02-deep-dive|심화]]
 - [[05-projects|프로젝트]]
-- [[study/tech/ai/lazy-codex]]
-- [[study/tech/ai/model-context-protocol-mcp]]
+- [[tech/ai/lazy-codex/README|lazy-codex]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]

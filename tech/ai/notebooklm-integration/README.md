@@ -8,6 +8,8 @@ tags:
   - integration
 status: learning
 type: tech-tool-study
+aliases:
+  - 이-시스템이랑-notebooklm이랑-연동하고싶어-가능한지-확인해봐
 ---
 
 # NotebookLM 연동 가능성 검토
@@ -30,13 +32,13 @@ type: tech-tool-study
 
 - [ ] [[01-overview|개요]] 읽기 - NotebookLM이 무엇을 해주고 무엇을 API로 제공하지 않는지 확인
 - [ ] source-grounded RAG UX, citations, Audio/Video Overview, study artifacts 개념 정리
-- [ ] [[study/tech/ai/ai-ecosystem]] 안에서 NotebookLM의 위치 파악
+- [ ] [[tech/ai/ai-ecosystem/README|ai-ecosystem]] 안에서 NotebookLM의 위치 파악
 
 ### 2단계: 연동 방식 비교
 
 - [ ] [[02-ecosystem|생태계/비교]] 읽기 - NotebookLM, Drive sync, Gemini API, Agent Search, OpenAI File Search 비교
 - [ ] “UI research assistant”와 “backend RAG API”를 구분
-- [ ] [[study/tech/ai/model-context-protocol-mcp]] 같은 tool integration 계층과의 차이 정리
+- [ ] [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] 같은 tool integration 계층과의 차이 정리
 
 ### 3단계: 공식 문서 확인
 
@@ -83,9 +85,9 @@ type: tech-tool-study
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - AI 도구 생태계에서 NotebookLM의 위치
-- [[study/tech/ai/model-context-protocol-mcp]] - 도구/API 통합 계층과 NotebookLM UI형 통합의 차이
-- [[study/tech/ai/litellm]] - programmable LLM gateway와 NotebookLM의 역할 차이
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - AI 도구 생태계에서 NotebookLM의 위치
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - 도구/API 통합 계층과 NotebookLM UI형 통합의 차이
+- [[tech/ai/litellm/README|litellm]] - programmable LLM gateway와 NotebookLM의 역할 차이
 
 ---
 

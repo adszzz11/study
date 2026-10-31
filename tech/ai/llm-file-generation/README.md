@@ -3,6 +3,8 @@ date: 2026-10-27
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - llm-파일들의-생성원리
 ---
 
 # .llm 파일들의 생성원리

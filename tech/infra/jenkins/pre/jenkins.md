@@ -300,7 +300,7 @@ pipeline {
 - [Jenkins vs GitHub Actions Comparison](https://northflank.com/blog/github-actions-vs-jenkins)
 - [CI/CD Platform Guide](https://sanj.dev/post/github-actions-gitlab-ci-jenkins-comparison-2025)
 - [Why Jenkins Still Relevant in 2024](https://community.lambdatest.com/t/why-is-jenkins-still-relevant-in-2024-over-github-actions-and-gitlab-ci-cd/36853)
-- 관련 노트: [[Docker]], [[GitHub-Actions]], [[CI-CD]]
+- 관련 노트: Docker, GitHub-Actions, CI-CD
 
 ---
 

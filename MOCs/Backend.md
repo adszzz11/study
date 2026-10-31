@@ -27,14 +27,14 @@ status: active
 
 ## Spring
 
-- [[tech/backend/spring|Spring folder]]
+- [[tech/backend/spring/README|Spring folder]]
 
 ## Tool Studies
 
-- [[tech/backend/https-www-instagram-com-reel-dddvxsdairg/README|https://www.instagram.com/reel/DddvxSdAIrG/?stkn=MTA2cWltdXN0bmkyOQ==]]
+- [[tech/backend/instagram-reel-dddvxsdairg/README|https://www.instagram.com/reel/DddvxSdAIrG/?stkn=MTA2cWltdXN0bmkyOQ==]]
 - [[tech/backend/bytebytego/README|bytebytego]]
 - [[tech/backend/playmcp/README|playMCP]]
-- [[tech/backend/https-kylon-io/README|https://kylon.io/]]
+- [[tech/backend/kylon/README|https://kylon.io/]]
 
 ## Bridge Notes
 

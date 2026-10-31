@@ -11,6 +11,8 @@ tags:
   - gemini
 status: published
 type: tech-tool-study
+aliases:
+  - claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수
 ---
 
 # Claude Fable 5 — 기조·원리·사용법·재현 알고리즘 (tool-study)
@@ -28,13 +30,13 @@ type: tech-tool-study
 
 | 순서 | 파일 | 무엇 |
 |------|------|------|
-| 1 | [[claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수/01-overview\|01. Overview]] | Fable 5의 What/Why/핵심 특징 |
-| 2 | [[claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수/02-ecosystem\|02. Ecosystem]] | Claude Fable/Sonnet, Codex, Gemini, Cursor/Copilot/Devin/Jules 비교 |
-| 3 | [[claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수/03-references\|03. References]] | 공식 문서·출처 |
-| 4 | [[claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수/04-learning/01-getting-started\|04-1. Getting Started]] | Claude Code 프로젝트 메모리와 기본 루프 |
-| 5 | [[claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수/04-learning/02-deep-dive\|04-2. Deep Dive]] | 다른 모델로 구현 가능한 agent algorithm |
-| 6 | [[claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수/05-projects\|05. Projects]] | Claude + Codex + Gemini 실전 파이프라인 |
-| 7 | [[claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수/cheatsheet\|cheatsheet]] | 명령·프롬프트·역할 분배 빠른 참조 |
+| 1 | [[claude-fable-principles/01-overview\|01. Overview]] | Fable 5의 What/Why/핵심 특징 |
+| 2 | [[claude-fable-principles/02-ecosystem\|02. Ecosystem]] | Claude Fable/Sonnet, Codex, Gemini, Cursor/Copilot/Devin/Jules 비교 |
+| 3 | [[claude-fable-principles/03-references\|03. References]] | 공식 문서·출처 |
+| 4 | [[claude-fable-principles/04-learning/01-getting-started\|04-1. Getting Started]] | Claude Code 프로젝트 메모리와 기본 루프 |
+| 5 | [[claude-fable-principles/04-learning/02-deep-dive\|04-2. Deep Dive]] | 다른 모델로 구현 가능한 agent algorithm |
+| 6 | [[claude-fable-principles/05-projects\|05. Projects]] | Claude + Codex + Gemini 실전 파이프라인 |
+| 7 | [[claude-fable-principles/cheatsheet\|cheatsheet]] | 명령·프롬프트·역할 분배 빠른 참조 |
 
 ## 파일 구조
 
@@ -60,4 +62,4 @@ claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수
 
 ## 관련 노트
 
-- [[claude]] · [[codex]] · [[model-context-protocol-mcp]] · [[agent-orchestration/README]] · [[lazy-codex/README]] · [[ai-ecosystem/01-overview]]
+- [[tech/ai/claude/README|claude]] · [[tech/ai/codex/README|codex]] · [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] · [[agent-orchestration/README]] · [[lazy-codex/README]] · [[ai-ecosystem/01-overview]]

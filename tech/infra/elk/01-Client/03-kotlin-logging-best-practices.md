@@ -374,8 +374,8 @@ class OrderServiceTest {
 
 ## 🔗 관련 문서
 
-- [[01-Kotlin-SpringBoot-로깅-설정|← Kotlin 로깅 설정]]
-- [[../02-Server/02-Logstash-파이프라인|Logstash 파이프라인 →]]
+- [[01-kotlin-springboot-logging|← Kotlin 로깅 설정]]
+- [[../02-Server/02-logstash-pipeline|Logstash 파이프라인 →]]
 
 ---
 

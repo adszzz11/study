@@ -45,27 +45,27 @@ graph LR
 
 Spring Boot 애플리케이션에서 로그 생성 및 전송
 
-- [[01-Client/01-Kotlin-SpringBoot-로깅-설정|Kotlin + Spring Boot 로깅 설정]] - Logback, Logstash Appender
+- [[01-Client/01-kotlin-springboot-logging|Kotlin + Spring Boot 로깅 설정]] - Logback, Logstash Appender
 - [[01-Client/02-Spring-Actuator-Metrics|Spring Actuator & Metrics]] - 메트릭 수집
-- [[01-Client/03-Kotlin-로깅-Best-Practices|Kotlin 로깅 Best Practices]] - 보안, 성능
+- [[01-Client/03-kotlin-logging-best-practices|Kotlin 로깅 Best Practices]] - 보안, 성능
 
 ### [[02-Server/README|⚙️ Server 관점 (ELK Stack)]]
 
 로그 수집, 처리, 저장, 시각화
 
-- [[02-Server/01-Beats-설치-및-구성|Beats 설치]] - Filebeat, Metricbeat
-- [[02-Server/02-Logstash-파이프라인|Logstash 파이프라인]] - Spring Boot 로그 처리
-- [[02-Server/03-Elasticsearch-설치-및-구성|Elasticsearch 설치]] - 클러스터 구성
-- [[02-Server/04-Kibana-시각화|Kibana 시각화]] - 대시보드, 알림
+- [[02-Server/01-beats-setup|Beats 설치]] - Filebeat, Metricbeat
+- [[02-Server/02-logstash-pipeline|Logstash 파이프라인]] - Spring Boot 로그 처리
+- Elasticsearch 설치 - 클러스터 구성
+- Kibana 시각화 - 대시보드, 알림
 
 ### [[03-Components/README|🔧 Components 상세]]
 
 각 구성 요소의 심화 학습
 
-- [[03-Components/01-Elasticsearch-아키텍처|Elasticsearch 아키텍처]]
-- [[03-Components/04-ILM-정책|ILM 정책]]
-- [[03-Components/05-보안-및-인증|보안 및 인증]]
-- [[03-Components/06-성능-튜닝|성능 튜닝]]
+- Elasticsearch 아키텍처
+- ILM 정책
+- 보안 및 인증
+- 성능 튜닝
 
 ---
 
@@ -181,22 +181,22 @@ graph TD
 
 #### 2단계: Kotlin 로깅 설정 (1시간)
 
-- [ ] [[01-Client/01-Kotlin-SpringBoot-로깅-설정|Logback 설정]]
+- [ ] [[01-Client/01-kotlin-springboot-logging|Logback 설정]]
 - [ ] Logstash Appender 구성
 - [ ] MDC (Mapped Diagnostic Context) 설정
 - [ ] 구조화된 로깅 적용
 
 #### 3단계: ELK Stack 구성 (2시간)
 
-- [ ] [[02-Server/03-Elasticsearch-설치-및-구성|Elasticsearch 설치]]
-- [ ] [[02-Server/02-Logstash-파이프라인|Logstash 파이프라인]] 설정
-- [ ] [[02-Server/04-Kibana-시각화|Kibana]] 대시보드 생성
+- [ ] Elasticsearch 설치
+- [ ] [[02-Server/02-logstash-pipeline|Logstash 파이프라인]] 설정
+- [ ] Kibana 대시보드 생성
 
 #### 4단계: 프로덕션 준비 (2시간)
 
-- [ ] [[03-Components/05-보안-및-인증|보안 설정]] (TLS, RBAC)
-- [ ] [[03-Components/04-ILM-정책|ILM 정책]] 구성
-- [ ] [[03-Components/06-성능-튜닝|성능 최적화]]
+- [ ] 보안 설정 (TLS, RBAC)
+- [ ] ILM 정책 구성
+- [ ] 성능 최적화
 
 ---
 
@@ -384,14 +384,14 @@ study/ELK/
 ## 🔗 바로가기
 
 > [!tip] Kotlin 개발자라면
-> 1. [[01-Client/01-Kotlin-SpringBoot-로깅-설정|Logback 설정]] - 로그 전송 시작
-> 2. [[01-Client/03-Kotlin-로깅-Best-Practices|Best Practices]] - 보안 및 성능
-> 3. [[02-Server/04-Kibana-시각화|Kibana]] - 로그 확인
+> 1. [[01-Client/01-kotlin-springboot-logging|Logback 설정]] - 로그 전송 시작
+> 2. [[01-Client/03-kotlin-logging-best-practices|Best Practices]] - 보안 및 성능
+> 3. Kibana - 로그 확인
 
 > [!tip] DevOps 엔지니어라면
-> 1. [[02-Server/03-Elasticsearch-설치-및-구성|Elasticsearch 설치]]
-> 2. [[02-Server/02-Logstash-파이프라인|Logstash 설정]]
-> 3. [[03-Components/05-보안-및-인증|보안 설정]]
+> 1. Elasticsearch 설치
+> 2. [[02-Server/02-logstash-pipeline|Logstash 설정]]
+> 3. 보안 설정
 
 ---
 

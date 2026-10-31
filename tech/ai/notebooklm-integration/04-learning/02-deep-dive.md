@@ -158,6 +158,6 @@ App
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/API 연결을 표준화해야 할 때 참고
-- [[study/tech/ai/litellm]] - 여러 LLM/RAG backend를 routing해야 할 때 참고
-- [[study/tech/ai/ai-ecosystem]] - NotebookLM과 programmable RAG의 역할 분류
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/API 연결을 표준화해야 할 때 참고
+- [[tech/ai/litellm/README|litellm]] - 여러 LLM/RAG backend를 routing해야 할 때 참고
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - NotebookLM과 programmable RAG의 역할 분류

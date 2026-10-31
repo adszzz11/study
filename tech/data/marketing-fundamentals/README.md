@@ -7,6 +7,8 @@ tags:
   - consumer-behavior
 type: tech-tool-study
 status: learning
+aliases:
+  - 마케팅에-대해서-기초부터-정석적으로-공부하고-싶어-stp-4p와-같은-기
 ---
 
 # 마케팅 기초부터 정석적으로 공부하기
@@ -19,7 +21,7 @@ status: learning
 
 초기에는 `STP`, `4P`, `3C`, `SWOT`, `Customer Journey`, `Brand Positioning`으로 전략의 뼈대를 잡고, 이후 `Consumer Behavior`, `Behavioral Economics`, `Marketing Analytics`, `Experimentation`을 얹는다.
 
-AI와 데이터 활용 맥락은 [[study/tech/ai/litellm/README|LiteLLM]], [[study/tech/ai/llm-wiki-study/README|LLM Wiki Study]], [[study/tech/data/dolt/README|Dolt]]와 함께 보면 좋다.
+AI와 데이터 활용 맥락은 [[tech/ai/litellm/README|LiteLLM]], [[tech/ai/llm-wiki-study/README|LLM Wiki Study]], [[tech/data/dolt/README|Dolt]]와 함께 보면 좋다.
 
 ---
 
@@ -73,10 +75,10 @@ AI와 데이터 활용 맥락은 [[study/tech/ai/litellm/README|LiteLLM]], [[stu
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm/README]]
-- [[study/tech/ai/llm-wiki-study/README]]
-- [[study/tech/data/dolt/README]]
-- [[study/tech/ai/autoresearch-study/README]]
+- [[tech/ai/litellm/README|litellm]]
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]]
+- [[tech/data/dolt/README|dolt]]
+- [[tech/ai/autoresearch-study/README|autoresearch-study]]
 
 ## Q&A
 **Q:** 매주 가설 검증 실험을 한다면 어떤 단계로 시작하는게 좋을까?

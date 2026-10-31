@@ -140,6 +140,6 @@ ouroboros run seed.yaml --runtime hermes
 
 - [[../01-overview]] - Seed와 ambiguity gate의 의미
 - [[../02-ecosystem]] - Hermes, Codex CLI, Claude Code runtime 비교
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP server/tool을 붙이는 다음 단계
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP server/tool을 붙이는 다음 단계
 
 → 다음: [[02-deep-dive]]

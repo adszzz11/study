@@ -41,7 +41,7 @@ AI 코딩 에이전트가 단일 세션에서 벗어나 **다중 병렬 실행**
 
 ### Tier 2: 주목할 신규 도구
 
-| 비교 항목 | [[ccmanager/README\|ccmanager]] | [[agent-deck/README\|Agent Deck]] | [[emdash/README\|Emdash]] | [[superset/README\|Superset]] |
+| 비교 항목 | ccmanager | Agent Deck | Emdash | Superset |
 |-----------|-----------|------------|--------|----------|
 | **유형** | TUI (PTY 기반) | TUI (tmux) | GUI (Electron) | GUI (Electron) |
 | **격리 방식** | git worktree | tmux 세션 | git worktree | git worktree |
@@ -215,9 +215,9 @@ AI 코딩 에이전트가 단일 세션에서 벗어나 **다중 병렬 실행**
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/09-agent-teams|Claude Code Agent Teams]]
-- [[study/tech/ai/claude/03-claude-code|Claude Code CLI]]
-- [[study/tech/ai/ai-ecosystem/01-overview|AI 생태계 개요]]
+- [[tech/ai/claude/09-agent-teams|Claude Code Agent Teams]]
+- [[tech/ai/claude/03-claude-code|Claude Code CLI]]
+- [[tech/ai/ai-ecosystem/01-overview|AI 생태계 개요]]
 
 ---
 

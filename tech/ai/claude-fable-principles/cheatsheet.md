@@ -89,4 +89,4 @@ Gemini: latest docs, long-context review, grounded comparison
 
 ## 링크
 
-[[claude-fable의-기조-원리-사용법-이걸-다른-모델로도-구현할-수/README|시리즈 처음]] · [[claude]] · [[codex]] · [[model-context-protocol-mcp]] · [[agent-orchestration/README]] · [[lazy-codex/README]]
+[[claude-fable-principles/README|시리즈 처음]] · [[tech/ai/claude/README|claude]] · [[tech/ai/codex/README|codex]] · [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] · [[agent-orchestration/README]] · [[lazy-codex/README]]

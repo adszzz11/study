@@ -182,10 +182,10 @@ AI 브라우저 자동화 시장
 
 | 기술 | 이유 |
 |------|------|
-| [[playwright]] | Stagehand 하위 레이어 이해 |
-| [[zod]] | 스키마 정의 활용 |
-| [[openai-api]] | LLM 연동 심화 |
-| [[web-scraping]] | 데이터 수집 패턴 |
+| [[tech/scraping/playwright/README|playwright]] | Stagehand 하위 레이어 이해 |
+| zod | 스키마 정의 활용 |
+| openai-api | LLM 연동 심화 |
+| web-scraping | 데이터 수집 패턴 |
 
 ---
 

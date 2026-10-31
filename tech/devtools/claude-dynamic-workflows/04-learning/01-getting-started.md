@@ -99,7 +99,7 @@ research workflow는 Dynamic Workflows의 구조를 이해하기 좋다.
 - cited report synthesis가 어떤 구조로 정리되는가
 - contradiction이나 약한 근거를 어떻게 처리하는가
 
-이 흐름은 [[study/tech/ai/llm-wiki-study]]의 raw source ingest나 [[study/tech/ai/autoresearch-study]]의 research loop와 연결해서 볼 수 있다.
+이 흐름은 [[tech/ai/llm-wiki-study/README|llm-wiki-study]]의 raw source ingest나 [[tech/ai/autoresearch-study/README|autoresearch-study]]의 research loop와 연결해서 볼 수 있다.
 
 ---
 
@@ -131,6 +131,6 @@ s
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/03-claude-code]]
-- [[study/tech/ai/claude/08-subagents]]
-- [[study/tech/ai/codex]]
+- [[tech/ai/claude/03-claude-code|03-claude-code]]
+- [[tech/ai/claude/08-subagents|08-subagents]]
+- [[tech/ai/codex/README|codex]]

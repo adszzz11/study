@@ -7,6 +7,8 @@ tags:
   - dynamic-workflows
 status: learning
 type: tech-tool-study
+aliases:
+  - claude의-dynamic-workflow에-대해-알려줘
 ---
 
 # Claude Dynamic Workflows
@@ -19,8 +21,8 @@ Claude Dynamic Workflows는 Claude Code의 기본 agent loop를 넘어서는 대
 
 - 공개 상태: research preview
 - 공개일: 2026-05-28 announcement, 2026-06-02 deep dive
-- 핵심 위치: [[study/tech/ai/claude/03-claude-code]]의 고강도 작업 모드
-- 관련 축: [[study/tech/ai/multi-agent-platforms]], [[study/tech/ai/codex]]
+- 핵심 위치: [[tech/ai/claude/03-claude-code|03-claude-code]]의 고강도 작업 모드
+- 관련 축: [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]], [[tech/ai/codex/README|codex]]
 
 ---
 
@@ -95,10 +97,10 @@ claude의-dynamic-workflow에-대해-알려줘/
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/03-claude-code]] - Claude Code 기본 사용 맥락
-- [[study/tech/ai/claude/08-subagents]] - subagent isolation과 역할 분리
-- [[study/tech/ai/codex]] - OpenAI Codex와 coding agent 비교
-- [[study/tech/ai/multi-agent-platforms]] - multi-agent orchestration 관점
+- [[tech/ai/claude/03-claude-code|03-claude-code]] - Claude Code 기본 사용 맥락
+- [[tech/ai/claude/08-subagents|08-subagents]] - subagent isolation과 역할 분리
+- [[tech/ai/codex/README|codex]] - OpenAI Codex와 coding agent 비교
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - multi-agent orchestration 관점
 
 ---
 

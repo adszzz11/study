@@ -589,8 +589,8 @@ logging:
 
 - [[README|← Client 관점 개요]]
 - [[02-Spring-Actuator-Metrics|Spring Actuator & Metrics →]]
-- [[03-Kotlin-로깅-Best-Practices|Kotlin 로깅 Best Practices →]]
-- [[../02-Server/02-Logstash-파이프라인|Logstash 설정 →]]
+- [[03-kotlin-logging-best-practices|Kotlin 로깅 Best Practices →]]
+- [[../02-Server/02-logstash-pipeline|Logstash 설정 →]]
 
 ---
 

@@ -136,8 +136,8 @@ Cache-Control: max-age=3600
 ## 관련 노트
 
 - [[TCP]]
-- [[REST-API]]
-- [[Web-Security]]
+- REST-API
+- Web-Security
 
 ---
 

@@ -21,11 +21,11 @@ parent: "[[README]]"
 
 Claude Dynamic Workflows는 "coding agent" 자체라기보다 Claude Code 안에서 대규모 작업을 조율하는 **runtime-backed orchestration layer**에 가깝다.
 
-- [[study/tech/ai/claude/03-claude-code]]: 대화형 coding agent 기반
-- [[study/tech/ai/claude/08-subagents]]: 개별 역할 agent 정의
+- [[tech/ai/claude/03-claude-code|03-claude-code]]: 대화형 coding agent 기반
+- [[tech/ai/claude/08-subagents|08-subagents]]: 개별 역할 agent 정의
 - Dynamic Workflows: task-specific script가 agent들을 계획적으로 실행
-- [[study/tech/ai/codex]]: cloud coding agent와 PR 중심 workflow
-- [[study/tech/ai/langchain-crewai]]: application framework 관점의 agent orchestration
+- [[tech/ai/codex/README|codex]]: cloud coding agent와 PR 중심 workflow
+- [[tech/ai/langchain-crewai/README|langchain-crewai]]: application framework 관점의 agent orchestration
 
 ---
 
@@ -84,8 +84,8 @@ Dynamic Workflows는 coding agent가 단일 대화형 assistant에서 **task run
 
 - Context window 중심 설계에서 external state/script 중심 설계로 이동
 - "agent가 잘 생각한다"보다 "agent들을 어떻게 검증하며 운영한다"가 중요해짐
-- [[study/tech/ai/thin-harness-fat-skills]] 패턴처럼 harness, skill, subagent의 책임 분리가 중요해짐
-- [[study/tech/ai/llm-wiki-study]] 같은 knowledge workflow에서는 source fan-out과 contradiction flagging에 잘 맞음
+- [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]] 패턴처럼 harness, skill, subagent의 책임 분리가 중요해짐
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] 같은 knowledge workflow에서는 source fan-out과 contradiction flagging에 잘 맞음
 
 ---
 

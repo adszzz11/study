@@ -8,9 +8,11 @@ tags:
   - trading-ai
 type: tech-tool-study
 status: learning
+aliases:
+  - 주식에-대해-공부하고싶어-어떤거부터-시작하면될지-알려줘-난-하나도-모르는
 ---
 
-# 주식에 대해 공부하고싶어. 어떤거부터 시작하면될지 알려줘. 난 하나도 모르는 초보자니까 초보자에게 알려준다는 기준으로 친절히 알려줘. 그리고 주식 자동화 ai를 만들때 필요한 요소들도 알려줘
+# 주식 투자 기초와 자동화 AI 준비
 
 > **한 줄 정의**: 주식 투자는 기업의 일부 지분인 `stock`을 사서 장기 성장, 배당, 가격 변동 수익을 기대하는 활동이고, 주식 자동화 AI는 `market data -> strategy/model -> backtest -> risk control -> paper/live execution -> monitoring`을 연결한 의사결정 시스템이다.
 
@@ -20,7 +22,7 @@ status: learning
 
 중요한 출발점은 "싸게 사서 비싸게 판다"가 아니라 `risk management`다. 초보자는 개별 주식으로 수익을 맞히는 법보다 먼저 손실 가능성, 분산 투자, 투자 기간, 주문 방식, 수수료와 미끄러짐을 이해해야 한다.
 
-관련 AI 자동화 맥락은 [[study/tech/ai/langchain-crewai/README|LangChain-CrewAI]], [[study/tech/ai/codex/README|Codex]], [[study/tech/ai/litellm/README|LiteLLM]] 노트와 함께 보면 좋다.
+관련 AI 자동화 맥락은 [[tech/ai/langchain-crewai/README|LangChain-CrewAI]], [[tech/ai/codex/README|Codex]], [[tech/ai/litellm/README|LiteLLM]] 노트와 함께 보면 좋다.
 
 ---
 
@@ -113,10 +115,10 @@ status: learning
 
 ## 관련 노트
 
-- [[study/tech/ai/langchain-crewai/README]]
-- [[study/tech/ai/codex/README]]
-- [[study/tech/ai/litellm/README]]
-- [[study/tech/ai/llm-wiki-study/README]]
+- [[tech/ai/langchain-crewai/README|langchain-crewai]]
+- [[tech/ai/codex/README|codex]]
+- [[tech/ai/litellm/README|litellm]]
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]]
 
 ---
 

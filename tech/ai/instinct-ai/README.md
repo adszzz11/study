@@ -44,7 +44,7 @@ Instinct는 대화의 답을 만드는 chatbot보다, email·messaging·screen·
 - [[MOCs/Index]]
 - [[MOCs/AI]]
 - [[tech/ai/agent-garden]]
-- [[tech/ai/omniroute]]
+- [[tech/ai/omniroute/README|omniroute]]
 
 ## Sources
 

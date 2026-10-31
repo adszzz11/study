@@ -306,6 +306,6 @@ Claude에 내부 시스템을 붙일 때는 MCP를 "무엇이든 할 수 있는 
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]]
-- [[study/tech/ai/lazy-codex]]
-- [[study/tech/ai/agent-orchestration/cli-agents]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/lazy-codex/README|lazy-codex]]
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]]

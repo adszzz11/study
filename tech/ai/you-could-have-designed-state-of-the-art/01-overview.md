@@ -183,9 +183,9 @@ RoPE는 현대 LLM의 기본값에 가깝지만, 긴 context의 완성형은 아
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - Transformer component로서 positional encoding 위치 잡기
-- [[study/tech/ai/litellm]] - long-context model 선택과 provider routing 관점
-- [[study/tech/ai/llm-wiki-study]] - 긴 문서 처리에서 context와 retrieval의 역할 분리
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - Transformer component로서 positional encoding 위치 잡기
+- [[tech/ai/litellm/README|litellm]] - long-context model 선택과 provider routing 관점
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 긴 문서 처리에서 context와 retrieval의 역할 분리
 
 ---
 

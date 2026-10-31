@@ -168,6 +168,6 @@ Private task suite
 
 ## 관련 노트
 
-- [[study/tech/ai/autoresearch-study]] - research reproduction project 설계 참고
-- [[study/tech/ai/litellm]] - procurement benchmark에서 provider gateway baseline
-- [[study/tech/ai/multi-agent-platforms/autogen]] - custom multi-agent baseline
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - research reproduction project 설계 참고
+- [[tech/ai/litellm/README|litellm]] - procurement benchmark에서 provider gateway baseline
+- [[tech/ai/multi-agent-platforms/autogen/README|autogen]] - custom multi-agent baseline

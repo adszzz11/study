@@ -139,6 +139,6 @@ experiment:
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - API 호출면에서 system prompt를 관리하는 gateway 패턴
-- [[study/tech/ai/model-context-protocol-mcp]] - runtime tool/context 주입과 system instruction 경계
-- [[study/tech/ai/ai-ecosystem/01-overview]] - provider별 API surface 비교
+- [[tech/ai/litellm/README|litellm]] - API 호출면에서 system prompt를 관리하는 gateway 패턴
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - runtime tool/context 주입과 system instruction 경계
+- [[tech/ai/ai-ecosystem/01-overview|01-overview]] - provider별 API surface 비교

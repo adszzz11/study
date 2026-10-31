@@ -245,4 +245,4 @@ java -Xlog:gc*:file=gc.log:time -jar app.jar
 - [Halodoc: G1GC to ZGC Transition](https://blogs.halodoc.io/enhancing-java-application-performance-transitioning-from-g1gc-to-zgc-at-halodoc/)
 - [Red Hat: How to Choose GC](https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector)
 - [JDK 21 GC Improvements](https://kstefanj.github.io/2023/12/13/jdk-21-the-gcs-keep-getting-better.html)
-- 관련 노트: [[JVM]], [[Java-Memory-Model]]
+- 관련 노트: [[JVM]], Java-Memory-Model

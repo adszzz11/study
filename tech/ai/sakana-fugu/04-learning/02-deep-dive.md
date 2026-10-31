@@ -201,6 +201,6 @@ Fugu vs GPT/Claude/Gemini vs manual LangGraph
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/conductor]] - Conductor식 workflow orchestration 이해
-- [[study/tech/ai/multi-agent-platforms/autogen]] - manual multi-agent baseline 구현
-- [[study/tech/ai/agent-orchestration/cli-agents]] - coding agent orchestration 운영 패턴
+- [[tech/ai/agent-orchestration/conductor/README|conductor]] - Conductor식 workflow orchestration 이해
+- [[tech/ai/multi-agent-platforms/autogen/README|autogen]] - manual multi-agent baseline 구현
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - coding agent orchestration 운영 패턴

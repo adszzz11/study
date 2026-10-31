@@ -91,6 +91,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp/03-references]] - MCP reference set
-- [[study/tech/ai/lazy-codex/03-references]] - agent verification/reliability 관련 자료
-- [[study/tech/ai/agent-orchestration/README]] - agent orchestration 인접 주제
+- [[tech/ai/model-context-protocol-mcp/03-references|03-references]] - MCP reference set
+- [[tech/ai/lazy-codex/03-references|03-references]] - agent verification/reliability 관련 자료
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] - agent orchestration 인접 주제

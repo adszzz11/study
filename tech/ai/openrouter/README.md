@@ -105,6 +105,6 @@ OpenRouter = LLM 라우터 + 마켓플레이스
 
 ## 관련 노트
 
-- [[LLM-기초]]
-- [[OpenAI-API]]
-- [[LangChain]]
+- LLM-기초
+- OpenAI-API
+- LangChain

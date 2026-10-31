@@ -178,7 +178,7 @@ LLM은 처음부터 "매수/매도 결정자"로 쓰기보다 보조 분석 도�
 | Structured signal validation | JSON schema로 신호 형식 검증 | 신호의 수익성 검증은 별도 backtest가 필요하다. |
 | Tool calling | 가격, 공시, 포트폴리오 조회 도구 호출 | 도구 응답 실패와 지연을 처리해야 한다. |
 
-관련 구현 방식은 [[study/tech/ai/langchain-crewai/README]], [[study/tech/ai/codex/README]], [[study/tech/ai/openrouter]]와 함께 보면 좋다.
+관련 구현 방식은 [[tech/ai/langchain-crewai/README|langchain-crewai]], [[tech/ai/codex/README|codex]], [[tech/ai/openrouter/README|openrouter]]와 함께 보면 좋다.
 
 ---
 

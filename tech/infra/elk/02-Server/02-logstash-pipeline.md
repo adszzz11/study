@@ -376,8 +376,8 @@ tail -f /var/log/logstash/logstash-plain.log
 ## 🔗 관련 문서
 
 - [[README|← Server 관점 개요]]
-- [[../01-Client/01-Kotlin-SpringBoot-로깅-설정|← Kotlin 로깅 설정]]
-- [[03-Elasticsearch-설치-및-구성|Elasticsearch 설치 →]]
+- [[../01-Client/01-kotlin-springboot-logging|← Kotlin 로깅 설정]]
+- Elasticsearch 설치 →
 
 ---
 

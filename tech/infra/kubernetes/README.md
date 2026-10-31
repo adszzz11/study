@@ -130,9 +130,9 @@ kubectl get pods,svc
 
 ## 🏷️ 관련 노트
 
-- [[Docker]]
-- [[Helm]]
-- [[CI-CD]]
+- Docker
+- Helm
+- CI-CD
 
 ---
 

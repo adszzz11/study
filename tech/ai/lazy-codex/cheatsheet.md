@@ -47,4 +47,4 @@ Prometheus(계획) · Sisyphus(오케스트레이터) · Hephaestus(워커) · *
 - 결합 = OmO 검증 규율 ⊕ morae 운영/격리/사람 게이트
 
 ## 링크
-[[lazy-codex/README|시리즈 처음]] · [[lazycodex]] · [[multi-agent-platforms]] · [[codex]]
+[[lazy-codex/README|시리즈 처음]] · lazycodex · [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] · [[tech/ai/codex/README|codex]]

@@ -187,6 +187,6 @@ jobs:
 
 ## 7. 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - AI-assisted spike 운영에 직접 연결
-- [[study/tech/ai/agent-orchestration/cli-agents]] - 여러 CLI agent를 작은 실험 단위로 운용
-- [[study/tech/ai/model-context-protocol-mcp]] - protocol/library spike 대상으로 활용
+- [[tech/ai/lazy-codex/README|lazy-codex]] - AI-assisted spike 운영에 직접 연결
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - 여러 CLI agent를 작은 실험 단위로 운용
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - protocol/library spike 대상으로 활용

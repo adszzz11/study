@@ -8,6 +8,8 @@ tags:
   - agentic-coding
 status: learning
 type: tech-tool-study
+aliases:
+  - codex-5-6-나왔는데-이거-분석해서-확인해봐-어떤건지
 ---
 
 # Codex 5.6? GPT-5.6 in Codex - 종합 스터디
@@ -70,10 +72,10 @@ Codex CLI, IDE, ChatGPT desktop/web, Codex cloud에서 사용할 수 있고, API
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - Codex agent의 검증 루프와 false completion 대응
-- [[study/tech/ai/model-context-protocol-mcp]] - agent tool/resource integration 표준
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent와 multi-agent orchestration 맥락
-- [[study/tech/ai/litellm]] - 모델 gateway/routing 관점의 비교
+- [[tech/ai/lazy-codex/README|lazy-codex]] - Codex agent의 검증 루프와 false completion 대응
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent tool/resource integration 표준
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent와 multi-agent orchestration 맥락
+- [[tech/ai/litellm/README|litellm]] - 모델 gateway/routing 관점의 비교
 
 ---
 

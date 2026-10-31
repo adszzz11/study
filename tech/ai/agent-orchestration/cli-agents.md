@@ -274,7 +274,7 @@ parent: "[[README]]"
 ## 관련 노트
 
 - [[README|AI 에이전트 오케스트레이션 플랫폼]]
-- [[study/tech/ai/claude/03-claude-code|Claude Code CLI]]
+- [[tech/ai/claude/03-claude-code|Claude Code CLI]]
 
 ---
 

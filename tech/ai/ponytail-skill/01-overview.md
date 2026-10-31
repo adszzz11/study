@@ -83,7 +83,7 @@ description: Use this skill when ...
 | 활성화 | 전체 `SKILL.md` | 절차와 판단 기준 확인 |
 | 필요 시 | `scripts/`, `references/`, `assets/` | 긴 자료와 실행 파일을 선택적으로 사용 |
 
-이 구조는 [[study/tech/ai/model-context-protocol-mcp]]의 tool/resource discovery와 비슷한 문제의식이 있지만, Skill은 protocol server가 아니라 **agent instruction package**에 가깝다.
+이 구조는 [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]의 tool/resource discovery와 비슷한 문제의식이 있지만, Skill은 protocol server가 아니라 **agent instruction package**에 가깝다.
 
 ### 실행성과 이식성
 
@@ -115,7 +115,7 @@ Skill은 code execution을 포함할 수 있다. 특히 third-party skill은 자
 - 실제 사용하려면 먼저 목적을 정의해야 한다. 예: research workflow, PR review checklist, document formatter.
 - `description`에는 “언제 활성화해야 하는지”와 “언제 쓰면 안 되는지”를 함께 넣는 것이 좋다.
 - 반복 로직이 있다면 `scripts/`에 두고, 긴 배경 지식은 `references/`로 옮긴다.
-- [[study/tech/ai/claude/05-skills]]와 [[study/tech/ai/thin-harness-fat-skills]]를 함께 보면 skill 중심 설계의 장단점이 명확해진다.
+- [[tech/ai/claude/05-skills|05-skills]]와 [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]]를 함께 보면 skill 중심 설계의 장단점이 명확해진다.
 
 ---
 

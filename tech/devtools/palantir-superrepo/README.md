@@ -3,6 +3,8 @@ date: 2026-08-17
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-www-palantir-com-docs-foundry-supe
 ---
 
 # Palantir SuperRepo

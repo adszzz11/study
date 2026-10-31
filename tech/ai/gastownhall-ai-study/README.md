@@ -93,7 +93,7 @@ gastownhall-ai-study/
 
 ## 관련 노트
 
-- [[agent-orchestration|에이전트 오케스트레이션]]
+- [[tech/ai/agent-orchestration/README|에이전트 오케스트레이션]]
 
 ---
 

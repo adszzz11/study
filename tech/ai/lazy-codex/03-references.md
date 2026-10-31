@@ -28,7 +28,7 @@ type: tech-tool-study
 - SWE-bench Verified / SWE-bench Pro(2026) — 표준 벤치마크
 
 ## vault 내부
-- [[lazycodex]] — 도구 단일 노트(기존, 2026-06-03) · [[lazycodex-poc]] — 실습 런북
-- [[codex]] · [[multi-agent-platforms]] · [[autoresearch-study]] · [[llm-wiki-study]]
+- lazycodex — 도구 단일 노트(기존, 2026-06-03) · lazycodex-poc — 실습 런북
+- [[tech/ai/codex/README|codex]] · [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] · [[tech/ai/autoresearch-study/README|autoresearch-study]] · [[tech/ai/llm-wiki-study/README|llm-wiki-study]]
 
 → 다음: [[lazy-codex/04-learning/01-getting-started|04-1. 시작하기]]

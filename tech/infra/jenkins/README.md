@@ -142,9 +142,9 @@ pipeline {
 
 ## 관련 노트
 
-- [[Docker]]
-- [[Kubernetes]]
-- [[GitOps]]
+- Docker
+- Kubernetes
+- GitOps
 
 ---
 

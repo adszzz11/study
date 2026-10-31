@@ -103,10 +103,10 @@ Claude prompting은 단독 기술이라기보다 Claude API, Claude Code, MCP, R
 
 ## 관련 노트
 
-- [[study/tech/ai/claude]] - Claude 모델, Claude Code, MCP 연결
-- [[study/tech/ai/codex]] - OpenAI/Codex 계열 coding agent 지침과 비교
-- [[study/tech/ai/litellm]] - provider별 prompt/eval 차이를 운영하는 gateway
-- [[study/tech/ai/model-context-protocol-mcp]] - tool use와 trust boundary의 protocol layer
+- [[tech/ai/claude/README|claude]] - Claude 모델, Claude Code, MCP 연결
+- [[tech/ai/codex/README|codex]] - OpenAI/Codex 계열 coding agent 지침과 비교
+- [[tech/ai/litellm/README|litellm]] - provider별 prompt/eval 차이를 운영하는 gateway
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool use와 trust boundary의 protocol layer
 
 ---
 

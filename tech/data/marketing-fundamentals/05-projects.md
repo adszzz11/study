@@ -121,6 +121,6 @@ date,channel,impressions,clicks,visits,signups,purchases,cost,revenue
 
 ## 관련 노트
 
-- [[study/tech/data/dolt/README]] - 프로젝트 데이터셋 버전 관리
-- [[study/tech/ai/litellm/README]] - 리뷰/문구 분석 자동화
-- [[study/tech/ai/autoresearch-study/README]] - 리서치 프로젝트 루프
+- [[tech/data/dolt/README|dolt]] - 프로젝트 데이터셋 버전 관리
+- [[tech/ai/litellm/README|litellm]] - 리뷰/문구 분석 자동화
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - 리서치 프로젝트 루프

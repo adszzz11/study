@@ -9,6 +9,8 @@ tags:
   - spec-first
 status: learning
 type: tech-tool-study
+aliases:
+  - https-github-com-q00-ouroboros-이거-hermes
 ---
 
 # Ouroboros — spec-first Agent OS/workflow engine
@@ -61,11 +63,11 @@ https-github-com-q00-ouroboros-이거-hermes/
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP external tool/context protocol
-- [[study/tech/ai/codex]] - Codex CLI terminal coding agent
-- [[study/tech/ai/claude]] - Claude Code, skills, hooks, MCP context
-- [[study/tech/ai/agent-orchestration/cli-agents]] - terminal agent orchestration 맥락
-- [[study/tech/ai/lazy-codex]] - 실행과 검증을 분리하는 agent harness 관점
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP external tool/context protocol
+- [[tech/ai/codex/README|codex]] - Codex CLI terminal coding agent
+- [[tech/ai/claude/README|claude]] - Claude Code, skills, hooks, MCP context
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - terminal agent orchestration 맥락
+- [[tech/ai/lazy-codex/README|lazy-codex]] - 실행과 검증을 분리하는 agent harness 관점
 
 ---
 

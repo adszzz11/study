@@ -3,6 +3,8 @@ date: 2026-11-01
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-kciter-so-posts-server-monitoring
 ---
 
 # 서버 모니터링 분석 가이드

@@ -83,11 +83,11 @@ task_id, model, latency_seconds, input_tokens, output_tokens, cost, pass_fail, h
 | 비교 대상 | 핵심 질문 |
 |-----------|-----------|
 | Single frontier model | orchestration 없이도 충분한가? |
-| [[study/tech/ai/litellm]] / OpenRouter | routing/gateway만으로 충분한가? |
+| [[tech/ai/litellm/README|litellm]] / OpenRouter | routing/gateway만으로 충분한가? |
 | RouteLLM | strong/weak routing으로 비용을 줄일 수 있는가? |
 | Mixture-of-Agents | layered multi-agent composition이 필요한가? |
 | MASRouter | role/collaboration routing 연구와 무엇이 다른가? |
-| [[study/tech/ai/multi-agent-platforms/autogen]] / LangGraph | 직접 orchestration을 소유할 가치가 있는가? |
+| [[tech/ai/multi-agent-platforms/autogen/README|autogen]] / LangGraph | 직접 orchestration을 소유할 가치가 있는가? |
 
 ---
 
@@ -144,6 +144,6 @@ code review, security review, research claim checking에 유용하다.
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/conductor]] - workflow orchestration 연구 맥락
-- [[study/tech/ai/model-context-protocol-mcp]] - agent tool/context integration
-- [[study/tech/ai/autoresearch-study]] - research automation 적용 사례
+- [[tech/ai/agent-orchestration/conductor/README|conductor]] - workflow orchestration 연구 맥락
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent tool/context integration
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - research automation 적용 사례

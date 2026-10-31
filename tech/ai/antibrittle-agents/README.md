@@ -9,6 +9,8 @@ tags:
   - antibrittle-agents
 status: learning
 type: tech-tool-study
+aliases:
+  - https-www-southbridge-ai-blog-antibrittl
 ---
 
 # Antibrittle Agents
@@ -72,10 +74,10 @@ https-www-southbridge-ai-blog-antibrittl/
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/data integration layer
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent와 orchestration 관점
-- [[study/tech/ai/lazy-codex]] - agent false completion과 verification harness
-- [[study/tech/ai/langchain-crewai]] - CrewAI/LangChain 기반 agent workflow
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/data integration layer
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent와 orchestration 관점
+- [[tech/ai/lazy-codex/README|lazy-codex]] - agent false completion과 verification harness
+- [[tech/ai/langchain-crewai/README|langchain-crewai]] - CrewAI/LangChain 기반 agent workflow
 
 ---
 

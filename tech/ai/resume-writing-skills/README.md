@@ -3,6 +3,8 @@ date: 2026-09-29
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - 이력서-작성-skills
 ---
 
 # 이력서 작성 Skills

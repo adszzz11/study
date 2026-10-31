@@ -157,6 +157,6 @@ Spike code를 그대로 production code로 쓰면 숨은 risk가 남기 쉽다.
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - agent 작업 완료를 검증 가능한 loop로 닫기
-- [[study/tech/ai/mitchellh-ai-adoption-study]] - AI adoption과 개발자 judgment의 이동
-- [[study/tech/ai/agent-garden]] - agent를 협업 대상으로 볼 때의 workflow 관점
+- [[tech/ai/lazy-codex/README|lazy-codex]] - agent 작업 완료를 검증 가능한 loop로 닫기
+- [[tech/ai/mitchellh-ai-adoption-study/README|mitchellh-ai-adoption-study]] - AI adoption과 개발자 judgment의 이동
+- [[tech/ai/agent-garden|agent-garden]] - agent를 협업 대상으로 볼 때의 workflow 관점

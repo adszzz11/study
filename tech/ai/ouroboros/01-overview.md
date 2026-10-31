@@ -147,9 +147,9 @@ Ouroboros는 SQLite event store에 append-only event를 기록한다. 이 구조
 
 ## 기억할 구분
 
-- [[study/tech/ai/codex]] / Claude Code / Gemini CLI / OpenCode: **executor**
+- [[tech/ai/codex/README|codex]] / Claude Code / Gemini CLI / OpenCode: **executor**
 - Ouroboros: **specification and evaluation control plane**
-- [[study/tech/ai/model-context-protocol-mcp]]: **external tool/context protocol**
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]: **external tool/context protocol**
 - Hermes: **personal/infra agent runtime**, Ouroboros의 backend가 될 수 있음
 
 → 다음: [[02-ecosystem]]

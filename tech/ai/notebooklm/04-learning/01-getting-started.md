@@ -128,6 +128,6 @@ gemini -p "Summarize these markdown notes into a Korean study outline."
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI가 필요할 때 비교할 도구군
-- [[study/tech/ai/model-context-protocol-mcp]] - NotebookLM-like terminal workflow를 tool/resource로 만드는 방법
-- [[study/tech/ai/llm-wiki-study]] - markdown/wiki sources를 학습 자료로 재가공하는 패턴
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI가 필요할 때 비교할 도구군
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - NotebookLM-like terminal workflow를 tool/resource로 만드는 방법
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - markdown/wiki sources를 학습 자료로 재가공하는 패턴

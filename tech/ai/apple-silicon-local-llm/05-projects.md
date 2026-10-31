@@ -54,8 +54,8 @@ Qwen / Gemma / DeepSeek / coding model
 |---|---|
 | 빠른 코드 설명 | Ollama + 8B/14B |
 | 코드 생성 실험 | Qwen Coder 계열 |
-| OpenAI-compatible routing | [[litellm]] |
-| agent tool context | [[model-context-protocol-mcp]] |
+| OpenAI-compatible routing | [[tech/ai/litellm/README|litellm]] |
+| agent tool context | [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] |
 
 ### Python smoke test
 
@@ -85,11 +85,11 @@ print(response.choices[0].message.content)
 
 | Layer | 선택지 |
 |---|---|
-| 문서 파싱 | markdown loader, PDF parser, [[docling]] |
+| 문서 파싱 | markdown loader, PDF parser, [[tech/ai/docling/README|docling]] |
 | Embedding | Ollama embedding model, llama.cpp embedding server |
 | Vector store | SQLite/Chroma/Qdrant |
 | Generation | Ollama 또는 LM Studio Local Server |
-| Gateway | [[litellm]] |
+| Gateway | [[tech/ai/litellm/README|litellm]] |
 
 ## 프로젝트 4. MLX-LM fine-tuning 실험
 
@@ -122,4 +122,4 @@ print(response.choices[0].message.content)
 - [ ] 모델 3개 이상 비교 기록
 - [ ] Mac mini memory 구성별 추천 모델 표 작성
 - [ ] agent/RAG 중 하나에 실제 연결
-- [ ] [[ai-ecosystem]] 안에서 local/cloud 역할 정리
+- [ ] [[tech/ai/ai-ecosystem/README|ai-ecosystem]] 안에서 local/cloud 역할 정리

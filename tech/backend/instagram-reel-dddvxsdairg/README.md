@@ -3,6 +3,8 @@ date: 2026-09-20
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-www-instagram-com-reel-dddvxsdairg
 ---
 
 # Instagram Reel `DddvxSdAIrG` Tool Study

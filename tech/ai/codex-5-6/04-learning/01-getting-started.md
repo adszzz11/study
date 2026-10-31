@@ -132,9 +132,9 @@ fix it in a minimal diff, run the relevant test command, and open a PR.
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - Codex 작업 완료 검증 루프
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent 운영 패턴
-- [[study/tech/ai/model-context-protocol-mcp]] - tool integration 확장
+- [[tech/ai/lazy-codex/README|lazy-codex]] - Codex 작업 완료 검증 루프
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent 운영 패턴
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool integration 확장
 
 ## References
 

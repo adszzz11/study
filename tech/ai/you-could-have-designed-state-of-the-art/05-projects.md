@@ -180,7 +180,7 @@ RoPE scaling과 RoPE 한계 논문을 한 장짜리 비교표로 정리한다.
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - 논문 읽기와 architecture map 연결
-- [[study/tech/ai/litellm]] - long-context model을 실제 API로 비교할 때 참고
-- [[study/tech/ai/llm-wiki-study]] - 긴 문서 처리 실험과 연결
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - 논문 읽기와 architecture map 연결
+- [[tech/ai/litellm/README|litellm]] - long-context model을 실제 API로 비교할 때 참고
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 긴 문서 처리 실험과 연결
 

@@ -3,6 +3,8 @@ date: 2026-06-23
 tags: [tech, ai, agent, loop-engineering, harness-engineering]
 status: learning
 type: tech-tool-study
+aliases:
+  - loop-engineering-harness-engineering에-대해
 ---
 
 # Loop Engineering & Harness Engineering
@@ -56,8 +58,8 @@ touch AGENTS.md
 ### 2단계: 생태계 비교
 
 - [ ] [[02-ecosystem|생태계]] 파악 - Codex, Claude Code, LangGraph, Agents SDK, MCP 비교
-- [ ] [[study/tech/ai/model-context-protocol-mcp]]와 harness의 관계 이해
-- [ ] [[study/tech/ai/lazy-codex]]처럼 검증 중심 harness가 왜 필요한지 정리
+- [ ] [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]와 harness의 관계 이해
+- [ ] [[tech/ai/lazy-codex/README|lazy-codex]]처럼 검증 중심 harness가 왜 필요한지 정리
 
 ### 3단계: 근거 자료 확인
 
@@ -106,10 +108,10 @@ loop-engineering-harness-engineering에-대해/
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - 검증 루프와 agent harness 사례
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/context 연결 표준
-- [[study/tech/ai/codex]] - coding agent workflow
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent orchestration 맥락
+- [[tech/ai/lazy-codex/README|lazy-codex]] - 검증 루프와 agent harness 사례
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/context 연결 표준
+- [[tech/ai/codex/README|codex]] - coding agent workflow
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent orchestration 맥락
 
 ---
 

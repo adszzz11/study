@@ -7,9 +7,11 @@ tags:
   - coding-agent
 status: learning
 type: tech-tool-study
+aliases:
+  - 울트라코드에-대해-학습해봐
 ---
 
-# 울트라코드에 대해 학습해봐
+# Ultracode
 
 > **한 줄 정의**: 2026-06-19 기준 “UltraCode/울트라코드”라는 단일 공식 제품보다는 Codex, Claude Code, Copilot Agent, Cursor, OpenCode, Devin/Windsurf류의 **AI coding agent / agentic coding devtools** 흐름으로 해석하는 것이 가장 안전하다.
 
@@ -22,7 +24,7 @@ type: tech-tool-study
 - 주요 범주: AI coding agent, agentic coding devtool, repo-level automation
 - 핵심 stack: LLM, repo context, tool use, sandbox, permission, git/PR workflow
 - 실무 기준: 생성 결과보다 검증 가능한 반복 workflow가 중요
-- 관련 축: [[study/tech/ai/codex]], [[study/tech/ai/claude/03-claude-code]], [[study/tech/ai/model-context-protocol-mcp]]
+- 관련 축: [[tech/ai/codex/README|codex]], [[tech/ai/claude/03-claude-code|03-claude-code]], [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
 
 ---
 
@@ -103,10 +105,10 @@ npm run lint
 
 ## 관련 노트
 
-- [[study/tech/ai/codex]] - OpenAI Codex 계열 coding agent
-- [[study/tech/ai/claude/03-claude-code]] - Claude Code 기본 사용 맥락
-- [[study/tech/ai/model-context-protocol-mcp]] - agent와 외부 도구 연결 protocol
-- [[study/tech/ai/multi-agent-platforms]] - multi-agent orchestration 관점
+- [[tech/ai/codex/README|codex]] - OpenAI Codex 계열 coding agent
+- [[tech/ai/claude/03-claude-code|03-claude-code]] - Claude Code 기본 사용 맥락
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent와 외부 도구 연결 protocol
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - multi-agent orchestration 관점
 
 ---
 

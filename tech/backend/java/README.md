@@ -140,7 +140,7 @@ java -Xms512m -Xmx1024m -XX:+UseG1GC MyApp
 
 - [[JVM-GC]]
 - [[Spring]]
-- [[Design-Patterns]]
+- Design-Patterns
 
 ---
 

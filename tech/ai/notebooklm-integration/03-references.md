@@ -78,5 +78,5 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - 공식 문서를 바탕으로 도구를 분류할 때 참고
-- [[study/tech/ai/model-context-protocol-mcp]] - API/도구 표준 연동이 필요한 경우 참고
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - 공식 문서를 바탕으로 도구를 분류할 때 참고
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - API/도구 표준 연동이 필요한 경우 참고

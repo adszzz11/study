@@ -131,6 +131,6 @@ CI에서 특히 볼 것:
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - harness가 사용할 external tool/resource 경계
-- [[study/tech/ai/agent-orchestration]] - long-running agent workflow 설계
-- [[study/tech/infra/prefect]] - data pipeline task boundary와 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - harness가 사용할 external tool/resource 경계
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] - long-running agent workflow 설계
+- [[tech/infra/prefect/README|prefect]] - data pipeline task boundary와 비교

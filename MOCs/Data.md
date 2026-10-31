@@ -19,11 +19,11 @@ status: active
 
 ## Business And Marketing
 
-- [[tech/data/마케팅에-대해서-기초부터-정석적으로-공부하고-싶어-stp-4p와-같은-기/README|Marketing fundamentals]]
+- [[tech/data/marketing-fundamentals/README|Marketing fundamentals]]
 
 ## Tool Studies
 
-- [[tech/data/골드만삭스-퀀트-깃허브/README|골드만삭스 퀀트 깃허브]]
+- [[tech/data/gs-quant/README|골드만삭스 퀀트 깃허브]]
 - [[tech/data/hyperloglog/README|Hyperloglog]]
 
 ## Bridge Notes

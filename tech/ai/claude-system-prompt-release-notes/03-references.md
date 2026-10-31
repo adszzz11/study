@@ -91,6 +91,6 @@ risk_tags:
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem/01-overview]] - provider 공식 문서 비교
-- [[study/tech/ai/litellm]] - production prompt와 model routing reference로 연결
-- [[study/tech/ai/model-context-protocol-mcp]] - runtime context 문서와 함께 읽기
+- [[tech/ai/ai-ecosystem/01-overview|01-overview]] - provider 공식 문서 비교
+- [[tech/ai/litellm/README|litellm]] - production prompt와 model routing reference로 연결
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - runtime context 문서와 함께 읽기

@@ -301,10 +301,10 @@ myapp/
 
 ### 관련 기술
 
-- [[Helm]]
-- [[Istio]] (Service Mesh)
-- [[ArgoCD]] (GitOps)
-- [[Prometheus]]
+- Helm
+- Istio (Service Mesh)
+- ArgoCD (GitOps)
+- Prometheus
 
 ---
 

@@ -148,6 +148,6 @@ keywords = {
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - Transformer/LLM 구성요소 맵
-- [[study/tech/ai/litellm]] - long-context model 운영과 routing
-- [[study/tech/ai/model-context-protocol-mcp]] - context를 모델 입력이 아니라 tool/resource로 다루는 패턴
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - Transformer/LLM 구성요소 맵
+- [[tech/ai/litellm/README|litellm]] - long-context model 운영과 routing
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - context를 모델 입력이 아니라 tool/resource로 다루는 패턴

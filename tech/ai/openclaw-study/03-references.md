@@ -90,11 +90,11 @@ YouTube에서 직접 검색해 보기 (URL은 노출 시점에 따라 다름):
 ## 📖 인접 학습 (이미 본 vault 안의 자료)
 
 본 vault에서 함께 보면 좋은 폴더:
-- [[study/tech/ai/agent-orchestration]] — Claude Squad, ccmanager, vibe-kanban 등 멀티 에이전트 도구
-- [[study/tech/ai/claude]] — Claude Code, Claude API
-- [[study/tech/ai/litellm]] — 여러 LLM API 통합 게이트웨이
-- [[study/tech/ai/openrouter]] — LLM 라우팅
-- [[study/tech/ai/mastra]] — TS 기반 AI 프레임워크
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] — Claude Squad, ccmanager, vibe-kanban 등 멀티 에이전트 도구
+- [[tech/ai/claude/README|claude]] — Claude Code, Claude API
+- [[tech/ai/litellm/README|litellm]] — 여러 LLM API 통합 게이트웨이
+- [[tech/ai/openrouter/README|openrouter]] — LLM 라우팅
+- [[tech/ai/mastra/README|mastra]] — TS 기반 AI 프레임워크
 
 ## 🔗 다음 챕터
 

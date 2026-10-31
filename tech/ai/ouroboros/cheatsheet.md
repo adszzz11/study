@@ -105,6 +105,6 @@ exit_conditions: []
 - [[README]] - 시리즈 시작
 - [[01-overview]] - What/Why/architecture
 - [[02-ecosystem]] - Hermes와 agent runtime 비교
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP
-- [[study/tech/ai/codex]] - Codex CLI
-- [[study/tech/ai/lazy-codex]] - verification harness 관점
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP
+- [[tech/ai/codex/README|codex]] - Codex CLI
+- [[tech/ai/lazy-codex/README|lazy-codex]] - verification harness 관점

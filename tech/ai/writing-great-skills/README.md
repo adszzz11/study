@@ -3,6 +3,8 @@ date: 2026-07-31
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-github-com-mattpocock-skills-tree
 ---
 
 # Writing Great Skills

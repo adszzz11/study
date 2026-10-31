@@ -156,9 +156,9 @@ Tool policy:
 
 ## 관련 노트
 
-- [[study/tech/ai/claude]] - Claude API와 Claude Code 사용 맥락
-- [[study/tech/ai/model-context-protocol-mcp]] - tool result와 external context 연결
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent prompt/workflow 설계
+- [[tech/ai/claude/README|claude]] - Claude API와 Claude Code 사용 맥락
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool result와 external context 연결
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent prompt/workflow 설계
 
 ---
 

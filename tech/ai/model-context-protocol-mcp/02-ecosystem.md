@@ -114,9 +114,9 @@ MCP는 agent framework나 model provider API 자체가 아니라 **AI applicatio
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - MCP와 함께 쓰는 LLM gateway/routing 계층
-- [[study/tech/ai/multi-agent-platforms]] - agent framework와 protocol layer의 차이
-- [[study/tech/ai/llm-wiki-study]] - MCP resource/tool 적용 대상이 되는 지식 베이스 패턴
+- [[tech/ai/litellm/README|litellm]] - MCP와 함께 쓰는 LLM gateway/routing 계층
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - agent framework와 protocol layer의 차이
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - MCP resource/tool 적용 대상이 되는 지식 베이스 패턴
 
 ---
 

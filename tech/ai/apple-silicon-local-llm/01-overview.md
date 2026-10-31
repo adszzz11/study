@@ -44,7 +44,7 @@ Apple Silicon unified memory + Metal/MLX acceleration
 - **비용 제어:** 반복 개발, 요약, 테스트 workload를 local inference로 처리해 API 비용을 줄인다.
 - **데이터 주권:** 개인 문서, 사내 코드, 실험 데이터를 외부 API로 보내지 않고 처리할 수 있다.
 - **항상 켜진 노드:** Mac mini는 작은 전력·소음·공간으로 개인 AI server처럼 쓰기 좋다.
-- **개발 편의성:** Ollama/LM Studio가 local model을 OpenAI-compatible API처럼 노출해 [[litellm]], [[model-context-protocol-mcp]], coding agent와 붙이기 쉽다.
+- **개발 편의성:** Ollama/LM Studio가 local model을 OpenAI-compatible API처럼 노출해 [[tech/ai/litellm/README|litellm]], [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]], coding agent와 붙이기 쉽다.
 - **Apple Silicon 최적화:** unified memory, Metal GPU, MLX가 LLM weight streaming과 KV cache 처리에 직접 영향을 준다.
 
 ## 하드웨어 관점
@@ -96,7 +96,7 @@ Apple Silicon unified memory + Metal/MLX acceleration
 - Mac mini 16GB에서는 14B 이상 모델이 실행되더라도 context를 낮춰야 할 수 있다.
 - long context, multi-agent, embedding 동시 실행은 memory pressure를 크게 만든다.
 - `temperature`, `top_p`, `repeat_penalty`보다 먼저 model size, quantization, context length를 안정화한다.
-- cloud LLM을 완전히 대체하기보다 [[ai-ecosystem]] 안에서 local/cloud 역할을 나누는 전략이 현실적이다.
+- cloud LLM을 완전히 대체하기보다 [[tech/ai/ai-ecosystem/README|ai-ecosystem]] 안에서 local/cloud 역할을 나누는 전략이 현실적이다.
 
 ## 다음 단계
 

@@ -154,6 +154,6 @@ LLM
 
 ## 관련 노트
 
-- [[study/tech/ai/codex]] - Codex를 통한 AI coding agent 이해
-- [[study/tech/ai/claude/03-claude-code]] - Claude Code의 agentic coding workflow
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP 기반 도구 확장
+- [[tech/ai/codex/README|codex]] - Codex를 통한 AI coding agent 이해
+- [[tech/ai/claude/03-claude-code|03-claude-code]] - Claude Code의 agentic coding workflow
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP 기반 도구 확장

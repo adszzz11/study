@@ -149,10 +149,10 @@ LLM은 자동매매의 중심 판단자보다 `analysis assistant`와 `validatio
 
 관련 구현 노트:
 
-- [[study/tech/ai/langchain-crewai/README]]
-- [[study/tech/ai/codex/README]]
-- [[study/tech/ai/litellm/README]]
-- [[study/tech/ai/agent-orchestration/README]]
+- [[tech/ai/langchain-crewai/README|langchain-crewai]]
+- [[tech/ai/codex/README|codex]]
+- [[tech/ai/litellm/README|litellm]]
+- [[tech/ai/agent-orchestration/README|agent-orchestration]]
 
 ---
 

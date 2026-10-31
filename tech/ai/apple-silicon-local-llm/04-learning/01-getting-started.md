@@ -150,6 +150,6 @@ mlx_lm.chat --model mlx-community/Llama-3.2-3B-Instruct-4bit
 
 ## 5. 다음 연결
 
-- API gateway가 필요하면 [[litellm]]로 local/cloud routing을 구성한다.
-- tool context가 필요하면 [[model-context-protocol-mcp]]와 local endpoint 연결을 실험한다.
+- API gateway가 필요하면 [[tech/ai/litellm/README|litellm]]로 local/cloud routing을 구성한다.
+- tool context가 필요하면 [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]와 local endpoint 연결을 실험한다.
 - runtime 비교는 [[../02-ecosystem|에코시스템 비교]]로 돌아가서 정리한다.

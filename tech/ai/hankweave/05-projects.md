@@ -123,7 +123,7 @@ steps:
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - data/API tool을 agent에게 노출하는 방법
-- [[study/tech/ai/lazy-codex]] - coding workflow 검증 루프
-- [[study/tech/data/dolt]] - data versioning과 checkpoint 관점 비교
-- [[study/tech/infra/prefect]] - pipeline orchestration 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - data/API tool을 agent에게 노출하는 방법
+- [[tech/ai/lazy-codex/README|lazy-codex]] - coding workflow 검증 루프
+- [[tech/data/dolt/README|dolt]] - data versioning과 checkpoint 관점 비교
+- [[tech/infra/prefect/README|prefect]] - pipeline orchestration 비교

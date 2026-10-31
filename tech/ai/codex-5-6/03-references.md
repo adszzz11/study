@@ -53,6 +53,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - Codex agent의 완료 검증과 신뢰성 문제
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/resource discovery와 agent integration 표준
-- [[study/tech/ai/litellm]] - model selection/routing 관점
+- [[tech/ai/lazy-codex/README|lazy-codex]] - Codex agent의 완료 검증과 신뢰성 문제
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/resource discovery와 agent integration 표준
+- [[tech/ai/litellm/README|litellm]] - model selection/routing 관점

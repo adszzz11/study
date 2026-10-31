@@ -190,6 +190,6 @@ Success: valid JSON, correct priority, no unsupported claims.
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/result boundary와 external system integration
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent workflow와 verification loop
-- [[study/tech/ai/litellm]] - provider routing, cost, evaluation 운영
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/result boundary와 external system integration
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent workflow와 verification loop
+- [[tech/ai/litellm/README|litellm]] - provider routing, cost, evaluation 운영

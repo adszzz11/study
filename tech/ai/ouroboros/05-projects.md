@@ -89,7 +89,7 @@ ouroboros run seed.yaml --runtime hermes
 - Seed에 출처가 반영되는가?
 - external tool failure 시 fallback이 있는가?
 
-관련: [[study/tech/ai/model-context-protocol-mcp]]
+관련: [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
 
 ## 프로젝트 4 — Runtime comparison bake-off
 
@@ -135,9 +135,9 @@ Ouroboros를 먼저 쓸 작업:
 
 관련:
 
-- [[study/tech/ai/codex]]
-- [[study/tech/ai/claude]]
-- [[study/tech/ai/lazy-codex]]
+- [[tech/ai/codex/README|codex]]
+- [[tech/ai/claude/README|claude]]
+- [[tech/ai/lazy-codex/README|lazy-codex]]
 
 ## 회고 템플릿
 

@@ -55,10 +55,10 @@ type: tech-tool-study
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP spec부터 먼저 이해할 때
-- [[study/tech/ai/litellm]] - multi-provider routing과 Ouroboros optional LiteLLM 연결
-- [[study/tech/ai/agent-orchestration/cli-agents]] - terminal agent 생태계 비교
-- [[study/tech/ai/lazy-codex]] - independent verification과 false completion 방지 관점
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP spec부터 먼저 이해할 때
+- [[tech/ai/litellm/README|litellm]] - multi-provider routing과 Ouroboros optional LiteLLM 연결
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - terminal agent 생태계 비교
+- [[tech/ai/lazy-codex/README|lazy-codex]] - independent verification과 false completion 방지 관점
 
 → 다음: [[04-learning/01-getting-started]]
 

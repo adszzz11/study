@@ -73,6 +73,6 @@ gemini -p "Explain this repository structure."
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - Gemini CLI가 속한 CLI agent 생태계
-- [[study/tech/ai/model-context-protocol-mcp]] - Gemini CLI와 custom workflow에서 MCP를 쓰는 맥락
-- [[study/tech/ai/litellm]] - custom RAG/API 대안 설계 시 참고
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - Gemini CLI가 속한 CLI agent 생태계
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - Gemini CLI와 custom workflow에서 MCP를 쓰는 맥락
+- [[tech/ai/litellm/README|litellm]] - custom RAG/API 대안 설계 시 참고

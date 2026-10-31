@@ -105,6 +105,6 @@ because [reason to believe].
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm/README]] - LLM 기반 소비자 리뷰 분석을 구현할 때 참고
-- [[study/tech/ai/autoresearch-study/README]] - 조사와 실험 루프 설계 참고
-- [[study/tech/data/dolt/README]] - 마케팅 데이터셋 버전 관리 참고
+- [[tech/ai/litellm/README|litellm]] - LLM 기반 소비자 리뷰 분석을 구현할 때 참고
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - 조사와 실험 루프 설계 참고
+- [[tech/data/dolt/README|dolt]] - 마케팅 데이터셋 버전 관리 참고

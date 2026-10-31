@@ -65,7 +65,7 @@ type: tech-tool-study
 | Ollama | `http://localhost:11434` | native REST API, local automation |
 | LM Studio | `http://localhost:1234/v1` | OpenAI client drop-in replacement |
 | llama.cpp | `http://localhost:8080/v1` | lightweight local server |
-| LiteLLM bridge | `http://localhost:4000/v1` | [[litellm]]로 local/cloud model 라우팅 |
+| LiteLLM bridge | `http://localhost:4000/v1` | [[tech/ai/litellm/README|litellm]]로 local/cloud model 라우팅 |
 
 ```python
 from openai import OpenAI
@@ -88,7 +88,7 @@ print(response.choices[0].message.content)
 - **LM Studio:** GUI 중심에서 `lms` CLI, headless server, GGUF+MLX runtime 지원으로 확장.
 - **MLX-LM:** Apple Silicon native generation, chat, quantization, LoRA/full fine-tuning 실험의 중심.
 - **llama.cpp:** GGUF와 Metal 최적화의 사실상 기반 layer 역할.
-- **상위 orchestration:** [[model-context-protocol-mcp]], [[codex]], [[litellm]] 같은 도구가 local endpoint를 tool/model backend로 사용.
+- **상위 orchestration:** [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]], [[tech/ai/codex/README|codex]], [[tech/ai/litellm/README|litellm]] 같은 도구가 local endpoint를 tool/model backend로 사용.
 
 ## 결론
 

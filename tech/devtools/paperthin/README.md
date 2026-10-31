@@ -3,6 +3,8 @@ date: 2026-08-27
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-github-com-lilmgenius-paperthin
 ---
 
 # Paperthin

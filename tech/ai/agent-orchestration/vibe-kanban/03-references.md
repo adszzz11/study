@@ -41,4 +41,4 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/README|AI 에이전트 오케스트레이션]]
+- [[tech/ai/agent-orchestration/README|AI 에이전트 오케스트레이션]]

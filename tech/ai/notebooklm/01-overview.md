@@ -115,9 +115,9 @@ gemini -p "Summarize the markdown files in this folder with citations to file pa
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - NotebookLM CLI 혼동 지점인 Gemini CLI 확인
-- [[study/tech/ai/model-context-protocol-mcp]] - CLI/RAG 자동화를 tool workflow로 만들 때의 protocol layer
-- [[study/tech/ai/litellm]] - custom assistant에서 model routing을 분리하는 방식
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - NotebookLM CLI 혼동 지점인 Gemini CLI 확인
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - CLI/RAG 자동화를 tool workflow로 만들 때의 protocol layer
+- [[tech/ai/litellm/README|litellm]] - custom assistant에서 model routing을 분리하는 방식
 
 ---
 

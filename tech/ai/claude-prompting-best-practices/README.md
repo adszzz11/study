@@ -7,6 +7,8 @@ tags:
   - prompt-engineering
 status: learning
 type: tech-tool-study
+aliases:
+  - https-platform-claude-com-docs-en-build
 ---
 
 # Claude Prompting Best Practices
@@ -63,8 +65,8 @@ Priority rules: security incidents are always P0.
 ### 2단계: 생태계 비교
 
 - [ ] [[02-ecosystem|생태계]]에서 Claude, OpenAI GPT, Google Gemini prompting style 비교
-- [ ] [[study/tech/ai/claude]]와 연결해 Claude API/Claude Code 맥락 파악
-- [ ] [[study/tech/ai/model-context-protocol-mcp]]와 연결해 tool result trust boundary 이해
+- [ ] [[tech/ai/claude/README|claude]]와 연결해 Claude API/Claude Code 맥락 파악
+- [ ] [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]와 연결해 tool result trust boundary 이해
 
 ### 3단계: 공식 문서 읽기
 
@@ -115,10 +117,10 @@ https-platform-claude-com-docs-en-build/
 
 ## 관련 노트
 
-- [[study/tech/ai/claude]] - Claude API, Claude Code, MCP, skills 맥락
-- [[study/tech/ai/codex]] - Codex prompting/workflow와 비교
-- [[study/tech/ai/model-context-protocol-mcp]] - agent tool/data integration protocol
-- [[study/tech/ai/litellm]] - multi-provider LLM gateway와 evaluation 운영
+- [[tech/ai/claude/README|claude]] - Claude API, Claude Code, MCP, skills 맥락
+- [[tech/ai/codex/README|codex]] - Codex prompting/workflow와 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent tool/data integration protocol
+- [[tech/ai/litellm/README|litellm]] - multi-provider LLM gateway와 evaluation 운영
 
 ---
 

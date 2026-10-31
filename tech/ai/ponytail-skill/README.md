@@ -8,9 +8,11 @@ tags:
   - ponytail
 status: learning
 type: tech-tool-study
+aliases:
+  - ponytail이라는-스킬에-대해-알아봐
 ---
 
-# ponytail이라는 스킬에 대해 알아봐
+# Ponytail Skill
 
 > **한 줄 정의**: `ponytail`이라는 공개 표준/공식 Skill은 2026-06-24 기준 확인되지 않았고, 기술적으로는 Agent Skills/Claude Skills 규격 위에 만들 수 있는 custom skill 이름으로 보는 것이 가장 타당하다.
 
@@ -57,8 +59,8 @@ ponytail이라는-스킬에-대해-알아봐/
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/05-skills]] - Claude Skills와 custom plugin 맥락
-- [[study/tech/ai/model-context-protocol-mcp]] - skill이 외부 tool/data와 연결될 때 비교해야 할 protocol
-- [[study/tech/ai/codex]] - Codex 환경에서 skill/instruction을 다루는 관점
-- [[study/tech/ai/thin-harness-fat-skills]] - 얇은 harness와 두꺼운 skill 설계 패턴
+- [[tech/ai/claude/05-skills|05-skills]] - Claude Skills와 custom plugin 맥락
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - skill이 외부 tool/data와 연결될 때 비교해야 할 protocol
+- [[tech/ai/codex/README|codex]] - Codex 환경에서 skill/instruction을 다루는 관점
+- [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]] - 얇은 harness와 두꺼운 skill 설계 패턴
 

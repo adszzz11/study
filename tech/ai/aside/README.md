@@ -7,6 +7,8 @@ tags:
   - aside
 type: tech-tool-study
 status: learning
+aliases:
+  - https-aside-com
 ---
 
 # Aside

@@ -3,6 +3,8 @@ date: 2026-10-24
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-careers-kakao-com-jobs-p-14519-여기에
 ---
 
 # 카카오 P-14519 Agentic Search Platform tool study

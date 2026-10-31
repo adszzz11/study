@@ -115,7 +115,7 @@ Verification:
 - Flag contradictions instead of silently resolving them.
 ```
 
-이 프로젝트는 [[study/tech/ai/llm-wiki-study]]와 잘 맞는다. raw source를 먼저 모으고, wiki page에는 claim 단위 출처와 contradiction flag를 남긴다.
+이 프로젝트는 [[tech/ai/llm-wiki-study/README|llm-wiki-study]]와 잘 맞는다. raw source를 먼저 모으고, wiki page에는 claim 단위 출처와 contradiction flag를 남긴다.
 
 ---
 
@@ -157,7 +157,7 @@ hypothesis. Produce a timeline, likely cause, rejected causes, and follow-up che
 
 ## 관련 노트
 
-- [[study/tech/ai/codex/05-projects]]
-- [[study/tech/ai/autoresearch-study/05-projects]]
-- [[study/tech/ai/llm-wiki-study/05-projects]]
-- [[study/tech/ai/multi-agent-platforms]]
+- [[tech/ai/codex/05-projects|05-projects]]
+- [[tech/ai/autoresearch-study/05-projects|05-projects]]
+- [[tech/ai/llm-wiki-study/05-projects|05-projects]]
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]]

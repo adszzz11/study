@@ -115,9 +115,9 @@ GPT-5.6 system card는 Sol/Terra/Luna를 cyber 및 bio/chemical risk에서 High 
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - Codex agent 작업의 검증/완료 신뢰성
-- [[study/tech/ai/model-context-protocol-mcp]] - tool calling과 외부 system integration 맥락
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI 기반 agent orchestration 비교
+- [[tech/ai/lazy-codex/README|lazy-codex]] - Codex agent 작업의 검증/완료 신뢰성
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool calling과 외부 system integration 맥락
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI 기반 agent orchestration 비교
 
 ## References
 

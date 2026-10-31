@@ -125,6 +125,6 @@ review_id,quote,pain_point,benefit,barrier,trigger,emotion
 
 ## 관련 노트
 
-- [[study/tech/ai/llm-wiki-study/README]] - 리뷰 분류 지식 베이스 설계 참고
-- [[study/tech/data/dolt/README]] - 리뷰 데이터셋 변경 이력 관리 참고
-- [[study/tech/ai/litellm/README]] - LLM으로 리뷰 감정 분석을 실험할 때 참고
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 리뷰 분류 지식 베이스 설계 참고
+- [[tech/data/dolt/README|dolt]] - 리뷰 데이터셋 변경 이력 관리 참고
+- [[tech/ai/litellm/README|litellm]] - LLM으로 리뷰 감정 분석을 실험할 때 참고

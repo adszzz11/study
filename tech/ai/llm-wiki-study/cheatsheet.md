@@ -119,7 +119,7 @@ git clone https://github.com/kepano/obsidian-skills ~/.claude/skills/obsidian
 | Stale | 새 자료가 옛 주장 뒤집음 |
 | Orphan | 인바운드 wikilink 0 |
 | Missing concept | 자주 언급되는데 페이지 없음 |
-| Missing cross-ref | 언급만 하고 [[link]] 없음 |
+| Missing cross-ref | 언급만 하고 link 없음 |
 | Data gap | TODO / 확인 필요 표시 |
 
 ## 💰 비용 가이드 (Claude Opus 4.7)
@@ -197,4 +197,4 @@ fi
 - kepano/obsidian-skills: https://github.com/kepano/obsidian-skills
 - Obsidian CLI 공식: https://help.obsidian.md/Plugins/Obsidian+CLI
 - 본 study: `study/tech/ai/llm-wiki-study/`
-- 인접: [[study/tech/ai/autoresearch-study]] · [[study/tech/ai/multi-agent-platforms]]
+- 인접: [[tech/ai/autoresearch-study/README|autoresearch-study]] · [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]]

@@ -63,7 +63,7 @@ model router는 보통 request를 보고 "cheap model vs strong model" 또는 "p
 | 관찰성 | route log를 직접 남기기 쉬움 | 내부 route 비공개 |
 | 구현 책임 | 사용자가 routing policy 설계 | service가 orchestration 제공 |
 
-[[study/tech/ai/litellm]]은 provider gateway, key management, budget tracking, fallback에 강하다. 반면 Fugu는 여러 expert agent를 어떻게 조합할지에 대한 decision layer를 managed API로 제공한다.
+[[tech/ai/litellm/README|litellm]]은 provider gateway, key management, budget tracking, fallback에 강하다. 반면 Fugu는 여러 expert agent를 어떻게 조합할지에 대한 decision layer를 managed API로 제공한다.
 
 ---
 
@@ -137,9 +137,9 @@ enterprise procurement나 model policy 수립에 적합하다.
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - Fugu 앞뒤에 둘 수 있는 provider gateway/budget layer
-- [[study/tech/ai/multi-agent-platforms/autogen]] - manual multi-agent framework 비교 대상
-- [[study/tech/ai/model-context-protocol-mcp]] - agent tool/context integration layer
+- [[tech/ai/litellm/README|litellm]] - Fugu 앞뒤에 둘 수 있는 provider gateway/budget layer
+- [[tech/ai/multi-agent-platforms/autogen/README|autogen]] - manual multi-agent framework 비교 대상
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent tool/context integration layer
 
 ---
 

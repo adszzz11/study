@@ -68,5 +68,5 @@ LiteLLM에서:
 - [ ] LiteLLM 로그에서 사용량 확인
 
 ## 🔗 본 vault 내
-- [[study/tech/ai/litellm]] — LiteLLM 깊이
+- [[tech/ai/litellm/README|litellm]] — LiteLLM 깊이
 - 다음 → [../05-projects.md](../05-projects.md)

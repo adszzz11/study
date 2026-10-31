@@ -245,7 +245,7 @@ response = client.messages.create(
 
 ### 관련 기술
 
-- [[study/tech/http/pre/api-design|API 설계]]
+- [[tech/backend/http/pre/api-design|API 설계]]
 - LangChain
 - LlamaIndex
 

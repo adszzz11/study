@@ -50,7 +50,7 @@ No position
 
 - [ ] [[02-ecosystem|생태계/비교]]에서 learned absolute, sinusoidal, relative, ALiBi, RoPE 비교
 - [ ] `embedding에 더하는 방식`과 `attention score/QK에 넣는 방식` 구분
-- [ ] [[study/tech/ai/ai-ecosystem]] 안에서 LLM architecture component로 위치시키기
+- [ ] [[tech/ai/ai-ecosystem/README|ai-ecosystem]] 안에서 LLM architecture component로 위치시키기
 
 ### 3단계: 원문과 핵심 논문 확인
 
@@ -102,10 +102,10 @@ you-could-have-designed-state-of-the-art/
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - Transformer/LLM 구성요소를 AI 생태계 안에서 배치
-- [[study/tech/ai/litellm]] - long-context model을 provider/router 관점에서 선택할 때 연결
-- [[study/tech/ai/model-context-protocol-mcp]] - 긴 context를 tool/resource와 어떻게 분리할지 비교
-- [[study/tech/ai/llm-wiki-study]] - 긴 문서/노트 처리에서 context window와 retrieval 설계 연결
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - Transformer/LLM 구성요소를 AI 생태계 안에서 배치
+- [[tech/ai/litellm/README|litellm]] - long-context model을 provider/router 관점에서 선택할 때 연결
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - 긴 context를 tool/resource와 어떻게 분리할지 비교
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 긴 문서/노트 처리에서 context window와 retrieval 설계 연결
 
 ---
 

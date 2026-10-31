@@ -18,7 +18,7 @@ type: tech-tool-study
 
 ## ⚠️ "lazy codex" = 현상 + 도구
 1. **현상**: Codex가 지시 무시·중도 포기·**거짓 완료** → 01-overview §1
-2. **도구**: `code-yeongyu/lazycodex` (현상을 극복하는 하니스) → 본 스터디 전반 + 기존 [[lazycodex]]
+2. **도구**: `code-yeongyu/lazycodex` (현상을 극복하는 하니스) → 본 스터디 전반 + 기존 lazycodex
 
 ## 학습 경로
 
@@ -52,4 +52,4 @@ lazy-codex/
 - **하니스**: OmO/lazycodex(Oracle·Ralph·Hashline) / morae(self-test 게이트+PR 사람-머지).
 
 ## 관련 노트
-- [[lazycodex]] · [[lazycodex-poc]] (기존 도구/런북 노트) · [[codex]] · [[multi-agent-platforms]] · [[autoresearch-study]]
+- lazycodex · lazycodex-poc (기존 도구/런북 노트) · [[tech/ai/codex/README|codex]] · [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] · [[tech/ai/autoresearch-study/README|autoresearch-study]]

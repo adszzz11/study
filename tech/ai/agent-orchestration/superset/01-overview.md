@@ -180,4 +180,4 @@ Superset (데스크톱 앱)
 - [공식 사이트](https://superset.sh)
 - [GitHub](https://github.com/superset-sh/superset)
 - [공식 문서](https://docs.superset.sh)
-- 관련 노트: [[02-ecosystem]] · [[03-quickstart]]
+- 관련 노트: [[02-ecosystem]] · 03-quickstart

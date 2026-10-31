@@ -159,6 +159,6 @@ quality_gate:
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp/cheatsheet]] - MCP tool/resource quick reference
-- [[study/tech/ai/lazy-codex/cheatsheet]] - verification harness quick reference
-- [[study/tech/ai/agent-orchestration/README]] - orchestration reference
+- [[tech/ai/model-context-protocol-mcp/cheatsheet|cheatsheet]] - MCP tool/resource quick reference
+- [[tech/ai/lazy-codex/cheatsheet|cheatsheet]] - verification harness quick reference
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] - orchestration reference

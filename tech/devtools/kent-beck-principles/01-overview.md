@@ -146,9 +146,9 @@ test list
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - AI coding agent에게 작은 task와 검증 기준을 주는 방식
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent 작업을 spike와 feedback loop로 운영하기
-- [[study/tech/ai/mitchellh-ai-adoption-study]] - AI adoption에서 개발자 역할 변화 비교
+- [[tech/ai/lazy-codex/README|lazy-codex]] - AI coding agent에게 작은 task와 검증 기준을 주는 방식
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent 작업을 spike와 feedback loop로 운영하기
+- [[tech/ai/mitchellh-ai-adoption-study/README|mitchellh-ai-adoption-study]] - AI adoption에서 개발자 역할 변화 비교
 
 ---
 

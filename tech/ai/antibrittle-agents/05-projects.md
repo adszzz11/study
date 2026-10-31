@@ -146,7 +146,7 @@ suite:
 
 ## 관련 노트
 
-- [[study/tech/ai/autoresearch-study]] - research automation 프로젝트와 연결
-- [[study/tech/ai/lazy-codex]] - code maintenance 검증 harness
-- [[study/tech/ai/llm-wiki-study]] - indexing/provenance 지식 관리
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/data access layer
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - research automation 프로젝트와 연결
+- [[tech/ai/lazy-codex/README|lazy-codex]] - code maintenance 검증 harness
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - indexing/provenance 지식 관리
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/data access layer

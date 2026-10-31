@@ -3,6 +3,8 @@ date: 2026-07-20
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-research-perplexity-ai-articles-ma
 ---
 
 # SPACE: Secure Runtime for Long-Running Agents

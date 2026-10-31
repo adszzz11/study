@@ -99,9 +99,9 @@ gemini -p "Read docs/*.md and list migration risks in Korean."
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - Gemini CLI와 Codex/Claude Code 등 terminal agents 비교
-- [[study/tech/ai/model-context-protocol-mcp]] - NotebookLM-like 자동화를 MCP tool/resource로 설계
-- [[study/tech/ai/litellm]] - custom RAG의 model gateway 후보
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - Gemini CLI와 Codex/Claude Code 등 terminal agents 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - NotebookLM-like 자동화를 MCP tool/resource로 설계
+- [[tech/ai/litellm/README|litellm]] - custom RAG의 model gateway 후보
 
 ---
 

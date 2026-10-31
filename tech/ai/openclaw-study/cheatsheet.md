@@ -167,7 +167,7 @@ docker compose logs openclaw --since 24h | grep -c ERROR
 ## 🔗 빠른 링크
 
 - 본 vault 내 OpenClaw study: `study/tech/ai/openclaw-study/`
-- 관련 카테고리: [[study/tech/ai/agent-orchestration]], [[study/tech/ai/claude]]
+- 관련 카테고리: [[tech/ai/agent-orchestration/README|agent-orchestration]], [[tech/ai/claude/README|claude]]
 - 공식: https://github.com/openclaw/openclaw
 - Awesome: https://github.com/mergisi/awesome-openclaw-agents
 - 보안 모니터링: https://github.com/adibirzu/openclaw-security-monitor

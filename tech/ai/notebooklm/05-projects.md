@@ -139,6 +139,6 @@ gemini -p "Read the markdown files in ./sources and create a Korean research mem
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]] - CLI 대체 workflow를 MCP server로 감싸는 프로젝트
-- [[study/tech/ai/agent-orchestration/cli-agents]] - Gemini CLI 등 terminal agent 선택
-- [[study/tech/ai/litellm]] - custom RAG model gateway 운영
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - CLI 대체 workflow를 MCP server로 감싸는 프로젝트
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - Gemini CLI 등 terminal agent 선택
+- [[tech/ai/litellm/README|litellm]] - custom RAG model gateway 운영

@@ -90,6 +90,6 @@ because [reason to believe].
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm/README]]
-- [[study/tech/ai/llm-wiki-study/README]]
-- [[study/tech/data/dolt/README]]
+- [[tech/ai/litellm/README|litellm]]
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]]
+- [[tech/data/dolt/README|dolt]]

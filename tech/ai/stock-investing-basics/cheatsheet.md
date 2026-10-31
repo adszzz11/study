@@ -165,7 +165,7 @@ Monitoring
 
 ## 관련 노트
 
-- [[study/tech/ai/codex/README]]
-- [[study/tech/ai/langchain-crewai/README]]
-- [[study/tech/ai/litellm/README]]
-- [[study/tech/ai/agent-orchestration/README]]
+- [[tech/ai/codex/README|codex]]
+- [[tech/ai/langchain-crewai/README|langchain-crewai]]
+- [[tech/ai/litellm/README|litellm]]
+- [[tech/ai/agent-orchestration/README|agent-orchestration]]

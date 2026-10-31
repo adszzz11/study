@@ -103,7 +103,7 @@ maintained_by: llm-wiki
 | 안 좋음 | 좋음 |
 |--------|------|
 | "LangGraph 뭐야?" | "본 vault에서 LangGraph가 다른 프레임워크와 어떻게 다르게 설명되는지 비교" |
-| "AI 에이전트?" | "[[autonomous-agent]] 페이지와 [[multi-agent-orchestration]] 페이지의 모순 지점" |
+| "AI 에이전트?" | "autonomous-agent 페이지와 multi-agent-orchestration 페이지의 모순 지점" |
 
 → wiki는 **연결을 묻는 질문**에 강함.
 
@@ -119,7 +119,7 @@ maintained_by: llm-wiki
 - **Stale**: 새 자료가 옛 주장을 뒤집었는데 옛 페이지 안 갱신됨
 - **Orphan**: 들어오는 wikilink 0개 페이지
 - **Missing concept**: 5번 이상 언급됐는데 자체 페이지 없음
-- **Missing cross-ref**: A 페이지가 B 개념 언급했는데 [[B]] 링크 없음
+- **Missing cross-ref**: A 페이지가 B 개념 언급했는데 B 링크 없음
 - **Data gap**: "TODO", "확인 필요" 같은 미해결 표시
 
 ### Lint 결과 예시

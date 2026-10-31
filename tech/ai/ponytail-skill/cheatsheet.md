@@ -101,8 +101,8 @@ rg -n "curl|wget|rm -rf|ssh|eval|TOKEN|SECRET|HOME|\\.ssh" ponytail/
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/05-skills]]
-- [[study/tech/ai/model-context-protocol-mcp]]
-- [[study/tech/ai/thin-harness-fat-skills]]
-- [[study/tech/ai/codex]]
+- [[tech/ai/claude/05-skills|05-skills]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]]
+- [[tech/ai/codex/README|codex]]
 

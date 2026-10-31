@@ -124,7 +124,7 @@ playwright-study/
 | 기초 | [[01-overview]] | 핵심 개념, 장단점, 사용 사례 |
 | 생태계 | [[02-ecosystem]] | 관련 기술, Cypress/Selenium 비교 |
 | 참조 | [[03-references]] | 공식 문서, 학습 자료 |
-| 핵심 | [[04-learning/]] | 상세 API 학습 |
+| 핵심 | 04-learning | 상세 API 학습 |
 | 실전 | [[05-projects]] | 프로젝트 적용, Best Practices |
 | 치트시트 | [[cheatsheet]] | 빠른 참조 |
 
@@ -132,9 +132,9 @@ playwright-study/
 
 ## 관련 노트
 
-- [[selenium-study]] (있다면)
-- [[cypress-study]] (있다면)
-- [[e2e-testing]]
+- selenium-study (있다면)
+- cypress-study (있다면)
+- e2e-testing
 
 ---
 

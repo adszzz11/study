@@ -163,6 +163,6 @@ Tool policy:
 
 ## 관련 노트
 
-- [[study/tech/ai/claude]] - Claude API와 Claude Code
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/data boundary
-- [[study/tech/ai/codex]] - coding agent prompt와 verification
+- [[tech/ai/claude/README|claude]] - Claude API와 Claude Code
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/data boundary
+- [[tech/ai/codex/README|codex]] - coding agent prompt와 verification

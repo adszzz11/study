@@ -70,7 +70,7 @@ announcement -> docs/workflows -> deep dive -> subagents/skills -> ecosystem com
 
 ## 5. 관련 노트
 
-- [[study/tech/ai/claude/README]] - Claude 전체 학습 시리즈
-- [[study/tech/ai/claude/08-subagents]] - subagents 상세
-- [[study/tech/ai/codex/02-ecosystem]] - Codex ecosystem 비교
-- [[study/tech/ai/langchain-crewai/02-ecosystem]] - agent framework 비교
+- [[tech/ai/claude/README|claude]] - Claude 전체 학습 시리즈
+- [[tech/ai/claude/08-subagents|08-subagents]] - subagents 상세
+- [[tech/ai/codex/02-ecosystem|02-ecosystem]] - Codex ecosystem 비교
+- [[tech/ai/langchain-crewai/02-ecosystem|02-ecosystem]] - agent framework 비교

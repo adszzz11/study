@@ -135,6 +135,6 @@ trusted defensive workflow 안에서 vulnerability triage, patch generation, reg
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - false completion 차단과 검증 루프
-- [[study/tech/ai/agent-orchestration/cli-agents]] - 여러 coding agent 운영
-- [[study/tech/ai/model-context-protocol-mcp]] - tool-heavy agent integration
+- [[tech/ai/lazy-codex/README|lazy-codex]] - false completion 차단과 검증 루프
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - 여러 coding agent 운영
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool-heavy agent integration

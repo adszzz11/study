@@ -3,6 +3,8 @@ date: 2026-07-17
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-claude-com-blog-ai-code-migration
 ---
 
 # AI Code Migration
@@ -70,7 +72,7 @@ Anthropic 자체 보고에 따르면 Bun Zig → Rust port는 11일 동안 1,448
 
 - [[MOCs/Index]]
 - [[MOCs/Devtools]]
-- [[tech/devtools/claude의-dynamic-workflow에-대해-알려줘/README|Claude Dynamic Workflows]] — 대규모 parallel agent orchestration
+- [[tech/devtools/claude-dynamic-workflows/README|Claude Dynamic Workflows]] — 대규모 parallel agent orchestration
 - [[tech/devtools/git/github-repo-merge|GitHub Repository Merge]] — branch와 변경 통합 맥락
 
 ## Sources

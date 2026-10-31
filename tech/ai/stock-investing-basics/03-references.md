@@ -68,9 +68,9 @@ parent: "[[README]]"
 
 관련 노트:
 
-- [[study/tech/ai/codex/README]]
-- [[study/tech/ai/langchain-crewai/README]]
-- [[study/tech/ai/litellm/README]]
+- [[tech/ai/codex/README|codex]]
+- [[tech/ai/langchain-crewai/README|langchain-crewai]]
+- [[tech/ai/litellm/README|litellm]]
 
 ---
 
@@ -101,6 +101,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/llm-wiki-study/README]]
-- [[study/tech/ai/agent-orchestration/README]]
-- [[study/tech/data/cloudflare-r2/README]]
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]]
+- [[tech/ai/agent-orchestration/README|agent-orchestration]]
+- [[tech/data/cloudflare-r2/README|cloudflare-r2]]

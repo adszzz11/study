@@ -76,7 +76,7 @@ Return only JSON with category, priority, owner_team, rationale.
 </review_rules>
 ```
 
-관련: [[study/tech/ai/codex]], [[study/tech/ai/agent-orchestration/cli-agents]]
+관련: [[tech/ai/codex/README|codex]], [[tech/ai/agent-orchestration/cli-agents|cli-agents]]
 
 ---
 
@@ -97,7 +97,7 @@ Workflow:
 5. Run output validation.
 ```
 
-관련: [[study/tech/ai/model-context-protocol-mcp]], [[study/tech/ai/litellm]]
+관련: [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]], [[tech/ai/litellm/README|litellm]]
 
 ---
 
@@ -139,6 +139,6 @@ Workflow:
 
 ## 관련 노트
 
-- [[study/tech/ai/claude]] - Claude API/Code 실전 적용
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/data integration project
-- [[study/tech/ai/llm-wiki-study]] - RAG/wiki 답변 프로젝트
+- [[tech/ai/claude/README|claude]] - Claude API/Code 실전 적용
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/data integration project
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - RAG/wiki 답변 프로젝트

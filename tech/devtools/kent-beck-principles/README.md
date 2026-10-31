@@ -9,6 +9,8 @@ tags:
   - spike
 status: learning
 type: tech-tool-study
+aliases:
+  - 켄트백이-가지고-있는-지론들에-대해-공부하고싶어-spike라던가-이런-소
 ---
 
 # Kent Beck의 지론들
@@ -35,7 +37,7 @@ Kent Beck은 `Extreme Programming(XP)`, `Test-Driven Development(TDD)`, `JUnit/x
 
 - [ ] [[02-ecosystem|생태계]] 읽기 - XP, Scrum, Kanban, Lean Startup, AI coding agents 비교
 - [ ] `spike ticket`과 일반 feature ticket의 차이 정리
-- [ ] [[study/tech/ai/agent-orchestration/cli-agents]]와 연결해 AI agent 작업 단위 비교
+- [ ] [[tech/ai/agent-orchestration/cli-agents|cli-agents]]와 연결해 AI agent 작업 단위 비교
 
 ### 3단계: 원문과 참고자료
 
@@ -86,10 +88,10 @@ Kent Beck은 `Extreme Programming(XP)`, `Test-Driven Development(TDD)`, `JUnit/x
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - AI coding agent와 작은 task breakdown 연결
-- [[study/tech/ai/lazy-codex]] - agent에게 일을 맡길 때 feedback loop와 verified completion 적용
-- [[study/tech/ai/mitchellh-ai-adoption-study]] - AI adoption에서 인간의 judgment와 workflow 변화 비교
-- [[study/tech/ai/model-context-protocol-mcp]] - agent tool integration을 실험할 때 spike 대상으로 삼기 좋음
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - AI coding agent와 작은 task breakdown 연결
+- [[tech/ai/lazy-codex/README|lazy-codex]] - agent에게 일을 맡길 때 feedback loop와 verified completion 적용
+- [[tech/ai/mitchellh-ai-adoption-study/README|mitchellh-ai-adoption-study]] - AI adoption에서 인간의 judgment와 workflow 변화 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent tool integration을 실험할 때 spike 대상으로 삼기 좋음
 
 ---
 

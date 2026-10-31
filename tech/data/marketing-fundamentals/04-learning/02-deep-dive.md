@@ -135,10 +135,10 @@ Guardrail metric:
 | 고객 세그먼트 | CRM note와 행동 로그 요약 | 실제 cohort 지표와 대조 |
 | 리서치 자동화 | agent workflow로 반복 수집 | source quality checklist |
 
-관련 구현은 [[study/tech/ai/litellm/README|LiteLLM]], [[study/tech/ai/autoresearch-study/README|AutoResearch Study]], [[study/tech/ai/codex/README|Codex]] 노트를 참고한다.
+관련 구현은 [[tech/ai/litellm/README|LiteLLM]], [[tech/ai/autoresearch-study/README|AutoResearch Study]], [[tech/ai/codex/README|Codex]] 노트를 참고한다.
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm/README]]
-- [[study/tech/ai/autoresearch-study/README]]
-- [[study/tech/data/dolt/README]]
+- [[tech/ai/litellm/README|litellm]]
+- [[tech/ai/autoresearch-study/README|autoresearch-study]]
+- [[tech/data/dolt/README|dolt]]

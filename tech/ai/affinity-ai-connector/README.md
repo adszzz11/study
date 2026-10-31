@@ -3,6 +3,8 @@ date: 2026-09-01
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-www-affinity-studio-help-ai-connec
 ---
 
 # Affinity AI Connector for Claude

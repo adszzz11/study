@@ -128,5 +128,5 @@ docker run -e OPENAI_API_KEY=your-key -p 4000:4000 ghcr.io/berriai/litellm:main-
 
 ## 관련 학습 자료
 
-- [[../python/README|Python 기초]]
-- [[../docker/README|Docker 기초]]
+- Python 기초
+- Docker 기초

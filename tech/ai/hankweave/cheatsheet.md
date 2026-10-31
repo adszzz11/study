@@ -106,7 +106,7 @@ bunx hankweave@latest --headless --autostart --max-cost 10
 ## 관련 링크
 
 - [[README|Hankweave 시리즈]]
-- [[study/tech/ai/agent-orchestration]]
-- [[study/tech/ai/lazy-codex]]
-- [[study/tech/ai/model-context-protocol-mcp]]
-- [[study/tech/ai/multi-agent-platforms]]
+- [[tech/ai/agent-orchestration/README|agent-orchestration]]
+- [[tech/ai/lazy-codex/README|lazy-codex]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]]

@@ -107,10 +107,10 @@ AI coding agents는 구현 비용을 낮춘다. 하지만 Beck식 관점에서�
 
 ## 6. 함께 읽을 노트
 
-- [[study/tech/ai/lazy-codex]] - agent에게 맡긴 작업을 검증 완료 상태로 닫는 방식
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent 여러 개를 작은 task로 운영하는 관점
-- [[study/tech/ai/model-context-protocol-mcp]] - agent tool integration 자체를 spike 대상으로 삼기 좋음
-- [[study/tech/ai/mitchellh-ai-adoption-study]] - AI가 개발 workflow를 바꾸는 단계적 관찰
+- [[tech/ai/lazy-codex/README|lazy-codex]] - agent에게 맡긴 작업을 검증 완료 상태로 닫는 방식
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent 여러 개를 작은 task로 운영하는 관점
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent tool integration 자체를 spike 대상으로 삼기 좋음
+- [[tech/ai/mitchellh-ai-adoption-study/README|mitchellh-ai-adoption-study]] - AI가 개발 workflow를 바꾸는 단계적 관찰
 
 ---
 

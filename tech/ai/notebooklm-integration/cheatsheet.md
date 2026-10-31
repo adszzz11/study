@@ -91,6 +91,6 @@ A4. HTML text 중심이다. 이미지, embedded videos, nested pages, paywalled 
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]]
-- [[study/tech/ai/model-context-protocol-mcp]]
-- [[study/tech/ai/litellm]]
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/litellm/README|litellm]]

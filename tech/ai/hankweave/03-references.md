@@ -66,6 +66,6 @@ curl -s https://raw.githubusercontent.com/SouthBridgeAI/hankweave-runtime/releas
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration]] - orchestration 개념 배경
-- [[study/tech/ai/model-context-protocol-mcp]] - external tool/resource 표준화
-- [[study/tech/infra/prefect]] - data/workflow orchestration 비교
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] - orchestration 개념 배경
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - external tool/resource 표준화
+- [[tech/infra/prefect/README|prefect]] - data/workflow orchestration 비교

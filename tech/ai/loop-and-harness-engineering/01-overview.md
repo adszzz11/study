@@ -100,6 +100,6 @@ Claude Code 분석 논문도 agentic coding system의 중심을 `model call -> t
 
 ## 6. 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - 거짓 완료를 검증 루프로 잡는 사례
-- [[study/tech/ai/model-context-protocol-mcp]] - tool/context 연결 계층
-- [[study/tech/ai/codex]] - coding agent 사용 맥락
+- [[tech/ai/lazy-codex/README|lazy-codex]] - 거짓 완료를 검증 루프로 잡는 사례
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool/context 연결 계층
+- [[tech/ai/codex/README|codex]] - coding agent 사용 맥락

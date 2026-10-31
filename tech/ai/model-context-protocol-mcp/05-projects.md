@@ -172,6 +172,6 @@ remote-mcp/
 
 ## 7. 관련 노트
 
-- [[study/tech/ai/llm-wiki-study]] - Obsidian/LLM Wiki MCP server 프로젝트와 직접 연결
-- [[study/tech/ai/litellm]] - remote MCP host가 사용할 LLM routing/gateway 설계
-- [[study/tech/ai/openclaw-study]] - messenger gateway와 agent workflow 통합 아이디어
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - Obsidian/LLM Wiki MCP server 프로젝트와 직접 연결
+- [[tech/ai/litellm/README|litellm]] - remote MCP host가 사용할 LLM routing/gateway 설계
+- [[tech/ai/openclaw-study/README|openclaw-study]] - messenger gateway와 agent workflow 통합 아이디어

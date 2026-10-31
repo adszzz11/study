@@ -8,6 +8,8 @@ tags:
   - repairable-agents
 status: learning
 type: tech-tool-study
+aliases:
+  - https-www-southbridge-ai-hankweave
 ---
 
 # Hankweave
@@ -44,13 +46,13 @@ hank.json
 
 - [ ] [[01-overview|개요]]에서 repairable agent, brownfield AI engineering, context firewalling 이해
 - [ ] Hank, Codon, Sentinel, Harness, Checkpoint 용어 정리
-- [ ] [[study/tech/ai/agent-orchestration]] 맥락에서 "agent framework"와 "agent runtime" 차이 구분
+- [ ] [[tech/ai/agent-orchestration/README|agent-orchestration]] 맥락에서 "agent framework"와 "agent runtime" 차이 구분
 
 ### 2단계: 생태계 비교
 
 - [ ] [[02-ecosystem|생태계]]에서 LangGraph, AutoGen, CrewAI, Temporal, bash/CI와 비교
 - [ ] Hankweave가 graph app framework보다 harness orchestration/runtime에 가까운 이유 정리
-- [ ] [[study/tech/ai/lazy-codex]]와 검증·복구 관점 비교
+- [ ] [[tech/ai/lazy-codex/README|lazy-codex]]와 검증·복구 관점 비교
 
 ### 3단계: 공식 자료 확인
 
@@ -99,10 +101,10 @@ https-www-southbridge-ai-hankweave/
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration]] - agent runtime/orchestration 맥락
-- [[study/tech/ai/lazy-codex]] - coding agent harness와 검증 루프
-- [[study/tech/ai/model-context-protocol-mcp]] - agent tool/resource integration 계층
-- [[study/tech/ai/multi-agent-platforms]] - multi-agent framework 생태계
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] - agent runtime/orchestration 맥락
+- [[tech/ai/lazy-codex/README|lazy-codex]] - coding agent harness와 검증 루프
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent tool/resource integration 계층
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - multi-agent framework 생태계
 
 ---
 

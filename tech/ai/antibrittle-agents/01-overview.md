@@ -140,9 +140,9 @@ MCP/tool을 많이 붙이는 것이 항상 좋지 않다. context window를 오�
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - verified completion과 false completion 방어
-- [[study/tech/ai/model-context-protocol-mcp]] - tool minimalism과 tool/data protocol 관점
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent orchestration과 single-thread/multi-agent tradeoff
+- [[tech/ai/lazy-codex/README|lazy-codex]] - verified completion과 false completion 방어
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool minimalism과 tool/data protocol 관점
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent orchestration과 single-thread/multi-agent tradeoff
 
 ## References
 

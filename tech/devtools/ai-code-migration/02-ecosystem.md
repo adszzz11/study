@@ -68,7 +68,7 @@ Governance layer: phase gates + audit trail + human approval
 
 ## Dynamic Workflows와의 관계
 
-[[tech/devtools/claude의-dynamic-workflow에-대해-알려줘/README|Claude Dynamic Workflows]]는 이 pipeline을 실행할 수 있는 orchestration 수단 중 하나다. prompt를 task graph로 분해해 implementer와 reviewer를 병렬 실행하고 중단된 작업을 재개할 수 있지만, 다음은 migration 팀이 별도로 정의해야 한다.
+[[tech/devtools/claude-dynamic-workflows/README|Claude Dynamic Workflows]]는 이 pipeline을 실행할 수 있는 orchestration 수단 중 하나다. prompt를 task graph로 분해해 implementer와 reviewer를 병렬 실행하고 중단된 작업을 재개할 수 있지만, 다음은 migration 팀이 별도로 정의해야 한다.
 
 - cost ceiling, concurrency, timeout
 - filesystem·Git 권한과 workspace isolation

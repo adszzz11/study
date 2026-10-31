@@ -156,6 +156,6 @@ commit 3: feat: send overdue invoice notification
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - AI agent에게도 test list와 done criteria를 주기
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP 같은 새 protocol을 spike ticket으로 조사하기
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent 작업 단위를 작게 쪼개 feedback loop 만들기
+- [[tech/ai/lazy-codex/README|lazy-codex]] - AI agent에게도 test list와 done criteria를 주기
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP 같은 새 protocol을 spike ticket으로 조사하기
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent 작업 단위를 작게 쪼개 feedback loop 만들기

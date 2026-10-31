@@ -188,6 +188,6 @@ MCP server가 많아지면 "어떤 server를 믿고 설치/연결할 것인가"�
 
 ## 관련 노트
 
-- [[study/tech/ai/llm-wiki-study]] - resource/prompt/workflow 설계 대상
-- [[study/tech/ai/openclaw-study]] - remote gateway와 notification workflow 맥락
-- [[study/tech/ai/multi-agent-platforms]] - MCP와 A2A/agent collaboration의 역할 분리
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - resource/prompt/workflow 설계 대상
+- [[tech/ai/openclaw-study/README|openclaw-study]] - remote gateway와 notification workflow 맥락
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - MCP와 A2A/agent collaboration의 역할 분리

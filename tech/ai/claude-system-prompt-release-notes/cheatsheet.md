@@ -127,6 +127,6 @@ observed behavior
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - multi-provider prompt/routing 관리
-- [[study/tech/ai/model-context-protocol-mcp]] - runtime context와 tool boundary
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent instruction governance
+- [[tech/ai/litellm/README|litellm]] - multi-provider prompt/routing 관리
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - runtime context와 tool boundary
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent instruction governance

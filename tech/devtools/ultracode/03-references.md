@@ -62,6 +62,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/codex/03-references]] - Codex 참고자료
-- [[study/tech/ai/model-context-protocol-mcp/03-references]] - MCP 참고자료
-- [[study/tech/ai/claude/07-mcp]] - Claude Code와 MCP
+- [[tech/ai/codex/03-references|03-references]] - Codex 참고자료
+- [[tech/ai/model-context-protocol-mcp/03-references|03-references]] - MCP 참고자료
+- [[tech/ai/claude/07-mcp|07-mcp]] - Claude Code와 MCP

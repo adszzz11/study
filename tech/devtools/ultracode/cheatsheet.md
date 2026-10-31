@@ -144,6 +144,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/codex/cheatsheet]] - Codex 명령과 패턴
-- [[study/tech/ai/claude/03-claude-code]] - Claude Code workflow
-- [[study/tech/ai/model-context-protocol-mcp/cheatsheet]] - MCP tool 설계 빠른 참조
+- [[tech/ai/codex/cheatsheet|cheatsheet]] - Codex 명령과 패턴
+- [[tech/ai/claude/03-claude-code|03-claude-code]] - Claude Code workflow
+- [[tech/ai/model-context-protocol-mcp/cheatsheet|cheatsheet]] - MCP tool 설계 빠른 참조

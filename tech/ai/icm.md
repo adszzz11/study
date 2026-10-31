@@ -314,4 +314,4 @@ Stage 3 (03_production) — script_draft.md + production-spec.md → animation s
 ### 관련 노트
 
 - [[thin-harness-fat-skills]] · [[invisible-interface-agentic-ai]] · [[google-adk-deep-search]]
-- 사용 모델: [[claude/]] (Opus 4.6 primary + Sonnet 4.6 sub-agents via Agent Teams)
+- 사용 모델: [[tech/ai/claude/README|claude]] (Opus 4.6 primary + Sonnet 4.6 sub-agents via Agent Teams)

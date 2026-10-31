@@ -90,6 +90,6 @@ print(result["markdown"])
 
 ## 관련 노트
 
-- [[../web-scraping|웹 스크래핑 기초]]
-- [[../langchain|LangChain]]
-- [[../rag|RAG 시스템]]
+- 웹 스크래핑 기초
+- LangChain
+- RAG 시스템

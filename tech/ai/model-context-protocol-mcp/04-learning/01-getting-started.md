@@ -172,6 +172,6 @@ Prompt는 model이 임의로 호출하는 tool보다 사용자 workflow에 가�
 
 ## 관련 노트
 
-- [[study/tech/ai/llm-wiki-study]] - Obsidian vault resource/tool 실습 대상
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent에서 MCP server를 사용하는 흐름
-- [[study/tech/ai/litellm]] - host 쪽 LLM gateway와 MCP server를 분리해서 생각하기
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - Obsidian vault resource/tool 실습 대상
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent에서 MCP server를 사용하는 흐름
+- [[tech/ai/litellm/README|litellm]] - host 쪽 LLM gateway와 MCP server를 분리해서 생각하기

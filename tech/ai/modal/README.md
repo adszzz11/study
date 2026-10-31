@@ -133,10 +133,10 @@ modal-study/
 
 ## 관련 노트
 
-- [[serverless]]
-- [[aws-lambda]]
-- [[kubernetes]]
-- [[docker]]
+- serverless
+- aws-lambda
+- [[tech/infra/kubernetes/README|kubernetes]]
+- docker
 
 ---
 

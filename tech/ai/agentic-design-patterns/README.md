@@ -3,6 +3,8 @@ date: 2026-10-27
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - https-www-instagram-com-reel-de-wkucy-9d
 ---
 
 # Agentic Design Patterns tool study

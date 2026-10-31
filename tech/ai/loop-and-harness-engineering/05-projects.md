@@ -154,6 +154,6 @@ checks:
 
 ## 관련 노트
 
-- [[study/tech/ai/model-context-protocol-mcp]]
-- [[study/tech/ai/codex]]
-- [[study/tech/ai/lazy-codex]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/codex/README|codex]]
+- [[tech/ai/lazy-codex/README|lazy-codex]]

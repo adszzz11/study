@@ -134,7 +134,7 @@ AI coding agent는 외부 시스템과 연결될수록 workflow 자동화 범위
 | CI/CD | failing job 기반 patch 생성 |
 | Browser tools | UI regression, screenshot verification |
 
-관련 학습은 [[study/tech/ai/model-context-protocol-mcp]]와 [[study/tech/ai/claude/05-skills]]를 같이 보면 좋다.
+관련 학습은 [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]와 [[tech/ai/claude/05-skills|05-skills]]를 같이 보면 좋다.
 
 ---
 
@@ -150,6 +150,6 @@ AI coding agent는 외부 시스템과 연결될수록 workflow 자동화 범위
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - CLI agent 운영 관점
-- [[study/tech/ai/claude/08-subagents]] - subagent와 역할 분리
-- [[study/tech/ai/thin-harness-fat-skills]] - skill 중심 자동화 설계
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - CLI agent 운영 관점
+- [[tech/ai/claude/08-subagents|08-subagents]] - subagent와 역할 분리
+- [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]] - skill 중심 자동화 설계

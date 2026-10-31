@@ -87,7 +87,7 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/codex]] - OpenAI Codex
-- [[study/tech/ai/claude/03-claude-code]] - Claude Code
-- [[study/tech/ai/model-context-protocol-mcp]] - MCP와 tool integration
-- [[study/tech/ai/agent-orchestration/README]] - agent orchestration 관점
+- [[tech/ai/codex/README|codex]] - OpenAI Codex
+- [[tech/ai/claude/03-claude-code|03-claude-code]] - Claude Code
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - MCP와 tool integration
+- [[tech/ai/agent-orchestration/README|agent-orchestration]] - agent orchestration 관점

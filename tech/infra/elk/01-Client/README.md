@@ -16,7 +16,7 @@ updated: 2025-10-06
 
 ## 📚 학습 자료
 
-### [[01-Kotlin-SpringBoot-로깅-설정|🔧 Kotlin + Spring Boot 로깅 설정]]
+### [[01-kotlin-springboot-logging|🔧 Kotlin + Spring Boot 로깅 설정]]
 
 Logback 및 Logstash 연동
 
@@ -33,7 +33,7 @@ Logback 및 Logstash 연동
 - Micrometer + Elasticsearch
 - 커스텀 메트릭
 
-### [[03-Kotlin-로깅-Best-Practices|⭐ Kotlin 로깅 Best Practices]]
+### [[03-kotlin-logging-best-practices|⭐ Kotlin 로깅 Best Practices]]
 
 코틀린 로깅 모범 사례
 
@@ -210,7 +210,7 @@ sequenceDiagram
 ## 🔗 관련 문서
 
 - [[../README|← 메인으로 돌아가기]]
-- [[01-Kotlin-SpringBoot-로깅-설정|Kotlin + Spring Boot 로깅 설정 →]]
+- [[01-kotlin-springboot-logging|Kotlin + Spring Boot 로깅 설정 →]]
 - [[../02-Server/README|Server 관점으로 →]]
 
 ---

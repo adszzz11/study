@@ -142,9 +142,9 @@ position' = position * train_context / target_context
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - LLM architecture와 model family 비교의 배경
-- [[study/tech/ai/litellm]] - long-context model routing과 비용/성능 tradeoff
-- [[study/tech/ai/model-context-protocol-mcp]] - 긴 context에 모두 넣을지, tool/resource로 분리할지 비교
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - LLM architecture와 model family 비교의 배경
+- [[tech/ai/litellm/README|litellm]] - long-context model routing과 비용/성능 tradeoff
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - 긴 context에 모두 넣을지, tool/resource로 분리할지 비교
 
 ---
 

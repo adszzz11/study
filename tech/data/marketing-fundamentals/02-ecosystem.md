@@ -65,7 +65,7 @@ parent: "[[README]]"
 | Data analysis | Sheets, Looker Studio | BigQuery, dbt, Python |
 | AI analysis | LLM prompt, sentiment analysis | RAG, agent workflow, text clustering |
 
-마케팅 데이터가 커지면 raw event, campaign cost, CRM, sales data를 연결해야 한다. 이때 데이터 버전과 분석 재현성은 [[study/tech/data/dolt/README|Dolt]] 같은 데이터 버전 관리 개념과도 연결된다.
+마케팅 데이터가 커지면 raw event, campaign cost, CRM, sales data를 연결해야 한다. 이때 데이터 버전과 분석 재현성은 [[tech/data/dolt/README|Dolt]] 같은 데이터 버전 관리 개념과도 연결된다.
 
 ---
 
@@ -82,6 +82,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/llm-wiki-study/README]] - 마케팅 지식 베이스와 리서치 워크플로우 설계 참고
-- [[study/tech/ai/litellm/README]] - 여러 LLM으로 소비자 리뷰 분석을 돌릴 때 참고
-- [[study/tech/data/cloudflare-r2/README]] - 크리에이티브와 리서치 파일 저장소 설계 참고
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 마케팅 지식 베이스와 리서치 워크플로우 설계 참고
+- [[tech/ai/litellm/README|litellm]] - 여러 LLM으로 소비자 리뷰 분석을 돌릴 때 참고
+- [[tech/data/cloudflare-r2/README|cloudflare-r2]] - 크리에이티브와 리서치 파일 저장소 설계 참고

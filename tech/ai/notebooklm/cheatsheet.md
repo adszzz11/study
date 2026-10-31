@@ -134,6 +134,6 @@ gemini -p "Summarize local markdown files into a Korean study note with file pat
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - Gemini CLI와 다른 CLI agents 비교
-- [[study/tech/ai/model-context-protocol-mcp]] - custom workflow integration
-- [[study/tech/ai/litellm]] - model gateway와 custom RAG 운영
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - Gemini CLI와 다른 CLI agents 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - custom workflow integration
+- [[tech/ai/litellm/README|litellm]] - model gateway와 custom RAG 운영

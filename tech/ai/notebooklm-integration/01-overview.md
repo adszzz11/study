@@ -119,9 +119,9 @@ System
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - AI research assistant와 RAG 도구 분류
-- [[study/tech/ai/model-context-protocol-mcp]] - 외부 tool/source를 AI host에 연결하는 protocol 계층
-- [[study/tech/ai/litellm]] - API 기반 LLM routing과 NotebookLM UI형 workflow 비교
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - AI research assistant와 RAG 도구 분류
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - 외부 tool/source를 AI host에 연결하는 protocol 계층
+- [[tech/ai/litellm/README|litellm]] - API 기반 LLM routing과 NotebookLM UI형 workflow 비교
 
 ## References
 

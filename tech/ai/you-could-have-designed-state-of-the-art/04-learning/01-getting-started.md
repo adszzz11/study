@@ -187,6 +187,6 @@ print(scores.shape)
 
 ## 관련 노트
 
-- [[study/tech/ai/ai-ecosystem]] - Transformer 구조 안에서 attention component 복습
-- [[study/tech/ai/llm-wiki-study]] - 긴 sequence를 그대로 넣는 방식과 retrieval 방식 비교
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]] - Transformer 구조 안에서 attention component 복습
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 긴 sequence를 그대로 넣는 방식과 retrieval 방식 비교
 

@@ -9,6 +9,8 @@ tags:
   - orchestration
 status: learning
 type: tech-tool-study
+aliases:
+  - https-sakana-ai-fugu-분석
 ---
 
 # Sakana Fugu 분석
@@ -70,8 +72,8 @@ print(response.choices[0].message.content)
 ### 2단계: 생태계 비교
 
 - [ ] [[02-ecosystem|생태계]]에서 OpenRouter, RouteLLM, Mixture-of-Agents, MASRouter, AutoGen/LangGraph와 비교
-- [ ] [[study/tech/ai/litellm]] 같은 gateway/router와 Fugu의 orchestration 차이 정리
-- [ ] [[study/tech/ai/multi-agent-platforms/autogen]]이나 LangGraph로 직접 만든 agent pipeline과 비교 기준 작성
+- [ ] [[tech/ai/litellm/README|litellm]] 같은 gateway/router와 Fugu의 orchestration 차이 정리
+- [ ] [[tech/ai/multi-agent-platforms/autogen/README|autogen]]이나 LangGraph로 직접 만든 agent pipeline과 비교 기준 작성
 
 ### 3단계: 근거 자료 확인
 
@@ -123,10 +125,10 @@ https-sakana-ai-fugu-분석/
 
 ## 관련 노트
 
-- [[study/tech/ai/litellm]] - LLM provider gateway/router와 Fugu의 차이 비교
-- [[study/tech/ai/agent-orchestration/conductor]] - agent orchestration 연구/도구 맥락
-- [[study/tech/ai/multi-agent-platforms/autogen]] - 직접 multi-agent workflow를 설계하는 대안
-- [[study/tech/ai/model-context-protocol-mcp]] - agent가 외부 tool/context를 쓰는 integration layer
+- [[tech/ai/litellm/README|litellm]] - LLM provider gateway/router와 Fugu의 차이 비교
+- [[tech/ai/agent-orchestration/conductor/README|conductor]] - agent orchestration 연구/도구 맥락
+- [[tech/ai/multi-agent-platforms/autogen/README|autogen]] - 직접 multi-agent workflow를 설계하는 대안
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - agent가 외부 tool/context를 쓰는 integration layer
 
 ---
 

@@ -161,6 +161,6 @@ Bad parallelism:
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/cli-agents]] - orchestration과 subagent tradeoff
-- [[study/tech/ai/multi-agent-platforms]] - multi-agent framework 비교
-- [[study/tech/ai/model-context-protocol-mcp]] - tool surface와 permission boundary
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - orchestration과 subagent tradeoff
+- [[tech/ai/multi-agent-platforms/README|multi-agent-platforms]] - multi-agent framework 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool surface와 permission boundary

@@ -126,10 +126,10 @@ stagehand-study/
 
 ## 관련 노트
 
-- [[playwright]]
-- [[puppeteer]]
-- [[selenium]]
-- [[web-scraping]]
+- [[tech/scraping/playwright/README|playwright]]
+- puppeteer
+- selenium
+- web-scraping
 
 ---
 

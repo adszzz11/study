@@ -44,7 +44,7 @@ Use the ponytail workflow to review this PR and produce a risk-focused checklist
 | chart generation | template과 style guide를 `assets/`에 저장 |
 | report 작성 | output format을 reference로 고정 |
 
-관련: [[study/tech/data/dolt]]처럼 data 변경 이력을 다루는 도구와 함께 쓰면 검증 흐름을 더 명확히 만들 수 있다.
+관련: [[tech/data/dolt/README|dolt]]처럼 data 변경 이력을 다루는 도구와 함께 쓰면 검증 흐름을 더 명확히 만들 수 있다.
 
 ## 3. Scraping/Research skill
 
@@ -57,7 +57,7 @@ Use the ponytail workflow to review this PR and produce a risk-focused checklist
 | citation formatting | Markdown reference table format |
 | quality gate | 날짜, 출처, 불확실성 표시 |
 
-이 프로젝트는 [[study/tech/ai/autoresearch-study]]와 잘 연결된다.
+이 프로젝트는 [[tech/ai/autoresearch-study/README|autoresearch-study]]와 잘 연결된다.
 
 ## 4. Devtools skill
 
@@ -103,8 +103,8 @@ devtools-ponytail/
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - 완료 검증 루프 설계
-- [[study/tech/ai/model-context-protocol-mcp]] - 외부 tool/data 연동
-- [[study/tech/ai/autoresearch-study]] - research workflow 자동화
-- [[study/tech/ai/llm-wiki-study]] - 지식 노트와 agent workflow 연결
+- [[tech/ai/lazy-codex/README|lazy-codex]] - 완료 검증 루프 설계
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - 외부 tool/data 연동
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - research workflow 자동화
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 지식 노트와 agent workflow 연결
 

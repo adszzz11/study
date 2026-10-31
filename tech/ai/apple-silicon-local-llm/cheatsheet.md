@@ -19,7 +19,7 @@ type: tech-tool-study
 | OpenAI-compatible local server | LM Studio, Ollama, llama.cpp |
 | Apple Silicon native 실험 | MLX-LM |
 | GGUF 저수준 튜닝 | llama.cpp |
-| local/cloud 라우팅 | [[litellm]] |
+| local/cloud 라우팅 | [[tech/ai/litellm/README|litellm]] |
 
 ## Mac mini 모델 감각
 
@@ -117,10 +117,10 @@ llama-server \
 
 ## 관련 노트
 
-- [[ai-ecosystem]]
-- [[litellm]]
-- [[model-context-protocol-mcp]]
-- [[codex]]
+- [[tech/ai/ai-ecosystem/README|ai-ecosystem]]
+- [[tech/ai/litellm/README|litellm]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/codex/README|codex]]
 
 ## 추가 조사: M4 Pro 64GB 빠른 선택
 

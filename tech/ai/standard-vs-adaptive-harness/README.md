@@ -3,9 +3,11 @@ date: 2026-09-09
 tags: [tech]
 type: tech-tool-study
 status: draft
+aliases:
+  - 표준-하네스랑-프로바이더-적응형-하네스
 ---
 
-# 표준 하네스랑 프로바이더 적응형 하네스
+# 표준 하네스와 프로바이더 적응형 하네스
 
 > **한 줄 정의**: Standardized Harness는 모델들을 공통 실행 계약으로 운용하는 에이전트 기반이며, Provider-adaptive Harness는 그 기반 위에서 provider·model·API 특성에 맞춰 context, tools, reasoning, 실행 전략을 조정하는 구조다.
 

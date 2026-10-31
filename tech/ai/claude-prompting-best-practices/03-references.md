@@ -62,6 +62,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/claude]] - Claude 공식 기능과 모델별 차이 확인
-- [[study/tech/ai/model-context-protocol-mcp]] - tool result와 external system boundary
-- [[study/tech/ai/llm-wiki-study]] - 문서 기반 답변과 citation workflow
+- [[tech/ai/claude/README|claude]] - Claude 공식 기능과 모델별 차이 확인
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - tool result와 external system boundary
+- [[tech/ai/llm-wiki-study/README|llm-wiki-study]] - 문서 기반 답변과 citation workflow

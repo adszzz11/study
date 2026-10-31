@@ -66,8 +66,8 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/claude/05-skills]]
-- [[study/tech/ai/model-context-protocol-mcp]]
-- [[study/tech/ai/codex]]
-- [[study/tech/ai/thin-harness-fat-skills]]
+- [[tech/ai/claude/05-skills|05-skills]]
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]]
+- [[tech/ai/codex/README|codex]]
+- [[tech/ai/thin-harness-fat-skills|thin-harness-fat-skills]]
 

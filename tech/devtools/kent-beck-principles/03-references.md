@@ -92,6 +92,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - AI coding agent 결과를 어떻게 검증 완료 상태로 만들지 연결
-- [[study/tech/ai/mitchellh-ai-adoption-study]] - AI adoption에서 개발자 업무의 재구성 비교
-- [[study/tech/ai/model-context-protocol-mcp]] - 새 protocol 학습에 spike template 적용 가능
+- [[tech/ai/lazy-codex/README|lazy-codex]] - AI coding agent 결과를 어떻게 검증 완료 상태로 만들지 연결
+- [[tech/ai/mitchellh-ai-adoption-study/README|mitchellh-ai-adoption-study]] - AI adoption에서 개발자 업무의 재구성 비교
+- [[tech/ai/model-context-protocol-mcp/README|model-context-protocol-mcp]] - 새 protocol 학습에 spike template 적용 가능

@@ -84,6 +84,6 @@ parent: "[[README]]"
 
 ## 관련 노트
 
-- [[study/tech/ai/agent-orchestration/conductor]] - Conductor 기반 orchestration 이해
-- [[study/tech/ai/autoresearch-study]] - research automation 적용 맥락
-- [[study/tech/ai/litellm]] - routing/gateway 비교 기준
+- [[tech/ai/agent-orchestration/conductor/README|conductor]] - Conductor 기반 orchestration 이해
+- [[tech/ai/autoresearch-study/README|autoresearch-study]] - research automation 적용 맥락
+- [[tech/ai/litellm/README|litellm]] - routing/gateway 비교 기준

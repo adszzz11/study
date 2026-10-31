@@ -147,6 +147,6 @@ fix: reject expired payment method
 
 ## 관련 노트
 
-- [[study/tech/ai/lazy-codex]] - AI coding task를 작게 쪼개고 검증하기
-- [[study/tech/ai/agent-orchestration/cli-agents]] - agent workflow에서 feedback loop 설계
-- [[study/tech/ai/mitchellh-ai-adoption-study]] - AI adoption과 engineering judgment 변화
+- [[tech/ai/lazy-codex/README|lazy-codex]] - AI coding task를 작게 쪼개고 검증하기
+- [[tech/ai/agent-orchestration/cli-agents|cli-agents]] - agent workflow에서 feedback loop 설계
+- [[tech/ai/mitchellh-ai-adoption-study/README|mitchellh-ai-adoption-study]] - AI adoption과 engineering judgment 변화
