@@ -28,6 +28,7 @@ status: active
 - [[tech/infra/ecc/README|Ecc]]
 - [[tech/infra/https-research-perplexity-ai-articles-ma/README|https://research.perplexity.ai/articles/making-space-secure-and-efficient-runti…]]
 - [[tech/infra/glanswitch/README|Glanswitch]]
+- [[tech/infra/https-kciter-so-posts-server-monitoring/README|https://kciter.so/posts/server-monitoring-analysis-guide/]]
 
 ## Bridge Notes
 
