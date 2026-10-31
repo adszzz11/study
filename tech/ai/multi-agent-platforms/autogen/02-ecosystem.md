@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 2. AutoGen 생태계
 
 ## 🆚 vs 경쟁자

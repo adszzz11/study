@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 2: 생태계 파악
 
 ## 2.1 관련 기술/용어 맵

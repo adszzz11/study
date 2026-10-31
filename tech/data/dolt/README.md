@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Dolt 학습 가이드
 
 > Git처럼 버전 관리되는 SQL 데이터베이스

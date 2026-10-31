@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 Set-Cookie : 서버에서 클라이언트로 쿠키 전달(응답)
 Cookie : 클라이언트가 서버에서 받은 쿠키 저장, HTTP 요청 시 서버로 전달
 

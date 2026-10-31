@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-4. Claude / Gemini 라우팅 (LiteLLM)
 
 ## 🌉 LiteLLM 게이트웨이 패턴

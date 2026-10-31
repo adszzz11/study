@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-3. Streaming 응답
 
 ## 🌊 기본 스트리밍

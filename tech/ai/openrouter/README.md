@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # OpenRouter 학습 가이드
 
 > 500+ LLM 모델을 단일 API로 사용하는 통합 AI 게이트웨이

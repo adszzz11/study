@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 @BeforeJob
 - 호출 조건: Job이 시작되기 전에 항상 호출됩니다.
 - 에러 발생 시: JobExecution에 실패 상태가 기록되며, Job이 중단될 수 있습니다.

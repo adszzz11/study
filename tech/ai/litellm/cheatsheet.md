@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # LiteLLM 치트시트
 
 > 빠른 참조용 명령어 및 설정 모음

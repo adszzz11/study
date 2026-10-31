@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # LLM Wiki Cheat Sheet
 
 ## 🚀 본 환경에 이미 설치된 /wiki Skill

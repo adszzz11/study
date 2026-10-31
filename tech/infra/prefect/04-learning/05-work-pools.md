@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Work Pools와 인프라 관리
 
 ## 📌 핵심 개념

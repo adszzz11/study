@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 2. Dify 생태계
 
 ## 🆚 vs 같은 카테고리 (Visual + LLM)

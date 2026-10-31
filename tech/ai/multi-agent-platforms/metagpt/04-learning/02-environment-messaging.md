@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-2. Environment & Messaging
 
 ## 📡 Pub/Sub 모델

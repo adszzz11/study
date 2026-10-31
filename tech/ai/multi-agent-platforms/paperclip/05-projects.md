@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 5. 실전 프로젝트 — 맥미니 자치 운영
 
 > 사용자의 진짜 목표: **"맥미니의 모든 걸 관리하는 AI 인프라"**. Paperclip을 관제탑으로 시작.

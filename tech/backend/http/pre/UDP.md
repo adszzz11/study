@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 UDP
 : 사용자 데이터그램 프로토콜(User Datagram Protocol)
 

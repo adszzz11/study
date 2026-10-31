@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 1. Agency Swarm 개요
 
 ## 📌 핵심: "Agency 메타포"

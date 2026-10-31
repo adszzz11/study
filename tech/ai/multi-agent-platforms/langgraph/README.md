@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # LangGraph 심층 스터디
 
 > 상태를 가진 멀티 에이전트를 위한 **그래프 기반** 저수준 오케스트레이션 — 프로덕션 표준

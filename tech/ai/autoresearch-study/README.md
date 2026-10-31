@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Autoresearch Study
 
 > **한 줄 정의**: AI 에이전트가 밤새 자율적으로 ML 실험을 반복하여 모델을 개선하는 Karpathy의 자율 연구 프레임워크

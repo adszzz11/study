@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # LiteLLM 학습 가이드
 
 > 100+ LLM 프로바이더를 단일 API로 통합하는 오픈소스 게이트웨이

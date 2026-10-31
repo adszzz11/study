@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 3. AutoGen 학습 자료
 
 ## 📚 공식

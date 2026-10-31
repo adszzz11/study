@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-2. Process — Sequential vs Hierarchical
 
 ## 🔁 Sequential — 가장 흔함

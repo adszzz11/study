@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Dify 심층 스터디
 
 > 비주얼 캔버스로 LLM 워크플로우·에이전트·RAG를 만드는 셀프호스팅 플랫폼 — 142k★

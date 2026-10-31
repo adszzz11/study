@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 2. 생태계 — OpenClaw같은 프로젝트들
 
 > "OpenClaw 같은 거"라고 두루뭉술하게 말해도, 안에는 **5가지 다른 갈래**가 섞여 있다. 이 챕터에서 그 갈래를 정리한다.

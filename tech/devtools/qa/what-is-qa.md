@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 Quality Assurance, Assistance
 
 https://engineering.linecorp.com/ko/blog/quality-advocator-shift-left-shift-right

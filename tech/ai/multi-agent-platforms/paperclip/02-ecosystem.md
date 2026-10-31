@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 2. Paperclip의 생태계 위치
 
 ## 🗺️ 카테고리 안에서의 좌표

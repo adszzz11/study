@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Cheat Sheet — 자주 쓰는 명령어 빠른 참조
 
 ## 🐳 Docker / OpenClaw

@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Multi-Agent Orchestration Platforms 비교 스터디
 
 > "에이전트 1명"이 아니라 "에이전트 팀/조직"을 다루는 카테고리. Paperclip이 부상하면서 다시 관심받는 영역.

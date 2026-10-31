@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-1. Handoff 패턴 깊이
 
 ## 🔁 기본 핸드오프

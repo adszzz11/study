@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-3. 예산·승인·감사로그 — Paperclip의 진짜 가치
 
 > 시간 ~20분. 결과: 직원이 폭주해도 안전한 환경 + 위험 작업은 승인 후에만 실행.

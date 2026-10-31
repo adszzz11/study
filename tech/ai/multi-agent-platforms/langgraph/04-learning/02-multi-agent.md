@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-2. Multi-Agent 패턴
 
 ## 👮 Supervisor 패턴 (가장 흔함)

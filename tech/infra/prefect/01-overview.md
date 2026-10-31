@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 1: 개요
 
 ## 1.1 정의 및 핵심 개념

@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-4. Routines & Tickets — 정기 자동화 + 작업 추적
 
 > 시간 ~15분. 결과: 매일 자동 돌아가는 워크플로우 3개 + 사용자 요청 티켓 처리 모델 이해.

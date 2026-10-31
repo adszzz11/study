@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 2: Ecosystem
 
 ## 관련 용어 맵

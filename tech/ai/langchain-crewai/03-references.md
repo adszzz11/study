@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 참고 자료 및 학습 리소스
 
 ## 공식 문서

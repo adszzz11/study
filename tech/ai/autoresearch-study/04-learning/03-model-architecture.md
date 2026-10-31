@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 03. GPT 모델 & Muon 옵티마이저
 
 ## 📌 핵심 개념

@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # LiteLLM config.yaml 작성법
 
 ## 학습 목표

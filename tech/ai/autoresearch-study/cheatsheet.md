@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Autoresearch Cheat Sheet
 
 ## 빠른 설치 & 실행

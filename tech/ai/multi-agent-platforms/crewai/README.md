@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # CrewAI 심층 스터디
 
 > 역할 기반 AI 에이전트 크루를 가장 빠르게 만드는 방법 — 20줄로 시작.

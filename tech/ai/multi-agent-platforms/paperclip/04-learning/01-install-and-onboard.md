@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-1. Paperclip 셋업 + 첫 회사 만들기
 
 > 시간 ~20분. 결과: 대시보드 접속 + 회사 1개 + 직원 0명.

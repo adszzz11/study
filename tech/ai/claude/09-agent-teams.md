@@ -1,3 +1,10 @@
+---
+date: 2026-02-10
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Claude Code Agent Teams — Production-Level 개발 워크플로우 가이드
 
 ## Spring Boot 4 + Hexagonal Architecture + Git Worktree 기반

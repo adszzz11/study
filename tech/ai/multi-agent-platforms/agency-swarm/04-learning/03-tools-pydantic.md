@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-3. Pydantic 기반 Type-safe Tools
 
 ## 🔧 BaseTool 패턴

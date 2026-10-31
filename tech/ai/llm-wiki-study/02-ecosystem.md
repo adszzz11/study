@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 2. 생태계 — Obsidian의 공식 대응
 
 > 사용자가 묻신 "Obsidian이 어떤 대책을 냈는지" — 가장 큰 사건은 **kepano/obsidian-skills**.

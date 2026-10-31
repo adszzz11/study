@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-2. `>` 연산자 — 통신 흐름
 
 ## 🔁 핵심 규칙

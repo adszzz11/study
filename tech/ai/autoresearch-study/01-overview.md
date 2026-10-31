@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 1: Overview
 
 ## Autoresearch란?

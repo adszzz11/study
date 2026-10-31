@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # AutoGen / AG2 심층 스터디
 
 > Microsoft 출신, 멀티 에이전트 **대화형 협업**의 원조. 지금은 maintenance 모드 + ag2ai 포크.

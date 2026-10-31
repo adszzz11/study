@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 1. OpenClaw 개요
 
 ## 📌 한 줄로 정리

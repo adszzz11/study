@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 라이프사이클 규칙 및 정책
 
 ## 라이프사이클 규칙 개요

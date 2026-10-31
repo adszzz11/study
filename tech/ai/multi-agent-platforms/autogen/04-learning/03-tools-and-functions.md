@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-3. Tools & Function Calling
 
 ## 🔧 v0.4 Tool 등록

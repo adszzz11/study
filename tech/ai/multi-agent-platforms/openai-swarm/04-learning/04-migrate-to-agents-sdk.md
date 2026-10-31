@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-4. OpenAI Agents SDK로 마이그레이션
 
 ## 🚀 설치

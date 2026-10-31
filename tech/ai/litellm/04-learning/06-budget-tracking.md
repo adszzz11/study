@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # LiteLLM 예산 관리와 모니터링
 
 ## 학습 목표

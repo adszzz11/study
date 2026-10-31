@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 4-2. 3대 연산 — Ingest, Query, Lint
 
 ## 📥 Ingest 깊이

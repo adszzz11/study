@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # OpenClaw 심층 스터디
 
 > 메신저로 말 걸면 답하는, 내 손에서 돌아가는 개인 AI 비서

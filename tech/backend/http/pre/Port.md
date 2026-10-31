@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 # PORT
 같은 IP 내에서 프로세스 구분
 0 ~ 65535까지 할당 가능

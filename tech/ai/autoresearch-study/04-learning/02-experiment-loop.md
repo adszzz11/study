@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 02. 실험 루프 메커니즘
 
 ## 📌 핵심 개념

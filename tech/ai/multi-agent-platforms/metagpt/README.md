@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # MetaGPT 심층 스터디
 
 > "한 줄 요구사항 → 완성된 소프트웨어 회사" — SOP(Standard Operating Procedure) 기반 LLM 조직

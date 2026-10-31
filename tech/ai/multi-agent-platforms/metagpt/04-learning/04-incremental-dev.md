@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-4. 점진적 개발 (Incremental Development)
 
 ## 🎯 문제

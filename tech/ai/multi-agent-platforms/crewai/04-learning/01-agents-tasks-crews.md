@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-1. Agents, Tasks, Crews — 3대 추상화
 
 ## 🎭 Agent 정의

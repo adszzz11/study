@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 4-3. Ollama 로컬 LLM을 OpenClaw 백엔드로 붙이기
 
 > 시간 ~20분. 결과: API 비용 0원, 인터넷 안 끊겨도 동작하는 Llama/Qwen 기반 비서.

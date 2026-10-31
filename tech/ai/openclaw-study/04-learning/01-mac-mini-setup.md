@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 4-1. Mac mini를 24/7 AI 서버로 준비하기
 
 > 시간 ~30분. 결과: 슬립 안 들어가고, 부팅 시 자동 로그인, Homebrew + Docker + 기본 모니터링까지 갖춘 Mac mini.

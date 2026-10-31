@@ -1,3 +1,10 @@
+---
+date: 2025-10-06
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 # Beats 설치 및 구성
 
 > 최종 업데이트: 2025-10-06

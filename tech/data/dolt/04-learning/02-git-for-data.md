@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Git 명령어와 데이터 버전 관리
 
 ## Git과 Dolt 명령어 비교

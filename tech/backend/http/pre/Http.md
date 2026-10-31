@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 # HTTP 프로토콜에 대한 이해
 Hyper Text Transfer Protocol
 - HTML, TEXT

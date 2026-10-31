@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # R2 버킷 생성 및 기본 설정
 
 ## 사전 준비

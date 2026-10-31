@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 5. MetaGPT 실전
 
 ## 🟢 P1. Side Project MVP (★)

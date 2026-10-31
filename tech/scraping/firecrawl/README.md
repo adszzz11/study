@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Firecrawl 학습 가이드
 
 > 웹사이트를 LLM용 Markdown 및 구조화 데이터로 변환하는 API

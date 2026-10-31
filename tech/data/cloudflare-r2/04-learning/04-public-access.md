@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 퍼블릭 액세스 및 Custom Domain
 
 ## 퍼블릭 액세스 개요

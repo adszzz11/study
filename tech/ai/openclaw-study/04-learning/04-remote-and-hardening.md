@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 4-4. 외부 접속 + 보안 하드닝
 
 > 시간 ~40분. 결과: 카페에서도 텔레그램 봇이 동작하고, "Claw Chain" 같은 sandbox escape에도 호스트가 안 털림.

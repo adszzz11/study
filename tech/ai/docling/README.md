@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Docling 심층 스터디
 
 > **한 줄 정의**: PDF, DOCX 등 비정형 문서를 AI/LLM이 활용할 수 있는 구조화된 형식(Markdown, JSON)으로 변환하는 IBM의 오픈소스 문서 파싱 라이브러리

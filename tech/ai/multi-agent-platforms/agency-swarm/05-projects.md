@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 5. Agency Swarm 실전 프로젝트
 
 ## 🟢 P1. 텔레그램 비서 Agency (★)

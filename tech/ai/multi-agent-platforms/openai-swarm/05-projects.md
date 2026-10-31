@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 5. Swarm 학습용 예제
 
 > 모두 학습용. 프로덕션은 Agents SDK로 가기.

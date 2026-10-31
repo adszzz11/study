@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-4. AutoGen Studio (노코드 GUI)
 
 ## 🎨 설치

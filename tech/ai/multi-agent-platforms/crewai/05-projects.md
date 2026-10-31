@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 5. CrewAI 실전 프로젝트
 
 ## 🟢 P1. 콘텐츠 제작 크루 (난이도 ★)

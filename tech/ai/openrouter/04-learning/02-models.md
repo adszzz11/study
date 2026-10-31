@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # OpenRouter 모델 선택 가이드
 
 > 500+ 모델 중 최적의 모델 찾기

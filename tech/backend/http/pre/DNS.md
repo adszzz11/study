@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 # DNS
 : 도메인 네임 시스템(Domain Name System)
 	- 전화번호부

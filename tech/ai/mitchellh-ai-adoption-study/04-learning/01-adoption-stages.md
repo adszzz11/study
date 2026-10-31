@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 01. AI 도입 6단계 여정
 
 ## 📌 핵심 개념

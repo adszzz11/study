@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 상태 관리와 에러 처리
 
 ## 📌 핵심 개념

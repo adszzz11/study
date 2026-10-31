@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-1. 그래프와 상태
 
 ## 📌 핵심 3요소

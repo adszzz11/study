@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 실전 프로젝트
 
 ## 프로젝트 1: 문서 사이트 RAG 시스템

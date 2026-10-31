@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 # IP란
 사전적 의미 : OSI의 Layer 3(Network Layer)와 Internet Protocol Suite의 Layer 3(Internet Layer)에 위치하는 프로토콜, E2E 통신을 책임진다.
 - 지정한 IP 주소(IP Address)에 데이터 전달

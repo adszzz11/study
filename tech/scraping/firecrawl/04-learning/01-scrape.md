@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Scrape API - 단일 페이지 스크래핑
 
 ## 개요

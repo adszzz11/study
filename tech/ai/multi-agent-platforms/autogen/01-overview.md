@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 1. AutoGen / AG2 개요
 
 ## 📌 분기를 먼저 이해

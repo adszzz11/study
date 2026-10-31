@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 프로젝트명 예시
 - DN ATT (TT Fragile Fragile)
 - QA Box

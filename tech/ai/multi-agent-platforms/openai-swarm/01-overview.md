@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 1. OpenAI Swarm 개요
 
 ## 📌 두 가지 추상화로 끝

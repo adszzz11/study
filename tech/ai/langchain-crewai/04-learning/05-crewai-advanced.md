@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # CrewAI 고급 - Flow, Tools, Memory
 
 ## 개요

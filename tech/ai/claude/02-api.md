@@ -1,3 +1,10 @@
+---
+date: 2026-01-24
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Claude API 변경사항
 
 > 출처: https://platform.claude.com/docs/en/release-notes/overview

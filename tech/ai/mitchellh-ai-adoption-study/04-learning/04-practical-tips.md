@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 04. 실전 적용 팁
 
 ## 📌 핵심 개념

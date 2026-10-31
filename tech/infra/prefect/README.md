@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Prefect 심층 스터디
 
 > **한 줄 정의**: Python 함수를 프로덕션급 데이터 파이프라인으로 변환하는 워크플로우 오케스트레이션 프레임워크

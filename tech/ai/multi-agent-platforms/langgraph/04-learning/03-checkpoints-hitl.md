@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-3. 체크포인트·HITL·시간여행
 
 ## 💾 Checkpointer

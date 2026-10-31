@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Agency Swarm 심층 스터디
 
 > CEO + 전문직 직원 메타포로 안정적인 멀티 에이전트 — OpenAI Agents SDK 기반

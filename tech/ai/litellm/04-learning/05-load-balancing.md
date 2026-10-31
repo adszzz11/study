@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # LiteLLM 로드 밸런싱과 폴백
 
 ## 학습 목표

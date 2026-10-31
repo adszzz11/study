@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Mitchell Hashimoto의 AI 도입 여정 Study
 
 > **한 줄 정의**: HashiCorp 창립자이자 Ghostty 개발자 Mitchell Hashimoto가 AI 회의론자에서 일상적 AI 활용자로 변화한 6단계 여정을 분석한 학습 노트

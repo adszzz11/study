@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # OpenAI SDK로 OpenRouter 사용하기
 
 > 기존 OpenAI 코드를 OpenRouter로 쉽게 마이그레이션

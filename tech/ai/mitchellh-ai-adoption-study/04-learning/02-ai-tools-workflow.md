@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 02. 사용한 AI 도구들과 워크플로우
 
 ## 📌 핵심 개념

@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 5. 실전 프로젝트 5종
 
 > 셋업이 끝났다면, 진짜 "쓸모"를 만들어볼 차례. 난이도 🟢→🔴 순으로 정리.

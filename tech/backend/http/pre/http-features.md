@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 # HTTP 특징
 Request-Response 구조
 - 클라이언트는 서버에 요청을 보내고, 응답 대기

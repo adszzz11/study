@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 5. LangGraph 실전 프로젝트
 
 ## 🟢 P1. 승인 게이트가 있는 이메일 봇 (★)

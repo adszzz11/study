@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # OpenRouter Quick Start
 
 > API 키 발급부터 첫 요청까지

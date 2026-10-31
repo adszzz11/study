@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 5. 본 vault에 적용하는 실전 시나리오
 
 ## 🎯 사용자 컨텍스트

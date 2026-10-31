@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 3: 레퍼런스
 
 ## 3.1 공식 문서 및 필수 링크

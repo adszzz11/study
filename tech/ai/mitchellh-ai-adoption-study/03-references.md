@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 3: References & 커뮤니티 반응
 
 ## 원문 자료

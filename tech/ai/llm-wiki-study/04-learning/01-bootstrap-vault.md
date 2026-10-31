@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 4-1. 본 vault에 LLM Wiki 부트스트랩
 
 > 시간 ~15분. 결과: 본 vault에 raw/, wiki/, CLAUDE.md 셋업 + 첫 ingest 1개.

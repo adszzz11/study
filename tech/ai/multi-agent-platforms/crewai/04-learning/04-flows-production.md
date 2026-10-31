@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-4. CrewAI Flows로 프로덕션 가기
 
 ## 🚀 왜 Flows가 필요한가

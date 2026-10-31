@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Extract API - AI 기반 구조화 데이터 추출
 
 ## 개요

@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 03. 핵심 인사이트와 교훈
 
 ## 📌 핵심 개념

@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 # API URI 설계
 리소스 식별이 가장 중요
 계층 구조 상 상위를 컬렉션으로 보고 복수단어 사용 권장(member -> members)

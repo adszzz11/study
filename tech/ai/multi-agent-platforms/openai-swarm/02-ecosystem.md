@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 2. Swarm 생태계 (Agents SDK 후계)
 
 ## 🔄 Swarm → Agents SDK 전환

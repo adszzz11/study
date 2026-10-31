@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 실전 프로젝트 & Best Practices
 
 ## 프로젝트 1: 이미지 호스팅 서비스

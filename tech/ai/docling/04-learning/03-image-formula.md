@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 이미지 및 수식 처리
 
 ## 📌 핵심 개념

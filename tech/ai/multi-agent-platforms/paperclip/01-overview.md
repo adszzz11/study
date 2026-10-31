@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 1. Paperclip 개요
 
 ## 📌 핵심 개념: "회사를 운영하는 OS"

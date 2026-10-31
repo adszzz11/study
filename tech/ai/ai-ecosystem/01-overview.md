@@ -1,3 +1,10 @@
+---
+date: 2026-02-10
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # AI 생태계 적용을 위한 기반 스터디
 
 > 작성일: 2026-02-07 | 개인 학습용 종합 리서치 노트

@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 4-4. Obsidian CLI + 커뮤니티 MCP
 
 ## 🔑 핵심: Obsidian의 입장은 "CLI + Skills로 충분"

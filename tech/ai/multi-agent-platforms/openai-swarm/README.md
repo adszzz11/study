@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # OpenAI Swarm 심층 스터디
 
 > 교육용 / **deprecated** — 멀티 에이전트 핵심 개념(handoffs) 학습엔 여전히 가치 있음. 프로덕션은 **OpenAI Agents SDK**로.

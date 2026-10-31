@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 5: 실전 프로젝트
 
 ## 5.1 미니 프로젝트 아이디어

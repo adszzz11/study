@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # OpenRouter 라우팅 변형
 
 > :nitro, :floor, :free, :thinking으로 속도/비용/기능 최적화

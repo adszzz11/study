@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-1. Dify 셀프호스팅 (Mac mini)
 
 > 시간 ~20분. 결과: localhost에서 Dify Studio 접속.

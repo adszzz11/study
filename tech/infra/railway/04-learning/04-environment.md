@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Railway 환경 변수 및 시크릿 관리
 
 ## 개요

@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-2. 직원 채용 — 4가지 런타임 등록
 
 > 시간 ~30분. 결과: Claude Code + OpenClaw + Bash 스크립트 각각 1명씩 회사에 등록 + 첫 작업 실행.

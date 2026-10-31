@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 4-2. OpenClaw Docker 셋업 + 텔레그램 봇 연결
 
 > 시간 ~30분. 결과: 텔레그램에서 봇에게 "오늘 일정 알려줘" 했을 때 응답이 돌아옴.

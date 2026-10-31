@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 4-3. Obsidian Skills 5종 통합
 
 > 사용자가 물으신 "Obsidian의 대책" — 핵심은 이거.

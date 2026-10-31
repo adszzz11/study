@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 2. MetaGPT 생태계
 
 ## 🆚 vs ChatDev (가장 비슷한 카테고리)

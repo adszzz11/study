@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 3. 학습 자료 & 레퍼런스
 
 ## 📚 공식

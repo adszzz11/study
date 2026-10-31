@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # OpenRouter 비용 관리
 
 > 크레딧 관리, BYOK, 비용 최적화 전략

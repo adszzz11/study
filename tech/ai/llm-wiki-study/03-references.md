@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 3. 학습 자료 & 레퍼런스
 
 ## 📚 원전

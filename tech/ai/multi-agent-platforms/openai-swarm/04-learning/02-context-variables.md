@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-2. Context Variables (공유 상태)
 
 ## 🗃️ 사용법

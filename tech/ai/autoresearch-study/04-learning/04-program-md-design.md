@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 04. program.md 설계 패턴
 
 ## 📌 핵심 개념

@@ -1,3 +1,10 @@
+---
+date: 2026-02-02
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Dolt 개요
 
 > "Git for Data" - 데이터를 위한 버전 관리 시스템

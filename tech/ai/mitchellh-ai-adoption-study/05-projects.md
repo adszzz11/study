@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 5: 실전 적용 프로젝트
 
 ## 프로젝트 개요

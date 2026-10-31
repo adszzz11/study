@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-1. Agent 기본 (v0.4 기준)
 
 ## 🤖 AssistantAgent

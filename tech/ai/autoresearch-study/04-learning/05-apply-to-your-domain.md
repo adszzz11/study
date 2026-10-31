@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # 05. 나의 도메인에 적용하기
 
 ## 📌 핵심 개념

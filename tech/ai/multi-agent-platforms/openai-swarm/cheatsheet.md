@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # OpenAI Swarm Cheat Sheet
 
 > ⚠️ Educational. 새 프로젝트는 **openai-agents**.

@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Part 5. AutoGen 실전 프로젝트
 
 ## 🟢 P1. 코드 작성 + 리뷰 두 명 (★)

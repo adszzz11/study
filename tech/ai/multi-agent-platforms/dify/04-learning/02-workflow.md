@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-2. 비주얼 Workflow
 
 ## 🎨 첫 워크플로우

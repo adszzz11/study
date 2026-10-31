@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Cheatsheet: Mitchell Hashimoto AI 도입 여정
 
 ## 6단계 한눈에 보기

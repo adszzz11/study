@@ -1,3 +1,10 @@
+---
+date: 2026-04-01
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # Part 2: AI 도구 생태계 & 워크플로우
 
 ## Hashimoto가 언급한 AI 도구들

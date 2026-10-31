@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # Paperclip 심층 스터디
 
 > "Zero-human company" — AI 에이전트를 직원처럼 채용·운영하는 오픈소스 OS

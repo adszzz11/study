@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-1. Agency 구조
 
 ## 📁 표준 프로젝트 레이아웃

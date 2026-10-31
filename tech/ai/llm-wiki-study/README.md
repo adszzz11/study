@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-tool-study
+status: draft
+---
+
 # LLM Wiki 심층 스터디
 
 > "Obsidian is the IDE, the LLM is the programmer, the wiki is the codebase." — Andrej Karpathy (2026.4.2)

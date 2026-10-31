@@ -1,3 +1,10 @@
+---
+date: 2025-07-18
+tags: [tech]
+type: tech-series
+status: draft
+---
+
 1xx(Informational) : 요청이 수신되어 처리중
 
 2xx(Successful) : 요청 정상 처리

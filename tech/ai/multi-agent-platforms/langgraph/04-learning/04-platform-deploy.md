@@ -1,3 +1,10 @@
+---
+date: 2026-05-23
+tags: [tech]
+type: tech-concept
+status: draft
+---
+
 # 4-4. LangGraph Platform 배포
 
 ## 🚀 옵션 비교
