@@ -23,6 +23,7 @@ status: active
 
 - [[tech/scraping/hikugen/README|Hikugen]]
 - [[tech/scraping/awwwards-mcp/README|awwwards MCP]]
+- [[tech/scraping/instagram-reel-research/README|https://www.instagram.com/reel/DfLt9CrCLxN/?obrf=MWcxaHlkbnRtcnVsZw==]]
 
 ## Bridge Notes
 
