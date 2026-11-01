@@ -34,3 +34,9 @@ status: draft
 ## Sources
 
 - https://www.instagram.com/aiscene.kr/reel/DfJ5MCLALKu/
+
+## 추가 조사: 2026-11-01 확인 기준
+
+- 이 스터디는 릴스의 시점별 순위·별 수가 아니라 각 프로젝트의 공식 repository와 공식 문서를 기준으로 보강했다. 특히 Ponytail은 여러 harness용 plugin·hook을, FreeLLMAPI는 `/v1` gateway와 encrypted credential storage를, HyperFrames는 HTML 기반 rendering workflow를 제공하는지 확인했다.
+- 변동이 큰 수치(별 수, free model/provider 수, release version)는 본문에 고정하지 않는다. 도입·업데이트 직전에 아래 공식 링크에서 tag, release note, security policy, install script를 재확인한다.
+- 도구별 학습 섹션: [[tech/devtools/github-ai-agent-toolkit/01-overview|skill/audit]], [[tech/devtools/github-ai-agent-toolkit/04-learning/01-getting-started|harness/access/gateway/serving]], [[tech/devtools/github-ai-agent-toolkit/04-learning/02-deep-dive|media/RE]].
