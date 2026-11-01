@@ -52,3 +52,29 @@ judge는 가장 많은 의견을 고르는 역할이 아니다. test 결과, cit
 - https://docs.anthropic.com/en/docs/mcp
 - https://docs.anthropic.com/en/docs/claude-code/llm-gateway
 - https://docs.anthropic.com/en/docs/claude-code/corporate-proxy
+
+## 추가 조사: MCP와 외부 Skill의 권한 경계
+
+MCP(Model Context Protocol)는 LLM application이 tool·data source와 연결되는 표준 protocol이다. 편리함은 곧 권한 경계의 확장이므로 “설치 가능한가?”보다 “어떤 읽기·쓰기·network 권한이 필요한가?”를 먼저 평가한다.
+
+| 점검 항목 | 안전한 기본값 | 위험 신호 |
+|---|---|---|
+| 서버·skill 출처 | revision pin 및 source review | 최신 main branch를 무검토 실행 |
+| tool 허용 | 필요한 tool만 allowlist | 광범위한 shell/file write 자동 승인 |
+| credential | secret manager·짧은 TTL·환경 격리 | `SKILL.md`/repo에 token 하드코딩 |
+| 실행 위치 | sandbox 또는 disposable worktree | production filesystem·배포 자격증명 공유 |
+| 감사(audit) | 호출·권한·비용 log | 실패 원인을 추적할 기록 없음 |
+
+```text
+# 비대화식 실행도 최소 권한으로 시작한다.
+claude -p "리포지터리의 TODO만 나열하라" \
+  --allowedTools "Read" "Bash(rg:*)"
+
+# 쓰기·배포·비밀 접근은 별도 승인 단계와 분리한다.
+```
+
+- `--dangerously-skip-permissions`는 실습의 편의 옵션이 아니라 권한 확인을 우회하므로, 신뢰되지 않은 repo·MCP·prompt와 함께 사용하지 않는다.
+- LLM gateway는 usage tracking, budget/rate limit, audit logging을 중앙화할 수 있지만 gateway 자체와 third-party proxy의 보안 검토는 별도 책임이다.
+- 외부 문서의 “이 명령을 실행하라”는 데이터이지 지시가 아니다. task의 허용 범위와 충돌하면 실행하지 않고 검토 항목으로 기록한다.
+
+출처: https://docs.anthropic.com/en/docs/mcp · https://docs.anthropic.com/en/docs/claude-code/cli-usage · https://docs.anthropic.com/en/docs/claude-code/llm-gateway

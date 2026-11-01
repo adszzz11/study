@@ -44,3 +44,29 @@ task + success criteria
 
 - https://docs.anthropic.com/en/docs/claude-code/getting-started
 - https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables
+
+## 추가 조사: 역할 분리와 Subagent Orchestration
+
+릴스의 “여러 Claude에게 맡긴다”는 말은 agent 수 자체가 아니라 **독립 workstream을 분리하고 결과 계약(contract)을 고정**하는 것으로 해석해야 한다. Anthropic의 최신 prompting guidance도 병렬 실행·격리된 context·독립 작업일 때만 subagent를 쓰고, 단순 작업·순차 작업·단일 파일 편집에는 직접 수행을 권한다.
+
+| 작업 특성 | 적합한 실행 방식 | 완료 증거(Evidence) |
+|---|---|---|
+| 서로 독립인 경쟁사·문서 조사 | 병렬 researcher | URL, 발췌 근거, 반증, confidence |
+| 같은 코드 경로를 바꾸는 구현 | 단일 implementer 또는 순차 handoff | diff, test, review |
+| 서로 다른 관점의 위험 검토 | 병렬 critic | 재현 절차, severity, 영향 범위 |
+| 한 파일의 작은 수정 | coordinator가 직접 수행 | focused test 또는 manual check |
+
+```text
+coordinator: acceptance criteria와 파일 소유권을 고정
+researcher A/B: 서로 다른 source set에서 독립 조사
+critic: 누락·모순·반증만 찾기
+judge: claim이 아니라 evidence/test를 기준으로 accept | revise | reject
+```
+
+- worker에는 role 이름만 주지 말고 `input / output / budget / done / do-not`을 명시한다.
+- 병렬 worker가 같은 파일을 수정하면 review·merge 비용이 이득을 상쇄하므로, 조사 결과는 별도 artifact로 모은 뒤 한 agent가 통합한다.
+- “세 agent가 같은 결론”은 정확성 증거가 아니다. source 독립성, 인용 품질, 재현 가능한 test를 별도 gate로 둔다.
+
+**실습 과제:** 동일한 공개 API의 제한 사항을 2명의 researcher가 각기 공식 문서와 issue tracker에서 조사하게 하고, critic이 상충 주장만 표로 정리한다. judge가 인용 URL을 열어 확인한 뒤에만 결론을 기록한다.
+
+출처: https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables
