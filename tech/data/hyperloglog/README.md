@@ -24,6 +24,7 @@ status: draft
 - [ ] [[04-learning/02-deep-dive|precision, hash canonicalization, merge 호환성]]을 이해한다.
 - [ ] BigQuery 또는 Trino에서 일별 sketch를 저장하고 기간 sketch를 merge한다.
 - [ ] [[05-projects|실전 프로젝트]] 하나에 품질 검증과 운영 경계를 적용한다.
+- [ ] [[03-references|References]] — 공식 문서·참고 자료
 
 ## When To Use
 

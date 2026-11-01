@@ -27,6 +27,8 @@ LLM agent의 성능은 foundation model만으로 결정되지 않는다. system 
 - [ ] [04-learning/02-deep-dive](./04-learning/02-deep-dive.md)를 따라 benchmark pipeline과 재현성 조건을 확인한다.
 - [ ] [02-ecosystem](./02-ecosystem.md)에서 DSPy, Reflexion, Meta-Harness, OpenAI agent evals와 역할을 구분한다.
 - [ ] [05-projects](./05-projects.md)의 격리된 improvement workspace 프로젝트를 설계한다.
+- [ ] [03-references](./03-references.md) — 공식 문서·참고 자료
+- [ ] [cheatsheet](./cheatsheet.md) — 핵심 명령·설정 요약
 
 ## When To Use
 

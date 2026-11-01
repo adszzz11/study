@@ -25,6 +25,8 @@ Clairic은 LLM이 JSON을 생성한 뒤 parse·validation·retry하는 흐름 �
 - [ ] [04-learning/02-deep-dive](./04-learning/02-deep-dive.md)에서 uncertainty, code fallback, observability를 검토한다.
 - [ ] [02-ecosystem](./02-ecosystem.md)으로 Clef·generative LLM·OCR/rules의 경계를 비교한다.
 - [ ] [05-projects](./05-projects.md) 중 하나를 작은 corpus와 ground truth로 평가한다.
+- [ ] [03-references](./03-references.md) — 공식 문서·참고 자료
+- [ ] [cheatsheet](./cheatsheet.md) — 핵심 명령·설정 요약
 
 ## When To Use
 

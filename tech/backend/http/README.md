@@ -133,6 +133,25 @@ Cache-Control: max-age=3600
 
 ---
 
+## 사전 학습 노트 (pre)
+
+- [[pre/DNS|DNS]]
+- [[pre/Http|Http]]
+- [[pre/IP|IP]]
+- [[pre/Port|Port]]
+- [[pre/TCP|TCP]]
+- [[pre/UDP|UDP]]
+- [[pre/URL|URL]]
+- [[pre/api-design|api-design]]
+- [[pre/cache|cache]]
+- [[pre/cookie|cookie]]
+- [[pre/http-features|http-features]]
+- [[pre/http-header|http-header]]
+- [[pre/status-code|status-code]]
+- [[pre/uri-design|uri-design]]
+
+---
+
 ## 관련 노트
 
 - [[TCP]]

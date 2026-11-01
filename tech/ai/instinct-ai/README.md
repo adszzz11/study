@@ -26,6 +26,8 @@ Instinct는 대화의 답을 만드는 chatbot보다, email·messaging·screen·
 - [ ] [[tech/ai/instinct-ai/04-learning/02-deep-dive|Deep dive]] — data lifecycle·approval·failure testing 설계
 - [ ] [[tech/ai/instinct-ai/05-projects|Projects]] — personal ops와 safety evaluation 적용
 - [ ] [[tech/ai/instinct-ai/cheatsheet|Cheatsheet]] — 실행 전 확인 문구와 점검표
+- [ ] [[03-references|References]] — 공식 문서·참고 자료
+- [ ] [[cheatsheet|Cheatsheet]] — 핵심 명령·설정 요약
 
 ## When To Use
 

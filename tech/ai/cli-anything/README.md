@@ -25,6 +25,8 @@ GUI automation은 screenshot 해석, 좌표, 로딩 타이밍에 의존하므로
 - [ ] [04-learning/02-deep-dive](./04-learning/02-deep-dive.md)에서 7-phase pipeline, artifact E2E, 보안 경계를 검토한다.
 - [ ] [02-ecosystem](./02-ecosystem.md)으로 native API CLI, MCP, Playwright, UFO²의 선택 기준을 비교한다.
 - [ ] [05-projects](./05-projects.md) 중 하나를 작은 native-artifact 검증 프로젝트로 구현한다.
+- [ ] [03-references](./03-references.md) — 공식 문서·참고 자료
+- [ ] [cheatsheet](./cheatsheet.md) — 핵심 명령·설정 요약
 
 ## When To Use
 

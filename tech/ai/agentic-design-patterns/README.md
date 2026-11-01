@@ -27,6 +27,8 @@ Instagram 릴에서 소개한 책은 Antonio Gullí의 **《Agentic Design Patte
 - [ ] [04-learning/02-deep-dive](./04-learning/02-deep-dive.md)에서 state, memory, HITL, guardrail을 연결한다.
 - [ ] [02-ecosystem](./02-ecosystem.md)으로 framework와 protocol의 역할을 비교한다.
 - [ ] [05-projects](./05-projects.md)의 single-agent 프로젝트를 평가한 뒤에만 multi-agent로 확장한다.
+- [ ] [03-references](./03-references.md) — 공식 문서·참고 자료
+- [ ] [cheatsheet](./cheatsheet.md) — 핵심 명령·설정 요약
 
 ## When To Use
 

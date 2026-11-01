@@ -28,6 +28,7 @@ aliases:
 - [ ] [04-learning/02-deep-dive](./04-learning/02-deep-dive.md)에서 RL, 평가, data quality를 연결한다.
 - [ ] [05-projects](./05-projects.md)의 실습으로 로그 기반 평가와 guardrail을 추가한다.
 - [ ] [cheatsheet](./cheatsheet.md)로 면접·설계 리뷰 전 핵심 용어를 복습한다.
+- [ ] [03-references](./03-references.md) — 공식 문서·참고 자료
 
 ## When To Use
 

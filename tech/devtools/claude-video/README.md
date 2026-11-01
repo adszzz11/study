@@ -33,6 +33,7 @@ video URL / local file + question
 - [ ] [[02-ecosystem|Ecosystem]]: native video input 및 MCP 대안과 경계를 비교한다.
 - [ ] [[05-projects|Projects]]: bug triage 또는 video QA/RAG의 작은 prototype을 만든다.
 - [ ] [[cheatsheet|Cheatsheet]]: 구간·해상도·mode 선택을 빠르게 참조한다.
+- [ ] [[03-references|References]] — 공식 문서·참고 자료
 
 ## When To Use
 

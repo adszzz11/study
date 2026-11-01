@@ -25,6 +25,7 @@ status: draft
 - [ ] [[04-learning/02-deep-dive|Deep dive]]에서 pairing, state fitting, threshold를 점검한다.
 - [ ] [[05-projects|Projects]]의 benchmark 설계를 하나 선택해 재현한다.
 - [ ] [[cheatsheet|Cheatsheet]]으로 운영 전 점검 항목을 확인한다.
+- [ ] [[03-references|References]] — 공식 문서·참고 자료
 
 ## When To Use
 

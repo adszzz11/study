@@ -25,6 +25,7 @@ LLM의 parametric knowledge만으로는 최신 사내 문서, 근거 추적, 관
 - [ ] [04-learning/02-deep-dive](./04-learning/02-deep-dive.md)에서 CAG benchmark와 KAG/GraphRAG 확장 조건을 검증한다.
 - [ ] [05-projects](./05-projects.md) 중 실제 업무에 가까운 프로젝트 하나를 구현한다.
 - [ ] [cheatsheet](./cheatsheet.md)를 배포 전 설계·운영 점검표로 사용한다.
+- [ ] [03-references](./03-references.md) — 공식 문서·참고 자료
 
 ## When To Use
 

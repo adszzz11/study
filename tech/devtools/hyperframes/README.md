@@ -26,6 +26,7 @@ HyperFrames는 웹 기술로 만든 motion graphic을 편집 가능한 프로젝
 - [ ] [[04-learning/02-deep-dive|Deterministic rendering 심화]]: seek contract와 runtime 제약 이해
 - [ ] [[04-learning/02-deep-dive#gsap과-frame-adapter|GSAP과 Frame Adapter]]: seekable animation을 구현·검증
 - [ ] [[05-projects|실전 프로젝트]]: template, render API, queue 설계로 확장
+- [ ] [[03-references|References]] — 공식 문서·참고 자료
 
 ## When To Use
 

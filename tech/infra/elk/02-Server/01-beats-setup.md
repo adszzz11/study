@@ -92,4 +92,4 @@ output.elasticsearch:
 
 ---
 
-**다음**: [Logstash 파이프라인](./02-Logstash-파이프라인.md)
+**다음**: [Logstash 파이프라인](./02-logstash-pipeline.md)

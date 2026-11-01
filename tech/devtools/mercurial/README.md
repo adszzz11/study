@@ -27,6 +27,7 @@ Mercury라는 이름으로 불리기도 하지만, 이 노트가 다루는 도�
 - [ ] [[04-learning/02-deep-dive|심화]]에서 phase와 draft-only rewrite를 재현한다.
 - [ ] [[02-ecosystem|생태계 비교]]를 읽고 새 프로젝트에 Hg를 선택할 조건을 판단한다.
 - [ ] [[05-projects|실전 적용]]의 release line 또는 patch stack 예제를 작은 사본에서 적용한다.
+- [ ] [[03-references|References]] — 공식 문서·참고 자료
 
 ## When To Use
 

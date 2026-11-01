@@ -27,6 +27,8 @@ status: draft
 - [ ] [02-ecosystem](./02-ecosystem.md)에서 hosted Decisions API와 Structured Outputs의 차이를 비교한다.
 - [ ] [04-learning/02-deep-dive](./04-learning/02-deep-dive.md)로 calibration·migration·runtime 제약을 점검한다.
 - [ ] [05-projects](./05-projects.md)의 작은 local automation을 구현한다.
+- [ ] [03-references](./03-references.md) — 공식 문서·참고 자료
+- [ ] [cheatsheet](./cheatsheet.md) — 핵심 명령·설정 요약
 
 ## When To Use
 
