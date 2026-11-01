@@ -7,6 +7,7 @@ tags:
   - Metrics
 created: 2025-10-06
 updated: 2025-10-06
+status: active
 ---
 
 # Spring Actuator & Metrics

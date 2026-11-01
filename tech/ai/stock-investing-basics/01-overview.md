@@ -8,6 +8,7 @@ tags:
   - overview
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # 주식 투자와 자동화 AI - 개요

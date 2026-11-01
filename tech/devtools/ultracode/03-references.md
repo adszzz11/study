@@ -8,6 +8,7 @@ tags:
   - references
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # 울트라코드 - 참고자료

@@ -7,6 +7,7 @@ tags:
   - ha
   - monitoring
 parent: "[[README]]"
+status: learning
 ---
 
 # Kubernetes - 심화

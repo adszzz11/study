@@ -7,6 +7,7 @@ tags:
   - ml
   - tutorial
 parent: "[[../README]]"
+status: learning
 ---
 
 # Modal - GPU 사용하기

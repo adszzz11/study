@@ -5,6 +5,7 @@ tags:
   - basics
   - kubernetes
 parent: "[[README]]"
+status: learning
 ---
 
 # Kubernetes - 기초

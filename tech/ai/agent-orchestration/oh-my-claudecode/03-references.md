@@ -5,6 +5,7 @@ tags:
   - oh-my-claudecode
   - references
 parent: "[[README]]"
+status: learning
 ---
 
 # oh-my-claudecode - 참고자료

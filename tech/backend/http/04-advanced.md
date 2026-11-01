@@ -8,6 +8,7 @@ tags:
   - http3
   - quic
 parent: "[[README]]"
+status: learning
 ---
 
 # HTTP - 고급

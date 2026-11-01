@@ -6,6 +6,7 @@ tags:
   - openai
   - projects
 parent: "[[README]]"
+status: learning
 ---
 
 # Symphony - 실전 프로젝트

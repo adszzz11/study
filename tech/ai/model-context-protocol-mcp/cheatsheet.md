@@ -7,6 +7,7 @@ tags:
   - cheatsheet
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Model Context Protocol (MCP) - 치트시트

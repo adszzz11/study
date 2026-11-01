@@ -5,6 +5,7 @@ tags:
   - claude-squad
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Squad - 개요

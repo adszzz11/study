@@ -5,6 +5,7 @@ tags:
   - claude-squad
   - references
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Squad - 참고자료

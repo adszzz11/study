@@ -5,6 +5,7 @@ tags:
   - Codex
   - projects
 parent: "[[README]]"
+status: learning
 ---
 
 # Codex - 실전 프로젝트

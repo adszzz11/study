@@ -5,6 +5,7 @@ tags:
   - oh-my-claudecode
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # oh-my-claudecode - 생태계

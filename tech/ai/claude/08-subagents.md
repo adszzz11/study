@@ -6,6 +6,7 @@ tags:
   - subagent
   - multi-agent
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Code - Subagents

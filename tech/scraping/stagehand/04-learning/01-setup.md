@@ -5,6 +5,7 @@ tags:
   - stagehand
   - setup
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - 초기 설정

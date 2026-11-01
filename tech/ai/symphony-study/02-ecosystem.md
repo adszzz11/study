@@ -6,6 +6,7 @@ tags:
   - openai
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # Symphony - 생태계

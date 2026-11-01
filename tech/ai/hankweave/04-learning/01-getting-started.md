@@ -8,6 +8,7 @@ tags:
   - hands-on
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Hankweave - 시작하기

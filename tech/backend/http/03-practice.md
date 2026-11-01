@@ -7,6 +7,7 @@ tags:
   - cache
   - security
 parent: "[[README]]"
+status: learning
 ---
 
 # HTTP - 실무

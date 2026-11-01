@@ -6,6 +6,7 @@ tags:
   - learning
   - criticism
 parent: "[[README]]"
+status: learning
 ---
 
 # Gas Town - 비판과 교훈

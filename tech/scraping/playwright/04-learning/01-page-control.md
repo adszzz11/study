@@ -6,6 +6,7 @@ tags:
   - learning
   - page
 parent: "[[../README]]"
+status: learning
 ---
 
 # Playwright - 페이지 조작

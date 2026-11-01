@@ -7,6 +7,7 @@ tags:
   - overview
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Kent Beck의 지론들 - 개요

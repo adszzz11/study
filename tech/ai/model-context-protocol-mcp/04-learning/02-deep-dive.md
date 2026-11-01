@@ -7,6 +7,7 @@ tags:
   - deep-dive
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Model Context Protocol (MCP) - 심화

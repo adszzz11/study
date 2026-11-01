@@ -6,6 +6,7 @@ tags:
   - caching
   - performance
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - 캐싱과 성능 최적화

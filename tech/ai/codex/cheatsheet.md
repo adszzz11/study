@@ -5,6 +5,7 @@ tags:
   - Codex
   - cheatsheet
 parent: "[[README]]"
+status: learning
 ---
 
 # Codex - 치트시트 (v0.130)

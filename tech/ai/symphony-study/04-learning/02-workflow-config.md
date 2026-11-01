@@ -6,6 +6,7 @@ tags:
   - workflow
   - config
 parent: "[[README]]"
+status: learning
 ---
 
 # WORKFLOW.md 설정 완전 가이드

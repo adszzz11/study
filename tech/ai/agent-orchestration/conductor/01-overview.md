@@ -5,6 +5,7 @@ tags:
   - conductor
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Conductor - 개요

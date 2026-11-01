@@ -6,6 +6,7 @@ tags:
   - cheatsheet
   - reference
 parent: "[[README]]"
+status: learning
 ---
 
 # Modal 치트시트

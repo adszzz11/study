@@ -7,6 +7,7 @@ tags:
   - ecosystem
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # 마케팅 생태계와 비교

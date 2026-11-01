@@ -6,6 +6,7 @@ tags:
   - claude
   - prompt-engineering
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude - 심화

@@ -10,6 +10,7 @@ tags:
 type: tech-tool-study
 aliases:
   - 맥미니-apple-silicon-로컬-llm-2026-모델-런타임-oll
+status: draft
 ---
 
 # 맥미니 Apple Silicon 로컬 LLM 2026 학습 가이드

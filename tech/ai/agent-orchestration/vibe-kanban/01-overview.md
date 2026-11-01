@@ -5,6 +5,7 @@ tags:
   - vibe-kanban
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Vibe Kanban - 개요

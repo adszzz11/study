@@ -6,6 +6,7 @@ tags:
   - functions
   - tutorial
 parent: "[[../README]]"
+status: learning
 ---
 
 # Modal - Function 정의와 데코레이터

@@ -7,6 +7,7 @@ tags:
   - api
   - tutorial
 parent: "[[../README]]"
+status: learning
 ---
 
 # Modal - 웹 엔드포인트 만들기

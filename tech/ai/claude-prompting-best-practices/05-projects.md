@@ -8,6 +8,7 @@ tags:
   - projects
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Prompting Best Practices - 실전 프로젝트

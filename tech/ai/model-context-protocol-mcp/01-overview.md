@@ -7,6 +7,7 @@ tags:
   - overview
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Model Context Protocol (MCP) - 개요

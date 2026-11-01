@@ -6,6 +6,7 @@ tags:
   - serverless
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Modal - 개요

@@ -6,6 +6,7 @@ tags:
   - learning
   - vibecoding
 parent: "[[README]]"
+status: learning
 ---
 
 # Gas Town - 바이브코딩과 스케일링

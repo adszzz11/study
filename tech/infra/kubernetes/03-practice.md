@@ -6,6 +6,7 @@ tags:
   - kubernetes
   - kubectl
 parent: "[[README]]"
+status: learning
 ---
 
 # Kubernetes - 실무 적용

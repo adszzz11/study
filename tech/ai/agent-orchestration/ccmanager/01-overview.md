@@ -5,6 +5,7 @@ tags:
   - ccmanager
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # ccmanager - 개요

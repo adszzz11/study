@@ -6,6 +6,7 @@ tags:
   - projects
   - best-practices
 parent: "[[README]]"
+status: learning
 ---
 
 # Playwright - 실전 프로젝트 및 Best Practices

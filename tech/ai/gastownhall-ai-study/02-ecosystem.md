@@ -5,6 +5,7 @@ tags:
   - gas-town
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # Gas Town - 생태계

@@ -7,6 +7,7 @@ tags:
   - Security
 created: 2025-10-06
 updated: 2025-10-06
+status: active
 ---
 
 # Components 상세

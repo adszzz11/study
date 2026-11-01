@@ -8,6 +8,7 @@ tags:
   - references
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # GPT-5.6 / Codex 참고자료

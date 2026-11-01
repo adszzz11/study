@@ -5,6 +5,7 @@ tags:
   - conductor
   - references
 parent: "[[README]]"
+status: learning
 ---
 
 # Conductor - 참고자료

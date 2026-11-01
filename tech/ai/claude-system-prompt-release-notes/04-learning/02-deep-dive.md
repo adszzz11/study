@@ -8,6 +8,7 @@ tags:
   - prompt-governance
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # 심화 - Versioning, Serving Layer, Prompt Governance

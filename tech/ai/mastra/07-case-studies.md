@@ -6,6 +6,7 @@ tags:
   - case-study
   - production
 parent: "[[README]]"
+status: studying
 ---
 
 # Mastra Case Studies — 프로덕션 활용 사례

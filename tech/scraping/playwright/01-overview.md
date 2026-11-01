@@ -5,6 +5,7 @@ tags:
   - playwright
   - basics
 parent: "[[README]]"
+status: learning
 ---
 
 # Playwright - 개요

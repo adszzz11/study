@@ -8,6 +8,7 @@ tags:
   - learning
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Positional Encoding 시작하기

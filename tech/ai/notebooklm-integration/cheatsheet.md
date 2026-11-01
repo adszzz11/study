@@ -7,6 +7,7 @@ tags:
   - cheatsheet
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # NotebookLM 연동 가능성 - 치트시트

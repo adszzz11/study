@@ -8,6 +8,7 @@ tags:
   - learning
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Fugu 시작하기

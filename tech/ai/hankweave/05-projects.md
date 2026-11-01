@@ -8,6 +8,7 @@ tags:
   - repairable-agents
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Hankweave - 실전 프로젝트

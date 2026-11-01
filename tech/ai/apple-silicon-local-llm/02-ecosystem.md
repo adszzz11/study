@@ -9,6 +9,7 @@ tags:
   - mlx
   - llamacpp
 type: tech-tool-study
+status: draft
 ---
 
 # 에코시스템 비교

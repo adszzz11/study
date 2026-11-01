@@ -5,6 +5,7 @@ tags:
   - vibe-kanban
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # Vibe Kanban - 생태계

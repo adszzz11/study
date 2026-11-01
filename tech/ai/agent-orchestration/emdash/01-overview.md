@@ -5,6 +5,7 @@ tags:
   - emdash
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Emdash - 개요

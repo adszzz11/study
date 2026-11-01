@@ -7,6 +7,7 @@ tags:
   - methods
   - status-codes
 parent: "[[README]]"
+status: learning
 ---
 
 # HTTP - 핵심

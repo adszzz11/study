@@ -7,6 +7,7 @@ tags:
   - getting-started
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Aside - 시작하기

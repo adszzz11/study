@@ -7,6 +7,7 @@ tags:
   - java21
   - virtual-threads
 parent: "[[README]]"
+status: learning
 ---
 
 # Java - 고급

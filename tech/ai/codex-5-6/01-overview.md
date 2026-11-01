@@ -8,6 +8,7 @@ tags:
   - overview
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # GPT-5.6 in Codex - 개요

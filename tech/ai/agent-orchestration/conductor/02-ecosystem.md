@@ -5,6 +5,7 @@ tags:
   - conductor
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # Conductor - 생태계

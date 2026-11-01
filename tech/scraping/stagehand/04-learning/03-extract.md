@@ -6,6 +6,7 @@ tags:
   - extract
   - api
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - extract() 데이터 추출

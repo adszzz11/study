@@ -6,6 +6,7 @@ tags:
   - workspace
   - isolation
 parent: "[[README]]"
+status: learning
 ---
 
 # 워크스페이스 관리

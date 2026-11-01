@@ -7,6 +7,7 @@ tags:
   - mac-mini
   - inference
 type: tech-tool-study
+status: draft
 ---
 
 # 개요

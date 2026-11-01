@@ -7,6 +7,7 @@ tags:
   - projects
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Model Context Protocol (MCP) - 실전 프로젝트

@@ -7,6 +7,7 @@ tags:
   - ecosystem
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # ripgrep - 생태계와 비교

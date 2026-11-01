@@ -7,6 +7,7 @@ tags:
   - app-server
   - json-rpc
 parent: "[[README]]"
+status: learning
 ---
 
 # Codex App Server 연동

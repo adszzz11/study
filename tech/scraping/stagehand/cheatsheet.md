@@ -6,6 +6,7 @@ tags:
   - cheatsheet
   - reference
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand 치트시트

@@ -8,6 +8,7 @@ tags:
   - rag
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # NotebookLM 연동 가능성 - 생태계/비교

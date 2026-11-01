@@ -7,6 +7,7 @@ tags:
   - 보안
 created: 2025-10-06
 updated: 2025-10-06
+status: active
 ---
 
 # Kotlin 로깅 Best Practices

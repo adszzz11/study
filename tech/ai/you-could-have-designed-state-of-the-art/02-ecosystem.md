@@ -8,6 +8,7 @@ tags:
   - ecosystem
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Positional Encoding - 생태계/비교

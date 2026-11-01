@@ -6,6 +6,7 @@ tags:
   - jenkins
   - cicd
 parent: "[[README]]"
+status: learning
 ---
 
 # Jenkins - 기초

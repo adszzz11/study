@@ -5,6 +5,7 @@ tags:
   - Codex
   - references
 parent: "[[README]]"
+status: learning
 ---
 
 # Codex - 참고자료

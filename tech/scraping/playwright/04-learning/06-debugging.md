@@ -7,6 +7,7 @@ tags:
   - debugging
   - codegen
 parent: "[[../README]]"
+status: learning
 ---
 
 # Playwright - Codegen과 디버깅

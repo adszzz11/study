@@ -9,6 +9,7 @@ tags:
   - comparison
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # ponytail skill - 생태계 비교

@@ -6,6 +6,7 @@ tags:
   - learning
   - workflow
 parent: "[[README]]"
+status: learning
 ---
 
 # Gas Town - 워크플로우 패턴

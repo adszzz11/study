@@ -5,6 +5,7 @@ tags:
   - stagehand
   - references
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - 참고자료

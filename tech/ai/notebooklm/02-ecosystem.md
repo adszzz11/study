@@ -7,6 +7,7 @@ tags:
   - ecosystem
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # NotebookLM - 생태계

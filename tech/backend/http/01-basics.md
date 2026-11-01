@@ -6,6 +6,7 @@ tags:
   - http
   - network
 parent: "[[README]]"
+status: learning
 ---
 
 # HTTP - 기초

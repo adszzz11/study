@@ -7,6 +7,7 @@ tags:
   - deep-dive
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # 심화: 4-6개월차

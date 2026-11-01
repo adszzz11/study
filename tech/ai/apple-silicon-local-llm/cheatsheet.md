@@ -6,6 +6,7 @@ tags:
   - cheatsheet
   - apple-silicon
 type: tech-tool-study
+status: draft
 ---
 
 # 치트시트

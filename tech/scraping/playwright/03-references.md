@@ -5,6 +5,7 @@ tags:
   - playwright
   - references
 parent: "[[README]]"
+status: learning
 ---
 
 # Playwright - 참고 자료

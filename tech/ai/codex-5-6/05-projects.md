@@ -8,6 +8,7 @@ tags:
   - projects
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # GPT-5.6 / Codex 실전 프로젝트

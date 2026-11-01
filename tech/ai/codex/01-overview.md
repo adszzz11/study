@@ -5,6 +5,7 @@ tags:
   - Codex
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Codex - 개요

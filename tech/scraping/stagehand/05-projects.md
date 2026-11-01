@@ -6,6 +6,7 @@ tags:
   - projects
   - practice
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - 실전 프로젝트

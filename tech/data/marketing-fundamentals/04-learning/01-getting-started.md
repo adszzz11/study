@@ -7,6 +7,7 @@ tags:
   - getting-started
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # 시작하기: 0-3개월차

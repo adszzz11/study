@@ -7,6 +7,7 @@ tags:
   - cron
   - tutorial
 parent: "[[../README]]"
+status: learning
 ---
 
 # Modal - 스케줄링과 Cron

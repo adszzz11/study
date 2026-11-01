@@ -7,6 +7,7 @@ tags:
   - jvm
   - gc
 parent: "[[README]]"
+status: learning
 ---
 
 # Java - JVM 심화

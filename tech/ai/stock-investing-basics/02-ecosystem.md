@@ -8,6 +8,7 @@ tags:
   - trading-ai
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # 주식 투자와 자동화 AI - 생태계

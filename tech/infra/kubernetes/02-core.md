@@ -6,6 +6,7 @@ tags:
   - kubernetes
   - architecture
 parent: "[[README]]"
+status: learning
 ---
 
 # Kubernetes - 아키텍처

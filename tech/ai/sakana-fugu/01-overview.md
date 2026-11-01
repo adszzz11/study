@@ -9,6 +9,7 @@ tags:
   - overview
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Sakana Fugu - 개요

@@ -5,6 +5,7 @@ tags:
   - gas-town
   - cheatsheet
 parent: "[[README]]"
+status: learning
 ---
 
 # Gas Town - 치트시트

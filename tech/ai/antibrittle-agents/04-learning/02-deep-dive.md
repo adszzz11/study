@@ -8,6 +8,7 @@ tags:
   - reliability
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Antibrittle Agents - 심화

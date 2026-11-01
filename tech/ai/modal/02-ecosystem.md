@@ -6,6 +6,7 @@ tags:
   - serverless
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # Modal - 생태계

@@ -5,6 +5,7 @@ tags:
   - symphony
   - architecture
 parent: "[[README]]"
+status: learning
 ---
 
 # Symphony 아키텍처

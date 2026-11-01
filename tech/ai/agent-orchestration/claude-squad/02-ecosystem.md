@@ -5,6 +5,7 @@ tags:
   - claude-squad
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Squad - 생태계

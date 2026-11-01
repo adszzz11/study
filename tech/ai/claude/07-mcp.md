@@ -6,6 +6,7 @@ tags:
   - mcp
   - integration
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Code - MCP (Model Context Protocol)

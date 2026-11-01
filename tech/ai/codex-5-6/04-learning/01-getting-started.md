@@ -8,6 +8,7 @@ tags:
   - getting-started
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # GPT-5.6 in Codex - 시작하기

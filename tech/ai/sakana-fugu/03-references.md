@@ -8,6 +8,7 @@ tags:
   - references
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Sakana Fugu - 참고자료

@@ -5,6 +5,7 @@ tags:
   - ai
   - cli-coding-agents
 parent: "[[README]]"
+status: learning
 ---
 
 # CLI 코딩 에이전트 종합 비교

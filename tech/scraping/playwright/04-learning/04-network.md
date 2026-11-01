@@ -7,6 +7,7 @@ tags:
   - network
   - mocking
 parent: "[[../README]]"
+status: learning
 ---
 
 # Playwright - 네트워크 가로채기

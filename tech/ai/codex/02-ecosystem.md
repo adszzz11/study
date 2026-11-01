@@ -5,6 +5,7 @@ tags:
   - Codex
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # Codex - 생태계

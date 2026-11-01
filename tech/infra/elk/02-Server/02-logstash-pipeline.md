@@ -7,6 +7,7 @@ tags:
   - SpringBoot
 created: 2025-10-06
 updated: 2025-10-06
+status: active
 ---
 
 # Logstash 파이프라인 (Kotlin + Spring Boot)

@@ -5,6 +5,7 @@ tags:
   - Codex
   - learning
 parent: "[[README]]"
+status: learning
 ---
 
 # Codex - 시작하기

@@ -7,6 +7,7 @@ tags:
   - 로깅
 created: 2025-10-06
 updated: 2025-10-06
+status: active
 ---
 
 # Client 관점 (Kotlin + Spring Boot)

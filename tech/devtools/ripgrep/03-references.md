@@ -7,6 +7,7 @@ tags:
   - references
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # ripgrep - 참고자료

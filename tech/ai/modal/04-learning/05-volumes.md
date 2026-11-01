@@ -7,6 +7,7 @@ tags:
   - storage
   - tutorial
 parent: "[[../README]]"
+status: learning
 ---
 
 # Modal - 볼륨과 영구 저장소

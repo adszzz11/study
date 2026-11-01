@@ -6,6 +6,7 @@ tags:
   - learning
   - config
 parent: "[[../README]]"
+status: learning
 ---
 
 # Playwright - 테스트 구성 및 설정

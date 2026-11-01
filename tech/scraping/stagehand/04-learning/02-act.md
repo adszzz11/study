@@ -6,6 +6,7 @@ tags:
   - act
   - api
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - act() 자연어 액션

@@ -6,6 +6,7 @@ tags:
   - openai
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Symphony - 개요

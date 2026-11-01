@@ -8,6 +8,7 @@ tags:
   - deep-dive
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # 딥다이브 - Agentic Coding Workflow 설계

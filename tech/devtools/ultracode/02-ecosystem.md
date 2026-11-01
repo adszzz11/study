@@ -8,6 +8,7 @@ tags:
   - ecosystem
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # 울트라코드 - 생태계와 비교

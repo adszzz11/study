@@ -8,6 +8,7 @@ tags:
   - lm-studio
   - mlx
 type: tech-tool-study
+status: draft
 ---
 
 # 초기 셋업

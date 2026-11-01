@@ -8,6 +8,7 @@ tags:
   - cheatsheet
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Prompting Best Practices - 치트시트

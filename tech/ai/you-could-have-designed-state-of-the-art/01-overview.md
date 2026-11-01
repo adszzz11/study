@@ -9,6 +9,7 @@ tags:
   - overview
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Positional Encoding - 개요

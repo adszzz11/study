@@ -6,6 +6,7 @@ tags:
   - projects
   - best-practices
 parent: "[[README]]"
+status: learning
 ---
 
 # Modal - 실전 프로젝트와 Best Practices

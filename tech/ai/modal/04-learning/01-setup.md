@@ -6,6 +6,7 @@ tags:
   - setup
   - tutorial
 parent: "[[../README]]"
+status: learning
 ---
 
 # Modal - 설치 및 첫 배포

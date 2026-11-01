@@ -5,6 +5,7 @@ tags:
   - playwright
   - cheatsheet
 parent: "[[README]]"
+status: learning
 ---
 
 # Playwright Cheatsheet

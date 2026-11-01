@@ -5,6 +5,7 @@ tags:
   - playwright
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # Playwright - 생태계

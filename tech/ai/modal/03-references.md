@@ -5,6 +5,7 @@ tags:
   - modal
   - references
 parent: "[[README]]"
+status: learning
 ---
 
 # Modal - 참고자료

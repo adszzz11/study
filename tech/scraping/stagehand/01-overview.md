@@ -5,6 +5,7 @@ tags:
   - stagehand
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - 개요

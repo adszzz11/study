@@ -8,6 +8,7 @@ tags:
   - ecosystem
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Sakana Fugu - 생태계

@@ -8,6 +8,7 @@ tags:
   - kv-cache
   - mlx
 type: tech-tool-study
+status: draft
 ---
 
 # 심화 실험

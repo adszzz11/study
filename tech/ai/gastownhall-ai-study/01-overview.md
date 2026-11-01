@@ -5,6 +5,7 @@ tags:
   - gas-town
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Gas Town - 개요

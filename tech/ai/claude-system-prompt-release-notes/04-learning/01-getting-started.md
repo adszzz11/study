@@ -8,6 +8,7 @@ tags:
   - system-prompt
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # 시작하기 - Claude System Prompts Release Notes 읽기

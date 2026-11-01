@@ -6,6 +6,7 @@ tags:
   - references
   - apple-silicon
 type: tech-tool-study
+status: draft
 ---
 
 # 참고 자료

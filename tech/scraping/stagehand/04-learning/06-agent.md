@@ -6,6 +6,7 @@ tags:
   - agent
   - ai
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - Agent (자율 에이전트)

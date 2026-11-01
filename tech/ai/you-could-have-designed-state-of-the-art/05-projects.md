@@ -8,6 +8,7 @@ tags:
   - projects
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Positional Encoding - 실전 프로젝트

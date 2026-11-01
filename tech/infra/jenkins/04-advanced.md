@@ -8,6 +8,7 @@ tags:
   - gitlab-ci
   - comparison
 parent: "[[README]]"
+status: learning
 ---
 
 # Jenkins - 고급

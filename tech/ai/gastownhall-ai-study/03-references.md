@@ -5,6 +5,7 @@ tags:
   - gas-town
   - references
 parent: "[[README]]"
+status: learning
 ---
 
 # Gas Town - 참고자료

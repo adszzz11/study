@@ -9,6 +9,7 @@ tags:
   - ponytail
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # ponytail skill - 개요

@@ -8,6 +8,7 @@ tags:
   - prompt-governance
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude System Prompts Release Notes - 참고자료

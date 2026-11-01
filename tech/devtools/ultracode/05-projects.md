@@ -8,6 +8,7 @@ tags:
   - projects
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # 울트라코드 - 실전 프로젝트

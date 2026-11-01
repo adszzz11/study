@@ -8,6 +8,7 @@ tags:
   - getting-started
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Claude Prompting Best Practices - 시작하기

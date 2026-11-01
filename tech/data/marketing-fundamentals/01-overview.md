@@ -7,6 +7,7 @@ tags:
   - framework
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # 마케팅 개요

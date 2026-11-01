@@ -6,6 +6,7 @@ tags:
   - learning
   - locator
 parent: "[[../README]]"
+status: learning
 ---
 
 # Playwright - Locator 전략

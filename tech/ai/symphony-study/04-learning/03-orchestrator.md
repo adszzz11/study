@@ -6,6 +6,7 @@ tags:
   - orchestrator
   - state-machine
 parent: "[[README]]"
+status: learning
 ---
 
 # 오케스트레이터 상태 머신

@@ -8,6 +8,7 @@ tags:
   - references
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Prompting Best Practices - 참고자료

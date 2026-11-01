@@ -6,6 +6,7 @@ tags:
   - java
   - oop
 parent: "[[README]]"
+status: learning
 ---
 
 # Java - 기초

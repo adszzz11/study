@@ -6,6 +6,7 @@ tags:
   - learning
   - architecture
 parent: "[[README]]"
+status: learning
 ---
 
 # Gas Town - 아키텍처

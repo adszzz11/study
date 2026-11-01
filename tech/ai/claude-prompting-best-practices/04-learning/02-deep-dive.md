@@ -8,6 +8,7 @@ tags:
   - deep-dive
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Claude Prompting Best Practices - 심화

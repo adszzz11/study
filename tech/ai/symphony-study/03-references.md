@@ -6,6 +6,7 @@ tags:
   - openai
   - references
 parent: "[[README]]"
+status: learning
 ---
 
 # Symphony - 참고자료

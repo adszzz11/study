@@ -8,6 +8,7 @@ tags:
   - learning
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # 시작하기 - 작은 Repo에서 Agent Workflow 체험

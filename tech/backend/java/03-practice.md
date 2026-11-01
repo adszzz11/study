@@ -7,6 +7,7 @@ tags:
   - performance
   - debugging
 parent: "[[README]]"
+status: learning
 ---
 
 # Java - 실무 적용

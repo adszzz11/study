@@ -8,6 +8,7 @@ tags:
   - cheatsheet
 type: tech-tool-study
 parent: "[[README]]"
+status: learning
 ---
 
 # 울트라코드 - 치트시트

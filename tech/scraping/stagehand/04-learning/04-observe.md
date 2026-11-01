@@ -6,6 +6,7 @@ tags:
   - observe
   - api
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - observe() 페이지 관찰

@@ -7,6 +7,7 @@ tags:
   - Logstash
 created: 2025-10-06
 updated: 2025-10-06
+status: active
 ---
 
 # Kotlin + Spring Boot 로깅 설정

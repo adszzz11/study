@@ -6,6 +6,7 @@ tags:
   - openai
   - cheatsheet
 parent: "[[README]]"
+status: learning
 ---
 
 # Symphony - 치트시트

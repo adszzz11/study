@@ -7,6 +7,7 @@ tags:
   - learning
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Model Context Protocol (MCP) - 시작하기

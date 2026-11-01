@@ -7,6 +7,7 @@ tags:
   - rag
   - agent
 type: tech-tool-study
+status: draft
 ---
 
 # 실전 프로젝트

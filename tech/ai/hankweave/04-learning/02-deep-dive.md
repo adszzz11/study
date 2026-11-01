@@ -8,6 +8,7 @@ tags:
   - agent-runtime
 type: tech-tool-study
 parent: "[[../README]]"
+status: learning
 ---
 
 # Hankweave - 심화

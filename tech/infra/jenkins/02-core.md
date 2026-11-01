@@ -7,6 +7,7 @@ tags:
   - pipeline
   - plugins
 parent: "[[README]]"
+status: learning
 ---
 
 # Jenkins - 핵심

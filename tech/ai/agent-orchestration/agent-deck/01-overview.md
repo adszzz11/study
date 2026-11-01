@@ -5,6 +5,7 @@ tags:
   - agent-deck
   - overview
 parent: "[[README]]"
+status: learning
 ---
 
 # Agent Deck - 개요

@@ -6,6 +6,7 @@ tags:
   - hooks
   - automation
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Code - Hooks

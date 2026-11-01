@@ -5,6 +5,7 @@ tags:
   - stagehand
   - ecosystem
 parent: "[[README]]"
+status: learning
 ---
 
 # Stagehand - 생태계

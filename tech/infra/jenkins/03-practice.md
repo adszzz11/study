@@ -8,6 +8,7 @@ tags:
   - docker
   - kubernetes
 parent: "[[README]]"
+status: learning
 ---
 
 # Jenkins - 실무

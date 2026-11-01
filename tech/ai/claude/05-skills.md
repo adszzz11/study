@@ -6,6 +6,7 @@ tags:
   - skills
   - plugin
 parent: "[[README]]"
+status: learning
 ---
 
 # Claude Code - Skills

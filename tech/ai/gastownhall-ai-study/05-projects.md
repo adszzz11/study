@@ -5,6 +5,7 @@ tags:
   - gas-town
   - projects
 parent: "[[README]]"
+status: learning
 ---
 
 # Gas Town - 인사이트 적용 프로젝트
