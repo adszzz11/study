@@ -8,7 +8,7 @@
 - 캡처/정리 흐름: [[Inbox/README|Inbox]] → [[Sources/README|Sources]] / [[Projects/README|Projects]]
 
 - `tech/{ai,backend,data,devtools,infra,scraping}/` — 기술 학습(개념·도구·시리즈·tool-study)
-- `scripts/vault-audit.py` — 깨진 링크·MOC 미등록·frontmatter 누락 점검 (`python3 scripts/vault-audit.py`)
+- `scripts/vault-audit.py` — 깨진 링크·임베드, MOC 미등록, frontmatter/status 누락, 고아 노트, slug 중복 점검 (`python3 scripts/vault-audit.py`, 테스트 `python3 scripts/test_vault_audit.py`)
 
 > Obsidian wiki-link 문법 사용. 자동 생성분은 PR로 검토 후 머지.
 > Note(private) vault에서 history 보존 이전(2026-06-10).
