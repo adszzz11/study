@@ -66,6 +66,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/mercurial/README|Mercury 라는데 git같은 branching tool]]
 - [[tech/devtools/the-pragramitic-engineer/README|The pragramitic engineer?]]
 - [[tech/devtools/github-ai-agent-toolkit/README|https://www.instagram.com/reel/DfJ5MCLALKu/?dlrf=MTFyMGcycTBlbDVlbA==]]
+- [[tech/devtools/instagram-ai-publishing/README|https://www.instagram.com/reel/DfKLdfYguUJ/?mdxt=ZjVnb21tY2U5dG5x]]
 
 ## Bridge Notes
 
