@@ -96,6 +96,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/agentic-design-patterns/README|https://www.instagram.com/reel/De-WKUCy-9d/?srtk=cDYwZXZpZ3U5aXo2 이거 무슨책이고 어떤건지…]]
 - [[tech/ai/claude-code-skill-workflows/README|https://www.instagram.com/reel/DfLLn3DDG9C/?vrfl=cmw2cXlwenF5a2Ni]]
 - [[tech/ai/agent-skills-ecosystem/README|https://www.instagram.com/reel/Dd_wlJNqYVv/?exln=a2E1Nzc2ejRqajkz]]
+- [[tech/ai/atticus-document-verification/README|Atticus]]
 
 ## Claude And Prompting
 
