@@ -100,6 +100,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/ai-agent-automation-systems/README|https://www.instagram.com/lazy_owen?exln=eXZwZ3V0cmxkZ29n 이 사람이 릴스로 찍은 모든 게시글은…]]
 - [[tech/ai/claude-trading-tools/README|https://www.instagram.com/reel/DfN2HOyB0nU/?obrf=a2k0NHdiMDRjcDhp]]
 - [[tech/ai/claude-linkedin-workflows/README|https://www.instagram.com/reel/DeiiZIhAIpL/?vrfl=ZjdkZDMzZmNuYzNi]]
+- [[tech/ai/video-to-skill-pipeline/README|https://www.instagram.com/reel/DdLedEbz1DX/?xtok=eTN0N2o0OXN1dWRo]]
 
 ## Claude And Prompting
 
