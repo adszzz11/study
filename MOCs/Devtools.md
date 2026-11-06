@@ -70,6 +70,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/openai-codex-agent/README|https://github.com/openai/codex]]
 - [[tech/devtools/agent-skill-security-scanner/README|Skillspecter]]
 - [[tech/devtools/buildindex-domain-assessment/README|https://buildindex.dev]]
+- [[tech/devtools/t3-code-control-plane/README|T3 code]]
 
 ## Bridge Notes
 
