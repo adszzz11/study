@@ -104,6 +104,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/ai-paper-trading-system/README|https://www.instagram.com/reel/DfPDCU-Ma2R/?rpxt=MTEwdzhkNzZkcTlncA==]]
 - [[tech/ai/cua-driver/README|Cua-driver]]
 - [[tech/ai/corevis-construction-glasses/README|Corevis]]
+- [[tech/ai/https-www-instagram-com-reel-dfez0sfzen7/README|https://www.instagram.com/reel/DfeZ0sFzEn7/?dlrf=bzR4c3pyMTY5aTRn]]
 
 ## Claude And Prompting
 
