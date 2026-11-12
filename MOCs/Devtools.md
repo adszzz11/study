@@ -72,6 +72,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/buildindex-domain-assessment/README|https://buildindex.dev]]
 - [[tech/devtools/t3-code-control-plane/README|T3 code]]
 - [[tech/devtools/stale-agent-instructions/README|https://x.com/ai_database/status/2114184481951330365?a=dM8idEyYg6fauGvy7pM&s=46]]
+- [[tech/devtools/astryx-design-system/README|astryx]]
 
 ## Bridge Notes
 
