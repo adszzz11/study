@@ -35,6 +35,7 @@ status: active
 - [[tech/backend/bytebytego/README|bytebytego]]
 - [[tech/backend/playmcp/README|playMCP]]
 - [[tech/backend/kylon/README|https://kylon.io/]]
+- [[tech/backend/orpc-typesafe-api-framework/README|orpc]]
 
 ## Bridge Notes
 
