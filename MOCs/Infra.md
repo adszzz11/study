@@ -29,6 +29,7 @@ status: active
 - [[tech/infra/space-secure-agent-runtime/README|https://research.perplexity.ai/articles/making-space-secure-and-efficient-runti…]]
 - [[tech/infra/glanswitch/README|Glanswitch]]
 - [[tech/infra/server-monitoring-analysis/README|https://kciter.so/posts/server-monitoring-analysis-guide/]]
+- [[tech/infra/jane-street-technology-ecosystem/README|Janestreet]]
 
 ## Bridge Notes
 
