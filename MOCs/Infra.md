@@ -30,6 +30,7 @@ status: active
 - [[tech/infra/glanswitch/README|Glanswitch]]
 - [[tech/infra/server-monitoring-analysis/README|https://kciter.so/posts/server-monitoring-analysis-guide/]]
 - [[tech/infra/jane-street-technology-ecosystem/README|Janestreet]]
+- [[tech/infra/cxl-memory-fabric/README|CXL]]
 
 ## Bridge Notes
 
