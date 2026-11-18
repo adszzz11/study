@@ -20,6 +20,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 
 ## Workflow Studies
 
+- [[tech/devtools/expo-services-mobile-cicd/README|Expo Services / EAS 모바일 CI/CD]]
 - [[tech/devtools/claude-dynamic-workflows/README|Claude dynamic workflow]]
 - [[tech/devtools/ultracode/README|UltraCode]]
 - [[tech/devtools/kent-beck-principles/README|Kent Beck practices]]
