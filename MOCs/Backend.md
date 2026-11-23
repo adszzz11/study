@@ -36,6 +36,7 @@ status: active
 - [[tech/backend/playmcp/README|playMCP]]
 - [[tech/backend/kylon/README|https://kylon.io/]]
 - [[tech/backend/orpc-typesafe-api-framework/README|orpc]]
+- [[tech/backend/sqlite-wal-architecture-d6f43ae0/README|https://www.sqlite.org/wal.html]]
 
 ## Bridge Notes
 
