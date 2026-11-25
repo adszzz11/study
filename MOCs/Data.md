@@ -26,6 +26,7 @@ status: active
 - [[tech/data/gs-quant/README|골드만삭스 퀀트 깃허브]]
 - [[tech/data/hyperloglog/README|Hyperloglog]]
 - [[tech/data/algorithmic-option-buying/README|https://www.instagram.com/reel/DfFrvCWTijy/?srtk=bmI4MGh1aDVlM2hr]]
+- [[tech/data/sqlite-upsert-dfce29f3/README|https://www.sqlite.org/lang_upsert.html]]
 
 ## Bridge Notes
 
