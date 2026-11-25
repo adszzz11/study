@@ -105,6 +105,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/cua-driver/README|Cua-driver]]
 - [[tech/ai/corevis-construction-glasses/README|Corevis]]
 - [[tech/ai/autoresearch-harness-design/README|Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolvi…]]
+- [[tech/ai/spatialcraft-procedural-intelligence/README|SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for S…]]
 
 ## Claude And Prompting
 
