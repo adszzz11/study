@@ -76,6 +76,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/astryx-design-system/README|astryx]]
 - [[tech/devtools/genesis-agent-change-map/README|Show HN: Genesis Map – Visualize your agent's changes. See where they can break…]]
 - [[tech/devtools/android-debug-bridge/README|adb]]
+- [[tech/devtools/expo-application-services/README|Eas]]
 
 ## Bridge Notes
 
