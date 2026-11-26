@@ -32,6 +32,7 @@ status: active
 - [[tech/infra/jane-street-technology-ecosystem/README|Janestreet]]
 - [[tech/infra/cxl-memory-fabric/README|CXL]]
 - [[tech/infra/searxng-metasearch-architecture/README|searXNG]]
+- [[tech/infra/oracle-always-free/README|Oracle Always Free의 무료 범위와 서버 사양]]
 
 ## Bridge Notes
 
