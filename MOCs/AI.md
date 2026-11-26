@@ -132,6 +132,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/video-2147d90216d6/README|AI 취업 준비를 위한 논문 실적과 연구 부트캠프 소개]]
 - [[tech/ai/speech-input-model-sizing/README|음성 인식 입력 방식과 모델 크기 선택]]
 - [[tech/ai/whisper-on-device-speech/README|Whisper 기반 온디바이스 음성 인식]]
+- [[tech/ai/speaker-diarization-profile-accumulation/README|화자 분리와 화자 프로필 누적]]
 
 ## Claude And Prompting
 
