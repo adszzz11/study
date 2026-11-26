@@ -87,6 +87,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/usability-accessibility-security-testing/README|Usability·Accessibility·Security testing의 점검 대상]]
 - [[tech/devtools/web-ui-asset-discovery/README|웹 UI 에셋 탐색]]
 - [[tech/devtools/animated-web-backgrounds/README|애니메이션 배경]]
+- [[tech/devtools/codex-claude-design-workflow/README|Codex·Claude Code 활용]]
 
 ## Bridge Notes
 
