@@ -124,6 +124,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/website-similarity-stopping/README|웹사이트 유사도와 반복 종료 조건]]
 - [[tech/ai/video-c7eb755dbbfb/README|AI 활용 디자이너를 위한 UI 레퍼런스와 컴포넌트 페이지 소개]]
 - [[tech/ai/video-4363d69d95a5/README|GitHub stars로 본 Claude 디자인 스킬 순위 변화]]
+- [[tech/ai/streaming-speech-partial-results/README|실시간 음성 인식의 부분 결과 출력]]
 
 ## Claude And Prompting
 
