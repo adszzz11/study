@@ -108,6 +108,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/spatialcraft-procedural-intelligence/README|SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for S…]]
 - [[tech/ai/video-2e7f0f39653b/README|AI 모델의 용량 축소와 코딩 성능·로컬 실행 가능성]]
 - [[tech/ai/model-parameters-storage/README|AI 모델의 파라미터와 저장 용량]]
+- [[tech/ai/ternary-model-representation/README|세 가지 값을 사용하는 모델 표현 방식]]
 
 ## Claude And Prompting
 
