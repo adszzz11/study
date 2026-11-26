@@ -78,6 +78,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/android-debug-bridge/README|adb]]
 - [[tech/devtools/expo-application-services/README|Eas]]
 - [[tech/devtools/kent-beck-practices/README|Kent Beck]]
+- [[tech/devtools/robert-martin-software-principles/README|Robert C Martin]]
 
 ## Bridge Notes
 
