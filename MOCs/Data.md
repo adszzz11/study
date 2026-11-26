@@ -27,6 +27,7 @@ status: active
 - [[tech/data/hyperloglog/README|Hyperloglog]]
 - [[tech/data/algorithmic-option-buying/README|https://www.instagram.com/reel/DfFrvCWTijy/?srtk=bmI4MGh1aDVlM2hr]]
 - [[tech/data/sqlite-upsert-dfce29f3/README|https://www.sqlite.org/lang_upsert.html]]
+- [[tech/data/twenty-customer-management/README|Twenty를 활용한 고객 관리]]
 
 ## Bridge Notes
 
