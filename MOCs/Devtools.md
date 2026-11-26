@@ -99,6 +99,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/react-visual-effects/README|React 시각 효과 컴포넌트]]
 - [[tech/devtools/component-prompt-copy/README|AI 도구용 컴포넌트 프롬프트 복사 기능]]
 - [[tech/devtools/prototype-based-design-discussion/README|프로토타입 기반 디자인 논의]]
+- [[tech/devtools/figma-design-system-application/README|Figma 링크를 활용한 디자인 시스템 적용 흐름]]
 
 ## Bridge Notes
 
