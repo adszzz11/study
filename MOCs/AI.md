@@ -117,6 +117,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/video-937ec666290d/README|Mac용 실시간 받아쓰기 엔진 Lightning-SimulWhisper의 기능 소개]]
 - [[tech/ai/video-925edd961339/README|Oracle Always Free 서버로 앱과 자동화 도구를 운영하는 활용법]]
 - [[tech/ai/video-c507e6bdbbdb/README|Mac 받아쓰기 Sokki와 회의 기록 Damso의 기능 소개]]
+- [[tech/ai/video-01ac1af106a0/README|JEV와 Claude를 활용한 37개 AI Agent 팀 소개]]
 
 ## Claude And Prompting
 
