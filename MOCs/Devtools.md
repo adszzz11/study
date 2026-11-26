@@ -82,6 +82,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/lean-four-formal-verification/README|Lean 4]]
 - [[tech/devtools/smoke-regression-testing/README|Smoke testing과 Regression testing의 목적]]
 - [[tech/devtools/exploratory-acceptance-testing/README|Exploratory testing과 Acceptance testing]]
+- [[tech/devtools/alpha-beta-participant-roles/README|Alpha/Beta testing의 참여자 구분]]
 
 ## Bridge Notes
 
