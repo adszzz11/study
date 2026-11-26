@@ -143,6 +143,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/video-1ddba94e6fd5/README|Claude에서 모션그래픽을 재현하고 화면 비교로 수정하는 과정]]
 - [[tech/ai/end-to-end-deep-learning/README|End-to-End 딥러닝]]
 - [[tech/ai/perturbation-signature-retrieval/README|세포 수준 Perturbation Signatures 기반 표적·화합물 검색]]
+- [[tech/ai/google-workspace-mcp/README|Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email…]]
 
 ## Claude And Prompting
 
