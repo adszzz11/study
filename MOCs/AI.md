@@ -140,6 +140,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/everyday-workflow-agents/README|일상 업무 자동화와 작업 관리]]
 - [[tech/ai/role-based-multi-agent/README|역할 기반 multi-agent 협업]]
 - [[tech/ai/multi-model-agent-workspace/README|여러 모델과 부서별 agent를 통합하는 workspace]]
+- [[tech/ai/video-1ddba94e6fd5/README|Claude에서 모션그래픽을 재현하고 화면 비교로 수정하는 과정]]
 
 ## Claude And Prompting
 
