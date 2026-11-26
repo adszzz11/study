@@ -133,6 +133,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/speech-input-model-sizing/README|음성 인식 입력 방식과 모델 크기 선택]]
 - [[tech/ai/whisper-on-device-speech/README|Whisper 기반 온디바이스 음성 인식]]
 - [[tech/ai/meeting-detection-recording-consent/README|회의 감지와 녹음 전 동의 절차]]
+- [[tech/ai/multi-agent-system-visualization/README|다중 AI Agent 시스템의 구성 시각화]]
 
 ## Claude And Prompting
 
