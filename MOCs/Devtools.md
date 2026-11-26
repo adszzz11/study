@@ -79,6 +79,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/expo-application-services/README|Eas]]
 - [[tech/devtools/kent-beck-practices/README|Kent Beck]]
 - [[tech/devtools/robert-martin-software-principles/README|Robert C Martin]]
+- [[tech/devtools/lean-four-formal-verification/README|Lean 4]]
 
 ## Bridge Notes
 
