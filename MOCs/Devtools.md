@@ -80,6 +80,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/kent-beck-practices/README|Kent Beck]]
 - [[tech/devtools/robert-martin-software-principles/README|Robert C Martin]]
 - [[tech/devtools/lean-four-formal-verification/README|Lean 4]]
+- [[tech/devtools/smoke-regression-testing/README|Smoke testing과 Regression testing의 목적]]
 
 ## Bridge Notes
 
