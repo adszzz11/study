@@ -113,6 +113,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/open-weights-apache-license/README|모델 가중치 공개와 Apache 2.0 라이선스]]
 - [[tech/ai/video-38dbe4e5389d/README|핵심 기능 점검부터 보안까지, QA 테스트 12종 소개]]
 - [[tech/ai/video-9e0cb3e7b2d5/README|threeui 웹 디자인 예시와 Codex·Claude Code 활용 소개]]
+- [[tech/ai/video-cb9ef7fdfa6e/README|Craft Anything의 제작·검사 흐름과 반복 개선 방식 소개]]
 
 ## Claude And Prompting
 
