@@ -122,6 +122,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/video-0576f7a77659/README|네 가지 UI 디자인 스타일의 시각적 예시]]
 - [[tech/ai/video-69d250a6e6d2/README|여섯 AI agent의 작업 방식과 활용 영역 비교]]
 - [[tech/ai/website-similarity-stopping/README|웹사이트 유사도와 반복 종료 조건]]
+- [[tech/ai/video-c7eb755dbbfb/README|AI 활용 디자이너를 위한 UI 레퍼런스와 컴포넌트 페이지 소개]]
 
 ## Claude And Prompting
 
