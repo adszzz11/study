@@ -136,6 +136,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/multi-agent-system-visualization/README|다중 AI Agent 시스템의 구성 시각화]]
 - [[tech/ai/knowledge-graph-memory-visualization/README|지식 그래프를 활용한 메모리 시각화]]
 - [[tech/ai/shared-ai-client-memory/README|여러 AI 클라이언트 간 공유 메모리]]
+- [[tech/ai/persistent-background-agents/README|백그라운드에서 지속 실행되는 AI agent]]
 
 ## Claude And Prompting
 
