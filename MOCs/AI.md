@@ -126,6 +126,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/video-4363d69d95a5/README|GitHub stars로 본 Claude 디자인 스킬 순위 변화]]
 - [[tech/ai/streaming-speech-partial-results/README|실시간 음성 인식의 부분 결과 출력]]
 - [[tech/ai/apple-neural-engine-asr/README|Apple Neural Engine을 활용한 음성 인식 가속]]
+- [[tech/ai/on-device-speech-retention/README|온디바이스 음성 처리와 데이터 보관]]
 
 ## Claude And Prompting
 
