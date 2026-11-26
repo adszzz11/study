@@ -88,6 +88,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/web-ui-asset-discovery/README|웹 UI 에셋 탐색]]
 - [[tech/devtools/animated-web-backgrounds/README|애니메이션 배경]]
 - [[tech/devtools/codex-claude-design-workflow/README|Codex·Claude Code 활용]]
+- [[tech/devtools/build-check-iteration/README|Build·Check 반복 개발 흐름]]
 
 ## Bridge Notes
 
