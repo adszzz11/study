@@ -142,6 +142,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/multi-model-agent-workspace/README|여러 모델과 부서별 agent를 통합하는 workspace]]
 - [[tech/ai/video-1ddba94e6fd5/README|Claude에서 모션그래픽을 재현하고 화면 비교로 수정하는 과정]]
 - [[tech/ai/end-to-end-deep-learning/README|End-to-End 딥러닝]]
+- [[tech/ai/perturbation-signature-retrieval/README|세포 수준 Perturbation Signatures 기반 표적·화합물 검색]]
 
 ## Claude And Prompting
 
