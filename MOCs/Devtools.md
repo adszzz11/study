@@ -92,6 +92,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/snake-controls-difficulty/README|Snake 게임의 조작과 난이도 규칙]]
 - [[tech/devtools/agent-dashboard-progress/README|대시보드의 지표와 진행 상태 표시]]
 - [[tech/devtools/skeuomorphism-ui-design/README|Skeuomorphism]]
+- [[tech/devtools/minimalism-documentation-ui/README|Minimalism]]
 
 ## Bridge Notes
 
