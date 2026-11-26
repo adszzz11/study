@@ -119,6 +119,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/video-c507e6bdbbdb/README|Mac 받아쓰기 Sokki와 회의 기록 Damso의 기능 소개]]
 - [[tech/ai/video-01ac1af106a0/README|JEV와 Claude를 활용한 37개 AI Agent 팀 소개]]
 - [[tech/ai/video-91d355824580/README|Orbit Agents의 지식 그래프 기반 AI 메모리와 에이전트 관리 기능 소개]]
+- [[tech/ai/video-0576f7a77659/README|네 가지 UI 디자인 스타일의 시각적 예시]]
 
 ## Claude And Prompting
 
