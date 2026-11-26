@@ -127,6 +127,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/streaming-speech-partial-results/README|실시간 음성 인식의 부분 결과 출력]]
 - [[tech/ai/apple-neural-engine-asr/README|Apple Neural Engine을 활용한 음성 인식 가속]]
 - [[tech/ai/on-device-speech-retention/README|온디바이스 음성 처리와 데이터 보관]]
+- [[tech/ai/video-e5c7a7ba6b67/README|AI 완성 디자인 검토와 프로토타입의 디자인 시스템 적용 흐름]]
 
 ## Claude And Prompting
 
