@@ -130,6 +130,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/video-e5c7a7ba6b67/README|AI 완성 디자인 검토와 프로토타입의 디자인 시스템 적용 흐름]]
 - [[tech/ai/multilingual-transcription-quality/README|다국어 음성 인식과 전사 품질 보조 기능]]
 - [[tech/ai/video-2147d90216d6/README|AI 취업 준비를 위한 논문 실적과 연구 부트캠프 소개]]
+- [[tech/ai/speech-input-model-sizing/README|음성 인식 입력 방식과 모델 크기 선택]]
 
 ## Claude And Prompting
 
