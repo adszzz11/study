@@ -115,6 +115,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/video-9e0cb3e7b2d5/README|threeui 웹 디자인 예시와 Codex·Claude Code 활용 소개]]
 - [[tech/ai/video-cb9ef7fdfa6e/README|Craft Anything의 제작·검사 흐름과 반복 개선 방식 소개]]
 - [[tech/ai/video-937ec666290d/README|Mac용 실시간 받아쓰기 엔진 Lightning-SimulWhisper의 기능 소개]]
+- [[tech/ai/video-925edd961339/README|Oracle Always Free 서버로 앱과 자동화 도구를 운영하는 활용법]]
 
 ## Claude And Prompting
 
