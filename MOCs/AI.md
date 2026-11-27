@@ -144,6 +144,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/end-to-end-deep-learning/README|End-to-End 딥러닝]]
 - [[tech/ai/perturbation-signature-retrieval/README|세포 수준 Perturbation Signatures 기반 표적·화합물 검색]]
 - [[tech/ai/google-workspace-mcp/README|Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email…]]
+- [[tech/ai/personalized-federated-skill-learning/README|P-FedSkill: A Personalized Federated Skill Learning Framework under Task Hetero…]]
 
 ## Claude And Prompting
 
