@@ -103,6 +103,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/design-token-style-comparison/README|디자인 토큰과 스타일 비교]]
 - [[tech/devtools/screen-recording-visual-feedback/README|화면 녹화를 활용한 시각적 피드백]]
 - [[tech/devtools/web-ui-comparison-iteration/README|웹 UI 비교와 반복 수정]]
+- [[tech/devtools/convex-skill-trust-boundary/README|Convex skills send the user's app idea to a remote server without telling them…]]
 
 ## Bridge Notes
 
