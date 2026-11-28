@@ -145,6 +145,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/perturbation-signature-retrieval/README|세포 수준 Perturbation Signatures 기반 표적·화합물 검색]]
 - [[tech/ai/google-workspace-mcp/README|Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email…]]
 - [[tech/ai/personalized-federated-skill-learning/README|P-FedSkill: A Personalized Federated Skill Learning Framework under Task Hetero…]]
+- [[tech/ai/speaker-diarization-profile-accumulation/README|화자 분리와 화자 프로필 누적]]
 - [[tech/ai/instagram-reel-dfzaglbbtoj/README|https://www.instagram.com/reel/DfzaglBBToj/?utm_source=ig_web_copy_link&xtok=NT…]]
 - [[tech/ai/https-www-instagram-com-reel-dfjbe2jlnhy/README|https://www.instagram.com/reel/DfjBE2Jlnhy/?xtok=MXBiMHZ1bHg5djJmMQ==]]
 - [[tech/ai/instagram-reel-evidence-workflow/README|https://www.instagram.com/reel/DfeZ0sFzEn7/?dlrf=bzR4c3pyMTY5aTRn]]
