@@ -26,6 +26,10 @@ status: active
 - [[tech/data/gs-quant/README|골드만삭스 퀀트 깃허브]]
 - [[tech/data/hyperloglog/README|Hyperloglog]]
 - [[tech/data/algorithmic-option-buying/README|https://www.instagram.com/reel/DfFrvCWTijy/?srtk=bmI4MGh1aDVlM2hr]]
+- [[tech/data/sqlite-upsert-dfce29f3/README|https://www.sqlite.org/lang_upsert.html]]
+- [[tech/data/twenty-customer-management/README|Twenty를 활용한 고객 관리]]
+- [[tech/data/sqlite-local-history/README|SQLite를 이용한 로컬 기록 저장]]
+- [[tech/data/crm-agent-performance-dashboard/README|CRM 및 에이전트 성과 대시보드]]
 - [[tech/data/sqlite-fts5-search-90b57f7d/README|https://www.sqlite.org/fts5.html]]
 
 ## Bridge Notes
