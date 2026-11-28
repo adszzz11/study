@@ -35,6 +35,9 @@ status: active
 - [[tech/backend/bytebytego/README|bytebytego]]
 - [[tech/backend/playmcp/README|playMCP]]
 - [[tech/backend/kylon/README|https://kylon.io/]]
+- [[tech/backend/orpc-typesafe-api-framework/README|orpc]]
+- [[tech/backend/sqlite-wal-architecture-d6f43ae0/README|https://www.sqlite.org/wal.html]]
+- [[tech/backend/n8n-inquiry-auto-response/README|n8n을 활용한 문의 자동 응답]]
 
 ## Bridge Notes
 

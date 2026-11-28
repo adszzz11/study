@@ -25,6 +25,7 @@ status: active
 - [[tech/scraping/awwwards-mcp/README|awwwards MCP]]
 - [[tech/scraping/instagram-reel-research/README|https://www.instagram.com/reel/DfLt9CrCLxN/?obrf=MWcxaHlkbnRtcnVsZw==]]
 - [[tech/scraping/egolite-agent-browser/README|egolite]]
+- [[tech/scraping/instagram-reel-analysis/README|https://www.instagram.com/reel/DfyffnnlfXC/?xtok=NnoxMmJkbHZtd3Y4]]
 
 ## Bridge Notes
 
