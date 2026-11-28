@@ -30,6 +30,7 @@ status: active
 - [[tech/data/twenty-customer-management/README|Twenty를 활용한 고객 관리]]
 - [[tech/data/sqlite-local-history/README|SQLite를 이용한 로컬 기록 저장]]
 - [[tech/data/crm-agent-performance-dashboard/README|CRM 및 에이전트 성과 대시보드]]
+- [[tech/data/sqlite-fts5-search-90b57f7d/README|https://www.sqlite.org/fts5.html]]
 
 ## Bridge Notes
 
