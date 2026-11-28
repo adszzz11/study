@@ -29,6 +29,12 @@ status: active
 - [[tech/infra/space-secure-agent-runtime/README|https://research.perplexity.ai/articles/making-space-secure-and-efficient-runti…]]
 - [[tech/infra/glanswitch/README|Glanswitch]]
 - [[tech/infra/server-monitoring-analysis/README|https://kciter.so/posts/server-monitoring-analysis-guide/]]
+- [[tech/infra/jane-street-technology-ecosystem/README|Janestreet]]
+- [[tech/infra/cxl-memory-fabric/README|CXL]]
+- [[tech/infra/searxng-metasearch-architecture/README|searXNG]]
+- [[tech/infra/oracle-always-free/README|Oracle Always Free의 무료 범위와 서버 사양]]
+- [[tech/infra/terminal-docker-practice/README|터미널에서 Docker 사용하기]]
+- [[tech/infra/coolify-app-deployment/README|Coolify를 이용한 앱 배포]]
 
 ## Bridge Notes
 
