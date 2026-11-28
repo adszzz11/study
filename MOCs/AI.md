@@ -150,6 +150,7 @@ AI agent, LLM tooling, prompt/runtime, local model, browser agent 학습 지도.
 - [[tech/ai/https-www-instagram-com-reel-dfjbe2jlnhy/README|https://www.instagram.com/reel/DfjBE2Jlnhy/?xtok=MXBiMHZ1bHg5djJmMQ==]]
 - [[tech/ai/instagram-reel-evidence-workflow/README|https://www.instagram.com/reel/DfeZ0sFzEn7/?dlrf=bzR4c3pyMTY5aTRn]]
 - [[tech/ai/scion-agent-orchestration-02101198/README|https://github.com/googlecloudplatform/scion]]
+- [[tech/ai/agent-executor-runtime-5e864373/README|https://github.com/google/ax]]
 
 ## Claude And Prompting
 
