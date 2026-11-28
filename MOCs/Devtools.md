@@ -90,6 +90,20 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/codex-claude-design-workflow/README|Codex·Claude Code 활용]]
 - [[tech/devtools/build-check-iteration/README|Build·Check 반복 개발 흐름]]
 - [[tech/devtools/snake-controls-difficulty/README|Snake 게임의 조작과 난이도 규칙]]
+- [[tech/devtools/agent-dashboard-progress/README|대시보드의 지표와 진행 상태 표시]]
+- [[tech/devtools/skeuomorphism-ui-design/README|Skeuomorphism]]
+- [[tech/devtools/minimalism-documentation-ui/README|Minimalism]]
+- [[tech/devtools/liquid-glass-ui/README|Liquid Glass]]
+- [[tech/devtools/spatial-ui-design/README|Spatial UI]]
+- [[tech/devtools/ui-design-reference-exploration/README|UI 디자인 레퍼런스 탐색]]
+- [[tech/devtools/react-visual-effects/README|React 시각 효과 컴포넌트]]
+- [[tech/devtools/component-prompt-copy/README|AI 도구용 컴포넌트 프롬프트 복사 기능]]
+- [[tech/devtools/prototype-based-design-discussion/README|프로토타입 기반 디자인 논의]]
+- [[tech/devtools/figma-design-system-application/README|Figma 링크를 활용한 디자인 시스템 적용 흐름]]
+- [[tech/devtools/design-token-style-comparison/README|디자인 토큰과 스타일 비교]]
+- [[tech/devtools/screen-recording-visual-feedback/README|화면 녹화를 활용한 시각적 피드백]]
+- [[tech/devtools/web-ui-comparison-iteration/README|웹 UI 비교와 반복 수정]]
+- [[tech/devtools/convex-skill-trust-boundary/README|Convex skills send the user's app idea to a remote server without telling them…]]
 
 ## Bridge Notes
 
