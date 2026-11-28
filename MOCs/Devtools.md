@@ -105,6 +105,7 @@ CLI, 개발 워크플로우, QA, 엔지니어링 사고방식 지도.
 - [[tech/devtools/web-ui-comparison-iteration/README|웹 UI 비교와 반복 수정]]
 - [[tech/devtools/convex-skill-trust-boundary/README|Convex skills send the user's app idea to a remote server without telling them…]]
 - [[tech/devtools/codewiki-analysis/README|codewiki]]
+- [[tech/devtools/codewiki-cli-analysis-9fbbd58a/README|https://github.com/miinhho/codewiki-cli]]
 
 ## Bridge Notes
 
